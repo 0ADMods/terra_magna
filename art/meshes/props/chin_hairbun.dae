@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA version="1.4.0" xmlns="http://www.collada.org/2005/11/COLLADASchema">
+	<asset>
+		<contributor>
+			<author>Illusoft Collada 1.4.0 plugin for Blender - http://colladablender.illusoft.com</author>
+			<authoring_tool>Blender v:249 - Illusoft Collada Exporter v:0.3.159</authoring_tool>
+			<comments></comments>
+			<copyright></copyright>
+			<source_data>file://C://</source_data>
+		</contributor>
+		<created>2010-01-18T18:37:04.526000</created>
+		<modified>2010-01-18T18:37:04.526000</modified>
+		<unit meter="0.01" name="centimeter"/>
+		<up_axis>Z_UP</up_axis>
+	</asset>
+	<library_effects>
+		<effect id="chin_b_bmp-fx" name="chin_b_bmp-fx">
+			<profile_COMMON>
+				<newparam sid="chin_b_bmp-surface">
+					<surface type="2D">
+						<init_from>chin_b_bmp-img</init_from>
+						<format>A8R8G8B8</format>
+					</surface>
+				</newparam>
+				<newparam sid="chin_b_bmp-sampler">
+					<sampler2D>
+						<source>chin_b_bmp-surface</source>
+						<minfilter>LINEAR_MIPMAP_LINEAR</minfilter>
+						<maxfilter>LINEAR</maxfilter>
+					</sampler2D>
+				</newparam>
+				<technique sid="blender">
+					<lambert>
+						<diffuse>
+							<texture texcoord="CHANNEL1" texture="chin_b_bmp-sampler"/>
+						</diffuse>
+					</lambert>
+				</technique>
+			</profile_COMMON>
+		</effect>
+	</library_effects>
+	<library_images>
+		<image id="chin_b_bmp-img" name="chin_b_bmp-img">
+			<init_from>C:\chin_b.bmp</init_from>
+		</image>
+	</library_images>
+	<library_materials>
+		<material id="chin_b_bmp" name="chin_b_bmp">
+			<instance_effect url="#chin_b_bmp-fx"/>
+		</material>
+	</library_materials>
+	<library_geometries>
+		<geometry id="Cube-Geometry" name="Cube-Geometry">
+			<mesh>
+				<source id="Cube-Geometry-Position">
+					<float_array count="24" id="Cube-Geometry-Position-array">1.00000 1.00000 -1.00000 1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 1.00000 -1.00000 1.00000 1.00000 1.00000 1.00000 -1.00000 1.00000 -1.00000 -1.00000 1.00000 -1.00000 1.00000 1.00000</float_array>
+					<technique_common>
+						<accessor count="8" source="#Cube-Geometry-Position-array" stride="3">
+							<param type="float" name="X"></param>
+							<param type="float" name="Y"></param>
+							<param type="float" name="Z"></param>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="Cube-Geometry-Normals">
+					<float_array count="18" id="Cube-Geometry-Normals-array">0.00000 0.00000 -1.00000 0.00000 -0.00000 1.00000 1.00000 -0.00000 0.00000 -0.00000 -1.00000 -0.00000 -1.00000 0.00000 -0.00000 0.00000 1.00000 0.00000</float_array>
+					<technique_common>
+						<accessor count="6" source="#Cube-Geometry-Normals-array" stride="3">
+							<param type="float" name="X"></param>
+							<param type="float" name="Y"></param>
+							<param type="float" name="Z"></param>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="Cube-Geometry-UV">
+					<float_array count="72" id="Cube-Geometry-UV-array">0.68768 0.50472 0.99208 0.50662 0.98456 0.99441 0.98456 0.99441 0.65143 0.99472 0.68768 0.50472 0.68875 0.50125 0.98875 0.50437 0.98000 0.99500 0.98000 0.99500 0.64500 0.99500 0.68875 0.50125 0.68768 0.50472 0.98888 0.50502 0.98893 0.99159 0.98893 0.99159 0.65143 0.99472 0.68768 0.50472 0.68875 0.50437 0.98250 0.50750 0.98000 0.99500 0.98000 0.99500 0.65000 0.99312 0.68875 0.50437 0.68768 0.50222 0.99268 0.50722 0.98893 0.99472 0.98893 0.99472 0.65143 0.99159 0.68768 0.50222 0.68250 0.51063 0.98125 0.50813 0.97625 0.99812 0.97625 0.99812 0.65750 0.99500 0.68250 0.51063</float_array>
+					<technique_common>
+						<accessor count="36" source="#Cube-Geometry-UV-array" stride="2">
+							<param type="float" name="S"></param>
+							<param type="float" name="T"></param>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="Cube-Geometry-Vertex">
+					<input semantic="POSITION" source="#Cube-Geometry-Position"/>
+				</vertices>
+				<triangles count="12" material="chin_b_bmp">
+					<input offset="0" semantic="VERTEX" source="#Cube-Geometry-Vertex"/>
+					<input offset="1" semantic="NORMAL" source="#Cube-Geometry-Normals"/>
+					<input offset="2" semantic="TEXCOORD" source="#Cube-Geometry-UV"/>
+					<p>0 0 0 1 0 1 2 0 2 2 0 3 3 0 4 0 0 5 4 1 6 7 1 7 6 1 8 6 1 9 5 1 10 4 1 11 0 2 12 4 2 13 5 2 14 5 2 15 1 2 16 0 2 17 1 3 18 5 3 19 6 3 20 6 3 21 2 3 22 1 3 23 2 4 24 6 4 25 7 4 26 7 4 27 3 4 28 2 4 29 4 5 30 0 5 31 3 5 32 3 5 33 7 5 34 4 5 35</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_visual_scenes>
+		<visual_scene id="Scene" name="Scene">
+			<node layer="L1" id="Cube" name="Cube">
+				<translate sid="translate">-0.01767 0.16352 0.56446</translate>
+				<rotate sid="rotateZ">0 0 1 45.00000</rotate>
+				<rotate sid="rotateY">0 1 0 -0.00000</rotate>
+				<rotate sid="rotateX">1 0 0 0.00000</rotate>
+				<scale sid="scale">0.07560 0.07560 0.07560</scale>
+				<instance_geometry url="#Cube-Geometry">
+					<bind_material>
+						<technique_common>
+							<instance_material symbol="chin_b_bmp" target="#chin_b_bmp">
+								<bind_vertex_input input_semantic="TEXCOORD" input_set="1" semantic="CHANNEL1"/>
+							</instance_material>
+						</technique_common>
+					</bind_material>
+				</instance_geometry>
+			</node>
+		</visual_scene>
+	</library_visual_scenes>
+	<scene>
+		<instance_visual_scene url="#Scene"/>
+	</scene>
+</COLLADA>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+
+  <castshadow/>
+
+  <group>
+    <variant name="mesh">
+      <mesh>props/head_beard_small.pmd</mesh>
+    </variant>
+  </group>
+
+  <group>
+    <variant frequency="1" name="face-a">
+      <texture>props/head/chin_a.dds</texture>
+    </variant>
+    <variant frequency="1" name="face-b">
+      <texture>props/head/chin_b.dds</texture>
+    </variant>
+    <variant frequency="1" name="face-c">
+      <texture>props/head/chin_c.dds</texture>
+    </variant>
+    <variant frequency="1" name="face-d">
+      <texture>props/head/chin_d.dds</texture>
+    </variant>
+    <variant frequency="1" name="face-g">
+      <texture>props/head/chin_e.dds</texture>
+    </variant>
+    <variant frequency="1" name="face-j">
+      <texture>props/head/chin_f.dds</texture>
+    </variant>
+  </group>
+
+  <group>
+    <variant frequency="1" name="hair-black">
+      <colour>61 61 61</colour>
+    </variant>
+  </group>
+
+  <material>objectcolor.xml</material>
+
+</actor>
