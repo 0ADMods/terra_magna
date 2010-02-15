@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <group>
+    <variant frequency="100" name="Base">
+      <mesh>props/shield/chin_shield2.dae</mesh>
+    </variant>
+    <variant frequency="1">
+      <texture>props/shield/chin_shield2.dds</texture>
+    </variant>
+  </group>
+</actor>
