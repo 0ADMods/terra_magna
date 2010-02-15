@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA version="1.4.0" xmlns="http://www.collada.org/2005/11/COLLADASchema">
+	<asset>
+		<contributor>
+			<author>Illusoft Collada 1.4.0 plugin for Blender - http://colladablender.illusoft.com</author>
+			<authoring_tool>Blender v:249 - Illusoft Collada Exporter v:0.3.159</authoring_tool>
+			<comments></comments>
+			<copyright></copyright>
+			<source_data>file://C:/Users/Robie/Desktop/blender-2.49b-windows/.blender/sheild.blend</source_data>
+		</contributor>
+		<created>2010-02-02T22:50:55.103000</created>
+		<modified>2010-02-02T22:50:55.103000</modified>
+		<unit meter="0.01" name="centimeter"/>
+		<up_axis>Z_UP</up_axis>
+	</asset>
+	<library_effects>
+		<effect id="Untitled-4_bmp-fx" name="Untitled-4_bmp-fx">
+			<profile_COMMON>
+				<newparam sid="Untitled-4_bmp-surface">
+					<surface type="2D">
+						<init_from>Untitled-4_bmp-img</init_from>
+						<format>A8R8G8B8</format>
+					</surface>
+				</newparam>
+				<newparam sid="Untitled-4_bmp-sampler">
+					<sampler2D>
+						<source>Untitled-4_bmp-surface</source>
+						<minfilter>LINEAR_MIPMAP_LINEAR</minfilter>
+						<maxfilter>LINEAR</maxfilter>
+					</sampler2D>
+				</newparam>
+				<technique sid="blender">
+					<lambert>
+						<diffuse>
+							<texture texcoord="CHANNEL1" texture="Untitled-4_bmp-sampler"/>
+						</diffuse>
+					</lambert>
+				</technique>
+			</profile_COMMON>
+		</effect>
+	</library_effects>
+	<library_images>
+		<image id="Untitled-4_bmp-img" name="Untitled-4_bmp-img">
+			<init_from>C:\Untitled-4.bmp</init_from>
+		</image>
+	</library_images>
+	<library_materials>
+		<material id="Untitled-4_bmp" name="Untitled-4_bmp">
+			<instance_effect url="#Untitled-4_bmp-fx"/>
+		</material>
+	</library_materials>
+	<library_geometries>
+		<geometry id="Plane-Geometry" name="Plane-Geometry">
+			<mesh>
+				<source id="Plane-Geometry-Position">
+					<float_array count="81" id="Plane-Geometry-Position-array">0.48940 0.03016 -0.10978 0.56061 0.03928 -0.70043 0.46531 0.02707 0.26680 0.44684 0.02471 -0.06004 0.43198 0.02275 0.29079 0.25484 0.00006 0.54103 0.43688 0.02338 0.37309 0.07118 -0.02347 0.69333 0.07869 -0.02251 0.58714 0.00163 -0.03367 -0.17453 0.00163 -0.03387 -0.69905 -0.46163 0.02661 0.27201 -0.44317 0.02412 -0.05483 0.00147 -0.03743 0.27457 -0.44317 0.02412 -0.05483 0.00163 -0.03539 0.73218 0.00163 -0.03480 0.58972 -0.07535 -0.02567 0.59235 -0.06786 -0.02668 0.69854 0.00163 -0.03424 0.46530 -0.43322 0.02272 0.37830 -0.25134 -0.00187 0.54624 -0.42833 0.02206 0.29599 -0.44317 0.02412 -0.05483 -0.46163 0.02661 0.27201 -0.55683 0.03949 -0.69523 -0.48568 0.02987 -0.10457</float_array>
+					<technique_common>
+						<accessor count="27" source="#Plane-Geometry-Position-array" stride="3">
+							<param type="float" name="X"></param>
+							<param type="float" name="Y"></param>
+							<param type="float" name="Z"></param>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="Plane-Geometry-Normals">
+					<float_array count="78" id="Plane-Geometry-Normals-array">-0.15737 0.98753 0.00445 -0.13208 0.99120 0.00826 -0.13772 0.99047 0.00061 -0.13247 0.99117 -0.00596 -0.13040 0.99138 -0.01298 -0.13846 0.99037 0.00069 -0.13464 0.99076 -0.01645 -0.15758 0.98750 -0.00220 -0.16670 0.98600 0.00409 -0.12970 0.99155 -0.00032 -0.12975 0.99155 -0.00038 -0.13794 0.99035 -0.01314 -0.12947 0.99158 -0.00209 0.13699 0.99057 0.00017 0.13103 0.99134 0.00836 0.12979 0.99153 0.00365 0.13700 0.99057 -0.00201 0.13022 0.99148 -0.00038 0.12936 0.99160 0.00057 0.12242 0.99247 0.00412 0.11784 0.99303 0.00116 0.13313 0.99096 -0.01668 0.13711 0.99056 0.00019 0.13079 0.99133 0.01237 0.12873 0.99166 0.00579 0.11795 0.99301 0.00448</float_array>
+					<technique_common>
+						<accessor count="26" source="#Plane-Geometry-Normals-array" stride="3">
+							<param type="float" name="X"></param>
+							<param type="float" name="Y"></param>
+							<param type="float" name="Z"></param>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="Plane-Geometry-UV">
+					<float_array count="156" id="Plane-Geometry-UV-array">0.50000 0.82031 0.50000 0.89844 0.57813 0.89844 0.50000 0.39063 0.50000 0.69531 0.87500 0.46875 0.87500 0.46875 0.50000 0.69531 0.88281 0.67188 0.50000 0.82031 0.71875 0.85742 0.85938 0.74902 0.50000 0.82031 0.57813 0.89844 0.71875 0.85742 0.50000 0.69531 0.85938 0.74902 0.85938 0.69531 0.50000 0.69531 0.50000 0.82031 0.85938 0.74902 0.50000 0.89844 0.57813 0.96875 0.57813 0.89844 0.50000 0.89844 0.50000 0.99219 0.57813 0.96875 0.90625 0.42969 1.00000 0.02344 0.50000 0.39063 0.50000 0.39063 1.00000 0.02344 0.50000 0.00000 0.88281 0.67188 0.50000 0.69531 0.85938 0.69531 0.90625 0.42969 0.50000 0.39063 0.87500 0.46875 0.12500 0.46973 0.10840 0.67090 0.50000 0.69531 0.50000 0.39063 0.12500 0.46973 0.50000 0.69531 0.09375 0.42969 0.12500 0.46973 0.50000 0.39063 0.10840 0.67090 0.14063 0.69531 0.50000 0.69531 0.50000 0.39063 0.50000 0.00000 0.00000 0.02344 0.09375 0.42969 0.50000 0.39063 0.00000 0.02344 0.50000 0.89844 0.42188 0.96875 0.50000 0.99219 0.50000 0.89844 0.42188 0.89844 0.42188 0.96875 0.50000 0.69531 0.14063 0.75000 0.50000 0.82031 0.50000 0.69531 0.14063 0.69531 0.14063 0.75000 0.50000 0.82031 0.28125 0.85938 0.42188 0.89844 0.50000 0.82031 0.14063 0.75000 0.28125 0.85938 0.50000 0.82031 0.42188 0.89844 0.50000 0.89844</float_array>
+					<technique_common>
+						<accessor count="78" source="#Plane-Geometry-UV-array" stride="2">
+							<param type="float" name="S"></param>
+							<param type="float" name="T"></param>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="Plane-Geometry-color">
+					<float_array count="312" id="Plane-Geometry-color-array">1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000</float_array>
+					<technique_common>
+						<accessor count="78" source="#Plane-Geometry-color-array" stride="4">
+							<param type="float" name="R"></param>
+							<param type="float" name="G"></param>
+							<param type="float" name="B"></param>
+							<param type="float" name="A"></param>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="Plane-Geometry-Vertex">
+					<input semantic="POSITION" source="#Plane-Geometry-Position"/>
+				</vertices>
+				<triangles count="26" material="Untitled-4_bmp">
+					<input offset="0" semantic="VERTEX" source="#Plane-Geometry-Vertex"/>
+					<input offset="1" semantic="NORMAL" source="#Plane-Geometry-Normals"/>
+					<input offset="2" semantic="TEXCOORD" source="#Plane-Geometry-UV"/>
+					<input offset="3" semantic="COLOR" source="#Plane-Geometry-color"/>
+					<p>19 0 0 0 16 0 1 1 8 0 2 2 9 1 3 3 13 1 4 4 3 1 5 5 3 2 6 6 13 2 7 7 2 2 8 8 19 3 9 9 5 3 10 10 6 3 11 11 19 4 12 12 8 4 13 13 5 4 14 14 13 5 15 15 6 5 16 16 4 5 17 17 13 6 18 18 19 6 19 19 6 6 20 20 16 7 21 21 7 7 22 22 8 7 23 23 16 8 24 24 15 8 25 25 7 8 26 26 0 9 27 27 1 9 28 28 9 9 29 29 9 10 30 30 1 10 31 31 10 10 32 32 2 11 33 33 13 11 34 34 4 11 35 35 0 12 36 36 9 12 37 37 3 12 38 38 12 13 39 39 11 13 40 40 13 13 41 41 9 14 42 42 14 14 43 43 13 14 44 44 26 15 45 45 23 15 46 46 9 15 47 47 24 16 48 48 22 16 49 49 13 16 50 50 9 17 51 51 10 17 52 52 25 17 53 53 26 18 54 54 9 18 55 55 25 18 56 56 16 19 57 57 18 19 58 58 15 19 59 59 16 20 60 60 17 20 61 61 18 20 62 62 13 21 63 63 20 21 64 64 19 21 65 65 13 22 66 66 22 22 67 67 20 22 68 68 19 23 69 69 21 23 70 70 17 23 71 71 19 24 72 72 20 24 73 73 21 24 74 74 19 25 75 75 17 25 76 76 16 25 77 77</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_visual_scenes>
+		<visual_scene id="Scene" name="Scene">
+			<node layer="L1" id="Plane" name="Plane">
+				<translate sid="translate">0.00000 0.00000 0.00000</translate>
+				<rotate sid="rotateZ">0 0 1 0.00000</rotate>
+				<rotate sid="rotateY">0 1 0 -0.00000</rotate>
+				<rotate sid="rotateX">1 0 0 0.00000</rotate>
+				<scale sid="scale">1.00000 1.00000 1.00000</scale>
+				<instance_geometry url="#Plane-Geometry">
+					<bind_material>
+						<technique_common>
+							<instance_material symbol="Untitled-4_bmp" target="#Untitled-4_bmp">
+								<bind_vertex_input input_semantic="TEXCOORD" input_set="1" semantic="CHANNEL1"/>
+							</instance_material>
+						</technique_common>
+					</bind_material>
+				</instance_geometry>
+			</node>
+		</visual_scene>
+	</library_visual_scenes>
+	<scene>
+		<instance_visual_scene url="#Scene"/>
+	</scene>
+</COLLADA>
