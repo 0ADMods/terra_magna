@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Robie</author>
+      <authoring_tool>Feeling ColladaMax v3.02 with FCollada v3.02.</authoring_tool>
+      <comments>ColladaMax Export Options: ExportNormals=1;ExportEPolyAsTriangles=1;ExportXRefs=0;ExportSelected=1;ExportTangents=0;ExportAnimations=0;SampleAnim=0;ExportAnimClip=0;BakeMatrices=0;ExportRelativePaths=1;AnimStart=0;AnimEnd=100;</comments>
+      <source_data>file:///C:/Users/Robie/Documents/3dsmax/scenes/Jian.max</source_data>
+    </contributor>
+    <created>2010-03-27T21:55:07Z</created>
+    <modified>2010-03-27T21:55:08Z</modified>
+    <unit meter="0.0254" name="inch"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_materials>
+    <material id="ColorMaterial_B11C9500" name="ColorMaterial_B11C9500">
+      <instance_effect url="#ColorMaterial_B11C9500-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="ColorMaterial_B11C9500-fx">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 0</color>
+            </emission>
+            <ambient>
+              <color>0.694118 0.109804 0.584314 1</color>
+            </ambient>
+            <diffuse>
+              <color>0.694118 0.109804 0.584314 1</color>
+            </diffuse>
+            <specular>
+              <color>1 1 1 1</color>
+            </specular>
+            <shininess>
+              <float>10</float>
+            </shininess>
+            <reflective>
+              <color>1 1 1 1</color>
+            </reflective>
+            <reflectivity>
+              <float>1</float>
+            </reflectivity>
+            <transparent opaque="A_ONE">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>0</float>
+            </transparency>
+            <index_of_refraction>
+              <float>1</float>
+            </index_of_refraction>
+          </phong>
+          <extra>
+            <technique profile="FCOLLADA">
+              <spec_level>
+                <float>0.2</float>
+              </spec_level>
+            </technique>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Plane01-mesh" name="Plane01">
+      <mesh>
+        <source id="Plane01-mesh-positions">
+          <float_array id="Plane01-mesh-positions-array" count="108">-30.553 -27.5692 25.4649 -30.553 -24.5687 25.7664 7.08001 -28.3858 25.4649 14.0774 -27.9172 25.4649 5.92623 -23.8744 25.7664 18.5718 -25.7447 25.4649 21.3482 -22.3297 25.7664 -30.553 -27.5692 26.0679 7.08001 -28.3858 26.0679 14.0774 -27.9172 26.0679 18.5718 -25.7447 26.0679 12.0102 -22.634 25.7664 -31.2232 -26.0858 25.7664 -31.2232 -24.2715 23.9064 -31.2232 -22.4571 25.7664 -31.2232 -24.2715 27.6264 -31.2232 -27.9002 27.6264 -31.2232 -29.7146 25.7664 -31.2232 -27.9002 23.9064 -30.5149 -24.2715 23.9064 -30.5149 -22.4571 25.7664 -30.5149 -24.2715 27.6264 -30.5149 -27.9002 27.6264 -30.5149 -29.7146 25.7664 -30.5149 -27.9002 23.9064 -30.5149 -26.0858 25.7664 -40.1798 -27.5256 25.7664 -40.1798 -26.1122 24.6021 -40.1798 -26.1122 26.9306 -40.1798 -24.6988 25.7664 -31.178 -27.5256 25.7664 -31.178 -26.1122 24.6021 -31.178 -26.1122 26.9306 -31.178 -24.6988 25.7664 -43.2462 -26.0212 25.7664 -43.4127 -28.4302 25.7664</float_array>
+          <technique_common>
+            <accessor source="#Plane01-mesh-positions-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane01-mesh-normals">
+          <float_array id="Plane01-mesh-normals-array" count="351">-0.021692 -0.999765 0 -0.021692 -0.999765 0 -0.021692 -0.999765 0 -0.021692 -0.999765 0 -0.021692 -0.999765 0 -0.021692 -0.999765 0 0.06681 -0.997766 0 0.06681 -0.997766 0 0.06681 -0.997766 0 0.06681 -0.997766 0 0.06681 -0.997766 0 0.06681 -0.997766 0 0.435197 -0.900335 0 0.435197 -0.900335 0 0.435197 -0.900335 0 0.435197 -0.900335 0 0.435197 -0.900335 0 0.435197 -0.900335 0 0.775934 -0.630814 0 0.775934 -0.630814 0 0.775934 -0.630814 0 -0.001263 0.066358 -0.997795 -0.001263 0.066358 -0.997795 -0.001263 0.066358 -0.997795 0.002169 0.099976 -0.994987 0.002169 0.099976 -0.994987 0.002169 0.099976 -0.994987 -0.010759 0.052772 0.998549 -0.010759 0.052772 0.998549 -0.010759 0.052772 0.998549 -0.023163 0.04792 0.998583 -0.023163 0.04792 0.998582 -0.023163 0.04792 0.998583 -0.002943 0.090313 0.995909 -0.002943 0.090313 0.995909 -0.002943 0.090313 0.995909 -0.004389 0.065561 -0.997839 -0.004389 0.065561 -0.997839 -0.004389 0.065561 -0.997839 -0.010759 0.052773 -0.998549 -0.010759 0.052773 -0.998549 -0.010759 0.052773 -0.998549 -0.023163 0.047921 -0.998582 -0.023163 0.047921 -0.998582 -0.023163 0.047921 -0.998583 -0.002943 0.090314 -0.995909 -0.002943 0.090314 -0.995909 -0.002943 0.090314 -0.995909 -0.00439 0.06556 0.997839 -0.00439 0.06556 0.997839 -0.00439 0.06556 0.997839 0.001454 0.067049 0.997749 0.001454 0.067049 0.997749 0.001454 0.067049 0.997749 -0.001903 0.099976 0.994988 -0.001903 0.099976 0.994988 -0.001903 0.099976 0.994988 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0.388414 -0.921485 0 1 0.000000 0 0.388414 -0.921485 0 1 0.000000 0 0.388413 0.921485 0 0.388413 0.921485 0 -0.388414 0.921485 0 -0.388414 0.921485 0 -1 -0.000000 0 -1 -0.000000 0 -0.388413 -0.921485 0 -0.388413 -0.921485 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -0.635793 -0.771859 -0.000000 -0.635793 -0.771859 0 -0.635794 -0.771859 0 -0.635794 -0.771859 0.000000 0.635794 -0.771858 0.000000 0.635794 -0.771859 0.000000 0.635795 -0.771858 0.000000 0.635795 -0.771858 0 0.635793 0.77186 0 0.635793 0.77186 0 0.635793 0.77186 0 0.635793 0.77186 0 -0.635793 0.771859 0 -0.635793 0.771859 -0.000000 -0.635794 0.771859 -0.000000 -0.635794 0.771859 -0.264431 0.613163 -0.744384 -0.264431 0.613163 -0.744384 -0.264431 0.613163 -0.744384 -0.264429 0.613162 0.744385 -0.264429 0.613162 0.744385 -0.264429 0.613162 0.744385 -0.354214 0.024488 -0.934844 -0.354214 0.024488 -0.934844 -0.354214 0.024488 -0.934844 -0.354212 0.024487 0.934844 -0.354212 0.024487 0.934844 -0.354212 0.024487 0.934844 0.175143 -0.625966 -0.759929 0.175143 -0.625966 -0.759929 0.175143 -0.625966 -0.759929 0.175144 -0.625966 0.759929 0.175144 -0.625966 0.759929 0.175144 -0.625966 0.759929</float_array>
+          <technique_common>
+            <accessor source="#Plane01-mesh-normals-array" count="117" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane01-mesh-map-channel1">
+          <float_array id="Plane01-mesh-map-channel1-array" count="126">0 0.333333 0 0 0.666667 0 0.333333 0.666667 0 0.666667 0.666667 0 0.333333 1 0 0.666667 1 0 0 0.333333 0 0.333333 0.333333 0 0 0.666667 0 0.333333 0.666667 0 0.666667 0.666667 0 0.333333 1 0 0.5 0.5 0 0.5 0 0 0.75 0 1 0.916667 0 1 0.083333 0 1 0.25 0 1 0.416667 0 1 0.583333 0 1 0.75 1 1 0.916667 1 1 0.083333 1 1 0.25 1 1 0.416667 1 1 0.583333 1 1 0.5 1 0 -0.083333 0 1 -0.083333 0 1 -0.083333 1 1 -0.083333 0 1 -0.083333 1 1 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0.5 0.5 0 0.5 0.5 0</float_array>
+          <technique_common>
+            <accessor source="#Plane01-mesh-map-channel1-array" count="42" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Plane01-mesh-vertices">
+          <input semantic="POSITION" source="#Plane01-mesh-positions"/>
+        </vertices>
+        <triangles material="ColorMaterial_B11C9500" count="57">
+          <input semantic="VERTEX" source="#Plane01-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Plane01-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Plane01-mesh-map-channel1" offset="2" set="1"/>
+          <p>2 0 1 8 1 8 0 2 0 0 3 0 8 4 8 7 5 6 8 6 8 2 7 1 3 8 2 8 9 8 3 10 2 9 11 9 3 12 2 5 13 4 10 14 11 3 15 2 10 16 11 9 17 9 10 18 11 5 19 4 6 20 5 4 21 3 2 22 1 1 23 7 1 24 7 2 25 1 0 26 0 9 27 9 11 28 12 4 29 3 9 30 9 10 31 11 11 32 12 11 33 12 10 34 11 6 35 5 2 36 1 4 37 10 3 38 2 3 39 2 4 40 10 11 41 12 11 42 12 5 43 4 3 44 2 6 45 5 5 46 4 11 47 12 8 48 8 9 49 9 4 50 3 8 51 8 4 52 3 7 53 6 7 54 6 4 55 3 1 56 7 12 57 13 14 58 15 13 59 14 12 57 13 15 60 16 14 58 27 12 57 13 16 61 17 15 60 16 12 57 13 17 62 18 16 61 17 12 57 13 18 63 19 17 62 18 12 57 13 13 59 14 18 63 19 13 64 14 20 65 21 19 66 20 13 64 14 14 67 15 20 65 21 14 67 28 21 68 22 20 65 29 14 67 30 15 69 16 21 68 22 15 69 16 22 70 23 21 68 22 15 69 16 16 71 17 22 70 23 16 71 17 23 72 24 22 70 23 16 71 17 17 73 18 23 72 24 17 73 18 24 74 25 23 72 24 17 73 18 18 75 19 24 74 25 18 75 19 19 66 20 24 74 25 18 75 19 13 64 14 19 66 20 25 76 26 19 77 20 20 78 21 25 76 26 20 78 31 21 79 22 25 76 26 21 79 22 22 80 23 25 76 26 22 80 23 23 81 24 25 76 26 23 81 24 24 82 25 25 76 26 24 82 25 19 77 20 26 83 36 27 84 37 31 85 39 31 85 39 30 86 38 26 83 36 27 87 32 29 88 33 33 89 35 33 89 35 31 90 34 27 87 32 29 91 36 28 92 37 32 93 39 32 93 39 33 94 38 29 91 36 28 95 32 26 96 33 30 97 35 30 97 35 32 98 34 28 95 32 27 99 37 34 100 40 29 101 33 29 102 33 34 103 40 28 104 37 34 105 40 27 106 37 35 107 41 28 108 37 34 109 40 35 110 41 35 111 41 27 112 37 26 113 36 28 114 37 35 115 41 26 116 36</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Jian_max" name="Jian_max">
+      <node id="Plane01-node" name="Plane01" type="NODE">
+        <translate>25.7673 0.04649 24.3348</translate>
+        <rotate>0 1 0 -90</rotate>
+        <node id="Plane01-node_PIVOT" name="Plane01_PIVOT" type="NODE">
+          <translate>11.4584 26.0657 0.000873</translate>
+          <instance_geometry url="#Plane01-mesh">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="ColorMaterial_B11C9500" target="#ColorMaterial_B11C9500"/>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>30</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>0</start_time>
+          <end_time>3.33333</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Jian_max"/>
+  </scene>
+</COLLADA>
