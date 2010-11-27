@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <float/>
+  <group>
+    <variant frequency="100" name="ship mesh">
+      <mesh>structural/chin_merchship.dae</mesh>
+      <props>
+        <prop actor="props/structures/chinese/merchship_sail.xml" attachpoint="root"/>
+      </props>
+      <texture>structural/celt_ship.png</texture>
+    </variant>
+  </group>
+</actor>
