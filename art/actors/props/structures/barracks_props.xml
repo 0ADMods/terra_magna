@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
-  <castshadow/>
   <group>
     <variant frequency="100" name="Base">
-      <mesh>structural/chin_mc.dae</mesh>
-      <props>
-        <prop actor="props/structures/chinese/barracks_props.xml" attachpoint="root"/>
-      </props>
+      <mesh>structural/chin_mc2.dae</mesh>
       <texture>structural/chin_struct_a.dds</texture>
     </variant>
   </group>
