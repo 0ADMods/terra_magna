@@ -2,8 +2,10 @@
 <actor version="1">
   <group>
     <variant frequency="1" name="Base">
+      <colour>61 61 61</colour>
       <mesh>props/helmet/chin_hairbun.dae</mesh>
       <texture>props/head/chin_b.dds</texture>
     </variant>
   </group>
+  <material>objectcolor.xml</material>
 </actor>
