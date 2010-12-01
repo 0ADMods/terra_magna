@@ -8,301 +8,72 @@
 			<copyright></copyright>
 			<source_data>file://C://</source_data>
 		</contributor>
-		<created>2010-11-30T19:19:59.564000</created>
-		<modified>2010-11-30T19:19:59.564000</modified>
+		<created>2010-11-30T21:17:49.003000</created>
+		<modified>2010-11-30T21:17:49.003000</modified>
 		<unit meter="0.01" name="centimeter"/>
 		<up_axis>Z_UP</up_axis>
 	</asset>
-	<library_cameras>
-		<camera id="Camera-Camera" name="Camera-Camera">
-			<optics>
-				<technique_common>
-					<perspective>
-						<yfov>49.13434</yfov>
-						<znear>0.1</znear>
-						<zfar>100.0</zfar>
-					</perspective>
-				</technique_common>
-			</optics>
-		</camera>
-	</library_cameras>
-	<library_effects>
-		<effect id="Material-fx" name="Material-fx">
-			<profile_COMMON>
-				<technique sid="blender">
-					<phong>
-						<emission>
-							<color>0.00000 0.00000 0.00000 1</color>
-						</emission>
-						<ambient>
-							<color>0.40000 0.40000 0.40000 1</color>
-						</ambient>
-						<diffuse>
-							<color>0.80000 0.80000 0.80000 1</color>
-						</diffuse>
-						<specular>
-							<color>0.50000 0.50000 0.50000 1</color>
-						</specular>
-						<shininess>
-							<float>12.5</float>
-						</shininess>
-						<reflective>
-							<color>1.00000 1.00000 1.00000 1</color>
-						</reflective>
-						<reflectivity>
-							<float>0.0</float>
-						</reflectivity>
-						<transparent>
-							<color>1 1 1 1</color>
-						</transparent>
-						<transparency>
-							<float>0.0</float>
-						</transparency>
-					</phong>
-				</technique>
-			</profile_COMMON>
-		</effect>
-		<effect id="chin_b_bmp-fx" name="chin_b_bmp-fx">
-			<profile_COMMON>
-				<technique sid="blender">
-					<lambert>
-						<emission>
-							<color>0.00000 0.00000 0.00000 1</color>
-						</emission>
-						<ambient>
-							<color>0.40000 0.40000 0.40000 1</color>
-						</ambient>
-						<diffuse>
-							<color>0.80000 0.80000 0.80000 1</color>
-						</diffuse>
-						<reflective>
-							<color>1.00000 1.00000 1.00000 1</color>
-						</reflective>
-						<reflectivity>
-							<float>0.0</float>
-						</reflectivity>
-						<transparent>
-							<color>1 1 1 1</color>
-						</transparent>
-						<transparency>
-							<float>0.0</float>
-						</transparency>
-					</lambert>
-				</technique>
-			</profile_COMMON>
-		</effect>
-	</library_effects>
-	<library_lights>
-		<light id="Spot" name="Spot">
-			<technique_common>
-				<point>
-					<color>1.00000 1.00000 1.00000</color>
-					<constant_attenuation>1.0</constant_attenuation>
-					<linear_attenuation>0.0</linear_attenuation>
-					<quadratic_attenuation>0.0</quadratic_attenuation>
-				</point>
-			</technique_common>
-		</light>
-	</library_lights>
-	<library_materials>
-		<material id="Material" name="Material">
-			<instance_effect url="#Material-fx"/>
-		</material>
-		<material id="chin_b_bmp" name="chin_b_bmp">
-			<instance_effect url="#chin_b_bmp-fx"/>
-		</material>
-	</library_materials>
 	<library_geometries>
-		<geometry id="Cube_001" name="Cube_001">
+		<geometry id="Cube_001-Node-Geometry" name="Cube_001-Node-Geometry">
 			<mesh>
-				<source id="Cube_001-Position">
-					<float_array count="24" id="Cube_001-Position-array">1.00000 1.00000 -1.00000 1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 1.00000 -1.00000 1.00000 1.00000 1.00000 1.00000 -1.00000 1.00000 -1.00000 -1.00000 1.00000 -1.00000 1.00000 1.00000</float_array>
+				<source id="Cube_001-Node-Geometry-Position">
+					<float_array count="24" id="Cube_001-Node-Geometry-Position-array">0.79908 0.79908 -1.00000 1.00000 -1.00000 -0.64685 -1.00000 -1.00000 -1.00000 -1.00000 1.00000 -0.64685 0.93362 0.93362 1.35812 1.00000 -1.00000 0.79029 -1.00000 -1.00000 1.00000 -1.00000 1.00000 0.79029</float_array>
 					<technique_common>
-						<accessor count="8" source="#Cube_001-Position-array" stride="3">
+						<accessor count="8" source="#Cube_001-Node-Geometry-Position-array" stride="3">
 							<param type="float" name="X"></param>
 							<param type="float" name="Y"></param>
 							<param type="float" name="Z"></param>
 						</accessor>
 					</technique_common>
 				</source>
-				<source id="Cube_001-Normals">
-					<float_array count="18" id="Cube_001-Normals-array">0.00000 0.00000 -1.00000 0.00000 -0.00000 1.00000 1.00000 -0.00000 0.00000 -0.00000 -1.00000 -0.00000 -1.00000 0.00000 -0.00000 0.00000 1.00000 0.00000</float_array>
+				<source id="Cube_001-Node-Geometry-Normals">
+					<float_array count="36" id="Cube_001-Node-Geometry-Normals-array">0.17131 -0.17131 -0.97021 -0.17131 0.17131 -0.97021 -0.27718 0.10020 0.95558 0.10020 -0.27718 0.95558 0.99686 0.05179 -0.05983 0.99382 0.11099 0.00000 0.00000 -1.00000 0.00000 0.00000 -1.00000 -0.00000 -1.00000 0.00000 0.00000 -1.00000 0.00000 -0.00000 0.09869 0.99317 -0.06229 0.03431 0.99941 0.00000</float_array>
 					<technique_common>
-						<accessor count="6" source="#Cube_001-Normals-array" stride="3">
+						<accessor count="12" source="#Cube_001-Node-Geometry-Normals-array" stride="3">
 							<param type="float" name="X"></param>
 							<param type="float" name="Y"></param>
 							<param type="float" name="Z"></param>
 						</accessor>
 					</technique_common>
 				</source>
-				<vertices id="Cube_001-Vertex">
-					<input semantic="POSITION" source="#Cube_001-Position"/>
-				</vertices>
-				<triangles count="12" material="Material">
-					<input offset="0" semantic="VERTEX" source="#Cube_001-Vertex"/>
-					<input offset="1" semantic="NORMAL" source="#Cube_001-Normals"/>
-					<p>0 0 1 0 2 0 2 0 3 0 0 0 4 1 7 1 6 1 6 1 5 1 4 1 0 2 4 2 5 2 5 2 1 2 0 2 1 3 5 3 6 3 6 3 2 3 1 3 2 4 6 4 7 4 7 4 3 4 2 4 4 5 0 5 3 5 3 5 7 5 4 5</p>
-				</triangles>
-			</mesh>
-		</geometry>
-		<geometry id="Cube_001-Geometry" name="Cube_001-Geometry">
-			<mesh>
-				<source id="Cube_001-Geometry-Position">
-					<float_array count="24" id="Cube_001-Geometry-Position-array">0.79908 0.79908 -1.00000 1.00000 -1.00000 -0.64685 -1.00000 -1.00000 -1.00000 -1.00000 1.00000 -0.64685 0.93362 0.93362 1.35812 1.00000 -1.00000 0.79029 -1.00000 -1.00000 1.00000 -1.00000 1.00000 0.79029</float_array>
+				<source id="Cube_001-Node-Geometry-UV">
+					<float_array count="72" id="Cube_001-Node-Geometry-UV-array">0.98456 0.99441 0.68768 0.50472 0.99208 0.50662 0.65143 0.99472 0.68768 0.50472 0.98456 0.99441 0.98875 0.50437 0.98000 0.99500 0.68875 0.50125 0.64500 0.99500 0.68875 0.50125 0.98000 0.99500 0.98893 0.99159 0.68768 0.50472 0.98888 0.50502 0.65143 0.99472 0.68768 0.50472 0.98893 0.99159 0.98250 0.50750 0.98000 0.99500 0.68875 0.50437 0.65000 0.99312 0.68875 0.50437 0.98000 0.99500 0.99268 0.50722 0.98893 0.99472 0.68768 0.50222 0.65143 0.99159 0.68768 0.50222 0.98893 0.99472 0.68250 0.51063 0.98125 0.50813 0.97625 0.99812 0.65750 0.99500 0.68250 0.51063 0.97625 0.99812</float_array>
 					<technique_common>
-						<accessor count="8" source="#Cube_001-Geometry-Position-array" stride="3">
-							<param type="float" name="X"></param>
-							<param type="float" name="Y"></param>
-							<param type="float" name="Z"></param>
-						</accessor>
-					</technique_common>
-				</source>
-				<source id="Cube_001-Geometry-Normals">
-					<float_array count="36" id="Cube_001-Geometry-Normals-array">0.17132 -0.17132 -0.97021 -0.17132 0.17132 -0.97021 -0.27718 0.10020 0.95558 0.10020 -0.27718 0.95558 0.99686 0.05179 -0.05983 0.99382 0.11099 -0.00000 -0.00000 -1.00000 -0.00000 0.00000 -1.00000 0.00000 -1.00000 0.00000 0.00000 -1.00000 -0.00000 0.00000 0.09869 0.99317 -0.06230 0.03431 0.99941 0.00000</float_array>
-					<technique_common>
-						<accessor count="12" source="#Cube_001-Geometry-Normals-array" stride="3">
-							<param type="float" name="X"></param>
-							<param type="float" name="Y"></param>
-							<param type="float" name="Z"></param>
-						</accessor>
-					</technique_common>
-				</source>
-				<source id="Cube_001-Geometry-UV">
-					<float_array count="72" id="Cube_001-Geometry-UV-array">0.98456 0.99441 0.68768 0.50472 0.99208 0.50662 0.68768 0.50472 0.98456 0.99441 0.65143 0.99472 0.98000 0.99500 0.68875 0.50125 0.98875 0.50437 0.68875 0.50125 0.98000 0.99500 0.64500 0.99500 0.98893 0.99159 0.68768 0.50472 0.98888 0.50502 0.68768 0.50472 0.98893 0.99159 0.65143 0.99472 0.98000 0.99500 0.68875 0.50437 0.98250 0.50750 0.68875 0.50437 0.98000 0.99500 0.65000 0.99312 0.98893 0.99472 0.68768 0.50222 0.99268 0.50722 0.68768 0.50222 0.98893 0.99472 0.65143 0.99159 0.68250 0.51063 0.98125 0.50813 0.97625 0.99812 0.68250 0.51063 0.97625 0.99812 0.65750 0.99500</float_array>
-					<technique_common>
-						<accessor count="36" source="#Cube_001-Geometry-UV-array" stride="2">
+						<accessor count="36" source="#Cube_001-Node-Geometry-UV-array" stride="2">
 							<param type="float" name="S"></param>
 							<param type="float" name="T"></param>
 						</accessor>
 					</technique_common>
 				</source>
-				<vertices id="Cube_001-Geometry-Vertex">
-					<input semantic="POSITION" source="#Cube_001-Geometry-Position"/>
+				<vertices id="Cube_001-Node-Geometry-Vertex">
+					<input semantic="POSITION" source="#Cube_001-Node-Geometry-Position"/>
 				</vertices>
-				<triangles count="12" material="chin_b_bmp">
-					<input offset="0" semantic="VERTEX" source="#Cube_001-Geometry-Vertex"/>
-					<input offset="1" semantic="NORMAL" source="#Cube_001-Geometry-Normals"/>
-					<input offset="2" semantic="TEXCOORD" source="#Cube_001-Geometry-UV"/>
-					<p>2 0 0 0 0 1 1 0 2 0 1 3 2 1 4 3 1 5 6 2 6 4 2 7 7 2 8 4 3 9 6 3 10 5 3 11 5 4 12 0 4 13 4 4 14 0 5 15 5 5 16 1 5 17 6 6 18 1 6 19 5 6 20 1 7 21 6 7 22 2 7 23 7 8 24 2 8 25 6 8 26 2 9 27 7 9 28 3 9 29 4 10 30 0 10 31 3 10 32 4 11 33 3 11 34 7 11 35</p>
+				<triangles count="12">
+					<input offset="0" semantic="VERTEX" source="#Cube_001-Node-Geometry-Vertex"/>
+					<input offset="1" semantic="NORMAL" source="#Cube_001-Node-Geometry-Normals"/>
+					<input offset="2" semantic="TEXCOORD" source="#Cube_001-Node-Geometry-UV"/>
+					<p>2 0 0 0 0 1 1 0 2 3 1 3 0 1 4 2 1 5 7 2 6 6 2 7 4 2 8 5 3 9 4 3 10 6 3 11 5 4 12 0 4 13 4 4 14 1 5 15 0 5 16 5 5 17 5 6 18 6 6 19 1 6 20 2 7 21 1 7 22 6 7 23 6 8 24 7 8 25 2 8 26 3 9 27 2 9 28 7 9 29 4 10 30 0 10 31 3 10 32 7 11 33 4 11 34 3 11 35</p>
 				</triangles>
 			</mesh>
 		</geometry>
 	</library_geometries>
 	<library_visual_scenes>
-		<visual_scene id="Scene" name="Scene">
-			<node layer="L1" id="Cube" name="Cube">
-				<translate sid="translate">0.00000 0.00000 0.00000</translate>
-				<rotate sid="rotateZ">0 0 1 0.00000</rotate>
-				<rotate sid="rotateY">0 1 0 -0.00000</rotate>
-				<rotate sid="rotateX">1 0 0 0.00000</rotate>
-				<scale sid="scale">1.00000 1.00000 1.00000</scale>
-				<instance_geometry url="#Cube_001">
-					<bind_material>
-						<technique_common>
-							<instance_material symbol="Material" target="#Material">
-								<bind_vertex_input input_semantic="TEXCOORD" input_set="1" semantic="CHANNEL1"/>
-							</instance_material>
-						</technique_common>
-					</bind_material>
-				</instance_geometry>
-			</node>
-			<node layer="L1" id="Lamp" name="Lamp">
-				<translate sid="translate">4.07625 1.00545 5.90386</translate>
-				<rotate sid="rotateZ">0 0 1 106.93632</rotate>
-				<rotate sid="rotateY">0 1 0 3.16371</rotate>
-				<rotate sid="rotateX">1 0 0 37.26105</rotate>
-				<scale sid="scale">1.00000 1.00000 1.00000</scale>
-				<instance_light url="#Spot"/>
-			</node>
-			<node layer="L1" id="Camera" name="Camera">
-				<translate sid="translate">7.48113 -6.50764 5.34367</translate>
-				<rotate sid="rotateZ">0 0 1 46.69194</rotate>
-				<rotate sid="rotateY">0 1 0 0.61977</rotate>
-				<rotate sid="rotateX">1 0 0 63.55930</rotate>
-				<scale sid="scale">1.00000 1.00000 1.00000</scale>
-				<instance_camera url="#Camera-Camera"/>
-			</node>
-		</visual_scene>
-		<visual_scene id="Scene_001" name="Scene_001"/>
-		<visual_scene id="Scene001" name="Scene001">
+		<visual_scene id="Scene001_001" name="Scene001_001">
 			<node layer="L1" id="Cube_001-Node" name="Cube_001-Node">
 				<translate sid="translate">-0.01767 0.16352 0.56446</translate>
 				<rotate sid="rotateZ">0 0 1 45.00000</rotate>
 				<rotate sid="rotateY">0 1 0 -0.00000</rotate>
 				<rotate sid="rotateX">1 0 0 0.00000</rotate>
 				<scale sid="scale">0.07560 0.07560 0.07560</scale>
-				<instance_geometry url="#Cube_001-Geometry">
+				<instance_geometry url="#Cube_001-Node-Geometry">
 					<bind_material>
-						<technique_common>
-							<instance_material symbol="chin_b_bmp" target="#chin_b_bmp">
-								<bind_vertex_input input_semantic="TEXCOORD" input_set="1" semantic="CHANNEL1"/>
-							</instance_material>
-						</technique_common>
+						<technique_common/>
 					</bind_material>
 				</instance_geometry>
 			</node>
 		</visual_scene>
 	</library_visual_scenes>
-	<library_physics_materials>
-		<physics_material id="Cube-PhysicsMaterial" name="Cube-PhysicsMaterial">
-			<technique_common>
-				<dynamic_friction>0.5</dynamic_friction>
-				<restitution>0.0</restitution>
-				<static_friction>0.5</static_friction>
-			</technique_common>
-		</physics_material>
-		<physics_material id="Cube_001-Node-PhysicsMaterial" name="Cube_001-Node-PhysicsMaterial">
-			<technique_common>
-				<dynamic_friction>0.5</dynamic_friction>
-				<restitution>0.0</restitution>
-				<static_friction>0.5</static_friction>
-			</technique_common>
-		</physics_material>
-	</library_physics_materials>
-	<library_physics_models>
-		<physics_model id="Scene-PhysicsModel" name="Scene-PhysicsModel">
-			<rigid_body name="Cube-RigidBody" sid="Cube-RigidBody">
-				<technique_common>
-					<dynamic>false</dynamic>
-					<mass>0</mass>
-					<instance_physics_material url="#Cube-PhysicsMaterial"/>
-					<shape>
-						<instance_geometry url="#Cube_001"/>
-					</shape>
-				</technique_common>
-			</rigid_body>
-		</physics_model>
-		<physics_model id="Scene_001-PhysicsModel" name="Scene_001-PhysicsModel"/>
-		<physics_model id="Scene001-PhysicsModel" name="Scene001-PhysicsModel">
-			<rigid_body name="Cube_001-Node-RigidBody" sid="Cube_001-Node-RigidBody">
-				<technique_common>
-					<dynamic>false</dynamic>
-					<mass>0</mass>
-					<instance_physics_material url="#Cube_001-Node-PhysicsMaterial"/>
-					<shape>
-						<instance_geometry url="#Cube_001-Geometry"/>
-					</shape>
-				</technique_common>
-			</rigid_body>
-		</physics_model>
-	</library_physics_models>
-	<library_physics_scenes>
-		<physics_scene id="Scene-Physics" name="Scene-Physics">
-			<instance_physics_model url="#Scene-PhysicsModel">
-				<instance_rigid_body body="Cube-RigidBody" target="#Cube"/>
-			</instance_physics_model>
-		</physics_scene>
-		<physics_scene id="Scene_001-Physics" name="Scene_001-Physics">
-			<instance_physics_model url="#Scene_001-PhysicsModel"/>
-		</physics_scene>
-		<physics_scene id="Scene001-Physics" name="Scene001-Physics">
-			<instance_physics_model url="#Scene001-PhysicsModel">
-				<instance_rigid_body body="Cube_001-Node-RigidBody" target="#Cube_001-Node"/>
-			</instance_physics_model>
-		</physics_scene>
-	</library_physics_scenes>
 	<scene>
-		<instance_physics_scene url="#Scene001-Physics"/>
-		<instance_visual_scene url="#Scene001"/>
+		<instance_visual_scene url="#Scene001_001"/>
 	</scene>
 </COLLADA>
