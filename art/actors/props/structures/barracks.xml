@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Chin_Barracks_Props_a">
+      <mesh>props/chin_barracks_props.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant>
+      <texture>structural/chin_struct.png</texture>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

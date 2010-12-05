@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<actor version="1">
-  <group>
-    <variant frequency="100" name="Base">
-      <mesh>structural/chin_mc2.dae</mesh>
-      <texture>structural/chin_struct_a.dds</texture>
-    </variant>
-  </group>
-</actor>
