@@ -2,7 +2,7 @@
 <actor version="1">
   <group>
     <variant frequency="100" name="Base">
-      <mesh>props/chin_liannu2.dae</mesh>
+      <mesh>props/chin_nu.dae</mesh>
       <texture>props/prop_weap.dds</texture>
     </variant>
   </group>

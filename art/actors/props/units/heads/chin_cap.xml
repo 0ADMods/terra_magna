@@ -2,15 +2,15 @@
 <actor version="1">
   <group>
     <variant name="Base">
-      <mesh>props/helmet/chin_cap.dae</mesh>
+      <mesh>props/chin_cap.dae</mesh>
     </variant>
   </group>
   <group>
     <variant frequency="1" name="cap-a">
-      <texture>props/helmet/chin_cap_a.dds</texture>
+      <texture>props/head/chin_cap_a.dds</texture>
     </variant>
     <variant frequency="1" name="cap-b">
-      <texture>props/helmet/chin_cap_b.dds</texture>
+      <texture>props/head/chin_cap_b.dds</texture>
     </variant>
   </group>
   <material>player_trans.xml</material>

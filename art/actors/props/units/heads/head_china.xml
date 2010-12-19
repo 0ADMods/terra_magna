@@ -11,22 +11,7 @@
 
   <group>
     <variant frequency="1" name="face-a">
-      <texture>props/head/chin_a.dds</texture>
-    </variant>
-    <variant frequency="1" name="face-b">
       <texture>props/head/chin_b.dds</texture>
-    </variant>
-    <variant frequency="1" name="face-c">
-      <texture>props/head/chin_c.dds</texture>
-    </variant>
-    <variant frequency="1" name="face-d">
-      <texture>props/head/chin_d.dds</texture>
-    </variant>
-    <variant frequency="1" name="face-g">
-      <texture>props/head/chin_e.dds</texture>
-    </variant>
-    <variant frequency="1" name="face-j">
-      <texture>props/head/chin_f.dds</texture>
     </variant>
   </group>
 
