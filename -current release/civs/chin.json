@@ -1,0 +1,86 @@
+{
+	"Code": "chin",
+	"Name": "Chinese",
+	"Emblem": "session/portraits/emblems/emblem_chinese.png",
+	"History": "China is one of the world's oldest nations and remains one of the most powerful, dating back over 4,000 years to the present day. The origins of the empire derive from civilizations along the Yellow and Yagntze River valleys. Though China was at its peak of conquest was during the Qing Dynasty in the late 18th century AD, during our time frame it was roughly 1/4th of the size it is today, spanning across a small section of modern-day eastern China. Among the technological achievements of the Han Dynasty era that drive its reputation are the seismograph, medicinal innovations such as acupuncture and highly-disciplined educational institutions. However, perhaps the most memorable achievements of the ancient Chinese are architectural, notably the Terracotta Army and the Great Wall.",
+	"Factions":
+	[
+		{
+			"Name": "",
+			"Description": "",
+			"Technologies":
+			[
+				{
+					"Name": "Jun Chuan",
+					"History": "The use of flaming boats by the Chinese was made famous by during The Battle Of The Red Cliffs where the general Huang Gai attacked the enemy navy with flaming canoes.",
+                    "Description": "Fire Ships are used as kamikaze units, launched at targets which when struck will become engulfed in flames and incur constant damage until healed or repaired, as appropriate."
+				},
+				{
+					"Name": "Zhu Cheng",
+					"History": "",
+					"Description": "20% increase of defenses of all walls and fortresses." 
+				} 
+			],
+			"Heroes":
+			[
+				{
+					"Name": "Liu Bang",
+					"Class": "Cavalry Hero",
+					"Armament": "Bronze Jian",
+					"Emblem": "",
+					"History": "Liu Bang was a peasant who lead a rebellion force to topple the Qin dynasty and proceeded to become the first Emperor of the Han dynasty. During his reign he lowered taxes and encouraged agriculture growth, as well as made peace with the Xiongnu." 
+				},
+				{
+					"Name": "Wei Qing",
+					"Class": "Cavalry Hero",
+					"Armament": "Lian Nu",
+					"Emblem": "",
+					"History": "As a general of the Han Dynasty, Wei Qing is best acclaimed for his campaigns against Xiongnu, a series of nomadic tribes residing in northern China during the time period. In addition to his unmatched quality as a leader of men, he was a brilliant marksman and possessed remarkable horsemanship." 
+				},
+				{
+					"Name": "Han Xin",
+					"Class": "Infantry Hero",
+					"Armament": "Qiang",
+					"Emblem": "",
+					"History": "Han Xin was a military general who served under Liu Bang, and is renowned as one of the Three Heroes of the early Han Dynasty. Many Chinese idioms originated from his specific warfare strategies. Thanks to Han Xin's brilliant flanking manuevers against Zhang Han, Han forces emerged victorious over the Three Qins in late BC 206."
+				} 
+			]
+		} 
+	],
+	"CivBonuses":
+	[
+		{
+			"Name": "Defensive Walls",
+			"History": "The Chinese may have been best known for their immeasurably fortified defenses that kept enemy forces at bay long enough to obliterate them.",
+			"Description": "All walls and outposts are significantly cheaper and available earlier." 
+		},
+		{
+			"Name": "Naval Prowess",
+			"History": "The Han Chinese developed some of the most underrated and innovative naval tactics of the era, including unmanned Fire Ships set adrift to destroy warring nations' sea vessels and shoreline structures.",
+			"Description": "A diverse navy will grant the Chinese a generously favorable position at sea." 
+		} 
+	],
+	"TeamBonuses":
+	[
+		{
+			"Name": "Undecided",
+			"History": "",
+			"Description": "To be written." 
+		} 
+	],
+	"Structures":
+	[
+		{
+			"Name": "Zhi Hui Zhong Xin",
+			"Class": "",
+			"Emblem": "",
+			"History": "'Government Center' As a genuinely sophisticated educational society, China revered government very highly. This structure will provide tech upgrades for economic factors, specifically trade.",
+			"Requirements": "",
+			"Phase": "",
+			"Special": "" 
+		} 
+	],
+	"StartEntities":
+	[
+	]
+}
