@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>props/chin_boardshield.dae</mesh>
+      <texture>props/shield/sh_c05.png</texture>
+    </variant>
+    <variant frequency="1" name="texture2">
+      <mesh>props/chin_boardshield.dae</mesh>
+      <texture>props/shield/sh_c06.png</texture>
+    </variant>
+  </group>
+</actor>
