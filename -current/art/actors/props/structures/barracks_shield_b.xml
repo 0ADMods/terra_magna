@@ -11,4 +11,5 @@
       <texture>props/shield/sh_c02.dds</texture>
     </variant>
   </group>
+  <material>basic_trans.xml</material>
 </actor>
