@@ -12,7 +12,7 @@
     </Resources>
   </Cost>
   <VisualActor>
-    <Actor>structures/china/barracks.xml</Actor>
+    <Actor>structures/chinese/barracks.xml</Actor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
   </VisualActor>
   <Footprint>
