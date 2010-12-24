@@ -7,8 +7,11 @@
     </variant>
   </group>
   <group>
-    <variant>
+    <variant frequency="1">
       <texture>props/shield/sh_c02.dds</texture>
+    </variant>
+    <variant frequency="1">
+      <texture>props/shield/sh_c03.dds</texture>
     </variant>
   </group>
   <material>basic_trans.xml</material>
