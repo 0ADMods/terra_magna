@@ -53,4 +53,4 @@ it on the forums (link above)!
 As always, if you experience problems with the game itself, Wildfire Games would 
 really appreciate it if you'd tell them about it on Trac: http://trac.wildfiregames.com/
 After searching to make sure it's not a duplicate, just register a new ticket and
-the team will get to fixing it@
+the team will get to fixing it!
