@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Robie</author>
+      <authoring_tool>Feeling ColladaMax v3.02 with FCollada v3.02.</authoring_tool>
+      <comments>ColladaMax Export Options: ExportNormals=1;ExportEPolyAsTriangles=1;ExportXRefs=0;ExportSelected=0;ExportTangents=0;ExportAnimations=0;SampleAnim=0;ExportAnimClip=0;BakeMatrices=0;ExportRelativePaths=1;AnimStart=0;AnimEnd=100;</comments>
+      <source_data>file:///C:/Users/Robie/Documents/3dsmax/scenes/WSsword.max</source_data>
+    </contributor>
+    <created>2010-03-28T03:47:41Z</created>
+    <modified>2010-03-28T03:47:42Z</modified>
+    <unit meter="0.0254" name="inch"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="C__Users_Robie_Desktop_prop_weap_bmp" name="C__Users_Robie_Desktop_prop_weap_bmp">
+      <init_from>./prop_weap.bmp</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="____Default" name="____Default">
+      <instance_effect url="#____Default-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="____Default-fx" name="____Default">
+      <profile_COMMON>
+        <newparam sid="C__Users_Robie_Desktop_prop_weap_bmp-surface">
+          <surface type="2D">
+            <init_from>C__Users_Robie_Desktop_prop_weap_bmp</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="C__Users_Robie_Desktop_prop_weap_bmp-sampler">
+          <sampler2D>
+            <source>C__Users_Robie_Desktop_prop_weap_bmp-surface</source>
+            <minfilter>LINEAR_MIPMAP_LINEAR</minfilter>
+            <magfilter>LINEAR</magfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <blinn>
+            <ambient>
+              <color>0.588235 0.588235 0.588235 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="C__Users_Robie_Desktop_prop_weap_bmp-sampler" texcoord="CHANNEL1">
+                <extra>
+                  <technique profile="MAX3D">
+                    <amount>1</amount>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color>0.9 0.9 0.9 1</color>
+            </specular>
+            <shininess>
+              <float>33.2193</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>1</float>
+            </reflectivity>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>0</float>
+            </transparency>
+            <index_of_refraction>
+              <float>1</float>
+            </index_of_refraction>
+          </blinn>
+          <extra>
+            <technique profile="FCOLLADA">
+              <emission_level>
+                <float>0</float>
+              </emission_level>
+            </technique>
+          </extra>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="MAX3D">
+          <faceted>0</faceted>
+          <double_sided>0</double_sided>
+          <wireframe>0</wireframe>
+          <face_map>0</face_map>
+        </technique>
+      </extra>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Box01-mesh" name="Box01">
+      <mesh>
+        <source id="Box01-mesh-positions">
+          <float_array id="Box01-mesh-positions-array" count="93">-11.7506 0.000004 11.0141 -11.0141 -0.433917 11.7506 0.260001 0.000003 -0.996507 0.996509 -0.433917 -0.259999 -11.0141 0.433915 11.7506 -10.2776 -0.000006 12.4871 0.996499 0.433916 -0.260008 1.73301 -0.000005 0.476499 -12.2559 0.000001 12.9924 0.665233 -0.000000 -0.591235 0.996484 -0.442661 -0.259984 3.13455 -0.000000 -3.06055 3.4658 -0.442661 -2.7293 0.996484 0.442659 -0.259984 1.32774 -0.000000 0.071267 3.4658 0.442659 -2.7293 3.79705 -0.000000 -2.39805 3.22854 -0.000000 -2.49203 3.22854 -0.000000 -2.49203 3.22854 -0.000000 -2.49203 3.22854 -0.000000 -2.49203 3.22854 -0.000000 -2.49203 3.22854 -0.000000 -2.49203 3.22854 -0.000000 -2.49203 4.09526 -0.000000 -2.28043 3.82568 -0.660342 -2.55001 3.28651 -0.660342 -3.08918 3.01693 -0.000000 -3.35876 3.28651 0.66034 -3.08918 3.82568 0.660341 -2.55001 3.5561 -0.000000 -2.81959</float_array>
+          <technique_common>
+            <accessor source="#Box01-mesh-positions-array" count="31" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box01-mesh-normals">
+          <float_array id="Box01-mesh-normals-array" count="222">-0.271927 -0.923099 -0.271927 -0.271926 -0.923099 -0.271926 -0.271927 -0.923099 -0.271926 -0.271927 -0.923099 -0.271927 0.271927 0.923099 0.271927 0.271927 0.923099 0.271927 0.271927 0.923099 0.271927 0.271927 0.923099 0.271927 0.271924 -0.923101 0.271924 0.271924 -0.9231 0.271924 0.271924 -0.9231 0.271924 0.271924 -0.923101 0.271924 0.707107 0.000000 -0.707107 0.707107 0.000000 -0.707107 0.707107 0.000000 -0.707107 0.707107 0.000000 -0.707107 -0.271925 0.9231 -0.271925 -0.271924 0.923101 -0.271924 -0.271924 0.923101 -0.271924 -0.271925 0.9231 -0.271925 0.107872 -0.899987 0.422359 0.107872 -0.899987 0.422359 0.107872 -0.899987 0.422359 0.107879 0.899986 0.422358 0.107879 0.899986 0.422358 0.107879 0.899986 0.422358 -0.422359 -0.899987 -0.107878 -0.422359 -0.899986 -0.107878 -0.422359 -0.899986 -0.107878 -0.422356 0.899988 -0.107874 -0.422356 0.899988 -0.107874 -0.422356 0.899988 -0.107874 -0.485647 -0.726838 -0.485647 -0.485647 -0.726838 -0.485647 -0.485647 -0.726838 -0.485647 -0.485647 -0.726838 -0.485647 0.485647 0.726838 0.485647 0.485647 0.726838 0.485647 0.485647 0.726838 0.485647 0.485647 0.726838 0.485647 0.485647 -0.726839 0.485647 0.485647 -0.726839 0.485647 0.485647 -0.726839 0.485647 0.485647 -0.726838 0.485647 -0.485647 0.726839 -0.485647 -0.485647 0.726838 -0.485647 -0.485647 0.726838 -0.485647 -0.485647 0.726839 -0.485647 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 -0.227191 -0.287148 0.930554 -0.42075 -0.449658 0.787894 -0.237179 0 0.971466 -0.578872 -0.574295 0.578872 -0.787895 -0.449657 0.42075 -0.930554 -0.287147 0.22719 -0.971466 0.000000 0.237178 -0.930554 0.287148 0.22719 -0.787894 0.449658 0.42075 -0.578873 0.574295 0.578871 -0.420751 0.449658 0.787894 -0.227191 0.287148 0.930554 0.707107 -0.000000 -0.707106 0.707107 -0.000000 -0.707106 0.707107 0 -0.707107 0.707107 -0.000000 -0.707106 0.707107 -0.000000 -0.707106 0.707107 -0.000000 -0.707106 0.707107 -0.000000 -0.707106</float_array>
+          <technique_common>
+            <accessor source="#Box01-mesh-normals-array" count="74" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box01-mesh-map-channel1">
+          <float_array id="Box01-mesh-map-channel1-array" count="204">0.488244 0.278582 -0.3125 0.488244 0.278582 -0.5 0.488 0.129555 0.0625 0.488 0.129555 2.25 0.456 0.096618 1 0.435345 0.088245 2 0.435345 0.104991 0 0.414 0.096618 1 0.488187 0.278582 0.000000 0.488187 0.278582 0 0.488244 0.278582 -8 0.476891 0.278582 -8.5 0.476891 0.278582 0.000000 0.743218 0.135366 -1.75 0.743218 0.135366 2 0.743219 0.035613 2.75 0.743219 0.035613 -3 0.796231 0.135367 -1.625 0.743218 0.135366 -2 0.796233 0.035614 1.25 0.796231 0.135367 -1.125 0.865905 0.305515 -0.127924 0.865905 0.305515 -0.127924 0.865905 0.305515 -0.127924 0.865905 0.305515 -0.127924 0.865905 0.305515 -0.127924 0.865905 0.305515 -0.127924 0.865905 0.305515 -0.127924 0.238788 -0.005871 0 0.178564 -0.040641 0.000000 0.178564 -0.110183 0 0.238788 -0.144953 0 0.299012 -0.110183 0 0.299012 -0.040641 -0.000000 0.238788 -0.075412 0 0.824421 0.242856 0.5 0.906465 0.242857 0.25 0.488 0.129555 7.75 0.476886 0.129555 8.625 0.476891 0.278582 -1 0.482456 0.297 0.000000 0.824421 0.242856 -0.25 0.906465 0.242857 -0.5 0.824421 0.242856 -0.25 0.906465 0.242857 0.25 0.476891 0.278582 0 0.488187 0.278582 0 0.482456 0.297 -2 0.488187 0.278582 -1 0.482456 0.297 -1 0.476891 0.278582 0 0.482456 0.297 0 0.488244 0.278582 2.125 0.476891 0.278582 2.375 0.488 0.129555 -2 0.476886 0.129555 -2.5625 0.476891 0.278582 -0.6875 0.476886 0.129555 0.65625 0.476891 0.278582 -1.5 0.476886 0.129555 1.125 0.743218 0.135366 14 0.796231 0.135367 20 0.743219 0.035613 -12 0.796233 0.035614 4 0.796231 0.135367 -3 0.796233 0.035614 -7 0.743219 0.035613 0.75 0.796233 0.035614 0.25</float_array>
+          <technique_common>
+            <accessor source="#Box01-mesh-map-channel1-array" count="68" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Box01-mesh-vertices">
+          <input semantic="POSITION" source="#Box01-mesh-positions"/>
+        </vertices>
+        <triangles material="____Default" count="46">
+          <input semantic="VERTEX" source="#Box01-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Box01-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Box01-mesh-map-channel1" offset="2" set="1"/>
+          <p>0 0 52 2 1 54 3 2 55 3 2 55 1 3 53 0 0 52 4 4 10 5 5 11 7 6 38 7 6 38 6 7 37 4 4 10 1 8 1 3 9 3 7 10 59 7 10 59 5 11 58 1 8 1 3 12 5 2 13 4 6 14 6 6 14 6 7 15 7 3 12 5 2 16 2 0 17 0 4 18 56 4 18 56 6 19 57 2 16 2 5 20 48 8 21 49 1 22 39 8 23 47 5 24 46 4 25 45 1 26 50 8 27 51 0 28 9 8 29 40 4 30 12 0 31 8 9 32 60 11 33 62 12 34 63 12 34 63 10 35 61 9 32 60 13 36 18 14 37 20 16 38 67 16 38 67 15 39 66 13 36 18 10 40 14 12 41 16 16 42 65 16 42 65 14 43 64 10 40 14 11 44 15 9 45 13 13 46 17 13 46 17 15 47 19 11 44 15 17 48 21 19 49 23 18 50 22 17 48 21 20 51 24 19 49 23 17 48 21 21 52 25 20 51 24 17 48 21 22 53 26 21 52 25 17 48 21 23 54 27 22 53 26 17 48 21 18 50 22 23 54 27 18 55 22 25 56 36 24 57 35 18 55 22 19 58 23 25 56 36 19 58 23 26 59 41 25 56 36 19 58 23 20 60 24 26 59 41 20 60 24 27 61 42 26 59 41 20 60 24 21 62 25 27 61 42 21 62 25 28 63 43 27 61 42 21 62 25 22 64 26 28 63 43 22 64 26 29 65 44 28 63 43 22 64 26 23 66 27 29 65 44 23 66 27 24 57 35 29 65 44 23 66 27 18 55 22 24 57 35 30 67 34 24 68 28 25 69 29 30 67 34 25 69 29 26 70 30 30 67 34 26 70 30 27 71 31 30 67 34 27 71 31 28 72 32 30 67 34 28 72 32 29 73 33 30 67 34 29 73 33 24 68 28</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="WSsword_max" name="WSsword_max">
+      <node id="Box01-node" name="Box01" type="NODE">
+        <translate>-0.000000 0 0</translate>
+        <rotate>0 0 -1 -90</rotate>
+        <scale>0.108723 0.116271 0.108723</scale>
+        <node id="Box01-node_PIVOT" name="Box01_PIVOT" type="NODE">
+          <translate>-0.520784 0.000000 2.54071</translate>
+          <rotate>0 -1 0 -45</rotate>
+          <instance_geometry url="#Box01-mesh">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="____Default" target="#____Default">
+                  <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>30</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>0</start_time>
+          <end_time>3.33333</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#WSsword_max"/>
+  </scene>
+</COLLADA>
