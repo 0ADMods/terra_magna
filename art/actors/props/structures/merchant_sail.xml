@@ -2,12 +2,8 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="100" name="sail mesh">
-      <mesh>props/celt_merchship_sail.dae</mesh>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="1" name="sail design - drag">
+    <variant frequency="100" name="chinese merchant sail">
+      <mesh>props/chin_merch_sail.dae</mesh>
       <texture>props/chin_sail_dragon.dds</texture>
     </variant>
   </group>
