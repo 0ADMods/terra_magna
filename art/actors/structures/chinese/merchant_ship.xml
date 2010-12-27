@@ -6,7 +6,7 @@
     <variant name="Chinese Merchant Ship">
       <mesh>structural/chin_merch.dae</mesh>
       <props>
-        <prop actor="props/structures/chinese/merchant_sail.xml" attachpoint="root"/>
+        <prop actor="props/structures/merchant_sail.xml" attachpoint="root"/>
       </props>
       <texture>structural/chin_ship.dds</texture>
     </variant>
