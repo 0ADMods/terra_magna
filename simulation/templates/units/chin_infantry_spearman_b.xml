@@ -11,14 +11,29 @@
     <Entity>chin_infantry_spearman_a</Entity>
   </Promotion>
   <Armour>
-    <Hack>3.0</Hack>
+    <Hack>3000.0</Hack>
+    <Pierce>2000.0</Pierce>
+    <Crush>3000.0</Crush>
   </Armour>
+  <Health>
+  	<Max>1000000000</Max>
+  	<RegenRate>1.0</RegenRate>
+  </Health>
   <UnitMotion>
     <WalkSpeed>6.6</WalkSpeed>
     <Run>
       <Speed>19.8</Speed>
     </Run>
   </UnitMotion>
+  <Attack>
+    <Melee>
+      <Hack>0.0</Hack>
+      <Pierce>0.0</Pierce>
+    </Melee>
+    <Charge>
+      <Hack>0.0</Hack>
+    </Charge>
+  </Attack>
   <VisualActor>
     <Actor>units/china/infantry_spearman_b.xml</Actor>
   </VisualActor>

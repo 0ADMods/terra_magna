@@ -19,8 +19,14 @@
     <Range>88</Range>
   </Vision>
   <Armour>
-    <Pierce>7.0</Pierce>
+    <Hack>3000.0</Hack>
+    <Pierce>2000.0</Pierce>
+    <Crush>3000.0</Crush>
   </Armour>
+  <Health>
+  	<Max>1000000000</Max>
+  	<RegenRate>1.0</RegenRate>
+  </Health>
   <UnitMotion>
     <WalkSpeed>6.6</WalkSpeed>
     <Run>
@@ -29,10 +35,11 @@
   </UnitMotion>
   <Attack>
     <Melee>
-      <MaxRange>6.0</MaxRange>
+      <Hack>0.0</Hack>
+      <Pierce>0.0</Pierce>
     </Melee>
     <Charge>
-      <MaxRange>6.0</MaxRange>
+      <Hack>0.0</Hack>
     </Charge>
   </Attack>
   <VisualActor>
