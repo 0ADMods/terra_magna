@@ -14,11 +14,13 @@ entirety! There are several ways to contact us and find more information:
 
   Forums: http://forum.sciondevelopment.com/
 
-  Wiki (see our design documentation): http://wiki.sciondevelopment.com/
+  Wiki (design documentation): http://wiki.sciondevelopment.com/
 
   IRC: #scion on irc.quakenet.org
 
   Email: support@sciondevelopment.com
+
+  Twitter: @sciondev
 
 
 ---------------------------------------
@@ -41,6 +43,10 @@ Terminal). Where "china" is the name of the mod folder or archive:
 Windows: ./pyrogenesis.exe -mod=china
 UNIX: ./pyrogenesis_dbg -mod=china
 
+Alternatively, if you're having trouble with using the command line, you can simply
+rename your mod folder from "china" to "internal", as the game will already
+load this folder name by default. If you have any questions, feel free to drop
+by our forums, linked to above.
 
 ------------------
 Reporting problems
