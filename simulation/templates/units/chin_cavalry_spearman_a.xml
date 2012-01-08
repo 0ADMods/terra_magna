@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/chin_cavalry_spearman_b">
+  <Identity>
+    <Civ>chin</Civ>
+	<SelectionGroupName>units/chin_cavalry_spearman_b</SelectionGroupName>
+    <GenericName>Cavalry Spearman</GenericName>
+    <SpecificName>Tú Qí</SpecificName>
+    <History>Needs history.</History>
+    <Tooltip>Bonused vs. Infantry Swordsmen, Infantry Javelinists, and Fauna.</Tooltip>
+    <Icon>units/chin_cavalry_spearman.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>chin_cavalry_spearman_e</Entity>
+  </Promotion>
+  <Identity>
+    <Rank>Advanced</Rank>
+  </Identity>
+  <Cost>
+    <Population>2</Population>
+  </Cost>
+  <VisualActor>
+    <Actor>units/china/cavalry_spearman_a.xml</Actor>
+  </VisualActor>
+</Entity>

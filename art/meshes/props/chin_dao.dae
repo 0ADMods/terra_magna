@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Robie</author>
+      <authoring_tool>Feeling ColladaMax v3.02 with FCollada v3.02.</authoring_tool>
+      <comments>ColladaMax Export Options: ExportNormals=1;ExportEPolyAsTriangles=1;ExportXRefs=0;ExportSelected=0;ExportTangents=0;ExportAnimations=0;SampleAnim=0;ExportAnimClip=0;BakeMatrices=0;ExportRelativePaths=1;AnimStart=0;AnimEnd=100;</comments>
+      <source_data>file:///C:/Users/Robie/Documents/3dsmax/scenes/Dao.max</source_data>
+    </contributor>
+    <created>2010-03-28T03:30:54Z</created>
+    <modified>2010-03-28T03:30:55Z</modified>
+    <unit meter="0.0254" name="inch"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="C__Users_Robie_Desktop_prop_weap_bmp" name="C__Users_Robie_Desktop_prop_weap_bmp">
+      <init_from>./prop_weap.bmp</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="____Default" name="____Default">
+      <instance_effect url="#____Default-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="____Default-fx" name="____Default">
+      <profile_COMMON>
+        <newparam sid="C__Users_Robie_Desktop_prop_weap_bmp-surface">
+          <surface type="2D">
+            <init_from>C__Users_Robie_Desktop_prop_weap_bmp</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="C__Users_Robie_Desktop_prop_weap_bmp-sampler">
+          <sampler2D>
+            <source>C__Users_Robie_Desktop_prop_weap_bmp-surface</source>
+            <minfilter>LINEAR_MIPMAP_LINEAR</minfilter>
+            <magfilter>LINEAR</magfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <blinn>
+            <ambient>
+              <color>0.588235 0.588235 0.588235 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="C__Users_Robie_Desktop_prop_weap_bmp-sampler" texcoord="CHANNEL1">
+                <extra>
+                  <technique profile="MAX3D">
+                    <amount>1</amount>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color>0.9 0.9 0.9 1</color>
+            </specular>
+            <shininess>
+              <float>33.2193</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>1</float>
+            </reflectivity>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>0</float>
+            </transparency>
+            <index_of_refraction>
+              <float>1</float>
+            </index_of_refraction>
+          </blinn>
+          <extra>
+            <technique profile="FCOLLADA">
+              <emission_level>
+                <float>0</float>
+              </emission_level>
+            </technique>
+          </extra>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="MAX3D">
+          <faceted>0</faceted>
+          <double_sided>0</double_sided>
+          <wireframe>0</wireframe>
+          <face_map>0</face_map>
+        </technique>
+      </extra>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Plane01-mesh" name="Plane01">
+      <mesh>
+        <source id="Plane01-mesh-positions">
+          <float_array id="Plane01-mesh-positions-array" count="108">-30.553 -27.5692 25.4649 -30.553 -24.5687 25.7664 -0.205637 -27.8511 25.4649 5.3261 -28.8099 25.4649 4.9716 -23.8744 25.7664 8.59455 -30.536 25.4649 19.6875 -29.4238 25.7664 -30.553 -27.5692 26.0679 -0.205637 -27.8511 26.0679 5.3261 -28.8099 26.0679 8.59455 -30.536 26.0679 12.0102 -24.9471 25.7664 -31.2232 -26.0858 25.7664 -31.2232 -24.2715 23.9064 -31.2232 -22.4571 25.7664 -31.2232 -24.2715 27.6264 -31.2232 -27.9002 27.6264 -31.2232 -29.7146 25.7664 -31.2232 -27.9002 23.9064 -30.5149 -24.2715 23.9064 -30.5149 -22.4571 25.7664 -30.5149 -24.2715 27.6264 -30.5149 -27.9002 27.6264 -30.5149 -29.7146 25.7664 -30.5149 -27.9002 23.9064 -30.5149 -26.0858 25.7664 -40.1798 -27.5256 25.7664 -40.1798 -26.1122 24.6021 -40.1798 -26.1122 26.9306 -40.1798 -24.6988 25.7664 -31.178 -27.5256 25.7664 -31.178 -26.1122 24.6021 -31.178 -26.1122 26.9306 -31.178 -24.6988 25.7664 -43.2462 -23.8883 25.7664 -43.4127 -26.2972 25.7664</float_array>
+          <technique_common>
+            <accessor source="#Plane01-mesh-positions-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane01-mesh-normals">
+          <float_array id="Plane01-mesh-normals-array" count="351">-0.009288 -0.999957 0 -0.009288 -0.999957 0 -0.009288 -0.999957 0 -0.009288 -0.999957 0 -0.009288 -0.999957 0 -0.009288 -0.999957 0 -0.170773 -0.98531 0 -0.170773 -0.98531 0 -0.170773 -0.98531 0 -0.170773 -0.98531 0 -0.170773 -0.98531 0 -0.170773 -0.98531 0 -0.466987 -0.884264 0 -0.466987 -0.884264 0 -0.466987 -0.884264 0 -0.466987 -0.884264 0 -0.466987 -0.884264 0 -0.466987 -0.884264 0 0.099762 -0.995011 0 0.099762 -0.995011 0 0.099762 -0.995011 0 -0.001515 0.077558 -0.996987 -0.001515 0.077558 -0.996987 -0.001515 0.077558 -0.996987 0.000928 0.099976 -0.994989 0.000928 0.099976 -0.994989 0.000928 0.099976 -0.994989 0.009394 0.061641 0.998054 0.009394 0.061641 0.998054 0.009394 0.061641 0.998054 0.021514 0.040738 0.998938 0.021514 0.040738 0.998938 0.021514 0.040738 0.998938 0.023166 0.039729 0.998942 0.023166 0.039729 0.998942 0.023166 0.039729 0.998942 0.0107 0.061734 -0.998035 0.0107 0.061734 -0.998035 0.0107 0.061734 -0.998035 0.009395 0.061641 -0.998054 0.009395 0.061641 -0.998054 0.009395 0.061641 -0.998054 0.021514 0.040739 -0.998938 0.021514 0.040739 -0.998938 0.021514 0.040739 -0.998938 0.023166 0.03973 -0.998942 0.023166 0.03973 -0.998942 0.023166 0.03973 -0.998942 0.010699 0.061734 0.998035 0.010699 0.061734 0.998035 0.010699 0.061734 0.998035 0.000693 0.074697 0.997206 0.000693 0.074697 0.997206 0.000693 0.074697 0.997206 -0.001954 0.099976 0.994988 -0.001954 0.099976 0.994988 -0.001954 0.099976 0.994988 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0.388414 -0.921485 0 1 0.000000 0 0.388414 -0.921485 0 1 0.000000 0 0.388413 0.921485 0 0.388413 0.921485 0 -0.388414 0.921485 0 -0.388414 0.921485 0 -1 -0.000000 0 -1 -0.000000 0 -0.388413 -0.921485 0 -0.388413 -0.921485 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -0.635793 -0.771859 -0.000000 -0.635793 -0.771859 0 -0.635794 -0.771859 0 -0.635794 -0.771859 0.000000 0.635794 -0.771858 0.000000 0.635794 -0.771859 0.000000 0.635795 -0.771858 0.000000 0.635795 -0.771858 0 0.635793 0.77186 0 0.635793 0.77186 0 0.635793 0.77186 0 0.635793 0.77186 0 -0.635793 0.771859 0 -0.635793 0.771859 -0.000000 -0.635794 0.771859 -0.000000 -0.635794 0.771859 0.165737 0.627001 -0.761184 0.165737 0.627001 -0.761184 0.165737 0.627001 -0.761184 0.165738 0.627 0.761185 0.165738 0.627 0.761185 0.165738 0.627 0.761185 -0.339916 0.0235 -0.940162 -0.339916 0.0235 -0.940162 -0.339916 0.0235 -0.940162 -0.339915 0.023498 0.940162 -0.339915 0.023498 0.940162 -0.339915 0.023498 0.940162 -0.234822 -0.618015 -0.750277 -0.234822 -0.618015 -0.750277 -0.234822 -0.618015 -0.750277 -0.234821 -0.618016 0.750277 -0.234821 -0.618016 0.750277 -0.234821 -0.618016 0.750277</float_array>
+          <technique_common>
+            <accessor source="#Plane01-mesh-normals-array" count="117" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane01-mesh-map-channel1">
+          <float_array id="Plane01-mesh-map-channel1-array" count="243">0.864933 0.594126 -0.244801 0.848182 0.594208 -0.499992 0.864979 0.636361 0.466419 0.871793 0.649718 0.462326 0.850376 0.654829 0.483521 0.881788 0.662038 0.289009 0.519516 0.18104 0.5 0.880804 0.69901 0.030681 0.519516 0.240849 -0.222851 0.519515 0.252068 -0.226017 0.859439 0.678967 0.500004 0.519515 0.259101 -0.063542 0.928732 0.222175 0.628102 0.955214 0.180456 0 0.977241 0.15897 -0.000001 0.955214 0.137483 -0.000001 0.933187 0.15897 -0.000001 0.933187 0.201942 0.000001 0.955214 0.223429 0.000001 0.977241 0.201942 0.000001 0.976852 0.221896 0.869868 0.928732 0.222175 0.611919 0.976852 0.221896 0.611919 0.928732 0.222175 0.86987 0.976852 0.221896 0.628104 0.928706 0.228917 0.611918 0.928693 0.228917 0.628104 0.976056 0.228917 0.628104 0.977241 0.202063 0.000001 0.928706 0.228917 0.86987 0.976056 0.228917 0.611919 0.955213 0.223549 0.000001 0.528842 0.018793 0.839301 0.528842 0.018793 0.358642 0.56195 0.018793 0.573401 0.562036 0.003859 0.927097 0.528937 0.003869 1.34239 0.528842 0.018793 0 0.56195 0.018793 0 0.848182 0.594208 -0.499992 0.850376 0.654829 0.483994 0.880804 0.69901 0.028606 0.864933 0.594126 -0.23867 0.864979 0.636361 0.47253 0.871793 0.649718 0.468018 0.881788 0.662038 0.293903 0.859439 0.678967 0.500004 0.507747 0.280539 -0.5 0.495981 0.18104 0.5 0.49598 0.240849 -0.222851 0.49598 0.252068 -0.226017 0.49598 0.259101 -0.063542 0.56195 0.018793 0 0.528841 0.119825 1 0.561949 0.119825 0.000003 0.528841 0.119825 0 0.561949 0.119825 0 0.528842 0.018793 0 0.528841 0.119825 0.000007 0.56195 0.018793 0.000003 0.561949 0.119825 1.5 0.528842 0.018793 0.000003 0.528842 0.018793 1 0.56195 0.018793 1.5 0.561949 0.119825 0 0.528841 0.119825 0 0.933187 0.202063 0.000001 0.933187 0.15909 0 0.955214 0.137604 0 0.977241 0.15909 0 0.955214 0.180577 0 0.56195 0.018793 0.358642 0.56195 0.018793 0.33092 0.528842 0.018793 0.358642 0.528842 0.018793 0.33092 0.976056 0.228917 0.869868 0.976056 0.228917 0.869868 0.928693 0.228917 0.628104 0.976056 0.228917 0.869868 0.928732 0.222175 0.611919 0.928693 0.228917 0.628104</float_array>
+          <technique_common>
+            <accessor source="#Plane01-mesh-map-channel1-array" count="81" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Plane01-mesh-vertices">
+          <input semantic="POSITION" source="#Plane01-mesh-positions"/>
+        </vertices>
+        <triangles material="____Default" count="57">
+          <input semantic="VERTEX" source="#Plane01-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Plane01-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Plane01-mesh-map-channel1" offset="2" set="1"/>
+          <p>2 0 8 8 1 49 0 2 6 0 3 6 8 4 49 7 5 48 8 6 49 2 7 8 3 8 9 8 9 49 3 10 9 9 11 50 3 12 9 5 13 11 10 14 51 3 15 9 10 16 51 9 17 50 10 18 51 5 19 11 6 20 47 4 21 4 2 22 2 1 23 1 1 24 1 2 25 2 0 26 0 9 27 44 11 28 46 4 29 40 9 30 44 10 31 45 11 32 46 11 33 46 10 34 45 6 35 41 2 36 2 4 37 4 3 38 3 3 39 3 4 40 4 11 41 10 11 42 10 5 43 5 3 44 3 6 45 7 5 46 5 11 47 10 8 48 43 9 49 44 4 50 40 8 51 43 4 52 40 7 53 42 7 54 42 4 55 40 1 56 39 12 57 13 14 58 15 13 59 14 12 57 13 15 60 16 14 58 15 12 57 13 16 61 17 15 60 16 12 57 13 17 62 18 16 61 17 12 57 13 18 63 19 17 62 18 12 57 13 13 59 14 18 63 19 13 64 12 20 65 75 19 66 25 13 64 12 14 67 20 20 65 76 14 67 20 21 68 77 20 65 78 14 67 20 15 69 79 21 68 80 15 69 21 22 70 27 21 68 26 15 69 21 16 71 22 22 70 27 16 71 22 23 72 29 22 70 27 16 71 22 17 73 23 23 72 29 17 73 23 24 74 30 23 72 29 17 73 23 18 75 24 24 74 30 18 75 24 19 66 25 24 74 30 18 75 24 13 64 12 19 66 25 25 76 70 19 77 28 20 78 31 25 76 70 20 78 31 21 79 66 25 76 70 21 79 66 22 80 67 25 76 70 22 80 67 23 81 68 25 76 70 23 81 68 24 82 69 25 76 70 24 82 69 19 77 28 26 83 37 27 84 38 31 85 56 31 85 56 30 86 55 26 83 37 27 87 54 29 88 58 33 89 61 33 89 61 31 90 59 27 87 54 29 91 60 28 92 53 32 93 62 32 93 62 33 94 63 29 91 60 28 95 57 26 96 52 30 97 64 30 97 64 32 98 65 28 95 57 27 99 32 34 100 35 29 101 34 29 102 34 34 103 35 28 104 33 34 105 35 27 106 32 35 107 36 28 108 71 34 109 35 35 110 36 35 111 36 27 112 32 26 113 72 28 114 73 35 115 36 26 116 74</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Dao_max" name="Dao_max">
+      <node id="Plane01-node" name="Plane01" type="NODE">
+        <translate>-0.000005 0 0</translate>
+        <rotate>0 0 1 -180</rotate>
+        <scale>0.036942 0.035797 0.035797</scale>
+        <node id="Plane01-node_PIVOT" name="Plane01_PIVOT" type="NODE">
+          <translate>25.7664 26.1122 35.7932</translate>
+          <rotate>0 1 0 -90</rotate>
+          <instance_geometry url="#Plane01-mesh">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="____Default" target="#____Default">
+                  <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>30</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>0</start_time>
+          <end_time>3.33333</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Dao_max"/>
+  </scene>
+</COLLADA>

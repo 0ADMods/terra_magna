@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/chin_infantry_swordsman_b">
+  <Identity>
+    <Rank>Advanced</Rank>
+  </Identity>
+  <!--<Promotion>
+    <Entity>units/chin_infantry_swordsman_e</Entity>
+  </Promotion>-->
+  <Attack>
+    <Melee>
+      <Hack>7.0</Hack>
+    </Melee>
+    <Charge>
+      <Hack>12.0</Hack>
+    </Charge>
+  </Attack>
+  <Vision>
+    <Range>88</Range>
+  </Vision>
+  <Armour>
+    <Pierce>7.0</Pierce>
+  </Armour>
+  <VisualActor>
+    <Actor>units/china/infantry_swordsman_b.xml</Actor>
+  </VisualActor>
+</Entity>

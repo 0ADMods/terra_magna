@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <float/>
+  <group>
+    <variant name="Chinese Fishing Ship">
+      <mesh>structural/chin_fishing.dae</mesh>
+      <texture>structural/chin_ship_2.png</texture>
+      <props>
+	      <prop actor="units/china/chin_fisherman.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="5" name="bamboo-a">
+      <mesh>gaia/farm_rice.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant>
+      <texture>gaia/farming_rice.png</texture>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

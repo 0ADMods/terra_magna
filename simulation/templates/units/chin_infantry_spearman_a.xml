@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/chin_infantry_spearman_b">
+  <Identity>
+    <Rank>Advanced</Rank>
+  </Identity>
+  <Promotion>
+    <Entity>units/chin_infantry_spearman_e</Entity>
+  </Promotion>
+  <Attack>
+    <Melee>
+      <Hack>7.0</Hack>
+      <Pierce>12.0</Pierce>
+    </Melee>
+    <Charge>
+      <Hack>12.0</Hack>
+      <Pierce>22.0</Pierce>
+    </Charge>
+  </Attack>
+  <Armour>
+    <Hack>5.0</Hack>
+  </Armour>
+  <UnitMotion>
+    <WalkSpeed>6.8</WalkSpeed>
+    <Run>
+      <Speed>19.8</Speed>
+    </Run>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/china/infantry_spearman_a.xml</Actor>
+  </VisualActor>
+</Entity>

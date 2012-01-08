@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_swordsman">
+  <Identity>
+    <Civ>chin</Civ>
+	<SelectionGroupName>units/chin_infantry_swordsman_b</SelectionGroupName>
+    <SpecificName>Dāo Fú Shǒu</SpecificName>
+    <History>Needs history.</History>
+    <Icon>units/chin_infantry_swordsman.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/chin_infantry_swordsman_a</Entity>
+  </Promotion>
+  <Cost>
+    <Resources>
+      <wood>60</wood>
+    </Resources>
+  </Cost>
+  <Vision>
+    <Range>88</Range>
+  </Vision>
+  <Armour>
+    <Pierce>7.0</Pierce>
+  </Armour>
+  <UnitMotion>
+    <WalkSpeed>6.8</WalkSpeed>
+    <Run>
+      <Speed>19.8</Speed>
+    </Run>
+  </UnitMotion>
+  <Attack>
+    <Melee>
+      <MaxRange>6.0</MaxRange>
+    </Melee>
+    <Charge>
+      <MaxRange>6.0</MaxRange>
+    </Charge>
+  </Attack>
+  <VisualActor>
+    <Actor>units/china/infantry_swordsman_b.xml</Actor>
+  </VisualActor>
+  <Builder>
+    <Entities datatype="tokens">
+     structures/{civ}_house
+     -structures/{civ}_mill
+     structures/{civ}_farmstead
+     structures/{civ}_field
+     structures/{civ}_corral
+     -structures/{civ}_temple
+     -structures/{civ}_market
+     structures/{civ}_civil_centre
+     structures/{civ}_barracks
+     -structures/{civ}_dock
+     structures/{civ}_scout_tower
+     structures/{civ}_outpost
+     structures/{civ}_wall
+     structures/{civ}_wall_tower
+     -structures/{civ}_wall_gate
+     -structures/{civ}_fortress
+    </Entities>
+  </Builder>
+  
+</Entity>

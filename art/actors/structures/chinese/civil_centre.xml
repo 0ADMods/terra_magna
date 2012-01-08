@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="base">
+      <animations>
+        <animation event="0.5" load="0.0" name="melee" speed="100"/>
+      </animations>
+      <mesh>structural/chin_civil.dae</mesh>
+      <props>
+      	<prop actor="props/structures/civil_centre_bamboo.xml" attachpoint="root"/>
+      	<prop actor="props/structures/decals/dirt_6x6.xml" attachpoint="root"/>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="loaded-projectile"/>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
+      </props>
+      <texture>structural/chin_struct.png</texture>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

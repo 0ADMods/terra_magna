@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Base">
+      <texture>structural/chin_struct.png</texture>
+      <props>
+        <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  
+  <group>
+  	<variant frequency="1" name="House Var-A">
+  		<mesh>structural/chin_house_a.dae</mesh>
+  	</variant>
+  	<variant frequency="1" name="House Var-B">
+  		<mesh>structural/chin_house_b.dae</mesh>
+  	</variant>
+  </group>
+  
+  <material>player_trans.xml</material>
+</actor>
