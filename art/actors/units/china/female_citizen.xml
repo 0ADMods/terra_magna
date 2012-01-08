@@ -25,10 +25,16 @@
       <mesh>skeletal/f_dress.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_female_chin.xml" attachpoint="head"/>
-        <prop actor="props/units/heads/chin_ricehat.xml" attachpoint="helmet"/>
       </props>
-      <texture>skeletal/chin_fem.png</texture>
     </variant>
+  </group>
+  <group>
+  	<variant frequency="1" name="texture-01">
+  		<texture>skeletal/chin_fem.png</texture>
+  	</variant>
+  	<variant frequency="1" name="texture-02">
+  		<texture>skeletal/chin_fem2.png</texture>
+  	</variant>
   </group>
   <group>
     <variant frequency="1" name="Idle">
@@ -45,12 +51,14 @@
     </variant>
     <variant name="gather_grain">
       <props>
+      	<prop actor="props/units/heads/chin_ricehat.xml" attachpoint="helmet"/>
         <prop actor="props/units/tools/hoe.xml" attachpoint="l_hand"/>
         <prop attachpoint="r_hand"/>
       </props>
     </variant>
     <variant name="gather_fruit">
       <props>
+      	<prop actor="props/units/heads/chin_ricehat.xml" attachpoint="helmet"/>
         <prop actor="props/units/tools/basket.xml" attachpoint="l_leg"/>
         <prop attachpoint="r_hand"/>
         <prop attachpoint="l_hand"/>
@@ -58,6 +66,7 @@
     </variant>
     <variant name="gather_meat">
       <props>
+      	<prop actor="props/units/heads/chin_ricehat.xml" attachpoint="helmet"/>
         <prop actor="props/units/tools/basket.xml" attachpoint="l_leg"/>
         <prop attachpoint="l_hand"/>
         <prop attachpoint="r_hand"/>
@@ -89,6 +98,7 @@
     </variant>
     <variant name="carry_food">
       <props>
+      	<prop actor="props/units/heads/chin_ricehat.xml" attachpoint="helmet"/>
         <prop actor="props/units/shuttle_basket_back.xml" attachpoint="back"/>
         <prop attachpoint="l_hand"/>
         <prop attachpoint="r_hand"/>
@@ -96,6 +106,7 @@
     </variant>
     <variant name="carry_meat">
       <props>
+      	<prop actor="props/units/heads/chin_ricehat.xml" attachpoint="helmet"/>
         <prop actor="props/units/shuttle_basket_back.xml" attachpoint="back"/>
         <prop attachpoint="l_hand"/>
         <prop attachpoint="r_hand"/>

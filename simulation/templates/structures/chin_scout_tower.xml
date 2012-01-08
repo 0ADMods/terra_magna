@@ -2,7 +2,7 @@
 <Entity parent="template_structure_defense_scout_tower">
   <Identity>
     <Civ>chin</Civ>
-    <SpecificName>Ta</SpecificName>
+    <SpecificName>Dū</SpecificName>
     <History></History>
   </Identity>
   <StatusBars>

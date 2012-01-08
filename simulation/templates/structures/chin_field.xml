@@ -2,7 +2,7 @@
 <Entity parent="template_structure_resource_field">
   <Identity>
     <Civ>chin</Civ>
-    <SpecificName>Shui Tien</SpecificName>
+    <SpecificName>Shuǐ Tián</SpecificName>
     <History>A rice paddy.</History>
   </Identity>
   <Cost>

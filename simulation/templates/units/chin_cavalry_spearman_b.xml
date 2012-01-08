@@ -2,7 +2,7 @@
 <Entity parent="template_unit_cavalry_melee_spearman">
   <Identity>
     <Civ>chin</Civ>
-	<SelectionGroupName>units/celt_cavalry_spearman_b</SelectionGroupName>
+	<SelectionGroupName>units/chin_cavalry_spearman_b</SelectionGroupName>
     <GenericName>Cavalry Spearman</GenericName>
     <SpecificName>Tú Qí</SpecificName>
     <History>Needs history.</History>

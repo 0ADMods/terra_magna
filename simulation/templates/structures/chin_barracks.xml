@@ -2,7 +2,7 @@
 <Entity parent="template_structure_military_barracks">
   <Identity>
     <Civ>chin</Civ>
-    <SpecificName>Bing Ying</SpecificName>
+    <SpecificName>Bīng Yíng</SpecificName>
   </Identity>
   <Cost>
     <PopulationBonus>7</PopulationBonus>

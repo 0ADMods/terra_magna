@@ -37,6 +37,7 @@
      structures/{civ}_scout_tower
      structures/{civ}_outpost
      structures/{civ}_wall
+     structures/{civ}_wall_connector
      structures/{civ}_wall_tower
      -structures/{civ}_wall_gate
      -structures/{civ}_fortress

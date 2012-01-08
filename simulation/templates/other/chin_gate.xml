@@ -2,7 +2,7 @@
 <Entity parent="template_gaia">
   <Identity>
     <Civ>gaia</Civ>
-    <SpecificName>Gate</SpecificName>
+    <SpecificName>Chéng Mén</SpecificName>
   </Identity>
   <Loot>
     <xp>1</xp>

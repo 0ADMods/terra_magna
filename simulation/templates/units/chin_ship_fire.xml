@@ -2,7 +2,7 @@
 <Entity parent="template_unit_mechanical_ship_trireme">
   <Identity>
     <Civ>chin</Civ>
-    <SpecificName>Xiāo Fáng Chuán</SpecificName>
+    <SpecificName>Chì Chuán</SpecificName>
     <History>The Fire Ships are used as kamikaze units, they are initially trained as one-manned canoes that can be set on fire which at that point they will increase speed and lose control, dealing instant destruction to enemy units on contact.</History>
     <Icon>units/chin_ship_trireme.png</Icon>
   </Identity>

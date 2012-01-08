@@ -2,7 +2,7 @@
 <Entity parent="template_structure_civic_house">
   <Identity>
     <Civ>chin</Civ>
-    <SpecificName>Fang</SpecificName>
+    <SpecificName>Wū</SpecificName>
     <History>Needs history.</History>
   </Identity>
   <Cost>

@@ -2,7 +2,7 @@
 <Entity parent="template_structure_defense_wall">
   <Identity>
     <Civ>chin</Civ>
-    <SpecificName>Yong</SpecificName>
+    <SpecificName>Yōng</SpecificName>
   </Identity>
   <Cost>
     <BuildTime>40</BuildTime>

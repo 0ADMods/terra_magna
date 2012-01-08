@@ -2,7 +2,7 @@
 <Entity parent="template_unit_mechanical_ship_fishing">
   <Identity>
     <Civ>chin</Civ>
-    <SpecificName>Yú Chuán</SpecificName>
+    <SpecificName>Yú Pái</SpecificName>
     <History>Need History</History>
     <Icon>units/celt_ship_fishing.png</Icon>
   </Identity>

@@ -2,7 +2,7 @@
 <Entity parent="template_structure_defense_outpost">
   <Identity>
     <Civ>chin</Civ>
-    <SpecificName>Chinese Outpost</SpecificName>
+    <SpecificName>Tún Bǎo</SpecificName>
     <History>*N/A*</History>
   </Identity>
 </Entity>
