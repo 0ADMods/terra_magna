@@ -1,30 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_defense_wall_tower">
+<Entity parent="template_structure_defense_wall_connecter">
   <Identity>
     <Civ>chin</Civ>
-    <GenericName>Wall Connecter</GenericName>
     <SpecificName>Yōng</SpecificName>
-    <Tooltip>Use connecters to construct fortified city walls at a lower cost than garrison-able towers.</Tooltip>
   </Identity>
   <Cost>
-    <BuildTime>40</BuildTime>
+    <BuildTime>25</BuildTime>
     <Resources>
       <stone>100</stone>
     </Resources>
   </Cost>
-  <GarrisonHolder>
-    <Max>0</Max>
-  </GarrisonHolder>
   <VisualActor>
     <Actor>structures/chinese/wall_connector.xml</Actor>
     <FoundationActor>structures/fndn_3x3.xml</FoundationActor>
   </VisualActor>
   <Footprint>
-    <Square width="10.0" depth="10.0"/>
+    <Square width="12.0" depth="12.0"/>
     <Height>18.0</Height>
   </Footprint>
   <Obstruction>
-    <Static width="8.0" depth="8.0"/>
+    <Static width="7.0" depth="7.0"/>
   </Obstruction>
   <Health>
     <Max>7500</Max>
