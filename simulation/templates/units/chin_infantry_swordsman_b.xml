@@ -46,7 +46,7 @@
      structures/{civ}_field
      structures/{civ}_corral
      -structures/{civ}_temple
-     -structures/{civ}_market
+     structures/{civ}_market
      structures/{civ}_civil_centre
      structures/{civ}_barracks
      -structures/{civ}_dock

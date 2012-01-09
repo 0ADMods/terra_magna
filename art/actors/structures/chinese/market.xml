@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Base">
+      <mesh>structural/chin_market.dae</mesh>
+      <props>
+        <prop actor="props/structures/decals/dirt_6x6.xml" attachpoint="root"/>
+      </props>
+      <texture>structural/chin_struct.png</texture>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>
