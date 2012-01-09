@@ -7,7 +7,7 @@
       <mesh>structural/chin_fishing.dae</mesh>
       <texture>structural/chin_struct.png</texture>
       <props>
-	      <prop actor="units/china/chin_fisherman.xml" attachpoint="root"/>
+	      <prop actor="units/china/chin_fisherman.xml" attachpoint="fisher"/>
       </props>
     </variant>
   </group>
@@ -16,25 +16,11 @@
     <variant name="gather_fish">
       <props>
         <prop actor="props/structures/raft_fishhalf.xml" attachpoint="root"/>
-        <prop actor="units/china/chin_fisherman.xml" attachpoint="root"/>
-      </props>
-    </variant>
-    <variant name="carry_fish">
-      <props>
-        <prop actor="props/structures/raft_fishfull.xml" attachpoint="root"/>
-        <prop actor="units/china/chin_fisherman.xml" attachpoint="root"/>
-      </props>
-    </variant>
-    <variant name="carry_meat">
-      <props>
-        <prop actor="props/structures/raft_fishfull.xml" attachpoint="root"/>
-        <prop actor="units/china/chin_fisherman.xml" attachpoint="root"/>
       </props>
     </variant>
     <variant name="carry_food">
       <props>
         <prop actor="props/structures/raft_fishfull.xml" attachpoint="root"/>
-        <prop actor="units/china/chin_fisherman.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
