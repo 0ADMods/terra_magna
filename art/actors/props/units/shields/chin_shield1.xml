@@ -11,7 +11,7 @@
       <texture>props/shield/sh_c06.dds</texture>
     </variant>
     <variant frequency="2" name="small-shield">
-      <mesh>props/chin_boardshield.dae</mesh>
+      <mesh>props/chin_shield1.dae</mesh>
       <texture>props/shield/sh_c07.png</texture>
     </variant>
   </group>
