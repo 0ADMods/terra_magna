@@ -17,6 +17,12 @@
   	<variant frequency="1" name="House Var-B">
   		<mesh>structural/chin_house_b.dae</mesh>
   	</variant>
+	<variant frequency="1" name="House Var-C">
+  		<mesh>structural/chin_house_c.dae</mesh>
+  	</variant>	
+	<variant frequency="1" name="House Var-D">
+  		<mesh>structural/chin_house_d.dae</mesh>
+  	</variant>
   </group>
   
   <material>player_trans.xml</material>
