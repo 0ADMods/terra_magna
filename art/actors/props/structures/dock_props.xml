@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="chin_dockprops">
+      <mesh>props/chin_dockprops.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant>
+      <texture>props/dockprops.png</texture>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>
