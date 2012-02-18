@@ -13,4 +13,7 @@
     <Square width="7.0" depth="16.0"/>
     <Height>8.0</Height>
   </Footprint>
+  <Position>
+    <TurnRate>2.0</TurnRate>
+  </Position>
 </Entity>
