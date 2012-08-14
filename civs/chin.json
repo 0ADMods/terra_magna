@@ -2,7 +2,7 @@
 	"Code": "chin",
 	"Name": "Chinese",
 	"Emblem": "session/portraits/emblems/emblem_chinese.png",
-	"History": "China is one of the world's oldest nations and remains one of the most powerful, dating back over 4,000 years to the present day. The origins of the empire derive from civilizations along the Yellow and Yagntze River valleys. Though China was at its peak of conquest was during the Qing Dynasty in the late 18th century AD, during our time frame it was roughly 1/4th of the size it is today, spanning across a small section of modern-day eastern China. Among the technological achievements of the Han Dynasty era that drive its reputation are the seismograph, medicinal innovations such as acupuncture and highly-disciplined educational institutions. However, perhaps the most memorable achievements of the ancient Chinese are architectural, notably the Terracotta Army and the Great Wall.",
+	"History": "China is one of the world's oldest nations and remains one of the most powerful, dating back over 4,000 years to the present day. The origins of the empire derive from civilizations along the Yellow and Yagntze River valleys. Among the technological achievements of the Han Dynasty era that drive its reputation are the seismograph, medicinal innovations such as acupuncture and highly-disciplined educational institutions. However, perhaps the most memorable achievements of the ancient Chinese are architectural, notably the Terracotta Army and the Great Wall.",
 	"Factions":
 	[
 		{
@@ -82,5 +82,33 @@
 	],
 	"StartEntities":
 	[
+		{
+			"Template": "structures/chin_civil_centre"
+		},
+		{
+			"Template": "units/chin_support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/chin_infantry_spearman_b",
+			"Count": 4
+		},
+		{
+			"Template": "units/chin_cavalry_spearman_b"
+		}
+		],
+	"Formations":
+	[
+		"Scatter",
+		"Box",
+		"Column Closed",
+		"Line Closed",
+		"Column Open",
+		"Line Open",
+		"Flank",
+		"Skirmish",
+		"Wedge",
+		"Battle Line",
+		"Phalanx"
 	]
 }

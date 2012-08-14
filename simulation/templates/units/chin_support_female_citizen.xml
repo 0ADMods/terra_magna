@@ -20,10 +20,9 @@
   </VisualActor>
   <Builder>
     <Entities datatype="tokens">
+     -structures/{civ}_dock
      -structures/{civ}_mill
-     -structures/{civ}_market
      -structures/{civ}_temple
-     -structures/{civ}_civil_centre
 	</Entities>
   </Builder>
 </Entity>

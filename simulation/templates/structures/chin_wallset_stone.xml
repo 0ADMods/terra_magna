@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defense_wallset">
+  <Identity>
+    <Civ>chin</Civ>
+    <SpecificName>Teîkhos</SpecificName>
+    <History>All Hellenic cities were surrounded by stone walls for protection against enemy raids. Some of these fortifications, like the chinian Long Walls, for example, were massive structures.</History>
+  </Identity>
+  <WallSet>
+    <Templates>
+      <Tower>structures/chin_wall_tower</Tower>
+      <Gate>structures/chin_wall</Gate>
+      <WallLong>structures/chin_wall</WallLong>
+      <WallMedium>structures/chin_wall</WallMedium>
+      <WallShort>structures/chin_wall</WallShort>
+    </Templates>
+    <MaxTowerOverlap>0.90</MaxTowerOverlap>
+    <MinTowerOverlap>0.05</MinTowerOverlap>
+  </WallSet>
+</Entity>
