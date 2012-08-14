@@ -5,7 +5,7 @@
   <group>
     <variant name="Chinese Fishing Ship">
       <mesh>structural/chin_fishing.dae</mesh>
-      <texture>structural/chin_struct.png</texture>
+      <textures><texture file="structural/chin_struct.png" name="baseTex"/></textures>
       <props>
 	      <prop actor="units/china/chin_fisherman.xml" attachpoint="fisher"/>
       </props>

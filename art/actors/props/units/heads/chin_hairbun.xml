@@ -4,7 +4,7 @@
     <variant frequency="1" name="Base">
       <colour>61 61 61</colour>
       <mesh>props/chin_hairbun.dae</mesh>
-      <texture>props/head/chin_b.png</texture>
+      <textures><texture file="props/head/chin_b.png" name="baseTex"/></textures>
     </variant>
   </group>
   <material>objectcolor.xml</material>

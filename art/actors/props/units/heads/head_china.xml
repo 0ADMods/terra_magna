@@ -23,22 +23,22 @@
 
   <group>
     <variant frequency="1" name="face-a">
-      <texture>props/head/chin_a.png</texture>
+      <textures><texture file="props/head/chin_a.png" name="baseTex"/></textures>
     </variant>
     <variant frequency="2" name="face-b">
-      <texture>props/head/chin_b.png</texture>
+      <textures><texture file="props/head/chin_b.png" name="baseTex"/></textures>
     </variant>
     <variant frequency="2" name="face-c">
-      <texture>props/head/chin_c.png</texture>
+      <textures><texture file="props/head/chin_c.png" name="baseTex"/></textures>
     </variant>
     <variant frequency="2" name="face-d">
-      <texture>props/head/chin_d.png</texture>
+      <textures><texture file="props/head/chin_d.png" name="baseTex"/></textures>
     </variant>
     <variant frequency="1" name="face-f">
-      <texture>props/head/chin_f.png</texture>
+      <textures><texture file="props/head/chin_f.png" name="baseTex"/></textures>
     </variant>
     <variant frequency="1" name="face-old">
-      <texture>props/head/chin_old.png</texture>
+      <textures><texture file="props/head/chin_old.png" name="baseTex"/></textures>
     </variant>
   </group>
 

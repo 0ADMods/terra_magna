@@ -6,7 +6,7 @@
   <group>
     <variant frequency="1" name="helmet-01">
       <mesh>props/helmet/chin_ricehat.dae</mesh>
-      <texture>props/head/chin_ricehat.png</texture>
+      <textures><texture file="props/head/chin_ricehat.png" name="baseTex"/></textures>
     </variant>
   </group>
 

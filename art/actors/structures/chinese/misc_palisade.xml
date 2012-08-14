@@ -4,7 +4,7 @@
   <group>
     <variant frequency="100" name="Base">
       <mesh>structural/chin_misc_palisade.dae</mesh>
-      <texture>gaia/bamboo.dds</texture>
+      <textures><texture file="gaia/bamboo.dds" name="baseTex"/></textures>
     </variant>
   </group>
   <material>basic_trans.xml</material>

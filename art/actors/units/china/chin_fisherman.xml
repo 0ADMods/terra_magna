@@ -18,7 +18,7 @@
   </group>
   <group>
     <variant frequency="1" name="Clothes-1">
-      <texture>skeletal/chin_iar_b.png</texture>
+      <textures><texture file="skeletal/chin_iar_b.png" name="baseTex"/></textures>
   	</variant>
   </group>
   <group>

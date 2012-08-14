@@ -5,7 +5,7 @@
       <mesh>props/shield/chin_shield1_back.dae</mesh>
     </variant>
     <variant frequency="1">
-      <texture>props/shield/chin_shield1_back.dds</texture>
+      <textures><texture file="props/shield/chin_shield1_back.dds" name="baseTex"/></textures>
     </variant>
   </group>
 </actor>

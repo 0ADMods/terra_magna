@@ -7,7 +7,7 @@
       <props>
         <prop actor="props/structures/decals/dirt_6x6.xml" attachpoint="root"/>
       </props>
-      <texture>structural/chin_struct.png</texture>
+      <textures><texture file="structural/chin_struct.png" name="baseTex"/></textures>
     </variant>
   </group>
   <material>player_trans.xml</material>

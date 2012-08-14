@@ -33,7 +33,7 @@
 
   <group>
     <variant frequency="1" name="BRider-Texture_1">
-      <texture>skeletal/chin_csp_e.png</texture>
+      <textures><texture file="skeletal/chin_csp_e.png" name="baseTex"/></textures>
     </variant>
   </group>
   

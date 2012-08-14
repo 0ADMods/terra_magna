@@ -12,13 +12,13 @@
   <Obstruction>
     <Static width="35.0" depth="35.0"/>
   </Obstruction>
-  <TrainingQueue>
+  <ProductionQueue>
     <Entities datatype="tokens">
       units/chin_infantry_spearman_b
       units/chin_infantry_archer_b
       units/chin_cavalry_spearman_b
     </Entities>
-  </TrainingQueue>
+  </ProductionQueue>
   <VisualActor>
   	<FoundationActor>structures/fndn_8x8.xml</FoundationActor>
     <Actor>structures/chinese/civil_centre.xml</Actor>

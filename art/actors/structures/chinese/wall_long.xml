@@ -4,7 +4,7 @@
   <group>
     <variant frequency="100" name="Base">
       <mesh>structural/chin_wall.dae</mesh>
-      <texture>structural/chin_wall.png</texture>
+      <textures><texture file="structural/chin_wall.png" name="baseTex"/></textures>
     </variant>
   </group>
   <material>player_trans.xml</material>

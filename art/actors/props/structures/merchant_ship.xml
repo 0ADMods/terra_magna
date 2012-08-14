@@ -8,7 +8,7 @@
       <props>
         <prop actor="props/structures/chinese/merchant_sail.xml" attachpoint="root"/>
       </props>
-      <texture>structural/chin_ship.dds</texture>
+      <textures><texture file="structural/chin_ship.dds" name="baseTex"/></textures>
     </variant>
   </group>
   <material>player_trans.xml</material>

@@ -8,8 +8,8 @@
   </group>
   <group>
     <variant>
-      <texture>gaia/farming_rice.png</texture>
+      <textures><texture file="gaia/farming_rice.png" name="baseTex"/></textures>
     </variant>
   </group>
-  <material>basic_trans.xml</material>
+  <material>basic_trans_wind.xml</material>
 </actor>

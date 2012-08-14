@@ -30,10 +30,10 @@
   </group>
   <group>
   	<variant frequency="1" name="texture-01">
-  		<texture>skeletal/chin_fem.png</texture>
+  		<textures><texture file="skeletal/chin_fem.png" name="baseTex"/></textures>
   	</variant>
   	<variant frequency="1" name="texture-02">
-  		<texture>skeletal/chin_fem2.png</texture>
+  		<textures><texture file="skeletal/chin_fem2.png" name="baseTex"/></textures>
   	</variant>
   </group>
   <group>

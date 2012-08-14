@@ -40,16 +40,16 @@
   </group>
   <group>
     <variant frequency="1" name="Clothes-1">
-      <texture>skeletal/chin_iar_e.png</texture>
+      <textures><texture file="skeletal/chin_iar_e.png" name="baseTex"/></textures>
     </variant>
     <variant frequency="0" name="Clothes-2">
-      <texture>skeletal/chin_iar_e.png</texture>
+      <textures><texture file="skeletal/chin_iar_e.png" name="baseTex"/></textures>
     </variant>
     <variant frequency="0" name="Clothes-3">
-      <texture>skeletal/chin_iar_e.png</texture>
+      <textures><texture file="skeletal/chin_iar_e.png" name="baseTex"/></textures>
     </variant>
     <variant frequency="0" name="Clothes-4">
-      <texture>skeletal/chin_iar_e.png</texture>
+      <textures><texture file="skeletal/chin_iar_e.png" name="baseTex"/></textures>
     </variant>
   </group>
   <group>

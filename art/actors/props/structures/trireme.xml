@@ -9,7 +9,7 @@
         <prop actor="props/structures/chinese/trireme_sail.xml" attachpoint="root"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
       </props>
-      <texture>structural/chin_ship.dds</texture>
+      <textures><texture file="structural/chin_ship.dds" name="baseTex"/></textures>
     </variant>
   </group>
   <material>player_trans.xml</material>

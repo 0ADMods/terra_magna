@@ -4,7 +4,7 @@
   <group>
     <variant frequency="100" name="chinese trireme sail">
       <mesh>props/chin_tri_sail.dae</mesh>
-      <texture>props/chin_sail_dragon.dds</texture>
+      <textures><texture file="props/chin_sail_dragon.dds" name="baseTex"/></textures>
     </variant>
   </group>
   <material>player_trans.xml</material>

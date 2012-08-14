@@ -5,11 +5,11 @@
     <SpecificName>Shòu Juàn</SpecificName>
     <History>A place for a farmer to pen his animals. Garrison a sheep, goat, or cow here to gain a trickle of the food resource. Garrisoning an animal here also "fattens" them so that they may be slaughtered and gathered for a quick burst of food.</History>
   </Identity>
-  <TrainingQueue>
+  <ProductionQueue>
     <Entities datatype="tokens">
       gaia/fauna_sheep
     </Entities>
-  </TrainingQueue>
+  </ProductionQueue>
   <Footprint>
     <Square width="22.0" depth="22.0"/>
     <Height>5.0</Height>

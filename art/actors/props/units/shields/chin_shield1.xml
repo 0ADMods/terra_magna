@@ -4,15 +4,15 @@
   <group>
     <variant frequency="1" name="Base">
       <mesh>props/chin_boardshield.dae</mesh>
-      <texture>props/shield/sh_c05.dds</texture>
+      <textures><texture file="props/shield/sh_c05.dds" name="baseTex"/></textures>
     </variant>
     <variant frequency="1" name="texture2">
       <mesh>props/chin_boardshield.dae</mesh>
-      <texture>props/shield/sh_c06.dds</texture>
+      <textures><texture file="props/shield/sh_c06.dds" name="baseTex"/></textures>
     </variant>
     <variant frequency="2" name="small-shield">
       <mesh>props/chin_shield1.dae</mesh>
-      <texture>props/shield/sh_c07.png</texture>
+      <textures><texture file="props/shield/sh_c07.png" name="baseTex"/></textures>
     </variant>
   </group>
   <material>basic_trans.xml</material>
