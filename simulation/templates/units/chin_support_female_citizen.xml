@@ -20,7 +20,6 @@
   </VisualActor>
   <Builder>
     <Entities datatype="tokens">
-     -structures/{civ}_dock
      -structures/{civ}_mill
      -structures/{civ}_temple
 	</Entities>
