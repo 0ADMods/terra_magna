@@ -17,6 +17,7 @@
       units/chin_infantry_spearman_b
       units/chin_infantry_archer_b
       units/chin_cavalry_spearman_b
+      units/chin_mechanical_siege_shoushe
     </Entities>
   </ProductionQueue>
   <VisualActor>

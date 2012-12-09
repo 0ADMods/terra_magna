@@ -26,7 +26,6 @@
     <Entities datatype="tokens">
      -structures/{civ}_mill
      -structures/{civ}_temple
-     -structures/{civ}_dock
      -structures/{civ}_fortress
 	</Entities>
   </Builder>

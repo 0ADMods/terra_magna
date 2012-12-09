@@ -4,8 +4,11 @@
   <group>
     <variant frequency="100" name="Base">
       <mesh>structural/chin_wall_tower.dae</mesh>
-      <textures><texture file="structural/chin_wall.png" name="baseTex"/></textures>
+      <textures>
+       <texture file="structural/chin_wall.png" name="baseTex"/>
+       <texture file="structural/chin_wall_norm.png" name="normTex"/>
+      </textures>
     </variant>
   </group>
-  <material>player_trans.xml</material>
+  <material>player_trans_parallax.xml</material>
 </actor>
