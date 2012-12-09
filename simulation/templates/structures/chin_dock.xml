@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_dock">
+  <Cost>
+    <BuildTime>275</BuildTime>
+  </Cost>
+  <Footprint>
+    <Square width="26.0" depth="30.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Health>
+    <Max>2750</Max>
+  </Health>
+  <Identity>
+    <Civ>chin</Civ>
+    <SpecificName>Bù</SpecificName>
+    <History>TBD</History>
+  </Identity>
+  <Obstruction>
+    <Static width="22.0" depth="26.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/chin_ship_fishing
+      units/chin_ship_merchant
+      units/chin_ship_trireme
+      units/chin_ship_tower
+      units/chin_ship_fire
+    </Entities>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/chinese/dock.xml</Actor>
+    <FoundationActor>structures/fndn_6x4_dock.xml</FoundationActor>
+  </VisualActor>
+</Entity>
