@@ -12,6 +12,7 @@
       	<prop actor="props/structures/decals/dirt_6x6.xml" attachpoint="root"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="loaded-projectile"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
+		<prop actor="props/structures/civic_water.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/chin_struct.png" name="baseTex"/>

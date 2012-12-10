@@ -8,6 +8,7 @@
         <prop actor="props/structures/plot_roof.xml" attachpoint="root"/>
         <prop actor="gaia/rice.xml" attachpoint="root"/>
         <prop actor="props/structures/decals/gravel_5x5.xml" attachpoint="root"/>
+		<prop actor="props/structures/rice_water.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/chin_struct.png" name="baseTex"/>
