@@ -4,7 +4,7 @@
     <Civ>chin</Civ>
     <SpecificName>Yú Pái</SpecificName>
     <History>Need History</History>
-    <Icon>units/celt_ship_fishing.png</Icon>
+    <Icon>units/chin_ship_fishing.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/chinese/fishing_ship.xml</Actor>

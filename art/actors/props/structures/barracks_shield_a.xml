@@ -8,7 +8,7 @@
   </group>
   <group>
     <variant>
-      <texture>props/shield/sh_c05.dds</texture>
+      <textures><texture file="props/shield/sh_c05.dds" name="baseTex"/></textures>
     </variant>
   </group>
   <material>basic_trans.xml</material>
