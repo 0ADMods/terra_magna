@@ -11,14 +11,6 @@
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
         <prop actor="props/structures/decals/dirt_2x2.xml" attachpoint="root"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="loaded-projectile"/>
-		<prop actor="props/units/shields/chin_shield1.xml" attachpoint="sheild" />
-		<prop actor="props/units/shields/chin_shield1.xml" attachpoint="sheild1" />
-		<prop actor="props/units/shields/chin_shield1.xml" attachpoint="sheild2" />
-		<prop actor="props/units/shields/chin_shield1.xml" attachpoint="sheild3" />
-		<prop actor="props/units/shields/chin_shield2.xml" attachpoint="sheild4" />
-		<prop actor="props/units/shields/chin_shield2.xml" attachpoint="sheild5" />
-		<prop actor="props/units/shields/chin_shield2.xml" attachpoint="sheild6" />
-		<prop actor="props/units/shields/chin_shield2.xml" attachpoint="sheild7" />
       </props>
     </variant>
   </group>
