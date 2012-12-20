@@ -9,16 +9,13 @@
     <Tooltip>Bonused vs. Infantry Swordsmen, Infantry Javelinists, and Fauna.</Tooltip>
     <Icon>units/chin_cavalry_spearman.png</Icon>
   </Identity>
-  <Promotion>
-    <Entity>chin_cavalry_spearman_e</Entity>
-  </Promotion>
   <Identity>
-    <Rank>Advanced</Rank>
+    <Rank>Elite</Rank>
   </Identity>
   <Cost>
     <Population>2</Population>
   </Cost>
   <VisualActor>
-    <Actor>units/china/cavalry_spearman_a.xml</Actor>
+    <Actor>units/china/cavalry_spearman_e.xml</Actor>
   </VisualActor>
 </Entity>

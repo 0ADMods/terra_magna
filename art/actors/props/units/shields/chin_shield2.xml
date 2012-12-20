@@ -2,10 +2,6 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Base">
-      <mesh>props/chin_boardshield.dae</mesh>
-      <textures><texture file="props/shield/sh_c01.dds" name="baseTex"/></textures>
-    </variant>
     <variant frequency="1" name="texture2">
       <mesh>props/chin_boardshield.dae</mesh>
       <textures><texture file="props/shield/sh_c02.dds" name="baseTex"/></textures>

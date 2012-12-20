@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_fortress">
+  <Cost>
+    <BuildTime>462</BuildTime>
+  </Cost>
+  <Footprint>
+    <Square width="26.0" depth="28.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Health>
+    <Max>4620</Max>
+  </Health>
+  <Identity>
+    <Civ>chin</Civ>
+    <SpecificName>Chéng Bǎo</SpecificName>
+    <Tooltip>Build siege engines. Garrison up to 15 soldiers inside for stout defense.</Tooltip>
+    <History>(History goes here.)</History>
+  </Identity>
+  <Obstruction>
+    <Static width="24.0" depth="26.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/chin_mechanical_siege_shoushe
+    </Entities>
+    <Technologies datatype="tokens">
+      -pair_champ_02
+    </Technologies>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/athenians/fortress_up.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -3,9 +3,9 @@
   <Identity>
     <Rank>Advanced</Rank>
   </Identity>
-  <!--<Promotion>
+  <Promotion>
     <Entity>units/chin_infantry_swordsman_e</Entity>
-  </Promotion>-->
+  </Promotion>
   <Attack>
     <Melee>
       <Hack>7.0</Hack>
@@ -21,6 +21,6 @@
     <Pierce>7.0</Pierce>
   </Armour>
   <VisualActor>
-    <Actor>units/china/infantry_swordsman_b.xml</Actor>
+    <Actor>units/china/infantry_swordsman_a.xml</Actor>
   </VisualActor>
 </Entity>

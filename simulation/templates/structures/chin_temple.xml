@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_temple">
+  <Cost>
+    <BuildTime>220</BuildTime>
+  </Cost>
+  <Footprint>
+    <Square width="19.0" depth="31.5"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <Health>
+    <Max>2200</Max>
+  </Health>
+  <Identity>
+    <Civ>chin</Civ>
+    <SpecificName>Miào Yǔ</SpecificName>
+    <History>(History goes here.)</History>
+  </Identity>
+  <Obstruction>
+    <Static width="17.5" depth="30.0"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/athenians/temple.xml</Actor>
+    <FoundationActor>props/special/eyecandy/greek_temple_unfinished.xml</FoundationActor>
+  </VisualActor>
+</Entity>

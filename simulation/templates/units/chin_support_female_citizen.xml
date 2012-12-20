@@ -18,10 +18,4 @@
   <VisualActor>
     <Actor>units/china/female_citizen.xml</Actor>
   </VisualActor>
-  <Builder>
-    <Entities datatype="tokens">
-     -structures/{civ}_mill
-     -structures/{civ}_temple
-	</Entities>
-  </Builder>
 </Entity>
