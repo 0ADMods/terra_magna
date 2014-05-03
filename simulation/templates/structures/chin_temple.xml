@@ -4,7 +4,7 @@
     <BuildTime>220</BuildTime>
   </Cost>
   <Footprint>
-    <Square width="19.0" depth="31.5"/>
+    <Square width="19.0" depth="28"/>
     <Height>12.0</Height>
   </Footprint>
   <Health>
@@ -16,7 +16,7 @@
     <History>(History goes here.)</History>
   </Identity>
   <Obstruction>
-    <Static width="17.5" depth="30.0"/>
+    <Static width="17.5" depth="27"/>
   </Obstruction>
   <VisualActor>
     <Actor>structures/athenians/temple.xml</Actor>
