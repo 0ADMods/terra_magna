@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_healer">
+  <Identity>
+    <Civ>chin</Civ>
+    <SelectionGroupName>units/chin_support_healer_b</SelectionGroupName>
+    <SpecificName>Rú</SpecificName>
+    <History>Scholar who studies the ideology of Confucius.</History>
+    <Icon>units/hele_support_healer.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/athenians/healer.xml</Actor>
+  </VisualActor>
+</Entity>
