@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_gaia">
+<Entity parent="template_structure_defense_wall_gate">
+  <Footprint>
+    <Square width="22.0" depth="22.0"/>
+    <Height>5.0</Height>
+  </Footprint>
   <Identity>
     <Civ>gaia</Civ>
     <SpecificName>Chéng Mén</SpecificName>
@@ -9,14 +13,15 @@
     <wood>50</wood>
     <stone>100</stone>
   </Loot>
+  <Obstruction>
+	<Obstructions>
+      <!-- TODO does not really apply to the current model -->
+      <Right width="12" depth="6.5" x="12.5" z="0"/>
+      <Left width="12" depth="6.5" x="-12.5" z="0"/>
+      <Door width="13" depth="6.5" x="0" z="0"/>
+    </Obstructions>
+  </Obstruction>
   <VisualActor>
     <Actor>structures/chinese/misc_gate.xml</Actor>
   </VisualActor>
-  <Footprint>
-    <Square width="22.0" depth="22.0"/>
-    <Height>5.0</Height>
-  </Footprint>
-  <Obstruction>
-    <Static width="12.0" depth="5.0"/>
-  </Obstruction>
 </Entity>

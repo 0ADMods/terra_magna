@@ -3,6 +3,9 @@
   <BuildRestrictions>
     <Category>Special</Category>
   </BuildRestrictions>
+  <Health>
+    <Max>200000</Max>
+  </Health>
   <Identity>
     <Civ>gaia</Civ>
     <SpecificName>Bridge</SpecificName>
