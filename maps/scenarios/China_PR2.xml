@@ -65,7 +65,7 @@
 ]]></ScriptSettings>
 	<Entities>
 		<Entity uid="12">
-			<Template>actor|structures/hellenes/wall_med.xml</Template>
+			<Template>actor|structures/hellenes/wall_medium.xml</Template>
 			<Position x="281.35361" z="398.47458"/>
 			<Orientation y="-2.38677"/>
 		</Entity>
@@ -75,32 +75,32 @@
 			<Orientation y="-2.4191"/>
 		</Entity>
 		<Entity uid="17">
-			<Template>actor|structures/hellenes/wall_turret.xml</Template>
+			<Template>actor|structures/hellenes/wall_tower.xml</Template>
 			<Position x="222.78557" z="404.28306"/>
 			<Orientation y="-2.41517"/>
 		</Entity>
 		<Entity uid="18">
-			<Template>actor|structures/hellenes/wall_med.xml</Template>
+			<Template>actor|structures/hellenes/wall_medium.xml</Template>
 			<Position x="328.38523" z="362.37168"/>
 			<Orientation y="-2.80945"/>
 		</Entity>
 		<Entity uid="19">
-			<Template>actor|structures/hellenes/wall_med.xml</Template>
+			<Template>actor|structures/hellenes/wall_medium.xml</Template>
 			<Position x="263.22901" z="420.14924"/>
 			<Orientation y="-2.16175"/>
 		</Entity>
 		<Entity uid="20">
-			<Template>actor|structures/hellenes/wall_turret.xml</Template>
+			<Template>actor|structures/hellenes/wall_tower.xml</Template>
 			<Position x="270.06733" z="408.15656"/>
 			<Orientation y="-2.25911"/>
 		</Entity>
 		<Entity uid="21">
-			<Template>actor|structures/hellenes/wall_turret.xml</Template>
+			<Template>actor|structures/hellenes/wall_tower.xml</Template>
 			<Position x="255.13563" z="431.10453"/>
 			<Orientation y="-2.03425"/>
 		</Entity>
 		<Entity uid="22">
-			<Template>actor|structures/hellenes/wall_turret.xml</Template>
+			<Template>actor|structures/hellenes/wall_tower.xml</Template>
 			<Position x="341.97761" z="357.83191"/>
 			<Orientation y="-3.07975"/>
 		</Entity>
@@ -160,7 +160,7 @@
 			<Orientation y="1.83301"/>
 		</Entity>
 		<Entity uid="49">
-			<Template>actor|structures/hellenes/mill.xml</Template>
+			<Template>actor|structures/hellenes/storehouse.xml</Template>
 			<Position x="255.57766" z="413.36777"/>
 			<Orientation y="2.41311"/>
 		</Entity>
@@ -785,7 +785,7 @@
 			<Orientation y="2.35621"/>
 		</Entity>
 		<Entity uid="227">
-			<Template>actor|structures/hellenes/mill.xml</Template>
+			<Template>actor|structures/hellenes/storehouse.xml</Template>
 			<Position x="318.12153" z="474.35145"/>
 			<Orientation y="-0.65069"/>
 		</Entity>
@@ -830,7 +830,7 @@
 			<Orientation y="-0.8517"/>
 		</Entity>
 		<Entity uid="236">
-			<Template>actor|structures/hellenes/wall_med.xml</Template>
+			<Template>actor|structures/hellenes/wall_medium.xml</Template>
 			<Position x="245.0615" z="453.57175"/>
 			<Orientation y="-2.09971"/>
 		</Entity>
@@ -885,7 +885,7 @@
 			<Orientation y="2.35621"/>
 		</Entity>
 		<Entity uid="261">
-			<Template>actor|structures/hellenes/wall_turret.xml</Template>
+			<Template>actor|structures/hellenes/wall_tower.xml</Template>
 			<Position x="239.98772" z="459.84058"/>
 			<Orientation y="-1.97165"/>
 		</Entity>

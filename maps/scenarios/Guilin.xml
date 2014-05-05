@@ -49,7 +49,7 @@
       "Team": -1
     },
     {
-      "AI": "qbot",
+      "AI": "aegis",
       "Civ": "chin",
       "Colour": {
         "b": 20,
@@ -60,7 +60,7 @@
       "Team": -1
     },
     {
-      "AI": "qbot",
+      "AI": "aegis",
       "Civ": "chin",
       "Colour": {
         "b": 5,
@@ -172,19 +172,19 @@
 			<Orientation y="-1.36764"/>
 		</Entity>
 		<Entity uid="36">
-			<Template>structures/chin_wall_connector</Template>
+			<Template>structures/chin_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="419.22892" z="673.26648"/>
 			<Orientation y="1.64762"/>
 		</Entity>
 		<Entity uid="37">
-			<Template>structures/chin_wall_connector</Template>
+			<Template>structures/chin_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="465.60825" z="751.40333"/>
 			<Orientation y="2.35621"/>
 		</Entity>
 		<Entity uid="38">
-			<Template>structures/chin_wall_connector</Template>
+			<Template>structures/chin_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="509.37833" z="738.35578"/>
 			<Orientation y="-1.58158"/>
@@ -214,25 +214,25 @@
 			<Orientation y="2.00586"/>
 		</Entity>
 		<Entity uid="43">
-			<Template>structures/chin_wall</Template>
+			<Template>structures/chin_wall_long</Template>
 			<Player>1</Player>
 			<Position x="418.42527" z="659.12269"/>
 			<Orientation y="1.65075"/>
 		</Entity>
 		<Entity uid="44">
-			<Template>structures/chin_wall</Template>
+			<Template>structures/chin_wall_long</Template>
 			<Player>1</Player>
 			<Position x="420.68165" z="688.45905"/>
 			<Orientation y="1.64798"/>
 		</Entity>
 		<Entity uid="45">
-			<Template>structures/chin_wall_connector</Template>
+			<Template>structures/chin_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="436.4112" z="724.71564"/>
 			<Orientation y="2.36709"/>
 		</Entity>
 		<Entity uid="46">
-			<Template>structures/chin_wall</Template>
+			<Template>structures/chin_wall_long</Template>
 			<Player>1</Player>
 			<Position x="428.55485" z="712.90778"/>
 			<Orientation y="2.22129"/>
@@ -256,13 +256,13 @@
 			<Orientation y="-2.44343"/>
 		</Entity>
 		<Entity uid="50">
-			<Template>structures/chin_wall</Template>
+			<Template>structures/chin_wall_long</Template>
 			<Player>1</Player>
 			<Position x="475.2671" z="761.21094"/>
 			<Orientation y="2.35621"/>
 		</Entity>
 		<Entity uid="51">
-			<Template>structures/chin_wall</Template>
+			<Template>structures/chin_wall_long</Template>
 			<Player>1</Player>
 			<Position x="498.00641" z="768.28754"/>
 			<Orientation y="-3.0789"/>
@@ -274,7 +274,7 @@
 			<Orientation y="-3.12856"/>
 		</Entity>
 		<Entity uid="53">
-			<Template>structures/chin_wall</Template>
+			<Template>structures/chin_wall_long</Template>
 			<Player>1</Player>
 			<Position x="510.016" z="752.5448"/>
 			<Orientation y="-1.53927"/>
@@ -310,25 +310,25 @@
 			<Orientation y="1.56798"/>
 		</Entity>
 		<Entity uid="59">
-			<Template>structures/chin_wall</Template>
+			<Template>structures/chin_wall_long</Template>
 			<Player>1</Player>
 			<Position x="510.02277" z="724.95197"/>
 			<Orientation y="-1.54844"/>
 		</Entity>
 		<Entity uid="66">
-			<Template>structures/chin_wall</Template>
+			<Template>structures/chin_wall_long</Template>
 			<Player>1</Player>
 			<Position x="544.54407" z="630.39795"/>
 			<Orientation y="1.61196"/>
 		</Entity>
 		<Entity uid="67">
-			<Template>structures/chin_wall_connector</Template>
+			<Template>structures/chin_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="544.33265" z="617.78962"/>
 			<Orientation y="-3.131"/>
 		</Entity>
 		<Entity uid="68">
-			<Template>structures/chin_wall</Template>
+			<Template>structures/chin_wall_long</Template>
 			<Player>1</Player>
 			<Position x="543.15333" z="604.24128"/>
 			<Orientation y="1.69753"/>
@@ -364,55 +364,55 @@
 			<Orientation y="-0.12774"/>
 		</Entity>
 		<Entity uid="75">
-			<Template>structures/chin_wall</Template>
+			<Template>structures/chin_wall_long</Template>
 			<Player>1</Player>
 			<Position x="529.35468" z="552.09668"/>
 			<Orientation y="1.99787"/>
 		</Entity>
 		<Entity uid="76">
-			<Template>structures/chin_wall_connector</Template>
+			<Template>structures/chin_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="526.57441" z="544.74695"/>
 			<Orientation y="-2.68802"/>
 		</Entity>
 		<Entity uid="77">
-			<Template>structures/chin_wall</Template>
+			<Template>structures/chin_wall_long</Template>
 			<Player>1</Player>
 			<Position x="523.68403" z="538.91584"/>
 			<Orientation y="2.01841"/>
 		</Entity>
 		<Entity uid="78">
-			<Template>structures/chin_wall</Template>
+			<Template>structures/chin_wall_long</Template>
 			<Player>1</Player>
 			<Position x="504.06058" z="524.95783"/>
 			<Orientation y="3.0067"/>
 		</Entity>
 		<Entity uid="79">
-			<Template>structures/chin_wall_connector</Template>
+			<Template>structures/chin_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="489.41321" z="522.78467"/>
 			<Orientation y="2.98121"/>
 		</Entity>
 		<Entity uid="80">
-			<Template>structures/chin_wall</Template>
+			<Template>structures/chin_wall_long</Template>
 			<Player>1</Player>
 			<Position x="478.89167" z="521.54737"/>
 			<Orientation y="3.01035"/>
 		</Entity>
 		<Entity uid="81">
-			<Template>structures/chin_wall</Template>
+			<Template>structures/chin_wall_long</Template>
 			<Player>1</Player>
 			<Position x="452.70514" z="524.70453"/>
 			<Orientation y="-2.92074"/>
 		</Entity>
 		<Entity uid="82">
-			<Template>structures/chin_wall</Template>
+			<Template>structures/chin_wall_long</Template>
 			<Player>1</Player>
 			<Position x="439.53562" z="539.40412"/>
 			<Orientation y="-1.6945"/>
 		</Entity>
 		<Entity uid="83">
-			<Template>structures/chin_wall_connector</Template>
+			<Template>structures/chin_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="437.73975" z="549.85334"/>
 			<Orientation y="2.9286"/>
@@ -424,7 +424,7 @@
 			<Orientation y="-1.8624"/>
 		</Entity>
 		<Entity uid="85">
-			<Template>structures/chin_wall</Template>
+			<Template>structures/chin_wall_long</Template>
 			<Player>1</Player>
 			<Position x="416.16446" z="598.07288"/>
 			<Orientation y="-2.34606"/>
