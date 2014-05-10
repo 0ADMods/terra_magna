@@ -59,7 +59,8 @@ time being, you'll need to run the game via the command line (or on UNIX,
 Terminal). Where "china" is the name of the mod folder or archive:
 
 Windows: ./pyrogenesis.exe -mod=china
-UNIX: ./pyrogenesis_dbg -mod=china
+
+UNIX: ./pyrogenesis -mod=china
 
 Alternatively, you may rename your 'china' folder to 'internal' in the interim and
 the game will load the data automatically. If you have any issues, please contact

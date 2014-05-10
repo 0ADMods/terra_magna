@@ -1,6 +1,7 @@
 {
 	"Code": "chin",
 	"Name": "Chinese",
+	"Culture": "chin",
 	"Emblem": "session/portraits/emblems/emblem_chinese.png",
 	"History": "China is one of the world's oldest nations and remains one of the most powerful, dating back over 4,000 years to the present day. The origins of the empire derive from civilizations along the Yellow and Yagntze River valleys. Among the technological achievements of the Han Dynasty era that drive its reputation are the seismograph, medicinal innovations such as acupuncture and highly-disciplined educational institutions. However, perhaps the most memorable achievements of the ancient Chinese are architectural, notably the Terracotta Army and the Great Wall.",
 	"Factions":
