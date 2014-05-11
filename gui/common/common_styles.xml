@@ -82,7 +82,11 @@
 
 	<style name="TitleText"
 		font="sans-bold-stroke-14"
+<<<<<<< HEAD
 		textcolor="white"
+=======
+		textcolor="bluechinese"
+>>>>>>> 6ae3adc62bcb85ff482480196ad6d01df7bc172c
 		text_align="center"
 		text_valign="center"
 	/>
