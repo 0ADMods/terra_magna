@@ -25,7 +25,7 @@
       </animations>
       <mesh>skeletal/horse.pmd</mesh>
       <props>
-        <prop actor="units/seleucids/cavalry_archer_b_r.xml" attachpoint="rider"/>
+        <prop actor="units/china/cavalry_archer_b_r.xml" attachpoint="rider"/>
         <prop actor="props/units/horse/horse_chest_colorband.xml" attachpoint="chest"/>
       </props>
     </variant>
