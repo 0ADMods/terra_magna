@@ -15,19 +15,26 @@
       </animations>
       <mesh>skeletal/m_pants_celt.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_pers_a.xml" attachpoint="head"/>
-        <prop actor="props/units/heads/pers_conical_plume.xml" attachpoint="helmet"/>
-        <prop actor="props/units/shields/pers_back_curved_iron.xml" attachpoint="back"/>
+        <prop actor="props/units/heads/head_china.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/bow_recurve.xml" attachpoint="l_hand"/>
         <prop actor="props/units/weapons/arrow_back.xml" attachpoint="loaded-r_hand"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
-        <prop actor="props/units/pers_quiver_hip.xml" attachpoint="l_hip"/>
+       <prop actor="props/temp/quiver.xml" attachpoint="back"/>
       </props>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Scale-Iron">
-      <textures><texture file="skeletal/pers_su1_anusiya_iron.dds" name="baseTex"/></textures>
+    <variant frequency="1" name="Clothes-1">
+      <textures><texture file="skeletal/chin_iar_e.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="0" name="Clothes-2">
+      <textures><texture file="skeletal/chin_iar_e.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="0" name="Clothes-3">
+      <textures><texture file="skeletal/chin_iar_e.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="0" name="Clothes-4">
+      <textures><texture file="skeletal/chin_iar_e.png" name="baseTex"/></textures>
     </variant>
   </group>
   <group>
