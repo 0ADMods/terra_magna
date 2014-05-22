@@ -32,13 +32,13 @@
   </group>
   <group>
     <variant name="horse-texture-1">
-      <textures><texture file="skeletal/chin_iar_a.png" name="baseTex"/></textures>
+      <textures><texture file="skeletal/horse_celt_dapple_a.dds" name="baseTex"/></textures>
     </variant>
     <variant name="horse-texture-2">
-      <textures><texture file="skeletal/chin_iar_a.png" name="baseTex"/></textures>
+      <textures><texture file="skeletal/horse_celt_dapple_a.dds" name="baseTex"/></textures>
     </variant>
     <variant name="horse-texture-3">
-      <textures><texture file="skeletal/chin_iar_a.png" name="baseTex"/></textures>
+      <textures><texture file="skeletal/horse_celt_dapple_a.dds" name="baseTex"/></textures>
     </variant>
   </group>
   <group>
