@@ -1,0 +1,9 @@
+{
+	"name": "han_china",
+	"label": "0 A.D. Iron Age Extension.",
+	"url": "sciondevelopment.com",
+	"description": "Adds the Iron Age Han dynasty of the Chinese civilization to 0A.D.",
+	"dependencies": ["0ad"],
+	"total_size": 130000,
+	"type": "content.civilization"
+}
