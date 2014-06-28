@@ -17,7 +17,7 @@
     </Charge>
   </Attack>
   <Armour>
-    <Hack>5.0</Hack>
+    <Hack>4.0</Hack>
   </Armour>
   <UnitMotion>
     <WalkSpeed>6.8</WalkSpeed>
