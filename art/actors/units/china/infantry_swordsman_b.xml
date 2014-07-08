@@ -43,7 +43,7 @@
   </group>
   <group>
     <variant frequency="1" name="Clothes-1">
-      <textures><texture file="skeletal/chin_isw_b.png" name="baseTex"/></textures>
+      <textures><texture file="skeletal/chin_isp_b.png" name="baseTex"/></textures>
     </variant>
   </group>
   <group>
