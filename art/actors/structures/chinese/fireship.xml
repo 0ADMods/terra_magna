@@ -5,7 +5,7 @@
   <group>
     <variant name="Chinese Fire Ship">
       <mesh>structural/chin_fireship.dae</mesh>
-      <textures><texture file="structural/chin_ship.dds" name="baseTex"/></textures>
+      <textures><texture file="structural/chin_ship.png" name="baseTex"/></textures>
       <props>
         <prop actor="particle/bigflame.xml" attachpoint="root"/>
       </props>
