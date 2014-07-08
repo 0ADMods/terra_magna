@@ -28,6 +28,6 @@
     </Technologies>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/athenians/fortress_up.xml</Actor>
+    <Actor>structures/chinese/fortress.xml</Actor>
   </VisualActor>
 </Entity>
