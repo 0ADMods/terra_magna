@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="100" name="Base">
-      <mesh>structural/chin_wall.dae</mesh>
+      <mesh>structural/chin_wall_medium.dae</mesh>
       <textures>
        <texture file="structural/chin_wall.png" name="baseTex"/>
        <texture file="structural/chin_wall_norm.png" name="normTex"/>
