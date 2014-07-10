@@ -4,7 +4,7 @@
     <Civ>chin</Civ>
     <SpecificName>Zhuàng Chuán</SpecificName>
     <History>Serves to effectively take out buildings and larger enemy ships effectively at close range. Without a ranged attack, however, it is disadvantaged against siege projectiles and must be accompanied by ranged allies to approach enemy ships.</History>
-    <Icon>units/chin_ship_trireme.png</Icon>
+    <Icon>units/chin_ship_bireme.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/chinese/bireme.xml</Actor>
