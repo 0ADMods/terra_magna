@@ -27,6 +27,14 @@
       units/chin_infantry_archer_b
       units/chin_infantry_spearman_b
       units/chin_infantry_swordsman_b
+      units/chin_cavalry_spearman_b
+      units/chin_cavalry_swordsman_b
+      units/chin_cavalry_archer_b	  
     </Entities>
+    <Technologies datatype="tokens">
+	  upgrade_rank_advanced_infantry
+	  upgrade_rank_advanced_cavalry
+	  upgrade_rank_elite_cavalry
+    </Technologies>
   </ProductionQueue>
 </Entity>
