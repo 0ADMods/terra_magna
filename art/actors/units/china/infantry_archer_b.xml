@@ -65,7 +65,7 @@
     </variant>
     <variant name="attack_slaughter">
       <props>
-          <prop actor="props/units/tools/knife.xml" attachpoint="r_hand">
+          <prop actor="props/units/tools/tool_knife.xml" attachpoint="r_hand">
           </prop>
       </props>
     </variant>
