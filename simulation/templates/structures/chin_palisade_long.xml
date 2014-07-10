@@ -11,7 +11,7 @@
     </Resources>
   </Cost>
   <VisualActor>
-    <Actor>structures/chinese/misc_palisade.xml</Actor>
+    <Actor>structures/chinese/palisade_long.xml</Actor>
   </VisualActor>
   <Footprint>
     <Square width="17.0" depth="3.0"/>
