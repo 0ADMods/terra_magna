@@ -19,7 +19,7 @@
         <prop actor="props/units/weapons/bow_recurve.xml" attachpoint="l_hand"/>
         <prop actor="props/units/weapons/arrow_back.xml" attachpoint="loaded-r_hand"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
-       <prop actor="props/temp/quiver.xml" attachpoint="back"/>
+        <prop actor="props/units/quiver_back.xml" attachpoint="back"/>
       </props>
     </variant>
   </group>
