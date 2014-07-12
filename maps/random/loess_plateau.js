@@ -546,6 +546,5 @@ for (var i = 0; i < types.length; ++i)
 
 setWaterColour(0.51, 0.6, 0.4);		
 setWaterTint(0.45, 0.53, 0.4);		
-setWaterReflectionTint(0.447, 0.492, 0.382);	
 // Export map data
 ExportMap();
