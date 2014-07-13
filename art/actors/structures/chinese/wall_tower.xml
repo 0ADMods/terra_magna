@@ -7,6 +7,8 @@
       <props>
         <prop actor="structures/chinese/wall_gutter.xml"  attachpoint="gutter001"/>
         <prop actor="structures/chinese/wall_gutter.xml"  attachpoint="gutter002"/>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="loaded-projectile"/>
       </props>
       <textures>
         <texture file="structural/chin_struct.png" name="baseTex"/>
@@ -14,6 +16,14 @@
         <texture file="structural/chin_struct_spec.png" name="specTex"/>
 		<texture file="structural/ao/chin_wall_tower_ao.png" name="aoTex"/>
       </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="Idle"/>
+    <variant name="garrisoned">
+      <props>
+        <prop actor="props/special/common/garrison_flag_chin.xml" attachpoint="flag"/>
+      </props>
     </variant>
   </group>
   <material>player_trans_parallax_spec.xml</material>
