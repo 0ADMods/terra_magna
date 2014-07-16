@@ -1,0 +1,11 @@
+{
+	"settings" : {
+		"Name" : "Leoss Plateau",
+		"Script" : "loess_plateau.js",
+		"Description" : "Players start in the opposite sides of the map as rivers flow between them.",
+		"BaseTerrain" : ["temp_grass", "temp_grass_c"],
+		"BaseHeight" : 1,
+		"CircularMap" : true,
+		"XXXXXX" : "Optionally define other things here, like we would for a scenario"
+	}
+}
