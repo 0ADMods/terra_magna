@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defense_wall">
+  <Identity>
+    <Civ>chin</Civ>
+    <SpecificName>Jiàn</SpecificName>
+  </Identity>
+  <Cost>
+    <BuildTime>10</BuildTime>
+    <Resources>
+      <wood>30</wood>
+    </Resources>
+  </Cost>
+  <VisualActor>
+    <Actor>structures/chinese/palisade_long.xml</Actor>
+  </VisualActor>
+  <Footprint>
+    <Square width="17.0" depth="3.0"/>
+    <Height>7.0</Height>
+  </Footprint>
+  <Obstruction>
+    <Static width="15.0" depth="2.0"/>
+  </Obstruction>
+</Entity>

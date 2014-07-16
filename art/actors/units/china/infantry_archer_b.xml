@@ -34,7 +34,7 @@
       <props>
         <prop actor="props/units/heads/head_china.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/chin_rcrossbow.xml" attachpoint="l_hand"/>
-        <prop actor="props/temp/quiver.xml" attachpoint="back"/>
+        <prop actor="props/units/quiver_back.xml" attachpoint="back"/>
       </props>
     </variant>
   </group>
@@ -65,7 +65,7 @@
     </variant>
     <variant name="attack_slaughter">
       <props>
-          <prop actor="props/units/tools/knife.xml" attachpoint="r_hand">
+          <prop actor="props/units/tools/tool_knife.xml" attachpoint="r_hand">
           </prop>
       </props>
     </variant>

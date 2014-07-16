@@ -2,7 +2,7 @@
 <actor version="1">
   <group>
     <variant>
-      <mesh>structural/chin_market_water_new.dae</mesh>
+      <mesh>structural/chin_market_water.dae</mesh>
       <textures>
         <texture file="props/gardens_turf.png" name="baseTex"/>
       </textures>

@@ -15,19 +15,22 @@
   </group>
   
   <group>
-  	<variant frequency="1" name="House Var-A">
+  	<variant frequency="25" name="House Var-A">
   		<mesh>structural/chin_house_a.dae</mesh>
   	</variant>
-  	<variant frequency="1" name="House Var-B">
+  	<variant frequency="25" name="House Var-B">
   		<mesh>structural/chin_house_b.dae</mesh>
+		<textures>
+			<texture file="structural/ao/house_b_ao.png" name="aoTex"/>		
+		</textures>		
   	</variant>
-	<variant frequency="1" name="House Var-C">
+	<variant frequency="25" name="House Var-C">
   		<mesh>structural/chin_house_c.dae</mesh>
   	</variant>	
-	<variant frequency="1" name="House Var-D">
+	<variant frequency="25" name="House Var-D">
   		<mesh>structural/chin_house_d.dae</mesh>
   	</variant>
   </group>
   
-  <material>player_trans_parallax_spec.xml</material>
+  <material>player_trans_ao_parallax_spec.xml</material>
 </actor>

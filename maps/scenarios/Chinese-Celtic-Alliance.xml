@@ -45,20 +45,39 @@
     "alpine_dirt_grass_50"
   ],
   "CircularMap": true,
-  "Description": "High mountains separating the enemies.\n\nThe Pyrenees is a great mountain range located between modern France and Spain.",
+  "Description": "The world has stopped. We were surprised by Iberians. They set our ships on fire. Our last remnants face an army which takes no end at the horizon.
+\n\n
+At the other side of the mountains our Celtic friends asked our envoy for help. We have a settlement there too. We had a settlement there. We currently wonder which part of our settlement was hit the most. We have sent all troups we could spare to our celtic neighbours.
+\n\n
+Now we have only a handful civilians which we forced to fight - and the royal guard of our leader. We can use them for other purposes now. Yesterday our leader got lost on the battlefield.
+\n\n
+You may ask what we have done? But we ask You. What should we do now?\n\n\n
+Map base information: High mountains separating the enemies.\n\nThe Pyrenees is a great mountain range located between modern France and Spain.",
   "GameType": "conquest",
   "Keywords": [],
   "LockTeams": false,
-  "Name": "Pyrenean Sierra",
+  "Name": "Chinese Celtic Confederation's Council: Courageous Call",
   "PlayerData": [
     {
-      "Civ": "athen"
+      "AI": "",
+      "Civ": "chin",
+      "Name": "Chinese Remnants",
+      "Team": 1
     },
     {
-      "Civ": "cart"
+      "AI": "",
+      "Civ": "cart",
+      "Name": "Carthaginian Interlopers",
+      "Team": 0
     },
     {
+      "AI": "PetraAI",
       "Civ": "celt",
+      "Colour": {
+        "b": 200,
+        "g": 80,
+        "r": 80
+      },
       "StartingCamera": {
         "Position": {
           "x": 387.165,
@@ -70,10 +89,19 @@
           "y": 12.863,
           "z": 0.00000306513
         }
-      }
+      },
+      "Name": "Northern Celts",
+      "Team": 1
     },
+
     {
+      "AI": "PetraAI",
       "Civ": "iber",
+      "Colour": {
+        "b": 80,
+        "g": 200,
+        "r": 80
+      },
       "StartingCamera": {
         "Position": {
           "x": 217.066,
@@ -86,19 +114,50 @@
           "z": 0.00000306513
         }
       },
+      "Name": "Iberian Interlopers",
+      "Team": 0
+    },
+      
+    {
+      "AI": "PetraAI",
+      "Civ": "chin",
+      "Colour": {
+        "b": 100,
+        "g": 40,
+        "r": 40
+      },
+      "StartingCamera": {
+        "Position": {
+          "x": 387.165,
+          "y": 14.39,
+          "z": 199.179
+        },
+        "Rotation": {
+          "x": 35,
+          "y": 12.863,
+          "z": 0.00000306513
+        }
+      },
+      "Name": "Chinese Remnants West",
+      "Team": 1
+    },
+    {
+      "AI": "",
+      "Civ": "pers",
+      "Name": "Persians",
       "Team": 0
     },
     {
-      "Civ": "chin"
+      "AI": "",
+      "Civ": "chin",
+      "Name": "Chinese Remnants East",
+      "Team": 1
     },
     {
-      "Civ": "pers"
-    },
-    {
-      "Civ": "chin"
-    },
-    {
-      "Civ": "spart"
+      "AI": "",
+      "Civ": "spart",
+      "Name": "Spartan mercenaries",
+      "Team": 0
     }
   ],
   "Preview": "pyrenean_sierra.png",

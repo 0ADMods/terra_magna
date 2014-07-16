@@ -17,7 +17,7 @@
     </Charge>
   </Attack>
   <Armour>
-    <Hack>14.0</Hack>
+    <Pierce>14.0</Pierce>
   </Armour>
   <VisualActor>
     <Actor>units/china/infantry_swordsman_e.xml</Actor>

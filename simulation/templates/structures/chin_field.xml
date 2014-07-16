@@ -27,7 +27,6 @@
   </Obstruction>
   <ResourceSupply>
     <KillBeforeGather>false</KillBeforeGather>
-    <Amount>10000</Amount>
     <Type>food.grain</Type>
   </ResourceSupply>
 </Entity>

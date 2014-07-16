@@ -25,9 +25,11 @@
     </Entities>
     <Technologies datatype="tokens">
       -pair_champ_02
+      pair_siege_attack_cost
+      pair_siege_cost_armor	  
     </Technologies>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/athenians/fortress_up.xml</Actor>
+    <Actor>structures/chinese/fortress.xml</Actor>
   </VisualActor>
 </Entity>
