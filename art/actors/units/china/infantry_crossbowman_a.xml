@@ -51,7 +51,6 @@
     <variant name="attack_ranged">
       <props>
         <prop actor="props/units/weapons/arrow_back.xml" attachpoint="loaded-r_hand"/>	  
-        <prop actor="props/units/weapons/bow_bamboo_long.xml" attachpoint="l_hand"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
         <prop actor="props/units/weapons/chin_rcrossbow.xml" attachpoint="l_hand"/>
         <prop actor="props/units/quiver_hip.xml" attachpoint="l_hip"/>
