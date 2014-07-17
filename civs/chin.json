@@ -7,7 +7,7 @@
 	"Factions":
 	[
 		{
-			"Name": "",
+			"Name": "Han Dynasty",
 			"Description": "",
 			"Technologies":
 			[
@@ -92,7 +92,11 @@
 		},
 		{
 			"Template": "units/chin_infantry_spearman_b",
-			"Count": 4
+			"Count": 2
+		},
+		{
+			"Template": "units/chin_infantry_archer_b",
+			"Count": 2
 		},
 		{
 			"Template": "units/chin_cavalry_spearman_b"

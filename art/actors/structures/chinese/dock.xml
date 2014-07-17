@@ -12,7 +12,7 @@
 				<texture file="structural/chin_struct.png" name="baseTex"/>
 				<texture file="structural/chin_struct_norm.png" name="normTex"/>
 				<texture file="structural/chin_struct_spec.png" name="specTex"/>
-				<texture file="structural/ao/chin_fortress_ao.png" name="aoTex"/>
+				<texture file="structural/ao/chin_dock_ao.png" name="aoTex"/>
 			</textures>
 		</variant>
 	</group>

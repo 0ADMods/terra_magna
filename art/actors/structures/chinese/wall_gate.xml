@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant name="Wall gate">
-      <animations>
+       <animations>
         <animation file="mechanical/chin_wall_gate_closed.dae" name="gate_closed" speed="65"/>
         <animation file="mechanical/chin_wall_gate_opening.dae" name="gate_opening" speed="65"/>
         <animation file="mechanical/chin_wall_gate_opened.dae" name="gate_open" speed="65"/>
@@ -16,7 +16,7 @@
         <texture file="structural/chin_struct_spec.png" name="specTex"/>
 		<texture file="structural/ao/chin_wall_gate_ao.png" name="aoTex"/>
       </textures>
-		<props>
+ 		<props>
 			<prop actor="structures/chinese/wall_gate_gutters.xml"  attachpoint="root"/>
 			<prop actor="structures/chinese/wall_gate_flags.xml"  attachpoint="root"/>
 		</props>
@@ -39,5 +39,5 @@
       </props>
     </variant>
   </group>
-  <material>player_trans_ao_parallax_spec.xml</material>
+  <material>player_trans_parallax_spec.xml</material>
 </actor>
