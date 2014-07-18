@@ -4,7 +4,7 @@
   <float/>
   <group>
     <variant name="Chinese Bireme">
-      <mesh>structural/chin_spearship.dae</mesh>
+      <mesh>structural/chin_ship_bireme.dae</mesh>
       <props>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
       </props>

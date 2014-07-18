@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scenario version="5">
+	<Environment>
+		<SkySet>default</SkySet>
+		<SunColour r="1.5" g="1.5" b="1.5"/>
+		<SunElevation angle="0.785398"/>
+		<SunRotation angle="-0.785396"/>
+		<TerrainAmbientColour r="0.313726" g="0.376471" b="0.521569"/>
+		<UnitsAmbientColour r="0.501961" g="0.501961" b="0.501961"/>
+		<Water>
+			<WaterBody>
+				<Type>default</Type>
+				<Colour r="0.294118" g="0.34902" b="0.694118"/>
+				<Height>5</Height>
+				<Shininess>150</Shininess>
+				<Waviness>8</Waviness>
+				<Murkiness>0.45</Murkiness>
+				<Tint r="0.27451" g="0.294118" b="0.584314"/>
+				<ReflectionTint r="0.27451" g="0.294118" b="0.584314"/>
+				<ReflectionTintStrength>0</ReflectionTintStrength>
+			</WaterBody>
+		</Water>
+	</Environment>
+	<Camera>
+		<Position x="290.619" y="94.6657" z="232.697"/>
+		<Rotation angle="0"/>
+		<Declination angle="0.523599"/>
+	</Camera>
+	<ScriptSettings><![CDATA[
+{
+  "Name": "ROTE - Village Map",
+  "Description": "A demonstration of the Chinese infantry release pack in a lush bamboo swamp.",
+    "Keywords": [
+    "hidden"
+  ],
+  "PlayerData": [
+    {
+      "Civ": "chin"
+    },
+    {
+      "Civ": "chin"
+    }
+  ],
+  "CircularMap": true
+}
+]]></ScriptSettings>
+	<Entities>
+		<!-- <Entity uid="11">
+			<Template>actor|structures/chinese/misc_gate.xml</Template>
+			<Position x="291.36918" z="349.87317"/>
+			<Orientation y="-3.07506"/>
+		</Entity>
+		<Entity uid="12">
+			<Template>actor|structures/chinese/plot_rice.xml</Template>
+			<Position x="292.49271" z="383.24372"/>
+			<Orientation y="-0.51984"/>
+		</Entity>
+		<Entity uid="13">
+			<Template>actor|structures/chinese/farmstead.xml</Template>
+			<Position x="269.3183" z="372.29566"/>
+			<Orientation y="-2.65236"/>
+		</Entity>
+		<Entity uid="14">
+			<Template>actor|structures/chinese/farmstead.xml</Template>
+			<Position x="220.16157" z="380.17725"/>
+			<Orientation y="-2.61573"/>
+		</Entity>
+		<Entity uid="15">
+			<Template>actor|structures/chinese/corral.xml</Template>
+			<Position x="240.7701" z="389.3237"/>
+			<Orientation y="2.78951"/>
+		</Entity>
+		<Entity uid="21">
+			<Template>actor|structures/chinese/farmstead.xml</Template>
+			<Position x="373.96396" z="595.22156"/>
+			<Orientation y="-2.51078"/>
+		</Entity>
+		<Entity uid="32">
+			<Template>actor|structures/fndn_5x5.xml</Template>
+			<Position x="280.05201" z="519.55604"/>
+			<Orientation y="1.44787"/>
+		</Entity>
+		<Entity uid="35">
+			<Template>actor|structures/chinese/corral.xml</Template>
+			<Position x="215.17277" z="651.03223"/>
+			<Orientation y="2.35621"/>
+		</Entity>
+		<Entity uid="38">
+			<Template>actor|structures/chinese/corral.xml</Template>
+			<Position x="259.18433" z="514.22846"/>
+			<Orientation y="-0.14016"/>
+		</Entity>
+		<Entity uid="43">
+			<Template>actor|fauna/goat.xml</Template>
+			<Position x="255.30906" z="519.12964"/>
+			<Orientation y="-0.61062"/>
+		</Entity>
+		<Entity uid="45">
+			<Template>actor|fauna/chicken.xml</Template>
+			<Position x="212.19709" z="649.36805"/>
+			<Orientation y="-2.99453"/>
+		</Entity>
+		<Entity uid="46">
+			<Template>actor|fauna/chicken.xml</Template>
+			<Position x="213.12647" z="645.5464"/>
+			<Orientation y="2.01883"/>
+		</Entity>
+		<Entity uid="47">
+			<Template>actor|fauna/chicken.xml</Template>
+			<Position x="214.90015" z="650.47571"/>
+			<Orientation y="-3.04215"/>
+		</Entity>
+		<Entity uid="48">
+			<Template>actor|fauna/chicken.xml</Template>
+			<Position x="215.53217" z="646.08716"/>
+			<Orientation y="1.48148"/>
+		</Entity>
+		<Entity uid="49">
+			<Template>actor|fauna/chicken.xml</Template>
+			<Position x="217.99497" z="651.03223"/>
+			<Orientation y="-2.93131"/>
+		</Entity>
+		<Entity uid="50">
+			<Template>actor|fauna/goat.xml</Template>
+			<Position x="351.65381" z="607.65564"/>
+			<Orientation y="-1.62603"/>
+		</Entity>
+		<Entity uid="51">
+			<Template>actor|fauna/goat.xml</Template>
+			<Position x="366.10087" z="601.37543"/>
+			<Orientation y="2.3602"/>
+		</Entity>
+		<Entity uid="52">
+			<Template>actor|props/flora/reeds_pond_lush_a.xml</Template>
+			<Position x="256.83811" z="576.9303"/>
+			<Orientation y="2.35621"/>
+		</Entity>
+		<Entity uid="53">
+			<Template>actor|props/flora/reeds_pond_lush_a.xml</Template>
+			<Position x="265.47535" z="567.73102"/>
+			<Orientation y="1.60605"/>
+		</Entity>
+		<Entity uid="54">
+			<Template>actor|props/flora/reeds_pond_lush_a.xml</Template>
+			<Position x="268.88752" z="569.41962"/>
+			<Orientation y="-1.25618"/>
+		</Entity>
+		<Entity uid="55">
+			<Template>actor|props/flora/reeds_pond_lush_a.xml</Template>
+			<Position x="249.22349" z="582.58619"/>
+			<Orientation y="2.35621"/>
+		</Entity>
+		<Entity uid="56">
+			<Template>actor|props/flora/reeds_pond_lush_a.xml</Template>
+			<Position x="243.82204" z="584.97968"/>
+			<Orientation y="2.35621"/>
+		</Entity>
+		<Entity uid="57">
+			<Template>actor|props/flora/reeds_pond_lush_a.xml</Template>
+			<Position x="237.51603" z="590.85645"/>
+			<Orientation y="-1.82378"/>
+		</Entity>
+		<Entity uid="58">
+			<Template>actor|props/flora/reeds_pond_lush_a.xml</Template>
+			<Position x="229.97654" z="592.32367"/>
+			<Orientation y="2.35621"/>
+		</Entity>
+		<Entity uid="59">
+			<Template>actor|props/flora/reeds_pond_lush_a.xml</Template>
+			<Position x="233.59304" z="589.73951"/>
+			<Orientation y="2.35621"/>
+		</Entity>
+		<Entity uid="60">
+			<Template>actor|props/flora/reeds_pond_lush_a.xml</Template>
+			<Position x="225.33785" z="597.90625"/>
+			<Orientation y="-1.71499"/>
+		</Entity>
+		<Entity uid="61">
+			<Template>actor|props/flora/reeds_pond_lush_a.xml</Template>
+			<Position x="216.77836" z="607.01307"/>
+			<Orientation y="2.35621"/>
+		</Entity>
+		<Entity uid="62">
+			<Template>actor|props/flora/reeds_pond_lush_a.xml</Template>
+			<Position x="290.99698" z="547.11597"/>
+			<Orientation y="-2.02564"/>
+		</Entity>
+		<Entity uid="63">
+			<Template>actor|props/flora/reeds_pond_lush_a.xml</Template>
+			<Position x="292.5435" z="540.46924"/>
+			<Orientation y="2.35621"/>
+		</Entity>
+		<Entity uid="64">
+			<Template>actor|props/flora/reeds_pond_lush_a.xml</Template>
+			<Position x="296.5813" z="535.94373"/>
+			<Orientation y="-2.0391"/>
+		</Entity>
+		<Entity uid="65">
+			<Template>actor|props/flora/reeds_pond_lush_a.xml</Template>
+			<Position x="299.91474" z="542.48365"/>
+			<Orientation y="-2.57566"/>
+		</Entity>
+		<Entity uid="66">
+			<Template>actor|props/flora/reeds_pond_lush_a.xml</Template>
+			<Position x="305.26517" z="543.46692"/>
+			<Orientation y="-2.78667"/>
+		</Entity>
+		<Entity uid="67">
+			<Template>actor|props/flora/reeds_pond_lush_a.xml</Template>
+			<Position x="308.09763" z="538.73981"/>
+			<Orientation y="-2.77752"/>
+		</Entity>
+		<Entity uid="68">
+			<Template>actor|props/flora/reeds_pond_lush_a.xml</Template>
+			<Position x="304.83576" z="520.78785"/>
+			<Orientation y="-2.92981"/>
+		</Entity>
+		<Entity uid="69">
+			<Template>actor|props/flora/reeds_pond_lush_a.xml</Template>
+			<Position x="311.91724" z="509.13056"/>
+			<Orientation y="-1.82804"/>
+		</Entity>
+		<Entity uid="70">
+			<Template>actor|props/flora/reeds_pond_lush_a.xml</Template>
+			<Position x="307.12616" z="514.19898"/>
+			<Orientation y="2.35621"/>
+		</Entity>
+		<Entity uid="71">
+			<Template>actor|props/flora/reeds_pond_lush_a.xml</Template>
+			<Position x="310.00486" z="508.96021"/>
+			<Orientation y="-2.88173"/>
+		</Entity>
+		<Entity uid="72">
+			<Template>actor|props/flora/reeds_pond_lush_a.xml</Template>
+			<Position x="328.24704" z="508.26771"/>
+			<Orientation y="2.35621"/>
+		</Entity>
+		<Entity uid="73">
+			<Template>actor|props/flora/reeds_pond_lush_a.xml</Template>
+			<Position x="325.31873" z="521.5655"/>
+			<Orientation y="-1.02573"/>
+		</Entity>
+		<Entity uid="74">
+			<Template>actor|props/flora/reeds_pond_lush_a.xml</Template>
+			<Position x="322.88727" z="525.72492"/>
+			<Orientation y="-0.88775"/>
+		</Entity>
+		<Entity uid="75">
+			<Template>actor|props/flora/reeds_pond_lush_a.xml</Template>
+			<Position x="318.09522" z="529.48768"/>
+			<Orientation y="2.35621"/>
+		</Entity>
+		<Entity uid="76">
+			<Template>actor|props/flora/reeds_pond_lush_a.xml</Template>
+			<Position x="314.56943" z="532.56617"/>
+			<Orientation y="2.35621"/>
+		</Entity>
+		<Entity uid="77">
+			<Template>actor|props/flora/reeds_pond_lush_a.xml</Template>
+			<Position x="267.474" z="530.09144"/>
+			<Orientation y="-1.88421"/>
+		</Entity>
+		<Entity uid="78">
+			<Template>actor|props/flora/reeds_pond_lush_a.xml</Template>
+			<Position x="309.04236" z="530.47657"/>
+			<Orientation y="-1.65157"/>
+		</Entity>
+		<Entity uid="79">
+			<Template>actor|props/flora/reeds_pond_lush_a.xml</Template>
+			<Position x="312.24173" z="523.05439"/>
+			<Orientation y="2.35621"/>
+		</Entity>
+		<Entity uid="80">
+			<Template>actor|props/flora/reeds_pond_lush_a.xml</Template>
+			<Position x="304.98835" z="529.28357"/>
+			<Orientation y="-2.47753"/>
+		</Entity>
+		<Entity uid="81">
+			<Template>actor|props/flora/reeds_pond_lush_a.xml</Template>
+			<Position x="316.00452" z="534.37885"/>
+			<Orientation y="-2.42267"/>
+		</Entity>
+		<Entity uid="82">
+			<Template>actor|props/flora/reeds_pond_lush_a.xml</Template>
+			<Position x="298.54313" z="565.48707"/>
+			<Orientation y="-1.60491"/>
+		</Entity>
+		<Entity uid="83">
+			<Template>actor|props/flora/reeds_pond_lush_a.xml</Template>
+			<Position x="283.2013" z="575.15973"/>
+			<Orientation y="2.35621"/>
+		</Entity>
+		<Entity uid="84">
+			<Template>actor|props/flora/reeds_pond_lush_a.xml</Template>
+			<Position x="287.7003" z="575.84571"/>
+			<Orientation y="2.35621"/>
+		</Entity>
+		<Entity uid="85">
+			<Template>actor|props/flora/reeds_pond_lush_a.xml</Template>
+			<Position x="285.62208" z="574.63483"/>
+			<Orientation y="2.35621"/>
+		</Entity>
+		<Entity uid="86">
+			<Template>actor|props/flora/reeds_pond_lush_a.xml</Template>
+			<Position x="268.10096" z="594.99982"/>
+			<Orientation y="-1.75335"/>
+		</Entity>
+		<Entity uid="87">
+			<Template>actor|props/flora/reeds_pond_lush_a.xml</Template>
+			<Position x="254.86277" z="603.8451"/>
+			<Orientation y="2.35621"/>
+		</Entity>
+		<Entity uid="88">
+			<Template>actor|props/flora/reeds_pond_lush_a.xml</Template>
+			<Position x="251.88169" z="605.53779"/>
+			<Orientation y="-0.96511"/>
+		</Entity>
+		<Entity uid="89">
+			<Template>actor|props/flora/reeds_pond_lush_a.xml</Template>
+			<Position x="234.53888" z="617.94636"/>
+			<Orientation y="2.35621"/>
+		</Entity>
+		<Entity uid="90">
+			<Template>actor|props/flora/reeds_pond_lush_a.xml</Template>
+			<Position x="225.57645" z="622.47974"/>
+			<Orientation y="2.42504"/>
+		</Entity>
+		<Entity uid="91">
+			<Template>actor|props/flora/reeds_pond_lush_a.xml</Template>
+			<Position x="227.01297" z="626.79969"/>
+			<Orientation y="2.35621"/>
+		</Entity>
+		<Entity uid="92">
+			<Template>actor|props/flora/reeds_pond_lush_a.xml</Template>
+			<Position x="223.76812" z="626.8418"/>
+			<Orientation y="-2.72732"/>
+		</Entity>
+		<Entity uid="93">
+			<Template>actor|props/flora/pond_lillies_large.xml</Template>
+			<Position x="259.51255" z="574.67365"/>
+			<Orientation y="3.06943"/>
+		</Entity>
+		<Entity uid="94">
+			<Template>actor|props/flora/pond_lillies_large.xml</Template>
+			<Position x="323.36588" z="523.75995"/>
+			<Orientation y="-0.99788"/>
+		</Entity>
+		<Entity uid="95">
+			<Template>actor|props/flora/water_log.xml</Template>
+			<Position x="260.07715" z="572.88965"/>
+			<Orientation y="2.87444"/>
+		</Entity>
+		<Entity uid="96">
+			<Template>actor|props/flora/water_log.xml</Template>
+			<Position x="310.5524" z="541.35859"/>
+			<Orientation y="2.6078"/>
+		</Entity>
+		<Entity uid="97">
+			<Template>actor|props/flora/water_log.xml</Template>
+			<Position x="232.64957" z="621.47016"/>
+			<Orientation y="-2.16636"/>
+		</Entity>
+		<Entity uid="99">
+			<Template>actor|props/special/eyecandy/crate_a.xml</Template>
+			<Position x="256.59852" z="559.2704"/>
+			<Orientation y="-2.96496"/>
+		</Entity> -->
+
+	</Entities>
+	<Paths/>
+</Scenario>

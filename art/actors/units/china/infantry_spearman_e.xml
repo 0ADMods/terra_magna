@@ -45,9 +45,6 @@
     <variant frequency="2" name="Clothes-1">
       <textures><texture file="skeletal/chin_isp_e.png" name="baseTex"/></textures>
     </variant>
-    <variant frequency="1" name="Clothes-2">
-      <textures><texture file="skeletal/chin_isp_e2.png" name="baseTex"/></textures>
-    </variant>
   </group>
   <group>
     <variant frequency="60" name="cap-var">

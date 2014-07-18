@@ -33,8 +33,10 @@
       <mesh>skeletal/m_pants_celt.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_china.xml" attachpoint="head"/>
-        <prop actor="props/units/weapons/chin_rcrossbow.xml" attachpoint="l_hand"/>
-        <prop actor="props/units/quiver_back.xml" attachpoint="back"/>
+        <prop actor="props/units/weapons/bow_bamboo_long.xml" attachpoint="l_hand"/>
+        <prop actor="props/units/weapons/arrow_back.xml" attachpoint="loaded-r_hand"/>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
+        <prop actor="props/units/quiver_back_bamboo.xml" attachpoint="back"/>
       </props>
     </variant>
   </group>
@@ -55,20 +57,15 @@
       </props>
   	</variant>
   </group>
-  <group>
+ <group>
     <variant frequency="100" name="Idle"/>
     <variant name="attack_ranged">
       <props>
-        <prop actor="props/units/weapons/chin_rcrossbow.xml" attachpoint="l_hand"/>
+        <prop actor="props/units/weapons/bow_bamboo_long.xml" attachpoint="l_hand"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
       </props>
     </variant>
-    <variant name="attack_slaughter">
-      <props>
-          <prop actor="props/units/tools/tool_knife.xml" attachpoint="r_hand">
-          </prop>
-      </props>
-    </variant>
+    <variant frequency="100" name="Idle"/>
     <variant name="gather_tree">
       <props>
         <prop attachpoint="shield"/>
@@ -167,6 +164,6 @@
         <prop attachpoint="shield"/>
       </props>
     </variant>
-  </group>
+   </group>
   <material>player_trans.xml</material>
 </actor>
