@@ -2,16 +2,15 @@
 <COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
   <asset>
     <contributor>
-      <author>Blender User</author>
+      <author>Stanislas Dolcini</author>
       <authoring_tool>Blender 2.71.0 commit date:2014-06-25, commit time:18:36, hash:9337574</authoring_tool>
     </contributor>
-    <created>2014-07-14T15:40:02</created>
-    <modified>2014-07-14T15:40:02</modified>
+    <created>2014-07-22T16:11:18</created>
+    <modified>2014-07-22T16:11:18</modified>
     <unit name="inch" meter="0.0254"/>
     <up_axis>Z_UP</up_axis>
   </asset>
   <library_images/>
-  <library_effects/>
   <library_geometries>
     <geometry id="default02Mesh_000-mesh" name="default02Mesh.000">
       <mesh>
@@ -71,7 +70,7 @@
   <library_visual_scenes>
     <visual_scene id="Scene" name="Scene">
       <node id="default02_001" name="default02_001" type="NODE">
-        <matrix sid="transform">-1.00111e-7 1.31738 0 0 -0.6144754 -2.14628e-7 0 0 0 0 0.9999999 0 0 0 0 1</matrix>
+        <matrix sid="transform">-1.00111e-7 1.223737 0 0 -0.6144754 -1.99372e-7 0 0 0 0 0.9999999 0 0 0 0 1</matrix>
         <instance_geometry url="#default02Mesh_000-mesh"/>
       </node>
     </visual_scene>
