@@ -23,25 +23,17 @@
     </Resources>
   </Cost>
   <Vision>
-    <Range>88</Range>
+    <Range>60</Range>
   </Vision>
   <Armour>
-    <Pierce>7.0</Pierce>
+    <Pierce>3</Pierce>
   </Armour>
   <UnitMotion>
-    <WalkSpeed>6.8</WalkSpeed>
+    <WalkSpeed>7.0</WalkSpeed>
     <Run>
-      <Speed>19.8</Speed>
+      <Speed>20.0</Speed>
     </Run>
   </UnitMotion>
-  <Attack>
-    <Melee>
-      <MaxRange>6.0</MaxRange>
-    </Melee>
-    <Charge>
-      <MaxRange>6.0</MaxRange>
-    </Charge>
-  </Attack>
   <VisualActor>
     <Actor>units/china/infantry_swordsman_b.xml</Actor>
   </VisualActor>

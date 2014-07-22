@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="units/chin_infantry_spearman_a">
   <Identity>
-    <Civ>chin</Civ>
-	<SelectionGroupName>units/chin_infantry_spearman_b</SelectionGroupName>
-    <SpecificName>Cháng Máo Bīng</SpecificName>
-    <History>Needs history.</History>
-    <Icon>units/chin_infantry_spearman.png</Icon>
     <Rank>Elite</Rank>
   </Identity>
   <Armour>
-    <Hack>5.0</Hack>
+    <Hack>5</Hack>
+    <Pierce>4</Pierce>
+    <Crush>5</Crush>
   </Armour>
   <UnitMotion>
     <WalkSpeed>6.6</WalkSpeed>
@@ -17,6 +14,10 @@
       <Speed>19.8</Speed>
     </Run>
   </UnitMotion>
+  <Promotion disable=""/>
+  <ResourceGatherer>
+    <BaseSpeed>0.5</BaseSpeed>
+  </ResourceGatherer>
   <VisualActor>
     <Actor>units/china/infantry_spearman_e.xml</Actor>
   </VisualActor>

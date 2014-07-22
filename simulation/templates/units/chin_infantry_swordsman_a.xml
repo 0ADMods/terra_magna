@@ -8,18 +8,18 @@
   </Promotion>
   <Attack>
     <Melee>
-      <Hack>7.0</Hack>
+      <Hack>12.0</Hack>
     </Melee>
     <Charge>
-      <Hack>12.0</Hack>
+      <Hack>24.0</Hack>
     </Charge>
   </Attack>
-  <Vision>
-    <Range>88</Range>
-  </Vision>
   <Armour>
-    <Pierce>7.0</Pierce>
+    <Pierce>4.0</Pierce>
   </Armour>
+  <ResourceGatherer>
+    <BaseSpeed>0.75</BaseSpeed>
+  </ResourceGatherer>
   <VisualActor>
     <Actor>units/china/infantry_swordsman_a.xml</Actor>
   </VisualActor>

@@ -2,10 +2,6 @@
 <Entity parent="units/chin_infantry_archer_b">
   <Identity>
     <Civ>chin</Civ>
-	<SelectionGroupName>units/chin_infantry_archer_b</SelectionGroupName>
-    <SpecificName>Nú Shǒu</SpecificName>
-    <History>Needs history.</History>
-    <Icon>units/chin_infantry_archer.png</Icon>
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>

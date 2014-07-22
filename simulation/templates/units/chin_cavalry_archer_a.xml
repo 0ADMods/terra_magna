@@ -12,12 +12,6 @@
       <MinRange>16.0</MinRange>
     </Ranged>
   </Attack>
-  <Cost>
-    <Resources>
-      <food>80</food>
-      <wood>60</wood>
-    </Resources>
-  </Cost>
   <Health>
     <Max>160</Max>
   </Health>

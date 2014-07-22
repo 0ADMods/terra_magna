@@ -8,16 +8,16 @@
   </Promotion>
   <Attack>
     <Melee>
-      <Hack>7.0</Hack>
-      <Pierce>12.0</Pierce>
+      <Hack>12.0</Hack>
     </Melee>
     <Charge>
-      <Hack>12.0</Hack>
-      <Pierce>22.0</Pierce>
+      <Hack>24.0</Hack>
     </Charge>
   </Attack>
   <Armour>
-    <Hack>4.0</Hack>
+    <Hack>4</Hack>
+    <Pierce>3</Pierce>
+    <Crush>4</Crush>
   </Armour>
   <UnitMotion>
     <WalkSpeed>6.8</WalkSpeed>
@@ -25,6 +25,9 @@
       <Speed>19.8</Speed>
     </Run>
   </UnitMotion>
+  <ResourceGatherer>
+    <BaseSpeed>0.75</BaseSpeed>
+  </ResourceGatherer>
   <VisualActor>
     <Actor>units/china/infantry_spearman_a.xml</Actor>
   </VisualActor>

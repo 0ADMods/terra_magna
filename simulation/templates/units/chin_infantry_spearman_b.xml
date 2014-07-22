@@ -16,9 +16,6 @@
   <Promotion>
     <Entity>units/chin_infantry_spearman_a</Entity>
   </Promotion>
-  <Armour>
-    <Hack>3.0</Hack>
-  </Armour>
   <UnitMotion>
     <WalkSpeed>6.6</WalkSpeed>
     <Run>
