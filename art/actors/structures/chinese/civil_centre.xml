@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
   <castshadow/>
+  <!-- default / fallback / base variant -->
   <group>
     <variant name="Chinese Civil Center">
       <mesh>structural/chin_cc.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/gravel_5x5.xml" attachpoint="root"/>
-        <prop actor="props/structures/chin_cc_bixie.xml" attachpoint="root"/>   
-        <prop actor="props/structures/chin_cc_leaves.xml" attachpoint="root"/>
-        <prop actor="props/structures/chin_cc_trunks.xml" attachpoint="root"/>  
-        <prop actor="props/structures/chin_cc_nature.xml" attachpoint="root"/> 
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="loaded-projectile"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
       </props>
@@ -17,28 +13,44 @@
 	       <texture file="structural/chin_struct2.png" name="baseTex"/>
 	       <texture file="structural/chin_struct2_norm.png" name="normTex"/>
 	       <texture file="structural/chin_struct2_spec.png" name="specTex"/>
-		      <texture file="structural/ao/chin_cc_ao.png" name="aoTex"/>
+           <texture file="structural/ao/chin_cc_ao.png" name="aoTex"/>
 	    </textures>
     </variant>
+  </group>
+  <!-- Main variants (different mesh). -->
+  <group>
+    <variant name="noble" frequency="100">
+      <mesh>structural/chin_cc.dae</mesh>
+	  <props>
+        <prop actor="props/structures/decals/gravel_5x5.xml" attachpoint="root"/>
+        <prop actor="props/structures/chin_cc_bixie.xml" attachpoint="root"/>   
+        <prop actor="props/structures/chin_cc_leaves.xml" attachpoint="root"/>
+        <prop actor="props/structures/chin_cc_trunks.xml" attachpoint="root"/>  
+        <prop actor="props/structures/chin_cc_nature.xml" attachpoint="root"/> 
+	  </props>
+    </variant>
+	<variant name="common" frequency="1">
+      	<mesh>structural/chin_cc_common.dae</mesh>
+		<props>
+			<prop actor="props/structures/civil_centre_bamboo.xml" attachpoint="root"/>
+			<prop actor="props/structures/decals/dirt_6x6.xml" attachpoint="root"/>
+			<prop actor="props/structures/civic_water.xml" attachpoint="root"/>
+		</props>
+	</variant>
   </group>
   <group>
     <variant frequency="100" name="Idle"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_celt.xml" attachpoint="garrisoned"/>
+        <prop actor="props/special/common/garrison_flag_chin.xml" attachpoint="garrisoned"/>
       </props>
     </variant>
     <variant name="death">
       <props>
         <prop attachpoint="garrisoned"/>
-        <prop actor="props/structures/chin_cc_bixie.xml" attachpoint="root"/>   
-        <prop actor="props/structures/chin_cc_leaves.xml" attachpoint="root"/>
-        <prop actor="props/structures/chin_cc_trunks.xml" attachpoint="root"/>  
-        <prop actor="props/structures/chin_cc_nature.xml" attachpoint="root"/>         
         <prop actor="particle/destruction_smoke_large.xml" attachpoint="root"/>
         <prop actor="particle/destruction_dust_large.xml" attachpoint="root"/>
         <prop actor="particle/destruction_dust_large_gray.xml" attachpoint="root"/>
-        <prop actor="props/structures/decals/gravel_5x5.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
