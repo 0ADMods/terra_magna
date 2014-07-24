@@ -70,7 +70,8 @@
       <props>
         <prop attachpoint="shield"/>
         <prop attachpoint="r_hand"/>
-        <prop actor="props/units/tools/axe.xml" attachpoint="l_hand"/>
+        <prop actor="props/units/tools/hoe.xml" attachpoint="l_hand"/>
+      	<prop actor="props/units/heads/chin_ricehat.xml" attachpoint="helmet"/>
       </props>
     </variant>
     <variant name="gather_grain">
@@ -78,6 +79,7 @@
         <prop attachpoint="shield"/>
         <prop attachpoint="r_hand"/>
         <prop actor="props/units/tools/hoe.xml" attachpoint="l_hand"/>
+      	<prop actor="props/units/heads/chin_ricehat.xml" attachpoint="helmet"/>
       </props>
     </variant>
     <variant name="gather_fruit">
@@ -127,9 +129,14 @@
     <variant name="carry_food">
       <props>
         <prop actor="props/units/shuttle_basket.xml" attachpoint="r_hand"/>
-        <prop attachpoint="l_hand"/>
-        <prop attachpoint="helmet"/>
         <prop attachpoint="shield"/>
+        <prop attachpoint="r_hand"/>
+      	<prop actor="props/units/heads/chin_ricehat.xml" attachpoint="helmet"/>
+      	<prop attachpoint="helmet"/>
+        <prop attachpoint="loaded-r_hand"/>
+        <prop attachpoint="projectile"/>
+        <prop attachpoint="back"/>
+        <prop attachpoint="l_hip"/>
       </props>
     </variant>
     <variant name="carry_meat">

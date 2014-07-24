@@ -5,15 +5,13 @@
     <variant frequency="100" name="Base">
       <mesh>structural/chin_plot_rice.dae</mesh>
       <props>
-        <prop actor="props/structures/plot_roof.xml" attachpoint="root"/>
         <prop actor="gaia/rice.xml" attachpoint="root"/>
-        <prop actor="props/structures/decals/gravel_5x5.xml" attachpoint="root"/>
 		<prop actor="props/structures/rice_water.xml" attachpoint="root"/>
       </props>
       <textures>
-        <texture file="structural/chin_struct.png" name="baseTex"/>
-        <texture file="structural/chin_struct_norm.png" name="normTex"/>
-        <texture file="structural/chin_struct_spec.png" name="specTex"/>
+		<texture file="gaia/tropic_cliff_mud.png" name="baseTex"/>
+		<texture file="gaia/tropic_cliff_mud_norm.png" name="normTex"/>
+		<texture file="gaia/tropic_cliff_mud_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>
