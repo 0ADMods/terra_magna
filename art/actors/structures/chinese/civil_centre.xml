@@ -29,14 +29,6 @@
         <prop actor="props/structures/chin_cc_nature.xml" attachpoint="root"/> 
 	  </props>
     </variant>
-	<variant name="common" frequency="1">
-      	<mesh>structural/chin_cc_common.dae</mesh>
-		<props>
-			<prop actor="props/structures/civil_centre_bamboo.xml" attachpoint="root"/>
-			<prop actor="props/structures/decals/dirt_6x6.xml" attachpoint="root"/>
-			<prop actor="props/structures/civic_water.xml" attachpoint="root"/>
-		</props>
-	</variant>
   </group>
   <group>
     <variant frequency="100" name="Idle"/>
