@@ -11,8 +11,6 @@
       <MaxRange>100.0</MaxRange>
       <MinRange>15.0</MinRange>
       <ProjectileSpeed>115.0</ProjectileSpeed>
-      <PrepareTime>650</PrepareTime>
-      <RepeatTime>1000</RepeatTime>
     </Ranged>
   </Attack>
   <Armour>

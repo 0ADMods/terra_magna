@@ -1,32 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_resource_field">
-  <Identity>
-    <Civ>chin</Civ>
-    <SpecificName>Shuǐ Tián</SpecificName>
-    <History>A rice paddy.</History>
-  </Identity>
-  <Cost>
-    <BuildTime>80</BuildTime>
-    <Resources>
-      <wood>50</wood>
-      <stone>30</stone>
-    </Resources>
-  </Cost>
-  <VisualActor>
-    <Actor>structures/chinese/plot_rice.xml</Actor>
-    <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
-  </VisualActor>
-  <Footprint>
-    <Square width="26.0" depth="26.0"/>
-    <Height>2.0</Height>
-  </Footprint>
-  <Obstruction>
-    <Static width="7.0" depth="22.0"/>
-    <BlockMovement>true</BlockMovement>
-    <BlockPathfinding>true</BlockPathfinding>
-  </Obstruction>
-  <ResourceSupply>
-    <KillBeforeGather>false</KillBeforeGather>
-    <Type>food.grain</Type>
-  </ResourceSupply>
+	<Footprint>
+		<Square width="20.0" depth="20.0"/>
+		<Height>2.0</Height>
+	</Footprint>
+	<Identity>
+		<Civ>chin</Civ>
+		<SpecificName>Shuǐ Tián</SpecificName>
+		<History>A rice paddy.</History>
+	</Identity>
+	<Obstruction>
+		<Static width="12.0" depth="12.0"/>
+		<BlockMovement>false</BlockMovement>
+		<BlockPathfinding>false</BlockPathfinding>
+	</Obstruction>
+	<VisualActor>
+		<Actor>structures/chinese/plot_rice.xml</Actor>
+		<FoundationActor>structures/fndn_4x4.xml</FoundationActor>
+	</VisualActor>
 </Entity>

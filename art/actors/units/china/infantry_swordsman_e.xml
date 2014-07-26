@@ -43,7 +43,7 @@
   </group>
   <group>
     <variant frequency="1" name="Clothes-1">
-      <textures><texture file="skeletal/chin_isp_e2.png" name="baseTex"/></textures>
+      <textures><texture file="skeletal/chin_isp_e.png" name="baseTex"/></textures>
     </variant>
   </group>
   <group>
@@ -78,6 +78,7 @@
         <prop attachpoint="shield"/>
         <prop attachpoint="r_hand"/>
         <prop actor="props/units/tools/hoe.xml" attachpoint="l_hand"/>
+      	<prop actor="props/units/heads/chin_ricehat.xml" attachpoint="helmet"/>
       </props>
     </variant>
     <variant name="gather_fruit">
@@ -127,9 +128,14 @@
     <variant name="carry_food">
       <props>
         <prop actor="props/units/shuttle_basket.xml" attachpoint="r_hand"/>
-        <prop attachpoint="l_hand"/>
-        <prop attachpoint="helmet"/>
         <prop attachpoint="shield"/>
+        <prop attachpoint="r_hand"/>
+      	<prop actor="props/units/heads/chin_ricehat.xml" attachpoint="helmet"/>
+      	<prop attachpoint="helmet"/>
+        <prop attachpoint="loaded-r_hand"/>
+        <prop attachpoint="projectile"/>
+        <prop attachpoint="back"/>
+        <prop attachpoint="l_hip"/>
       </props>
     </variant>
     <variant name="carry_meat">

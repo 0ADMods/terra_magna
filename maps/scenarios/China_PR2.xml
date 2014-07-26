@@ -830,7 +830,7 @@
 			<Template>actor|props/special/eyecandy/crate_a.xml</Template>
 			<Position x="299.9123" z="420.22205"/>
 			<Orientation y="2.10358"/>
-		</Entity>
+		</Entity>		
 		<Entity uid="246">
 			<Template>actor|props/special/eyecandy/basket_rome_a.xml</Template>
 			<Position x="336.52213" z="441.51734"/>
@@ -860,11 +860,6 @@
 			<Template>actor|props/special/eyecandy/statue_aphrodite_small.xml</Template>
 			<Position x="360.27662" z="436.31324"/>
 			<Orientation y="-2.84684"/>
-		</Entity>
-		<Entity uid="260">
-			<Template>actor|props/structures/celts/kennel_mud.xml</Template>
-			<Position x="256.10044" z="412.36567"/>
-			<Orientation y="2.35621"/>
 		</Entity>
 		<Entity uid="261">
 			<Template>actor|structures/hellenes/wall_tower.xml</Template>
@@ -942,10 +937,11 @@
 			<Orientation y="-2.38395"/>
 		</Entity>
 		<Entity uid="376">
+
 			<Template>actor|units/global/slave.xml</Template>
 			<Position x="187.47916" z="432.77414"/>
-			<Orientation y="2.35621"/>
-		</Entity>
+			<Orientation y="2.35621"/>	
+			</Entity>
 		<Entity uid="377">
 			<Template>actor|units/china/infantry_archer_b.xml</Template>
 			<Position x="193.05402" z="433.54847"/>

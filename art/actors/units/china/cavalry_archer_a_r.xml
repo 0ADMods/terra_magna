@@ -16,25 +16,19 @@
       <mesh>skeletal/m_pants_celt.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_china.xml" attachpoint="head"/>
-        <prop actor="props/units/weapons/bow_recurve.xml" attachpoint="l_hand"/>
+        <prop actor="props/units/weapons/chin_cavalry_bow.xml" attachpoint="l_hand"/>
         <prop actor="props/units/weapons/arrow_back.xml" attachpoint="loaded-r_hand"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
-        <prop actor="props/units/quiver_back.xml" attachpoint="back"/>
+        <prop actor="props/units/quiver_back_bamboo.xml" attachpoint="back"/>
       </props>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Clothes-1">
+    <variant frequency="50" name="Clothes-1">
       <textures><texture file="skeletal/chin_iar_a.png" name="baseTex"/></textures>
     </variant>
-    <variant frequency="0" name="Clothes-2">
-      <textures><texture file="skeletal/chin_iar_a.png" name="baseTex"/></textures>
-    </variant>
-    <variant frequency="0" name="Clothes-3">
-      <textures><texture file="skeletal/chin_iar_a.png" name="baseTex"/></textures>
-    </variant>
-    <variant frequency="0" name="Clothes-4">
-      <textures><texture file="skeletal/chin_iar_a.png" name="baseTex"/></textures>
+    <variant frequency="50" name="Clothes-2">
+      <textures><texture file="skeletal/chin_iar_a2.png" name="baseTex"/></textures>
     </variant>
   </group>
   <group>
@@ -53,10 +47,12 @@
     <variant frequency="100" name="Idle"/>
     <variant name="attack_ranged">
       <props>
-        <prop actor="props/units/weapons/chin_rcrossbow.xml" attachpoint="l_hand"/>
+        <prop actor="props/units/weapons/chin_cavalry_bow.xml" attachpoint="l_hand"/>
+        <prop actor="props/units/weapons/arrow_back.xml" attachpoint="loaded-r_hand"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
+        <prop actor="props/units/quiver_back_bamboo.xml" attachpoint="back"/>
       </props>
-    </variant>
+    </variant>	
     <variant name="attack_slaughter">
       <props>
           <prop actor="props/units/tools/tool_knife.xml" attachpoint="r_hand">

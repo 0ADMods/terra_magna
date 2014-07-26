@@ -2,13 +2,13 @@
 <Entity parent="template_unit_support_healer">
   <Identity>
     <Civ>chin</Civ>
-    <SelectionGroupName>units/chin_support_healer</SelectionGroupName>
+    <SelectionGroupName>units/chin_support_healer_b</SelectionGroupName>
     <SpecificName>Rú</SpecificName>
     <History>Scholar who studies the ideology of Confucius.</History>
-    <Icon>units/hele_support_healer.png</Icon>
+    <Icon>units/chin_support_healer.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/china/chin_healer.xml</Actor>
+    <Actor>units/china/healer.xml</Actor>
   </VisualActor>
 </Entity>
