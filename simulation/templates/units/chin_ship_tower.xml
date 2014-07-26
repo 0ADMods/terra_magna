@@ -10,7 +10,7 @@
     <Actor>structures/chinese/towership.xml</Actor>
   </VisualActor>
   <Footprint>
-    <Square width="14.0" depth="36.0"/>
+    <Square width="20.0" depth="46.0"/>
     <Height>8.0</Height>
   </Footprint>
 </Entity>

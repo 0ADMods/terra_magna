@@ -24,7 +24,7 @@
     <SpecificName>Nú Shǒu</SpecificName>
     <GenericName>Chinese Crossbowman</GenericName>
     <History>Needs history.</History>
-    <Icon>units/chin_infantry_archer.png</Icon>
+    <Icon>units/chin_infantry_crossbowman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/chin_infantry_crossbowman_a</Entity>
