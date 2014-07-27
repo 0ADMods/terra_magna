@@ -6,10 +6,11 @@
 			<mesh>props/helmet/chin_cavalry_swordsman_helmet.dae</mesh>
 			<textures>
 				<texture file="props/helmet/chin_cavalry_swordsman_helmet.png" name="baseTex"/>
-				<texture file="props/helmet/chin_cavalry_swordsman_helmet.png" name="normTex"/>
-				<texture file="props/helmet/chin_cavalry_swordsman_helmet.png" name="specTex"/>
+				<texture file="props/helmet/chin_cavalry_swordsman_helmet_norm.png" name="normTex"/>
+				<texture file="props/helmet/chin_cavalry_swordsman_helmet_spec.png" name="specTex"/>
+				<texture file="props/helmet/chin_cavalry_swordsman_helmet_ao.png" name="aoTex"/>
 			</textures>
 		</variant>
 	</group>
-	<material>player_trans_parallax_spec.xml</material>
+	<material>basic_trans_ao_parallax_spec.xml</material>
 </actor>
