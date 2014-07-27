@@ -6,8 +6,8 @@
     <SpecificName>?</SpecificName>
     <History>The crossbow occurred as early as 600BC or earlier in Asia and other places around the world, featuring bronze arrows.</History>
     <Tooltip>Classes: {Classes}
-Counters: no counters TODO make automatic. Manually keeping this up to date is not desirable. 
-Countered by: TODO see above.</Tooltip>
+		Counters: {Counters} no counters TODO make automatic. Manually keeping this up to date is not desirable. 
+		Countered by: {CounterCounters} TODO see above.</Tooltip>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Armour>
@@ -15,6 +15,7 @@ Countered by: TODO see above.</Tooltip>
   </Armour>
   <Attack>
     <Ranged>
+	  <Spread>0.5</Spread>
       <Pierce>25.0</Pierce>
       <MaxRange>120.0</MaxRange><!-- only lost 120in of height in approx. 100m http://bowhuntingmag.com/bow-reviews/crossbows-vs-compounds-comparing-apples-to-apples -->
       <ProjectileSpeed>115.0</ProjectileSpeed>

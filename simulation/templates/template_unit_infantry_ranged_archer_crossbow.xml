@@ -14,6 +14,7 @@
   </Armour>
   <Attack>
     <Ranged>
+      <Spread>0.5</Spread>  
       <Pierce>25.0</Pierce>
       <MaxRange>120.0</MaxRange><!-- only lost 120in of height in approx. 100m http://bowhuntingmag.com/bow-reviews/crossbows-vs-compounds-comparing-apples-to-apples -->
       <ProjectileSpeed>115.0</ProjectileSpeed>
