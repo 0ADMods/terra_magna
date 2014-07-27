@@ -2,17 +2,33 @@
 <actor version="1">
   <castshadow/>
   <group>
+    <!-- common if not overridden by reattaching to the same prop point. -->  
     <variant frequency="100" name="Base">
-      <mesh>structural/chin_plot_rice.dae</mesh>
       <props>
         <prop actor="gaia/rice.xml" attachpoint="root"/>
-		<prop actor="props/structures/rice_water.xml" attachpoint="root"/>
       </props>
       <textures>
 		<texture file="gaia/tropic_cliff_mud.png" name="baseTex"/>
 		<texture file="gaia/tropic_cliff_mud_norm.png" name="normTex"/>
 		<texture file="gaia/tropic_cliff_mud_spec.png" name="specTex"/>
       </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="50" name="earthwalls_deep">
+      <mesh>structural/chin_plot_rice_earthwalls_deep.dae</mesh>
+      <props>
+		  <!-- Because we use a different attachpoint than in the Base or common variant, we don't have to redefine the prop. -->
+		  <prop actor="water/water_4x4.xml" attachpoint="waterlevel" /><!-- waterlevel is a prop point empty in the above .dae. -->
+	  </props>
+    </variant>  
+    <variant frequency="50" name="earthwalls_shallow">
+      <mesh>structural/chin_plot_rice.dae</mesh>
+      <props>
+		  <!-- has to be redefined here because it's not within one variant! within one variant reattachment doesn't remove but add another prop to the same attachpoint. -->  
+		<prop actor="props/structures/rice_water.xml" attachpoint="root"/>
+        <prop actor="gaia/rice.xml" attachpoint="root"/>
+	  </props>
     </variant>
   </group>
   <material>player_trans_parallax_spec.xml</material>
