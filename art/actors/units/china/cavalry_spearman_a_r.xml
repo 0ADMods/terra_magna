@@ -19,7 +19,7 @@
       </animations>
       <mesh>skeletal/m_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/chin_cap.xml" attachpoint="head"/>
+		<prop actor="props/units/heads/chin_spearman_helmet.xml" attachpoint="helmet"/>
         <prop actor="props/units/heads/head_china.xml" attachpoint="head"/>
       </props>
     </variant>

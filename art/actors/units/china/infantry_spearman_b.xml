@@ -35,6 +35,7 @@
       </animations>
       <mesh>skeletal/m_pants_celt.dae</mesh>
       <props>
+        <prop actor="props/units/heads/chin_spearman_helmet.xml" attachpoint="head"/>	  
         <prop actor="props/units/heads/head_china.xml" attachpoint="head"/>
         <prop actor="props/units/shields/chin_shield1.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/chin_ji.xml" attachpoint="r_hand"/>

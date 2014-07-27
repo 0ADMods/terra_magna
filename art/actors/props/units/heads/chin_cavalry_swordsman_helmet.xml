@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+	<castshadow/>
+	<group>
+		<variant frequency="100" name="helmetA">
+			<mesh>props/helmet/chin_cavalry_swordsman_helmet.dae</mesh>
+			<textures>
+				<texture file="props/helmet/chin_cavalry_swordsman_helmet.png" name="baseTex"/>
+				<texture file="props/helmet/chin_cavalry_swordsman_helmet.png" name="normTex"/>
+				<texture file="props/helmet/chin_cavalry_swordsman_helmet.png" name="specTex"/>
+			</textures>
+		</variant>
+	</group>
+	<material>player_trans_parallax_spec.xml</material>
+</actor>
