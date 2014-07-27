@@ -22,6 +22,7 @@
     </Ranged>
   </Attack>
   <Cost>
+    <BuildTime>5</BuildTime><!-- Because crossbowmen could be trained within weeks. -->
     <Resources>
       	<food>20</food><!-- because crossbowmen could be training within  weeks and didn't need to be as strong as a longbowman to overcome the draw force of a bow. -->
       	<wood>80</wood><!-- a crossbow needs to be more massive but is more accurate as a consequence due to less elasticity. -->
