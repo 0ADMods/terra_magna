@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_ranged_archer">
+<Entity parent="template_unit_cavalry_ranged_archer">
   <Identity>
     <Classes datatype="tokens">Crossbow</Classes>
 	<GenericName>Crossbow Archer</GenericName>
+    <SpecificName>?</SpecificName>
     <History>The crossbow occurred as early as 600BC or earlier in Asia and other places around the world, featuring bronze arrows.</History>
     <Tooltip>Classes: {Classes}
-		Counters: {Counters} no counters TODO make automatic. Manually keeping this up to date is not desirable. 
-		Countered by: {CounterCounters} TODO see above.</Tooltip>
+Counters: no counters TODO make automatic. Manually keeping this up to date is not desirable. 
+Countered by: TODO see above.</Tooltip>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Armour>
@@ -23,18 +24,13 @@
   </Attack>
   <Cost>
     <Resources>
-      	<food>20</food><!-- because crossbowmen could be training within  weeks and didn't need to be as strong as a longbowman to overcome the draw force of a bow. -->
+      	<food>120</food><!-- because crossbowmen could be training within  weeks and didn't need to be as strong as a longbowman to overcome the draw force of a bow. -->
       	<wood>80</wood><!-- a crossbow needs to be more massive but is more accurate as a consequence due to less elasticity. -->
-		<metal>10</metal><!-- in medieval times there even had been riders, shielded in a triangle formation by the most heavily armoured knights wearing a full-metal crossbow. -->
+		<metal>40</metal><!-- in medieval times there even had been riders, shielded in a triangle formation by the most heavily armoured knights wearing a full-metal crossbow. -->
     </Resources>
   </Cost>
   <Loot>
-	<wood>20</wood>
+    <wood>20</wood>
+    <metal>4</metal>
   </Loot>
-  <UnitMotion>
-    <WalkSpeed>6.6</WalkSpeed>
-    <Run>
-      <Speed>19.8</Speed>
-    </Run>
-  </UnitMotion>
 </Entity>

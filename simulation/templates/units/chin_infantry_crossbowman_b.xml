@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_ranged_archer">
-  <Attack>
-    <Ranged>
-      <Hack>0.0</Hack>
-      <Pierce>25.0</Pierce>
-      <Crush>0.0</Crush>
-      <MaxRange>120.0</MaxRange>
-      <MinRange>15.0</MinRange>
-      <ProjectileSpeed>115.0</ProjectileSpeed>
-      <PrepareTime>1000</PrepareTime>
-      <RepeatTime>2200</RepeatTime>
-    </Ranged>
-  </Attack>
+<Entity parent="template_unit_infantry_ranged_archer_crossbow">
   <Builder>
     <Entities datatype="tokens">
       -structures/{civ}_blacksmith
@@ -23,21 +11,11 @@
 	<SelectionGroupName>units/chin_infantry_crossbowman_b</SelectionGroupName>
     <SpecificName>Nú Shǒu</SpecificName>
     <GenericName>Chinese Crossbowman</GenericName>
-    <History>Needs history.</History>
     <Icon>units/chin_infantry_crossbowman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/chin_infantry_crossbowman_a</Entity>
   </Promotion>
-  <Armour>
-    <Hack>2.0</Hack>
-  </Armour>
-  <UnitMotion>
-    <WalkSpeed>6.6</WalkSpeed>
-    <Run>
-      <Speed>19.8</Speed>
-    </Run>
-  </UnitMotion>
   <VisualActor>
     <Actor>units/china/infantry_crossbowman_b.xml</Actor>
   </VisualActor>
