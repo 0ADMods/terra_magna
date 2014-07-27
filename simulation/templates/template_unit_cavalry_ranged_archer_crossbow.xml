@@ -24,6 +24,7 @@
     </Ranged>
   </Attack>
   <Cost>
+    <BuildTime>15</BuildTime><!-- 15 because champion_cavalry has a build time of 20 and the crossbow still is easier to handle than a combound bow. Yet it might take approx. as long as it takes to teach a spearman which has a train time of 15. -->
     <Resources>
       	<food>120</food><!-- because crossbowmen could be training within  weeks and didn't need to be as strong as a longbowman to overcome the draw force of a bow. -->
       	<wood>80</wood><!-- a crossbow needs to be more massive but is more accurate as a consequence due to less elasticity. -->
