@@ -26,7 +26,7 @@
       <props>
         <prop actor="props/units/heads/head_china.xml" attachpoint="head"/>
         <prop actor="props/units/shields/chin_shield1.xml" attachpoint="shield"/>
-        <prop actor="props/units/weapons/chin_qiang.xml" attachpoint="r_hand"/>
+	        <prop actor="props/units/weapons/chin_halb.xml" attachpoint="r_hand"/>
       </props>
     </variant>
   </group>
