@@ -27,14 +27,9 @@
   <group>
     <variant frequency="1" name="cap-var">
       <props>
-        <prop actor="props/units/heads/chin_cap.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/chin_cavalry_swordsman_helmet.xml" attachpoint="helmet"/>
       </props>
     </variant>
-    <variant frequency="1" name="bun-var">
-      <props>
-        <prop actor="props/units/heads/chin_hairbun.xml" attachpoint="helmet"/>
-      </props>
-  	</variant>
   </group>
   <group>
     <variant frequency="100" name="Idle"/>
