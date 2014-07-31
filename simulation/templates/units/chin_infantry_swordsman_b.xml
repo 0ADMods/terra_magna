@@ -18,8 +18,8 @@
   </Promotion>
   <Cost>
     <Resources>
-      <wood>80</wood>
-      <metal>0</metal>
+      <wood>0</wood>
+      <metal>80</metal>
     </Resources>
   </Cost>
   <Vision>
