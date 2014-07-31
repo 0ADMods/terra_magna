@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="100" name="Base">
-      <animations>
+		<animations>
         <animation file="infantry/spear/idle/isp_01.psa" name="Idle" speed="200"/>
         <animation file="biped/walk_spearshield.psa" name="Walk" speed="120"/>
         <animation file="biped/walk_spearshield.psa" name="carry_food" speed="120"/>
@@ -33,24 +33,18 @@
         <animation file="infantry/general/death/inf_07.psa" name="Death" speed="400"/>
         <animation file="biped/inf_salute_c.psa" name="Promotion" speed="450"/>
       </animations>
-      <mesh>skeletal/m_pants_celt.dae</mesh>
-      <props>
+		<mesh>skeletal/m_pants_celt.dae</mesh>
+		<props>
         <prop actor="props/units/heads/head_china.xml" attachpoint="head"/>
         <prop actor="props/units/shields/chin_shield1.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/chin_qiang.xml" attachpoint="r_hand"/>
-      </props>
-    </variant>
-  </group>
-   <group>
-    <variant frequency="90" name="Helmet">
-      <props>
           <prop actor="props/units/heads/chin_spearman_helmet.xml" attachpoint="helmet"/>
       </props>
-    </variant>
-  </group> 
- <group>
-    <variant frequency="2" name="Clothes-1">
-      <textures><texture file="skeletal/chin_isp_e.png" name="baseTex"/></textures>
+		<textures>
+			<texture file="skeletal/chin_isp_e_norm.png" name="normTex"/>
+			<texture file="skeletal/chin_isp_e.png" name="baseTex"/>
+			<texture file="skeletal/chin_isp_e_spec.png" name="specTex"/> 			
+		</textures>
     </variant>
   </group>
   <group>
@@ -166,5 +160,5 @@
       </props>
     </variant>
    </group>
-  <material>player_trans.xml</material>
+  <material>player_trans_parallax_spec.xml</material>
 </actor>

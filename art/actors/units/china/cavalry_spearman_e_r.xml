@@ -21,24 +21,15 @@
       <props>
         <prop actor="props/units/heads/chin_cap.xml" attachpoint="head"/>
         <prop actor="props/units/heads/head_china.xml" attachpoint="head"/>
+	    <prop actor="props/units/weapons/chin_halb.xml" attachpoint="r_hand"/>
       </props>
+		<textures>
+			<texture file="skeletal/chin_isp_e_norm.png" name="normTex"/>
+			<texture file="skeletal/chin_isp_e.png" name="baseTex"/>
+			<texture file="skeletal/chin_isp_e_spec.png" name="specTex"/> 			
+		</textures>	  
     </variant>
   </group>
-  
-  <group>
-  	<variant frequency="1" name="Halb">
-  		<props>
-	        <prop actor="props/units/weapons/chin_halb.xml" attachpoint="r_hand"/>
-  		</props>
-  	</variant>	
-  </group>
-
-  <group>
-    <variant frequency="1" name="BRider-Texture_1">
-      <textures><texture file="skeletal/chin_csp_e.png" name="baseTex"/></textures>
-    </variant>
-  </group>
-  
   <group>
     <variant frequency="100" name="Idle"/>
     <variant name="carry_meat">
@@ -50,7 +41,5 @@
       </props>
     </variant>
   </group>
-
-  <material>player_trans.xml</material>
-
+  <material>player_trans_parallax_spec.xml</material>
 </actor>

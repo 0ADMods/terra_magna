@@ -39,11 +39,11 @@
         <prop actor="props/units/shields/chin_shield3.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/chin_swords.xml" attachpoint="r_hand"/>
       </props>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="1" name="Clothes-1">
-      <textures><texture file="skeletal/chin_isp_e.png" name="baseTex"/></textures>
+		<textures>
+			<texture file="skeletal/chin_isp_e_norm.png" name="normTex"/>
+			<texture file="skeletal/chin_isp_e.png" name="baseTex"/>
+			<texture file="skeletal/chin_isp_e_spec.png" name="specTex"/> 			
+		</textures>
     </variant>
   </group>
   <group>
@@ -171,5 +171,5 @@
       </props>
     </variant>
   </group>
-  <material>player_trans.xml</material>
+  <material>player_trans_parallax_spec.xml</material>
 </actor>
