@@ -17,7 +17,7 @@
     <History>(History goes here.)</History>
   </Identity>
   <Obstruction>
-    <Static width="24.0" depth="26.0"/>
+    <Static width="34.0" depth="34.0"/>
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
