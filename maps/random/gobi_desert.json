@@ -1,0 +1,11 @@
+{
+	"settings" : {
+		"Name" : "Gobi Desert",
+		"Script" : "gobi_desert.js",
+		"Description" : "A flat dry desert with very few reources",
+		"BaseTerrain" : ["desert_dirt_rough", "desert_dirt_rough_2", "desert_sand_dunes_50", "desert_sand_smooth"],
+		"BaseHeight" : 2,
+		"CircularMap" : true,
+		"XXXXXX" : "Optionally define other things here, like we would for a scenario"
+	}
+}
