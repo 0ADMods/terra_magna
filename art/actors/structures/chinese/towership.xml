@@ -7,6 +7,7 @@
       <mesh>structural/chin_ship_tower.dae</mesh>
       <props>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
+        <prop actor="props/structures/tower_sail.xml" attachpoint="root"/>
       </props>
 	    <textures>
         <texture file="structural/chin_ship.png" name="baseTex"/>
@@ -16,5 +17,5 @@
       </textures>
 	</variant>
   </group>
-  <material>player_trans.xml</material>
+  <material>player_trans_ao_parallax_spec.xml</material>
 </actor>
