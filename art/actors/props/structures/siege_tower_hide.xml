@@ -3,8 +3,8 @@
   <castshadow/>
   <group>
     <variant frequency="100" name="chinese merchant sail">
-      <mesh>props/chin_merchant_sail.dae</mesh>
-      <textures><texture file="props/chin_sail_dragon.png" name="baseTex"/></textures>
+      <mesh>structural/chin_siege_tower_hide.dae</mesh>
+      <textures><texture file="props/chin_bireme_tent.png" name="baseTex"/></textures>
     </variant>
   </group>
   <material>player_trans.xml</material>
