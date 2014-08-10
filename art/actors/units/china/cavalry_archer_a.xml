@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="100" name="Base">
+    <variant frequency="100" name="base">
       <animations>
         <animation file="quadraped/horse_idle_a.psa" name="Idle" speed="800"/>
         <animation file="quadraped/horse_idle_a.psa" name="Idle" speed="400"/>
@@ -31,27 +31,23 @@
     </variant>
   </group>
   <group>
-    <variant name="horse-texture-1">
-      <textures><texture file="skeletal/horse_celt_dapple_a.dds" name="baseTex"/></textures>
-    </variant>
-    <variant name="horse-texture-2">
-      <textures><texture file="skeletal/horse_celt_dapple_a.dds" name="baseTex"/></textures>
-    </variant>
-    <variant name="horse-texture-3">
-      <textures><texture file="skeletal/horse_celt_dapple_a.dds" name="baseTex"/></textures>
+    <variant frequency="100" name="horse-texture-1">
+      <textures>
+        <texture file="skeletal/horse_celt_dapple_a.dds" name="baseTex"/>
+      </textures>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="horse-color-black">
+    <variant frequency="100" name="horse-color-black">
       <colour>46 46 46</colour>
     </variant>
-    <variant frequency="1" name="horse-color-biege">
+    <variant frequency="100" name="horse-color-beige">
       <colour>247 213 111</colour>
     </variant>
-    <variant frequency="1" name="horse-color-gray">
+    <variant frequency="100" name="horse-color-gray">
       <colour>253 253 253</colour>
     </variant>
-    <variant frequency="1" name="horse-color-brown">
+    <variant frequency="100" name="horse-color-brown">
       <colour>211 123 44</colour>
     </variant>
   </group>

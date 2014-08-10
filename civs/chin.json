@@ -24,6 +24,11 @@
 					"Name": "Zhu Cheng",
 					"History": "",
 					"Description": "20% increase of defenses of all walls and fortresses." 
+				},
+				{
+					"Name": "Cast Iron",
+					"History": "Chinese were the first to use that technology for agriculture 2000 years before it was discovered in Europe.",
+					"Description": "" 
 				} 
 			],
 			"Heroes":
@@ -130,7 +135,7 @@
 	{
 		"skirmish/units/default_infantry_ranged_b": "units/chin_infantry_archer_b",
 		"skirmish/units/default_cavalry": "units/chin_cavalry_spearman_b",
-		"skirmish/structures/default_blacksmith": "",
+		"skirmish/structures/default_blacksmith": "structures/{civ}_blacksmith",
 		"skirmish/structures/default_house_10": "structures/{civ}_house"
 	},
 	"SelectableInGameSetup": true

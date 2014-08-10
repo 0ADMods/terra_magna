@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
   <castshadow/>
-  <!-- common
-  <group>
-    <variant name="common">
-      <textures>
-	    <texture file="props/yellow.png" name="specTex"/>--><!-- TODO Eventually add back, perhaps another colour?
-      </textures>
-    </variant>
-  </group>
-  -->
-  <!-- variants -->
   <group>
     <variant name="a">
       <mesh>gaia/cross_large_short.dae</mesh>

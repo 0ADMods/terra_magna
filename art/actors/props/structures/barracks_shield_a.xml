@@ -4,11 +4,9 @@
   <group>
     <variant frequency="1" name="Chin_Barracks_Props_Shield_a">
       <mesh>props/chin_barracks_shield_a.dae</mesh>
-    </variant>
-  </group>
-  <group>
-    <variant>
-      <textures><texture file="props/shield/sh_c05.dds" name="baseTex"/></textures>
+      <textures>
+        <texture file="props/shield/sh_c05.dds" name="baseTex"/>
+      </textures>
     </variant>
   </group>
   <material>basic_trans.xml</material>
