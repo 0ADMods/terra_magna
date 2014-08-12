@@ -38,7 +38,7 @@
         <prop actor="props/units/heads/head_china.xml" attachpoint="head"/>
         <prop actor="props/units/shields/chin_shield1.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/chin_qiang.xml" attachpoint="r_hand"/>
-          <prop actor="props/units/heads/chin_spearman_helmet.xml" attachpoint="helmet"/>
+         <prop actor="props/units/heads/chin_spearman_helmet.xml" attachpoint="helmet"/>
       </props>
 		<textures>
 			<texture file="skeletal/chin_isp_e_norm.png" name="normTex"/>
@@ -47,12 +47,27 @@
 		</textures>
     </variant>
   </group>
-  <group>
-    <variant frequency="100" name="Idle"/>
+   <group>
+    <variant frequency="1" name="Idle">
+      <props>
+        <prop actor="props/units/shields/chin_shield1.xml" attachpoint="shield"/>
+        <prop actor="props/units/weapons/chin_qiang.xml" attachpoint="r_hand"/>
+      </props>
+    </variant>
     <variant name="attack_melee">
       <props>
-        <prop actor="" attachpoint="l_hand"/>
-        <prop actor="props/units/weapons/chin_qiang.xml" attachpoint="r_hand"/>
+        <prop actor="props/units/weapons/knife.xml" attachpoint="r_hand"/>
+      </props>
+    </variant>
+    <variant name="attack_slaughter">
+      <props>
+        <prop actor="props/units/weapons/knife.xml" attachpoint="r_hand"/>
+        <prop attachpoint="shield"/>	
+      </props>
+    </variant>
+    <variant name="death">
+      <props>
+        <prop actor="props/units/blood_01.xml" attachpoint="root"/>
       </props>
     </variant>
     <variant name="gather_tree">
@@ -64,14 +79,15 @@
     </variant>
     <variant name="gather_grain">
       <props>
+		<prop actor="props/units/heads/chin_ricehat.xml" attachpoint="helmet"/>
         <prop attachpoint="shield"/>
         <prop attachpoint="r_hand"/>
         <prop actor="props/units/tools/hoe.xml" attachpoint="l_hand"/>
-      	<prop actor="props/units/heads/chin_ricehat.xml" attachpoint="helmet"/>
       </props>
     </variant>
     <variant name="gather_fruit">
       <props>
+		<prop actor="props/units/heads/chin_ricehat.xml" attachpoint="helmet"/>
         <prop attachpoint="shield"/>
         <prop attachpoint="r_hand"/>
         <prop attachpoint="l_hand"/>
@@ -80,6 +96,7 @@
     </variant>
     <variant name="gather_meat">
       <props>
+		<prop actor="props/units/heads/chin_ricehat.xml" attachpoint="helmet"/>
         <prop attachpoint="shield"/>
         <prop attachpoint="r_hand"/>
         <prop attachpoint="l_hand"/>
@@ -116,19 +133,16 @@
     </variant>
     <variant name="carry_food">
       <props>
-         <prop actor="props/units/shuttle_basket.xml" attachpoint="r_hand"/>
+		<prop actor="props/units/heads/chin_ricehat.xml" attachpoint="helmet"/>
+        <prop actor="props/units/shuttle_basket.xml" attachpoint="r_hand"/>
+        <prop attachpoint="l_hand"/>
+        <prop attachpoint="helmet"/>
         <prop attachpoint="shield"/>
-        <prop attachpoint="r_hand"/>
-      	<prop actor="props/units/heads/chin_ricehat.xml" attachpoint="helmet"/>
-      	<prop attachpoint="helmet"/>
-        <prop attachpoint="loaded-r_hand"/>
-        <prop attachpoint="projectile"/>
-        <prop attachpoint="back"/>
-        <prop attachpoint="l_hip"/>
       </props>
     </variant>
     <variant name="carry_meat">
       <props>
+		<prop actor="props/units/heads/chin_ricehat.xml" attachpoint="helmet"/>
         <prop actor="props/units/shuttle_meat.xml" attachpoint="r_hand"/>
         <prop attachpoint="l_hand"/>
         <prop attachpoint="helmet"/>
@@ -159,6 +173,6 @@
         <prop attachpoint="shield"/>
       </props>
     </variant>
-   </group>
-  <material>player_trans_parallax_spec.xml</material>
+  </group>
+	<material>player_trans_parallax_spec.xml</material>
 </actor>
