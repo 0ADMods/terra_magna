@@ -67,7 +67,8 @@
     </variant>
     <variant name="attack_melee">
       <props>
-        <prop actor="props/units/weapons/knife.xml" attachpoint="r_hand"/>
+        <prop actor="props/units/shields/chin_shield1.xml" attachpoint="shield"/>
+        <prop actor="props/units/weapons/chin_qiang.xml" attachpoint="r_hand"/>
       </props>
     </variant>
     <variant name="attack_slaughter">
