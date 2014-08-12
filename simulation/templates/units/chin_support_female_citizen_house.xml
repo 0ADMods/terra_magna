@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/chin_support_female_citizen">
-  <Cost>
-    <BuildTime>30</BuildTime>
-  </Cost>
-  <Identity>
-    <RequiredTechnology>unlock_females_house</RequiredTechnology>
-  </Identity>
+<Entity parent="template_unit_support_female_citizen">
+	<Attack>
+		<Melee>
+			<Hack>10.0</Hack>
+		</Melee>
+	</Attack>
+	<Health>
+		<Max>75</Max>
+	</Health>
+	<Identity>
+		<Civ>chin</Civ>
+		<SpecificName>Nǚ</SpecificName>
+		<History>Needs history.</History>
+		<Icon>units/chin_support_female_citizen.png</Icon>
+		<RequiredTechnology>unlock_females_house</RequiredTechnology>
+	</Identity>
+	<VisualActor>
+		<Actor>units/china/female_citizen.xml</Actor>
+	</VisualActor>
 </Entity>
