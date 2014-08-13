@@ -12,9 +12,4 @@
   <VisualActor>
     <Actor>structures/chinese/blacksmith.xml</Actor>
   </VisualActor>
-    <Sound>
-    <SoundGroups>
-		<idle>ambient/water/river_med_21.ogg</idle>
-    </SoundGroups>
-  </Sound>
 </Entity>

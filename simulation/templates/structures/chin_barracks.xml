@@ -4,13 +4,6 @@
     <Civ>chin</Civ>
     <SpecificName>Bīng Yíng</SpecificName>
   </Identity>
-  <Cost>
-    <PopulationBonus>7</PopulationBonus>
-    <Resources>
-      <wood>200</wood>
-      <stone>0</stone>
-    </Resources>
-  </Cost>
   <VisualActor>
     <Actor>structures/chinese/barracks.xml</Actor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>

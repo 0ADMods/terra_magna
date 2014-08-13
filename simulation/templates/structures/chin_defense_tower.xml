@@ -14,9 +14,6 @@
     <Square width="10.0" depth="10.5"/>
     <Height>15.0</Height>
   </Footprint>
-  <Health>
-    <Max>1320</Max>
-  </Health>
   <Identity>
     <Civ>chin</Civ>
     <SpecificName>Dū</SpecificName>
