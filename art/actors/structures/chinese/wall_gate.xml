@@ -17,6 +17,7 @@
       </textures>
  		<props>
 			<prop actor="structures/chinese/wall_gate_gutters.xml"  attachpoint="root"/>
+			<prop actor="structures/chinese/wall_gate_struct.xml"  attachpoint="root"/>
 		</props>
     </variant>
   </group>
