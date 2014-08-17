@@ -25,21 +25,19 @@
 	  </props>
     </variant>
     <variant frequency="33" name="earthwalls_deep_small_square">
-      <mesh>structural/chin_plot_rice_earthwalls_deep_2x2.dae</mesh>
+      <mesh>structural/chin_plot_rice_earthwalls_deep_1x1.dae</mesh>
       <props>
 		  <!-- Because we use a different attachpoint than in the Base or common variant, we don't have to redefine the prop. -->
 		  <prop actor="water/water_4x4.xml" attachpoint="waterlevel" /><!-- waterlevel is a prop point empty in the above .dae. -->
 	  </props>
     </variant>
-    <variant frequency="0" name="earthwalls_deep_small_with_8x8_rice">
-      <mesh>structural/chin_plot_rice_earthwalls_deep_2x2_natural_shape.dae</mesh>
+    <variant frequency="15" name="earthwalls_deep_small_sqaure_much_rice">
+      <mesh>structural/chin_plot_rice_earthwalls_deep_2x2.dae</mesh>
       <props>
         <prop actor="gaia/rice.xml" attachpoint="waterlevel"/>
-		<!--
-        <prop actor="gaia/rice.xml" attachpoint="waterlevel.001"/>
-        <prop actor="gaia/rice.xml" attachpoint="waterlevel.002"/>
-        <prop actor="gaia/rice.xml" attachpoint="waterlevel.003"/>
-		-->
+        <prop actor="gaia/rice.xml" attachpoint="waterlevel_001"/>
+        <prop actor="gaia/rice.xml" attachpoint="waterlevel_002"/>
+        <prop actor="gaia/rice.xml" attachpoint="waterlevel_003"/>
 		<prop actor="water/water_4x4.xml" attachpoint="root" /><!-- waterlevel is a prop point empty in the above .dae. -->
 	  </props>
     </variant>
@@ -48,8 +46,10 @@
       <props>
         <prop actor="gaia/rice.xml" attachpoint="root"/>
 		<prop actor="water/water_4x4.xml" attachpoint="root" /><!-- waterlevel is a prop point empty in the above .dae. -->
-		  <prop actor="water/water_4x4.xml" attachpoint="waterlevel" /><!-- waterlevel is a prop point empty in the above .dae. -->
-		  <prop actor="gaia/rice.xml" attachpoint="waterlevel" /><!-- waterlevel is a prop point empty in the above .dae. -->
+		<prop actor="water/water_4x4.xml" attachpoint="waterlevel" /><!-- waterlevel is a prop point empty in the above .dae. -->
+		<prop actor="gaia/rice.xml" attachpoint="waterlevel_001" /><!-- waterlevel is a prop point empty in the above .dae. -->
+        <prop actor="gaia/rice.xml" attachpoint="waterlevel_002"/>
+        <prop actor="gaia/rice.xml" attachpoint="waterlevel_003"/>
 	  </props>
     </variant>
   </group>
