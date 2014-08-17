@@ -33,23 +33,23 @@
     <variant frequency="45" name="decal">
       	<mesh>gaia/berries.dae</mesh>
       	<props>
-		  	<prop actor="structures/plot_field_rice_8x8.xml" attachpoint="root"/><!-- To test if a decal field can be attached to a building/plot. -->
+		  	<prop actor="structures/field_wild_rice_8x8.xml" attachpoint="root"/><!-- To test if a decal field can be attached to a building/plot. -->
 			<prop actor="water/water_4x4.xml" attachpoint="root" /><!-- waterlevel is a prop point empty in the above .dae. -->
 	  	</props>
     </variant>
     <variant frequency="45" name="earthwalls_deep_decal">
-      <mesh>structural/chin_plot_rice_earthwalls_deep.dae</mesh>
+      <mesh>structural/chin_plot_rice_earthwalls_deep_2x2_natural_shape.dae</mesh>
       <props>
 		  <!-- Because we use a different attachpoint than in the Base or common variant, we don't have to redefine the prop. -->
 		  <prop actor="water/water_4x4.xml" attachpoint="waterlevel" /><!-- waterlevel is a prop point empty in the above .dae. -->
-		  <prop actor="structures/plot_field_rice_8x8.xml" attachpoint="root"/><!-- To test if a decal field can be attached to a building/plot. -->
+		  <prop actor="structures/field_wild_rice_8x8.xml" attachpoint="root"/><!-- To test if a decal field can be attached to a building/plot. -->
 		  <!-- Note: attachpoint="root" above removes the rice_8x8 prop, and that's what we want as it is included in plot_field_rice_8x8 -->
 	  </props>
     </variant>
     <variant frequency="10" name="decal_with_farmstead">
       	<mesh>gaia/berries.dae</mesh>
       	<props>
-			<prop actor="structures/plot_field_rice_8x8.xml" attachpoint="root"/><!-- To test if a decal field can be attached to a building/plot. -->
+			<prop actor="structures/field_wild_rice_8x8.xml" attachpoint="root"/><!-- To test if a decal field can be attached to a building/plot. -->
 		  	<prop actor="structures/chinese/farmstead.xml" attachpoint="root"/><!-- To test if a decal field can be attached to a building/plot. -->
 		  	<!-- Note: attachpoint="root" above removes the rice_8x8 prop, and that's what we want as it is included in plot_field_rice_8x8 -->
 	  	</props>
