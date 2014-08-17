@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_resource_field">
+	<Identity>
+		<Civ>chinese</Civ><!-- TODO either use Classes or turn the Civ node into a Civs node, allowing the assignment of multiple civilizations either way. -->
+		<Classes datatype="tokens">japanese chinese</Classes>
+		<VisibleClasses datatype="tokens">Eastern Rice</VisibleClasses>
+		<GenericName>Wild rice field</GenericName>
+		<History>Wild rice fields produced less harvest than cultivated rice paddies but were nevertheless a welcome source of food.</History>
+	</Identity>
+    <ResourceSupply>
+    	<KillBeforeGather>false</KillBeforeGather>
+    	<Amount>Infinity</Amount>
+	    <Type>food.grain</Type> <!-- TODO add rice subtype -->
+	    <MaxGatherers>10</MaxGatherers>
+		<!-- Note to people looking to change this: see the comments
+			 around line 260 in simulation/components/ResourceGatherer.js -->
+	    <DiminishingReturns>30</DiminishingReturns>
+    </ResourceSupply>
+	<VisualActor>
+		<Actor>structures/wild_rice_field.xml</Actor>
+	</VisualActor>
+</Entity>
