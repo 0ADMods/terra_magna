@@ -1,8 +1,10 @@
 {
 	"Code": "chin",
-	"Name": "Chinese",
 	"Culture": "chin",
+	"Name": "Chinese",
+	
 	"Emblem": "session/portraits/emblems/emblem_chinese.png",
+	
 	"History": "China is one of the world's oldest nations and remains one of the most powerful, dating back over 4,000 years to the present day. The origins of the empire derive from civilizations along the Yellow and Yagntze River valleys. Among the technological achievements of the Han Dynasty era that drive its reputation are the seismograph, medicinal innovations such as acupuncture and highly-disciplined educational institutions. However, perhaps the most memorable achievements of the ancient Chinese are architectural, notably the Terracotta Army and the Great Wall.",
 	"Music":[
 		{"File":"Omri Lahav - Hill of Sorrows.ogg", "Type":"peace"},
@@ -12,7 +14,7 @@
 	[
 		{
 			"Name": "Han Dynasty",
-			"Description": "",
+			"Description": "The Rebelling Chinese",
 			"Technologies":
 			[
 				{
@@ -108,7 +110,7 @@
 			"Count": 2
 		},
 		{
-			"Template": "units/chin_cavalry_spearman_b"
+			"Template": "units/chin_cavalry_arcber_b"
 		}
 		],
 	"Formations":
@@ -134,9 +136,7 @@
 	"SkirmishReplacements":
 	{
 		"skirmish/units/default_infantry_ranged_b": "units/chin_infantry_archer_b",
-		"skirmish/units/default_cavalry": "units/chin_cavalry_spearman_b",
-		"skirmish/structures/default_blacksmith": "structures/{civ}_blacksmith",
-		"skirmish/structures/default_house_10": "structures/{civ}_house"
+		"skirmish/units/default_cavalry": "units/chin_cavalry_archer_b"
 	},
 	"SelectableInGameSetup": true
 }
