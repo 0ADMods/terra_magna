@@ -22,6 +22,7 @@
       <Speed>19.8</Speed>
     </Run>
   </UnitMotion>
+  <Promotion disable=""/>
   <VisualActor>
     <Actor>units/china/infantry_archer_e.xml</Actor>
   </VisualActor>

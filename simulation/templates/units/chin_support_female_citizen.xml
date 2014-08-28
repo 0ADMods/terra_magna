@@ -14,6 +14,7 @@
 		<History>Needs history.</History>
 		<Icon>units/chin_support_female_citizen.png</Icon>
 	</Identity>
+	  <Promotion disable=""/>
 	<VisualActor>
 		<Actor>units/china/female_citizen.xml</Actor>
 	</VisualActor>

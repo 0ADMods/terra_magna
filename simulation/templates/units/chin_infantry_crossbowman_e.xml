@@ -29,6 +29,7 @@
       <Speed>19.8</Speed>
     </Run>
   </UnitMotion>
+  <Promotion disable=""/>
   <VisualActor>
     <Actor>units/china/infantry_crossbowman_e.xml</Actor>
   </VisualActor>

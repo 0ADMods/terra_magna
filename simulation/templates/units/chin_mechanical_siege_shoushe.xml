@@ -35,6 +35,7 @@
   <Obstruction>
     <Unit radius="3.5"/>
   </Obstruction>
+    <Promotion disable=""/>
   <Vision>
     <Range>88</Range>
   </Vision>

@@ -24,6 +24,7 @@
     <GenericName>Heroine</GenericName>
     <Icon>units/celt_hero_boudicca.png</Icon>
   </Identity>
+  <Promotion disable=""/>
   <Sound>
     <SoundGroups>
       <trained>interface/alarm/alarm_create_female.xml</trained>

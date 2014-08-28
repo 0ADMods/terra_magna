@@ -10,6 +10,7 @@
 	The last recorded use of a Chong Che in Chinese military history must have been in A.D. 1851 when Taiping rebels besieged Guilin. Failing to storm the city with Yunti Che "Cloud ladders", they built a Chong Che as tall as the city walls, mounted cannons on it and bombarded the Qing soldiers manning the wall. However, the defenders finally destroyed the Chong Che with the use of boiling oil, and by burning the Chong Che with long poles wrapped with incendiary materials at the ends.</History>
     <Icon>units/chin_mechanical_siege_tower.png</Icon>
   </Identity>
+  <Promotion disable=""/>
   <VisualActor>
     <Actor>structures/chinese/siege_tower.xml</Actor>
   </VisualActor>
