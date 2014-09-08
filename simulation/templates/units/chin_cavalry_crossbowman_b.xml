@@ -7,10 +7,6 @@
 	<GenericName>Chinese Mounted Crossbowman</GenericName>
     <SpecificName>?</SpecificName>
 	<Icon>units/chin_cavalry_crossbowman.png</Icon>
-    <Tooltip>Classes: {/Entity/Identity/Classes}.
-		First occurrence: {first_occurrence}.
-		Zenith: {zenith}
-        Last occurrence: {last_occurrence}.</Tooltip>
   </Identity>
   <Promotion>
     <Entity>units/chin_cavalry_crossbowman_a</Entity>

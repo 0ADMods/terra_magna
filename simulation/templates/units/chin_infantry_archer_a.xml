@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="units/chin_infantry_archer_b">
   <Identity>
-    <Civ>chin</Civ>
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
@@ -12,8 +11,7 @@
       <Hack>0.0</Hack>
       <Pierce>22.0</Pierce>
       <Crush>0.0</Crush>
-      <MaxRange>67.0</MaxRange>
-      <MinRange>8.0</MinRange>
+      <MaxRange>50.0</MaxRange>
       <ProjectileSpeed>85.0</ProjectileSpeed>
     </Ranged>
   </Attack>
@@ -21,14 +19,8 @@
     <Entity>units/chin_infantry_archer_e</Entity>
   </Promotion>
   <Armour>
-    <Hack>3.5</Hack>
+    <Hack>2.5</Hack>
   </Armour>
-  <UnitMotion>
-    <WalkSpeed>6.6</WalkSpeed>
-    <Run>
-      <Speed>19.8</Speed>
-    </Run>
-  </UnitMotion>
   <VisualActor>
     <Actor>units/china/infantry_archer_a.xml</Actor>
   </VisualActor>

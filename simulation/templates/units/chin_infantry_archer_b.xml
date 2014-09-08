@@ -15,16 +15,9 @@
   <Promotion>
     <Entity>units/chin_infantry_archer_a</Entity>
   </Promotion>
-  <Armour>
-    <Hack>2.0</Hack>
-  </Armour>
   <Attack>
     <Ranged>
-      <Pierce>15.0</Pierce>
       <MaxRange>40.0</MaxRange><!-- less in comparison to the crossbowman -->
-      <ProjectileSpeed>75.0</ProjectileSpeed>
-      <PrepareTime>1200</PrepareTime>
-      <RepeatTime>2000</RepeatTime>
     </Ranged>
   </Attack>
   <Cost>
@@ -33,12 +26,6 @@
       <wood>30</wood>
     </Resources>
   </Cost>
-  <UnitMotion>
-    <WalkSpeed>6.6</WalkSpeed>
-    <Run>
-      <Speed>19.8</Speed>
-    </Run>
-  </UnitMotion>
   <VisualActor>
     <Actor>units/china/infantry_archer_b.xml</Actor>
   </VisualActor>

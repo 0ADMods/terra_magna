@@ -1,37 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="units/chin_infantry_crossbowman_b">
   <Identity>
-    <Civ>chin</Civ>
-	<SelectionGroupName>units/chin_infantry_crossbowman_b</SelectionGroupName>
-    <SpecificName>Nú Shǒu</SpecificName>
-    <History>Needs history.</History>
-    <Icon>units/chin_infantry_archer.png</Icon>
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
     <Entity>units/chin_infantry_crossbowman_e</Entity>
   </Promotion>
+    <ResourceGatherer>
+    <BaseSpeed>0.75</BaseSpeed>
+  </ResourceGatherer>
   <Attack>
     <Ranged>
+      <Spread>1.2</Spread>  
       <Hack>0.0</Hack>
-      <Pierce>30.0</Pierce>
+      <Pierce>14.5</Pierce>
       <Crush>0.0</Crush>
-      <MaxRange>120.0</MaxRange>
-      <MinRange>15.0</MinRange>
-      <ProjectileSpeed>115.0</ProjectileSpeed>
-      <PrepareTime>1000</PrepareTime>
-      <RepeatTime>2200</RepeatTime>
     </Ranged>
   </Attack>
   <Armour>
-    <Hack>3.5</Hack>
+    <Hack>2.5</Hack>
   </Armour>
-  <UnitMotion>
-    <WalkSpeed>6.6</WalkSpeed>
-    <Run>
-      <Speed>19.8</Speed>
-    </Run>
-  </UnitMotion>
   <VisualActor>
     <Actor>units/china/infantry_crossbowman_a.xml</Actor>
   </VisualActor>

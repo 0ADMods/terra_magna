@@ -8,21 +8,12 @@
   <Attack>
     <Ranged>
       <Hack>0.0</Hack>
-      <Pierce>22.0</Pierce>
+      <Pierce>18.0</Pierce>
       <Crush>0.0</Crush>
-      <MaxRange>120.0</MaxRange>
-      <MinRange>15.0</MinRange>
-      <ProjectileSpeed>115.0</ProjectileSpeed>
-      <PrepareTime>650</PrepareTime>
-      <RepeatTime>2600</RepeatTime>
+      <MaxRange>62.0</MaxRange>
+      <Spread>1.2</Spread>
     </Ranged>
   </Attack>
-  <Cost>
-    <Resources>
-      <food>80</food>
-      <wood>60</wood>
-    </Resources>
-  </Cost>
   <Health>
     <Max>160</Max>
   </Health>

@@ -4,26 +4,20 @@
     <Classes datatype="tokens">Crossbow</Classes>
 	<GenericName>Crossbow Archer</GenericName>
     <History>The crossbow occurred as early as 600BC or earlier in Asia and other places around the world, featuring bronze arrows.</History>
-    <Tooltip>Classes: {Classes}
-		Counters: {Counters} no counters TODO make automatic. Manually keeping this up to date is not desirable. 
-		Countered by: {CounterCounters} TODO see above.</Tooltip>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
-  <Armour>
-    <Hack>2.0</Hack>
-  </Armour>
   <Attack>
     <Ranged>
-      <Spread>0.5</Spread>  
-      <Pierce>25.0</Pierce>
-      <MaxRange>120.0</MaxRange><!-- only lost 120in of height in approx. 100m http://bowhuntingmag.com/bow-reviews/crossbows-vs-compounds-comparing-apples-to-apples -->
+      <Spread>1.5</Spread>  
+      <Pierce>13.5</Pierce>
+      <MaxRange>60.0</MaxRange><!-- only lost 120in of height in approx. 100m http://bowhuntingmag.com/bow-reviews/crossbows-vs-compounds-comparing-apples-to-apples -->
       <ProjectileSpeed>115.0</ProjectileSpeed>
-      <PrepareTime>1000</PrepareTime><!-- less prepare time because of a crossbowman doesn't have to keep a bow drawn. -->
-      <RepeatTime>4000</RepeatTime><!-- fast crossbow:longbow 4:9 shots in 30 seconds --> 
+      <PrepareTime>900</PrepareTime><!-- less prepare time because of a crossbowman doesn't have to keep a bow drawn. -->
+      <RepeatTime>2000</RepeatTime><!-- fast crossbow:longbow 4:9 shots in 30 seconds --> 
     </Ranged>
   </Attack>
   <Cost>
-    <BuildTime>3</BuildTime><!-- Because crossbowmen could be trained within weeks. -->
+    <BuildTime>5</BuildTime><!-- Because crossbowmen could be trained within weeks. -->
     <Resources>
       	<food>20</food><!-- because crossbowmen could be training within  weeks and didn't need to be as strong as a longbowman to overcome the draw force of a bow. -->
       	<wood>80</wood><!-- a crossbow needs to be more massive but is more accurate as a consequence due to less elasticity. -->
@@ -34,9 +28,9 @@
 	<wood>20</wood>
   </Loot>
   <UnitMotion>
-    <WalkSpeed>6.6</WalkSpeed>
+    <WalkSpeed>9.0</WalkSpeed>
     <Run>
-      <Speed>19.8</Speed>
+      <Speed>15.0</Speed>
     </Run>
   </UnitMotion>
 </Entity>

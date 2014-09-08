@@ -8,20 +8,12 @@
       <Hack>0.0</Hack>
       <Pierce>26.0</Pierce>
       <Crush>0.0</Crush>
-      <MaxRange>100.0</MaxRange>
-      <MinRange>15.0</MinRange>
-      <ProjectileSpeed>115.0</ProjectileSpeed>
+      <MaxRange>55.0</MaxRange>
     </Ranged>
   </Attack>
   <Armour>
     <Hack>4.0</Hack>
   </Armour>
-  <UnitMotion>
-    <WalkSpeed>6.6</WalkSpeed>
-    <Run>
-      <Speed>19.8</Speed>
-    </Run>
-  </UnitMotion>
   <Promotion disable=""/>
   <VisualActor>
     <Actor>units/china/infantry_archer_e.xml</Actor>
