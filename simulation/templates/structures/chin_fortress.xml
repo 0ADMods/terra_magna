@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_fortress">
-  <Cost>
-    <BuildTime>462</BuildTime>
-  </Cost>
   <Footprint>
     <Square width="38.0" depth="39.0"/>
     <Height>8.0</Height>
   </Footprint>
-  <Health>
-    <Max>4620</Max>
-  </Health>
   <Identity>
     <Civ>chin</Civ>
     <SpecificName>Chéng Bǎo</SpecificName>
-    <Tooltip>Build siege engines. Garrison up to 15 soldiers inside for stout defense.</Tooltip>
+    <Tooltip>Build siege engines. Garrison up to 20 soldiers inside for stout defense.</Tooltip>
     <History>(History goes here.)</History>
   </Identity>
   <Obstruction>
@@ -25,9 +19,10 @@
       units/chin_mechanical_siege_tower
     </Entities>
     <Technologies datatype="tokens">
-      -pair_champ_02
-      pair_siege_attack_cost
-      pair_siege_cost_armor	  
+      siege_attack
+      siege_armor
+      siege_cost_metal
+      siege_cost_wood
     </Technologies>
   </ProductionQueue>
   <VisualActor>

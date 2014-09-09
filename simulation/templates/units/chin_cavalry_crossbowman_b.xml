@@ -5,7 +5,7 @@
     <Classes datatype="tokens">Ranged Cavalry Horse Archer Crossbow</Classes>
 	<SelectionGroupName>units/chin_cavalry_crossbowman_b</SelectionGroupName>
 	<GenericName>Chinese Mounted Crossbowman</GenericName>
-    <SpecificName>?</SpecificName>
+    <SpecificName>Nǔ qí</SpecificName>
 	<Icon>units/chin_cavalry_crossbowman.png</Icon>
   </Identity>
   <Promotion>

@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="units/chin_cavalry_spearman_b">
 	<Armour>
-		<Hack>2</Hack>
-		<Pierce>4</Pierce>
-		<Crush>5</Crush>
+		<Hack>4</Hack>
+		<Pierce>2</Pierce>
+		<Crush>3</Crush>
 	</Armour>
 	<Attack>
-		<Melee>
-		  <Hack>12.0</Hack>
-		</Melee>
-		<Charge>
-		  <Hack>36.0</Hack>
-		</Charge>
+	<Melee>
+	  <Hack>4.5</Hack>
+	  <Pierce>8.5</Pierce>
+	</Melee>
+	<Charge>
+	  <Hack>12.0</Hack>
+	  <Pierce>24.0</Pierce>
+	</Charge>
 	</Attack>
 	<Health>
 		<Max>160</Max>
@@ -19,6 +21,15 @@
   	<Identity>
     	<Rank>Advanced</Rank>
   	</Identity>
+  	<ResourceGatherer>
+    	<BaseSpeed>0.75</BaseSpeed>
+  	</ResourceGatherer>
+  	<UnitMotion>
+    	<WalkSpeed>14</WalkSpeed>
+    	<Run>
+      		<Speed>25.0</Speed>
+    	</Run>
+  	</UnitMotion>
   	<Promotion>
 		<Entity>units/chin_cavalry_spearman_e</Entity>
 	</Promotion>

@@ -2,7 +2,7 @@
 <Entity parent="template_unit_infantry_ranged_archer">
   <Identity>
     <Classes datatype="tokens">Crossbow</Classes>
-	<GenericName>Crossbow Archer</GenericName>
+    <GenericName>Crossbowman</GenericName>
     <History>The crossbow occurred as early as 600BC or earlier in Asia and other places around the world, featuring bronze arrows.</History>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
@@ -10,7 +10,7 @@
     <Ranged>
       <Spread>1.5</Spread>  
       <Pierce>13.5</Pierce>
-      <MaxRange>60.0</MaxRange><!-- only lost 120in of height in approx. 100m http://bowhuntingmag.com/bow-reviews/crossbows-vs-compounds-comparing-apples-to-apples -->
+      <MaxRange>60.0</MaxRange>
       <ProjectileSpeed>115.0</ProjectileSpeed>
       <PrepareTime>900</PrepareTime><!-- less prepare time because of a crossbowman doesn't have to keep a bow drawn. -->
       <RepeatTime>2000</RepeatTime><!-- fast crossbow:longbow 4:9 shots in 30 seconds --> 

@@ -28,10 +28,6 @@
     </Entities>
     <Technologies datatype="tokens">
 	  -unlock_champion_units
-	  upgrade_rank_advanced_infantry
-	  upgrade_rank_elite_infantry
-	  upgrade_rank_advanced_cavalry
-	  upgrade_rank_elite_cavalry	  
     </Technologies>
   </ProductionQueue>
 </Entity>
