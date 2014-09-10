@@ -2,19 +2,26 @@
 <Entity parent="template_unit_hero_cavalry_swordsman">
   <Auras>
     <Aura1>
+      <Type>global</Type>
+      <Affects>Worker</Affects>
+      <Modifications>
+        <ResourceGatherer.Rates.food.grain> <Multiply>1.1</Multiply> </ResourceGatherer.Rates.food.grain>
+      </Modifications>
+      <AuraName>Farming bonus</AuraName>
+      <AuraDescription>Boosts gloabal farming with +10%.</AuraDescription>
+    </Aura1>
+    <Aura2>
       <Type>range</Type>
       <Radius>60</Radius>
-      <Affects>Unit</Affects>
+      <Affects>Basic</Affects>
       <Modifications>
-        <Health.RegenRate> <Add>1</Add> </Health.RegenRate>
+        <Attack.Ranged.Pierce> <Add>2</Add> </Attack.Ranged.Pierce>
+        <Attack.Melee.Hack> <Add>2</Add> </Attack.Melee.Hack>
       </Modifications>
-      <AuraName>Hero Aura</AuraName>
-      <AuraDescription>Let all units heal at 1 HP per second</AuraDescription>
-    </Aura1>
+      <AuraName>Early army booster</AuraName>
+      <AuraDescription>Boosts basic ranked soldiers with +2 attack.</AuraDescription>
+    </Aura2>
   </Auras>
-  <Armour>
-    <Hack>10</Hack>
-  </Armour>
   <Identity>
     <Civ>chin</Civ>
     <SpecificName>Liu Bang</SpecificName>

@@ -9,7 +9,7 @@
     <Civ>chin</Civ>
 	<SelectionGroupName>units/chin_infantry_crossbowman_b</SelectionGroupName>
     <SpecificName>Nǔ Shǒu</SpecificName>
-    <GenericName>Chinese Crossbowman</GenericName>
+    <GenericName>Crossbowman</GenericName>
     <Icon>units/chin_infantry_crossbowman.png</Icon>
   </Identity>
   <Promotion>

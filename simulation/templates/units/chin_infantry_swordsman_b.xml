@@ -15,24 +15,6 @@
   <Promotion>
     <Entity>units/chin_infantry_swordsman_a</Entity>
   </Promotion>
-  <Cost>
-    <Resources>
-      <wood>0</wood>
-      <metal>80</metal>
-    </Resources>
-  </Cost>
-  <Vision>
-    <Range>60</Range>
-  </Vision>
-  <Armour>
-    <Pierce>3</Pierce>
-  </Armour>
-  <UnitMotion>
-    <WalkSpeed>7.0</WalkSpeed>
-    <Run>
-      <Speed>20.0</Speed>
-    </Run>
-  </UnitMotion>
   <VisualActor>
     <Actor>units/china/infantry_swordsman_b.xml</Actor>
   </VisualActor>

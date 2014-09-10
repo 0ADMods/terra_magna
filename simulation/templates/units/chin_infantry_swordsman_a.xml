@@ -6,20 +6,31 @@
   <Promotion>
     <Entity>units/chin_infantry_swordsman_e</Entity>
   </Promotion>
+  <Armour>
+    <Hack>5</Hack>
+    <Pierce>2</Pierce>
+    <Crush>4</Crush>
+  </Armour>
   <Attack>
     <Melee>
-      <Hack>12.0</Hack>
+      <Hack>10</Hack>
     </Melee>
     <Charge>
-      <Hack>24.0</Hack>
+      <Hack>28.0</Hack>
     </Charge>
   </Attack>
-  <Armour>
-    <Pierce>4.0</Pierce>
-  </Armour>
+  <Health>
+    <Max>130</Max>
+  </Health>
   <ResourceGatherer>
     <BaseSpeed>0.75</BaseSpeed>
   </ResourceGatherer>
+  <UnitMotion>
+    <WalkSpeed>8.5</WalkSpeed>
+    <Run>
+      <Speed>15.0</Speed>
+    </Run>
+  </UnitMotion>
   <VisualActor>
     <Actor>units/china/infantry_swordsman_a.xml</Actor>
   </VisualActor>

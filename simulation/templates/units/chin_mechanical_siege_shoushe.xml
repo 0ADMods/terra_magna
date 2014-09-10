@@ -2,25 +2,14 @@
 <Entity parent="template_unit_mechanical_siege_onager">
   <Attack>
     <Ranged>
-      <MaxRange>76</MaxRange>
-      <MinRange>16.0</MinRange>
-      <ProjectileSpeed>28.0</ProjectileSpeed>
-      <RepeatTime>5000</RepeatTime>
-      <Splash>
-        <Shape>Circular</Shape>
-        <Range>4</Range>
-        <FriendlyFire>true</FriendlyFire>
-        <Hack>40.0</Hack>
-        <Pierce>0.0</Pierce>
-        <Crush>40.0</Crush>
-      </Splash>
+      <MaxRange>80.0</MaxRange>
+      <MinRange>12.0</MinRange>
     </Ranged>
   </Attack>
   <Cost>
-    <BuildTime>40</BuildTime>
     <Resources>
-      <wood>300</wood>
-      <stone>100</stone>
+      <wood>400</wood>
+      <stone>350</stone>
     </Resources>
   </Cost>
   <Footprint replace="">
@@ -32,13 +21,7 @@
     <SpecificName>Shoushe Nu</SpecificName>
     <Icon>units/chin_mechanical_siege_shoushe.png</Icon>
   </Identity>
-  <Obstruction>
-    <Unit radius="3.5"/>
-  </Obstruction>
     <Promotion disable=""/>
-  <Vision>
-    <Range>88</Range>
-  </Vision>
   <VisualActor>
     <Actor>units/china/siege_shoushe.xml</Actor>
   </VisualActor>
