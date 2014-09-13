@@ -4,9 +4,6 @@
     <Square width="41.0" depth="41.0"/>
     <Height>8.0</Height>
   </Footprint>
-  <Health>
-    <Max>3650</Max>
-  </Health>
   <Identity>
     <Civ>chin</Civ>
     <SpecificName>Chéng Zhèn</SpecificName>

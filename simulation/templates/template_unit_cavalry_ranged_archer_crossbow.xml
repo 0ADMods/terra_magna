@@ -11,18 +11,18 @@
     <Ranged>
 	  <Spread>1.4</Spread>
       <Pierce>17.0</Pierce>
-      <MaxRange>60.0</MaxRange><!-- only lost 120in of height in approx. 100m http://bowhuntingmag.com/bow-reviews/crossbows-vs-compounds-comparing-apples-to-apples -->
+      <MaxRange>60.0</MaxRange>
       <ProjectileSpeed>115.0</ProjectileSpeed>
-      <PrepareTime>900</PrepareTime><!-- less prepare time because of a crossbowman doesn't have to keep a bow drawn. -->
-      <RepeatTime>3000</RepeatTime><!-- fast crossbow:longbow 4:9 shots in 30 seconds --> 
+      <PrepareTime>900</PrepareTime>
+      <RepeatTime>3000</RepeatTime>
     </Ranged>
   </Attack>
   <Cost>
-    <BuildTime>15</BuildTime><!-- 15 because champion_cavalry has a build time of 20 and the crossbow still is easier to handle than a combound bow. Yet it might take approx. as long as it takes to teach a spearman which has a train time of 15. -->
+    <BuildTime>15</BuildTime>
     <Resources>
-      	<food>100</food><!-- because crossbowmen could be training within  weeks and didn't need to be as strong as a longbowman to overcome the draw force of a bow. -->
-      	<wood>80</wood><!-- a crossbow needs to be more massive but is more accurate as a consequence due to less elasticity. -->
-		<metal>20</metal><!-- in medieval times there even had been riders, shielded in a triangle formation by the most heavily armoured knights wearing a full-metal crossbow. -->
+      	<food>100</food>
+      	<wood>80</wood>
+		<metal>20</metal>
     </Resources>
   </Cost>
   <Loot>

@@ -13,15 +13,15 @@
       <MaxRange>60.0</MaxRange>
       <ProjectileSpeed>115.0</ProjectileSpeed>
       <PrepareTime>900</PrepareTime><!-- less prepare time because of a crossbowman doesn't have to keep a bow drawn. -->
-      <RepeatTime>2000</RepeatTime><!-- fast crossbow:longbow 4:9 shots in 30 seconds --> 
+      <RepeatTime>2000</RepeatTime>
     </Ranged>
   </Attack>
   <Cost>
-    <BuildTime>5</BuildTime><!-- Because crossbowmen could be trained within weeks. -->
+    <BuildTime>5</BuildTime>
     <Resources>
-      	<food>20</food><!-- because crossbowmen could be training within  weeks and didn't need to be as strong as a longbowman to overcome the draw force of a bow. -->
-      	<wood>80</wood><!-- a crossbow needs to be more massive but is more accurate as a consequence due to less elasticity. -->
-		<metal>10</metal><!-- in medieval times there even had been riders, shielded in a triangle formation by the most heavily armoured knights wearing a full-metal crossbow. -->
+      	<food>20</food>
+      	<wood>80</wood>
+		<metal>10</metal>
     </Resources>
   </Cost>
   <Loot>
