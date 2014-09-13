@@ -4,6 +4,11 @@
     <Civ>chin</Civ>
     <SpecificName>Cāng Fáng</SpecificName>
   </Identity>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/chin_hero_liu_bang
+    </Entities>
+  </ProductionQueue>
   <VisualActor>
     <Actor>structures/chinese/farmstead.xml</Actor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>

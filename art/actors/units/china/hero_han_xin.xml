@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+
+  <castshadow/>
+
+  <group>
+    <variant frequency="100" name="Base">
+      <animations>
+        <animation file="infantry/general/dude/dudeidle.psa" name="Idle" speed="200"/>
+        <animation file="biped/dudewalk_swordshield.psa" name="Walk" speed="20"/>
+        <animation file="infantry/sword/move/run/isw_s_off_01.psa" name="run" speed="5"/>
+        <animation file="infantry/general/dude/dudedeath_sword.psa" name="Death" speed="200"/>
+        <animation event="0.5" file="infantry/sword/attack/isw_s_em_04.psa" name="attack_melee" speed="100"/>
+        <animation event="0.5" file="infantry/sword/attack/isw_s_off_05.psa" name="attack_melee" speed="100"/>
+        <animation event="0.5" file="infantry/sword/attack/isw_s_def_06.psa" name="attack_melee" speed="100"/>
+      </animations>
+      <mesh>skeletal/m_pants_celt.dae</mesh>
+      <props>
+        <prop actor="props/units/chin_crown_liu_bang_as_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/head_china.xml" attachpoint="head"/>
+        <prop actor="props/units/weapons/chin_sword_liu_bang.xml" attachpoint="r_hand"/>
+        <prop actor="props/units/shields/chin_shield1.xml" attachpoint="shield"/>
+        <!--<prop actor="props/units/shields/celt_vercingetorix.xml" attachpoint="shield"/>-->
+        <prop actor="props/temp/l_sheath.xml" attachpoint="l_hip"/>
+      </props>
+      <textures>
+        <texture file="skeletal/chin_liu_bang.png" name="baseTex"/>
+      </textures>	  
+    </variant>
+  </group>
+
+  <material>player_trans.xml</material>
+
+</actor>
