@@ -29,7 +29,6 @@
     <Icon>units/chin_hero_liu_bang.png</Icon>
   </Identity>
   <Promotion disable=""/>
-  <RequiredTechnology>phase_town</RequiredTechnology>
   <VisualActor>
     <Actor>units/china/hero_liu_bang_horse.xml</Actor>
   </VisualActor>
