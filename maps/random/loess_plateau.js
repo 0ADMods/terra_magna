@@ -43,7 +43,7 @@ const eHillBush = "actor|props/flora/bush_tempe_b.xml";
 // terrain + entity (for painting)
 var pForestP = [tForestFloor + TERRAIN_SEPARATOR + oCarob, tForestFloor];
 var pForestD = [tForestFloor + TERRAIN_SEPARATOR + oBamboo, tForestFloor];
-const BUILDING_ANGlE = 0.75*PI;
+const BUILDING_ANGlE = -PI/4;
 
 log("Initializing map...");
 
