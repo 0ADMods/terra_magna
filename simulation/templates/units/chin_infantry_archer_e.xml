@@ -5,10 +5,8 @@
   </Identity>
   <Attack>
     <Ranged>
-      <Hack>0.0</Hack>
-      <Pierce>26.0</Pierce>
-      <Crush>0.0</Crush>
       <MaxRange>55.0</MaxRange>
+      <Spread>1.2</Spread>
     </Ranged>
   </Attack>
   <Armour>

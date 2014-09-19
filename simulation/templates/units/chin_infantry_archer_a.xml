@@ -8,11 +8,8 @@
   </Promotion>
   <Attack>
     <Ranged>
-      <Hack>0.0</Hack>
-      <Pierce>22.0</Pierce>
-      <Crush>0.0</Crush>
       <MaxRange>50.0</MaxRange>
-      <ProjectileSpeed>85.0</ProjectileSpeed>
+      <Spread>1.4</Spread>
     </Ranged>
   </Attack>
    <Promotion>

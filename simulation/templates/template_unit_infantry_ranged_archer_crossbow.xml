@@ -9,7 +9,7 @@
   <Attack>
     <Ranged>
       <Spread>1.5</Spread>  
-      <Pierce>13.5</Pierce>
+      <Pierce>16.5</Pierce>
       <MaxRange>60.0</MaxRange>
       <ProjectileSpeed>115.0</ProjectileSpeed>
       <PrepareTime>900</PrepareTime><!-- less prepare time because of a crossbowman doesn't have to keep a bow drawn. -->
@@ -19,9 +19,9 @@
   <Cost>
     <BuildTime>5</BuildTime>
     <Resources>
-      	<food>20</food>
-      	<wood>80</wood>
-		<metal>10</metal>
+      <food>20</food>
+      <wood>80</wood>
+		  <metal>10</metal>
     </Resources>
   </Cost>
   <Loot>
