@@ -10,7 +10,7 @@
   <Attack>
     <Ranged>
 	  <Spread>1.4</Spread>
-      <Pierce>17.0</Pierce>
+      <Pierce>20.0</Pierce>
       <MaxRange>60.0</MaxRange>
       <ProjectileSpeed>115.0</ProjectileSpeed>
       <PrepareTime>900</PrepareTime>
@@ -20,9 +20,9 @@
   <Cost>
     <BuildTime>15</BuildTime>
     <Resources>
-      	<food>100</food>
-      	<wood>80</wood>
-		<metal>20</metal>
+      <food>100</food>
+      <wood>80</wood>
+		  <metal>20</metal>
     </Resources>
   </Cost>
   <Loot>

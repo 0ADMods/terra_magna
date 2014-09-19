@@ -12,9 +12,6 @@
   <Attack>
     <Ranged>
       <Spread>1.2</Spread>  
-      <Hack>0.0</Hack>
-      <Pierce>14.5</Pierce>
-      <Crush>0.0</Crush>
     </Ranged>
   </Attack>
   <Armour>

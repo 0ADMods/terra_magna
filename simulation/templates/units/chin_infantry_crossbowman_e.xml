@@ -6,9 +6,6 @@
   <Attack>
     <Ranged>
       <Spread>1.0</Spread>
-      <Hack>0.0</Hack>
-      <Pierce>16.0</Pierce>
-      <Crush>0.0</Crush>
     </Ranged>
   </Attack>
   <Armour>
