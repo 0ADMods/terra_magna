@@ -2,13 +2,8 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="100" name="Han Chinese storehouse">
-      <mesh>structural/chin_storehouse.dae</mesh>
-      <props>
-        <prop actor="props/wooden_planks.xml" attachpoint="below_side_shed"/>
-        <prop actor="props/structures/hellenes/storehouse_wood.xml" attachpoint="root"/>
-        <prop actor="props/structures/decals/rome_corral_mud.xml" attachpoint="root"/>
-      </props>
+    <variant frequency="100" name="base">
+      <mesh>props/wooden_planks.dae</mesh>
       <textures>
         <texture file="structural/chin_struct2.png" name="baseTex"/>
         <texture file="structural/chin_struct2_norm.png" name="normTex"/>
@@ -21,9 +16,7 @@
     <variant frequency="100" name="Idle"/>
     <variant name="death">
       <props>
-        <prop actor="particle/destruction_smoke_small.xml" attachpoint="root"/>
-        <prop actor="particle/destruction_dust_small.xml" attachpoint="root"/>
-        <prop actor="particle/destruction_dust_small_gray.xml" attachpoint="root"/>
+        <prop actor="particle/bigflame.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
