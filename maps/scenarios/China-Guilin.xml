@@ -33,9 +33,9 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="639.014" y="171.141" z="674.744"/>
-		<Rotation angle="-1.69912"/>
-		<Declination angle="0.819749"/>
+		<Position x="232.861" y="91.4232" z="780.654"/>
+		<Rotation angle="-1.51343"/>
+		<Declination angle="0.610865"/>
 	</Camera>
 	<ScriptSettings><![CDATA[
 {
@@ -401,8 +401,8 @@
 		<Entity uid="86">
 			<Template>structures/chin_wall_tower</Template>
 			<Player>1</Player>
-			<Position x="544.60962" z="645.3454"/>
-			<Orientation y="-0.22817"/>
+			<Position x="545.20295" z="646.19343"/>
+			<Orientation y="0.0337"/>
 		</Entity>
 		<Entity uid="87">
 			<Template>units/chin_ship_fishing</Template>
@@ -444,7 +444,7 @@
 			<Template>units/chin_cavalry_spearman_a</Template>
 			<Player>1</Player>
 			<Position x="485.13013" z="650.31043"/>
-			<Orientation y="2.35621"/>
+			<Orientation y="-0.48816"/>
 		</Entity>
 		<Entity uid="94">
 			<Template>units/chin_cavalry_spearman_a</Template>
@@ -456,49 +456,49 @@
 			<Template>units/chin_infantry_archer_a</Template>
 			<Player>1</Player>
 			<Position x="461.31775" z="743.68116"/>
-			<Orientation y="-2.13859"/>
+			<Orientation y="2.78777"/>
 		</Entity>
 		<Entity uid="96">
 			<Template>units/chin_infantry_archer_a</Template>
 			<Player>1</Player>
 			<Position x="462.01877" z="741.26996"/>
-			<Orientation y="-2.2081"/>
+			<Orientation y="-2.21982"/>
 		</Entity>
 		<Entity uid="97">
 			<Template>units/chin_infantry_archer_a</Template>
 			<Player>1</Player>
 			<Position x="444.63233" z="729.02808"/>
-			<Orientation y="0.95531"/>
+			<Orientation y="2.57346"/>
 		</Entity>
 		<Entity uid="98">
 			<Template>units/chin_infantry_archer_a</Template>
 			<Player>1</Player>
 			<Position x="445.67621" z="727.1858"/>
-			<Orientation y="1.15117"/>
+			<Orientation y="-0.56815"/>
 		</Entity>
 		<Entity uid="99">
 			<Template>units/chin_infantry_archer_a</Template>
 			<Player>1</Player>
 			<Position x="437.07026" z="576.3979"/>
-			<Orientation y="3.03687"/>
+			<Orientation y="1.26191"/>
 		</Entity>
 		<Entity uid="100">
 			<Template>units/chin_infantry_archer_a</Template>
 			<Player>1</Player>
 			<Position x="439.90094" z="577.09083"/>
-			<Orientation y="3.00776"/>
+			<Orientation y="2.79975"/>
 		</Entity>
 		<Entity uid="101">
 			<Template>units/chin_infantry_archer_a</Template>
 			<Player>1</Player>
 			<Position x="439.75882" z="563.73884"/>
-			<Orientation y="0.246"/>
+			<Orientation y="1.3148"/>
 		</Entity>
 		<Entity uid="102">
 			<Template>units/chin_infantry_archer_a</Template>
 			<Player>1</Player>
 			<Position x="443.41681" z="564.45112"/>
-			<Orientation y="-0.15418"/>
+			<Orientation y="-2.99601"/>
 		</Entity>
 		<Entity uid="103">
 			<Template>units/chin_infantry_spearman_a</Template>
@@ -1286,7 +1286,7 @@
 			<Template>units/chin_ship_trireme</Template>
 			<Player>1</Player>
 			<Position x="581.63892" z="615.24073"/>
-			<Orientation y="3.00072"/>
+			<Orientation y="-1.46299"/>
 		</Entity>
 		<Entity uid="263">
 			<Template>units/chin_support_female_citizen</Template>
@@ -4452,7 +4452,7 @@
 		<Entity uid="958">
 			<Template>gaia/geology_stonemine_tropic_quarry</Template>
 			<Player>0</Player>
-			<Position x="166.0223" z="788.94202"/>
+			<Position x="143.45592" z="784.40198"/>
 			<Orientation y="2.35621"/>
 		</Entity>
 		<Entity uid="959">
@@ -5029,7 +5029,7 @@
 		<Entity uid="1081">
 			<Template>gaia/flora_bush_temperate</Template>
 			<Player>0</Player>
-			<Position x="144.28406" z="779.99085"/>
+			<Position x="144.8264" z="792.43177"/>
 			<Orientation y="2.35621"/>
 		</Entity>
 		<Entity uid="1082">
@@ -15360,7 +15360,7 @@
 		<Entity uid="3136">
 			<Template>gaia/fauna_bear</Template>
 			<Player>0</Player>
-			<Position x="157.89673" z="750.7143"/>
+			<Position x="124.87818" z="683.72309"/>
 			<Orientation y="2.35621"/>
 		</Entity>
 		<Entity uid="3137">
@@ -23973,19 +23973,19 @@
 		<Entity uid="4722">
 			<Template>gaia/fauna_horse</Template>
 			<Player>0</Player>
-			<Position x="105.92037" z="702.90021"/>
+			<Position x="112.21705" z="684.149"/>
 			<Orientation y="-0.32015"/>
 		</Entity>
 		<Entity uid="4723">
 			<Template>gaia/fauna_horse</Template>
 			<Player>0</Player>
-			<Position x="99.07918" z="727.17902"/>
+			<Position x="105.37586" z="708.4278"/>
 			<Orientation y="2.35621"/>
 		</Entity>
 		<Entity uid="4724">
 			<Template>gaia/fauna_horse</Template>
 			<Player>0</Player>
-			<Position x="107.5605" z="716.64216"/>
+			<Position x="113.85717" z="697.89094"/>
 			<Orientation y="2.35621"/>
 		</Entity>
 		<Entity uid="4725">
@@ -24127,6 +24127,69 @@
 			<Orientation y="-1.01746"/>
 			<Obstruction group="29" group2="45"/>
 			<Actor seed="0"/>
+		</Entity>
+		<Entity uid="4766">
+			<Template>structures/chin_temple</Template>
+			<Player>2</Player>
+			<Position x="182.91428" z="782.29505"/>
+			<Orientation y="0.94115"/>
+			<Actor seed="53000"/>
+		</Entity>
+		<Entity uid="4767">
+			<Template>gaia/flora_chin_tree_cherryblossom</Template>
+			<Player>0</Player>
+			<Position x="183.79415" z="804.53852"/>
+			<Orientation y="-2.15409"/>
+			<Actor seed="53924"/>
+		</Entity>
+		<Entity uid="4768">
+			<Template>gaia/flora_chin_tree_cherryblossom</Template>
+			<Player>0</Player>
+			<Position x="175.4201" z="799.14222"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="48928"/>
+		</Entity>
+		<Entity uid="4769">
+			<Template>gaia/flora_chin_tree_cherryblossom</Template>
+			<Player>0</Player>
+			<Position x="167.62554" z="794.90333"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="11410"/>
+		</Entity>
+		<Entity uid="4770">
+			<Template>gaia/flora_chin_tree_cherryblossom</Template>
+			<Player>0</Player>
+			<Position x="159.03708" z="790.67298"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="56290"/>
+		</Entity>
+		<Entity uid="4771">
+			<Template>gaia/flora_chin_tree_cherryblossom</Template>
+			<Player>0</Player>
+			<Position x="203.50802" z="775.46723"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="46562"/>
+		</Entity>
+		<Entity uid="4772">
+			<Template>gaia/flora_chin_tree_cherryblossom</Template>
+			<Player>0</Player>
+			<Position x="195.17508" z="770.18024"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="33654"/>
+		</Entity>
+		<Entity uid="4773">
+			<Template>gaia/flora_chin_tree_cherryblossom</Template>
+			<Player>0</Player>
+			<Position x="189.573" z="764.59089"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="19922"/>
+		</Entity>
+		<Entity uid="4774">
+			<Template>gaia/flora_chin_tree_cherryblossom</Template>
+			<Player>0</Player>
+			<Position x="185.15751" z="760.34314"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="982"/>
 		</Entity>
 	</Entities>
 	<Paths/>
