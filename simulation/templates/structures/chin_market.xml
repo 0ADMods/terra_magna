@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_economic_market">
   <Footprint>
-    <Square width="37.0" depth="37.0"/>
+    <Square width="33.0" depth="32.0"/>
     <Height>10.0</Height>
   </Footprint>
   <Identity>
@@ -10,7 +10,7 @@
     <History>Needs history.</History>
   </Identity>
   <Obstruction>
-    <Static width="37.0" depth="37.0"/>
+    <Static width="31.0" depth="30.0"/>
   </Obstruction>
   <VisualActor>
     <Actor>structures/chinese/market.xml</Actor>

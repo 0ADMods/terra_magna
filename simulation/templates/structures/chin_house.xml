@@ -23,7 +23,7 @@
     <Height>5.0</Height>
   </Footprint>
   <Obstruction>
-    <Static width="15.0" depth="15.0"/>
+    <Static width="16" depth="15.0"/>
   </Obstruction>
   <VisualActor>
     <Actor>structures/chinese/house.xml</Actor>

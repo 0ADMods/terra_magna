@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_economic_farmstead">
+  <Footprint>
+    <Square width="22.0" depth="22.0"/>
+    <Height>5.0</Height>
+  </Footprint>
   <Identity>
     <Civ>chin</Civ>
     <SpecificName>Cāng Fáng</SpecificName>
   </Identity>
+  <Obstruction>
+    <Static width="20.0" depth="20.0"/>
+  </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
       units/chin_hero_liu_bang
@@ -13,11 +20,4 @@
     <Actor>structures/chinese/farmstead.xml</Actor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
   </VisualActor>
-  <Footprint>
-    <Square width="22.0" depth="22.0"/>
-    <Height>5.0</Height>
-  </Footprint>
-  <Obstruction>
-    <Static width="20.0" depth="20.0"/>
-  </Obstruction>
 </Entity>
