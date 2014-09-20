@@ -33,9 +33,9 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="520.408" y="267.539" z="254.886"/>
-		<Rotation angle="-0.35451"/>
-		<Declination angle="0.610865"/>
+		<Position x="639.014" y="171.141" z="674.744"/>
+		<Rotation angle="-1.69912"/>
+		<Declination angle="0.819749"/>
 	</Camera>
 	<ScriptSettings><![CDATA[
 {
@@ -99,8 +99,8 @@
 		<Entity uid="16">
 			<Template>structures/chin_barracks</Template>
 			<Player>1</Player>
-			<Position x="491.83194" z="713.1814"/>
-			<Orientation y="-2.41671"/>
+			<Position x="497.98115" z="712.0464"/>
+			<Orientation y="-2.36387"/>
 			<Obstruction group="33" group2="38"/>
 		</Entity>
 		<Entity uid="17">
@@ -136,8 +136,8 @@
 		<Entity uid="23">
 			<Template>structures/chin_market</Template>
 			<Player>1</Player>
-			<Position x="508.77369" z="635.70374"/>
-			<Orientation y="-2.33124"/>
+			<Position x="510.97135" z="636.55256"/>
+			<Orientation y="-2.3792"/>
 		</Entity>
 		<Entity uid="24">
 			<Template>structures/chin_wall_tower</Template>
@@ -246,7 +246,7 @@
 		<Entity uid="47">
 			<Template>other/chin_gate</Template>
 			<Player>1</Player>
-			<Position x="450.79288" z="738.34333"/>
+			<Position x="449.81867" z="737.56196"/>
 			<Orientation y="-0.76275"/>
 			<Obstruction group="37" group2="45"/>
 		</Entity>
@@ -298,15 +298,15 @@
 		<Entity uid="57">
 			<Template>structures/chin_house</Template>
 			<Player>1</Player>
-			<Position x="492.28742" z="752.39698"/>
-			<Orientation y="3.10392"/>
+			<Position x="495.49784" z="753.97913"/>
+			<Orientation y="-3.08976"/>
 			<Obstruction group="38"/>
 		</Entity>
 		<Entity uid="58">
 			<Template>structures/chin_house</Template>
 			<Player>1</Player>
-			<Position x="494.71879" z="735.36109"/>
-			<Orientation y="1.56798"/>
+			<Position x="494.08701" z="735.80054"/>
+			<Orientation y="1.64071"/>
 			<Obstruction group="38"/>
 		</Entity>
 		<Entity uid="59">
@@ -339,19 +339,19 @@
 		<Entity uid="69">
 			<Template>other/chin_bridge</Template>
 			<Player>1</Player>
-			<Position x="504.10505" z="582.65577"/>
+			<Position x="505.16514" z="582.67951"/>
 			<Orientation y="2.02157"/>
 		</Entity>
 		<Entity uid="70">
 			<Template>other/chin_bridge</Template>
 			<Player>1</Player>
-			<Position x="467.61387" z="596.76655"/>
+			<Position x="468.56122" z="596.17676"/>
 			<Orientation y="2.35621"/>
 		</Entity>
 		<Entity uid="71">
 			<Template>other/chin_bridge</Template>
 			<Player>1</Player>
-			<Position x="425.00522" z="622.40528"/>
+			<Position x="426.103" z="622.22053"/>
 			<Orientation y="2.19967"/>
 		</Entity>
 		<Entity uid="72">
@@ -515,54 +515,53 @@
 		<Entity uid="105">
 			<Template>units/chin_infantry_swordsman_a</Template>
 			<Player>1</Player>
-			<Position x="484.92151" z="705.49091"/>
+			<Position x="486.6352" z="705.23694"/>
 			<Orientation y="-2.29955"/>
 		</Entity>
 		<Entity uid="106">
 			<Template>units/chin_infantry_swordsman_a</Template>
 			<Player>1</Player>
-			<Position x="490.49018" z="700.23938"/>
+			<Position x="490.97529" z="700.40754"/>
 			<Orientation y="-2.16953"/>
 		</Entity>
 		<Entity uid="107">
 			<Template>structures/chin_house</Template>
 			<Player>1</Player>
-			<Position x="526.91419" z="665.4126"/>
+			<Position x="524.55213" z="667.23243"/>
 			<Orientation y="2.35621"/>
 		</Entity>
 		<Entity uid="108">
 			<Template>structures/chin_house</Template>
 			<Player>1</Player>
-			<Position x="513.71033" z="679.45044"/>
+			<Position x="512.06885" z="679.73646"/>
 			<Orientation y="2.35621"/>
 		</Entity>
 		<Entity uid="109">
 			<Template>structures/chin_house</Template>
 			<Player>1</Player>
-			<Position x="443.17402" z="710.39411"/>
-			<Orientation y="2.35621"/>
+			<Position x="444.73008" z="711.40094"/>
+			<Orientation y="2.22428"/>
 			<Obstruction group="29"/>
 		</Entity>
 		<Entity uid="110">
 			<Template>structures/chin_house</Template>
 			<Player>1</Player>
-			<Position x="434.22584" z="688.33405"/>
-			<Orientation y="1.64538"/>
+			<Position x="435.74119" z="691.63715"/>
+			<Orientation y="1.69736"/>
 			<Obstruction group="29"/>
 		</Entity>
 		<Entity uid="111">
 			<Template>structures/chin_house</Template>
 			<Player>1</Player>
-			<Position x="432.53718" z="667.53095"/>
+			<Position x="432.73145" z="672.00849"/>
 			<Orientation y="1.69799"/>
 			<Obstruction group="36" group2="27"/>
 		</Entity>
 		<Entity uid="112">
 			<Template>structures/chin_house</Template>
 			<Player>1</Player>
-			<Position x="428.08603" z="647.6573"/>
-			<Orientation y="-2.2236"/>
-			<Obstruction group="27"/>
+			<Position x="432.92444" z="652.5265"/>
+			<Orientation y="2.29957"/>
 		</Entity>
 		<Entity uid="113">
 			<Template>structures/chin_house</Template>
@@ -579,54 +578,54 @@
 		<Entity uid="115">
 			<Template>structures/chin_house</Template>
 			<Player>1</Player>
-			<Position x="493.95792" z="602.66718"/>
+			<Position x="492.62443" z="601.82471"/>
 			<Orientation y="-0.76465"/>
 		</Entity>
 		<Entity uid="116">
 			<Template>structures/chin_house</Template>
 			<Player>1</Player>
-			<Position x="513.64576" z="548.47895"/>
-			<Orientation y="2.35621"/>
+			<Position x="511.85932" z="549.52381"/>
+			<Orientation y="-2.99479"/>
 			<Obstruction group="76" group2="79"/>
 		</Entity>
 		<Entity uid="118">
 			<Template>structures/chin_house</Template>
 			<Player>1</Player>
-			<Position x="492.35755" z="536.5268"/>
+			<Position x="493.42972" z="536.80103"/>
 			<Orientation y="-0.17162"/>
 			<Obstruction group="79"/>
 		</Entity>
 		<Entity uid="119">
 			<Template>structures/chin_house</Template>
 			<Player>1</Player>
-			<Position x="474.62034" z="537.18104"/>
-			<Orientation y="0.22132"/>
+			<Position x="474.0539" z="538.97614"/>
+			<Orientation y="0.1787"/>
 			<Obstruction group="40" group2="83"/>
 		</Entity>
 		<Entity uid="120">
 			<Template>structures/chin_house</Template>
 			<Player>1</Player>
-			<Position x="451.44983" z="541.60218"/>
-			<Orientation y="0.31688"/>
+			<Position x="456.16578" z="542.63184"/>
+			<Orientation y="0.11167"/>
 			<Obstruction group="83" group2="39"/>
 		</Entity>
 		<Entity uid="121">
 			<Template>structures/chin_house</Template>
 			<Player>1</Player>
-			<Position x="466.41398" z="571.59144"/>
-			<Orientation y="-2.32851"/>
+			<Position x="467.6475" z="568.04511"/>
+			<Orientation y="-2.95063"/>
 		</Entity>
 		<Entity uid="122">
 			<Template>structures/chin_house</Template>
 			<Player>1</Player>
-			<Position x="484.51932" z="564.88685"/>
+			<Position x="485.7511" z="565.09858"/>
 			<Orientation y="1.75728"/>
 		</Entity>
 		<Entity uid="123">
 			<Template>structures/chin_house</Template>
 			<Player>1</Player>
-			<Position x="528.52802" z="594.6576"/>
-			<Orientation y="-0.91932"/>
+			<Position x="525.78357" z="596.45203"/>
+			<Orientation y="-1.37914"/>
 			<Obstruction group="35"/>
 		</Entity>
 		<Entity uid="124">
@@ -808,7 +807,7 @@
 		<Entity uid="154">
 			<Template>gaia/flora_chin_bamboo</Template>
 			<Player>0</Player>
-			<Position x="438.3288" z="650.18097"/>
+			<Position x="426.17923" z="636.26307"/>
 			<Orientation y="-1.69431"/>
 		</Entity>
 		<Entity uid="155">
@@ -1193,7 +1192,7 @@
 		</Entity>
 		<Entity uid="235">
 			<Template>actor|props/flora/grass_tropical.xml</Template>
-			<Position x="512.48072" z="652.41126"/>
+			<Position x="530.33448" z="640.50336"/>
 			<Orientation y="2.35621"/>
 		</Entity>
 		<Entity uid="236">
