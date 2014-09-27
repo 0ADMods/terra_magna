@@ -22,12 +22,13 @@
 		  <prop actor="water/water_4x4.xml" attachpoint="waterlevel" /><!-- waterlevel is a prop point empty in the above .dae. -->
 	  </props>
 </variant>
-<!-- <variant frequency="75" name="rice_terraces">
-<mesh>gaia/berries.dae</mesh>
-<props>
-<prop actor="structures/plot_field_rice_8x8.xml" attachpoint="root" />
-</props>
+<variant frequency="75" name="rice_terraces">
+	<mesh>gaia/berries.dae</mesh>
+	<props>
+		<prop actor="structures/plot_field_rice_4x4.xml" attachpoint="root" />
+	</props>
 </variant>
- --></group>
+
+</group>
   <material>player_trans_parallax_spec.xml</material>
 </actor>

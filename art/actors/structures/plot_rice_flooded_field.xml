@@ -15,23 +15,24 @@
       </textures>
     </variant>
   </group>
+
   <!-- specific varians -->
   <group>
-    <variant frequency="33" name="earthwalls_deep_small_natural_shape">
+    <variant frequency="45" name="earthwalls_deep_small_natural_shape">
       <mesh>structural/chin_plot_rice_earthwalls_deep_2x2_natural_shape.dae</mesh>
       <props>
 		  <!-- Because we use a different attachpoint than in the Base or common variant, we don't have to redefine the prop. -->
 		  <prop actor="water/water_4x4.xml" attachpoint="waterlevel" /><!-- waterlevel is a prop point empty in the above .dae. -->
 	  </props>
     </variant>
-    <variant frequency="33" name="earthwalls_deep_small_square">
+    <variant frequency="45" name="earthwalls_deep_small_square">
       <mesh>structural/chin_plot_rice_earthwalls_deep_1x1.dae</mesh>
       <props>
 		  <!-- Because we use a different attachpoint than in the Base or common variant, we don't have to redefine the prop. -->
 		  <prop actor="water/water_4x4.xml" attachpoint="waterlevel" /><!-- waterlevel is a prop point empty in the above .dae. -->
 	  </props>
     </variant>
-    <variant frequency="15" name="earthwalls_deep_small_sqaure_much_rice">
+    <variant frequency="5" name="earthwalls_deep_small_sqaure_much_rice">
       <mesh>structural/chin_plot_rice_earthwalls_deep_2x2.dae</mesh>
       <props>
         <prop actor="gaia/rice.xml" attachpoint="waterlevel"/>
@@ -41,7 +42,7 @@
 		<prop actor="water/water_4x4.xml" attachpoint="root" /><!-- waterlevel is a prop point empty in the above .dae. -->
 	  </props>
     </variant>
-    <variant frequency="15" name="earthwalls_deep_small_natural_shape_much_rice">
+    <variant frequency="5" name="earthwalls_deep_small_natural_shape_much_rice">
       <mesh>structural/chin_plot_rice_earthwalls_deep_2x2_natural_shape.dae</mesh>
       <props>
         <prop actor="gaia/rice.xml" attachpoint="root"/>
@@ -53,5 +54,6 @@
 	  </props>
     </variant>
   </group>
+
   <material>player_trans_parallax_spec.xml</material>
 </actor>
