@@ -9,6 +9,11 @@
     <SpecificName>Tiějiàng</SpecificName>
     <History>The Chinese were the first to use cast iron.</History>
   </Identity>
+  <ProductionQueue>
+    <Technologies datatype="tokens">
+      chin/iron_casting
+    </Technologies>
+  </ProductionQueue>
   <VisualActor>
     <Actor>structures/chinese/blacksmith.xml</Actor>
   </VisualActor>

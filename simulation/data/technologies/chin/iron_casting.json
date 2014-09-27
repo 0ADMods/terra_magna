@@ -1,0 +1,13 @@
+{
+	"genericName": "Iron Casting",
+	"description": "The Han Chinese discovered the principle of Iron Casting allowing them to create better tools and weaponry.",
+	"cost": {"food": 0, "wood": 0, "stone": 200, "metal": 200},
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "chin"}]},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "iron_casting.png",
+	"researchTime": 40,
+	"tooltip": "+10% gatherspeed and +1 hack attack for every unit",
+	"modifications": [{"value": "Attack/Melee/Hack", "add": 1.0}, {"value": "ResourceGatherer/BaseSpeed", "multiply": 1.1}],
+	"affects": ["Unit"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

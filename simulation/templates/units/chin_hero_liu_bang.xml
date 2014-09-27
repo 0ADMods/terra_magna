@@ -8,7 +8,7 @@
         <ResourceGatherer.Rates.food.grain> <Multiply>1.1</Multiply> </ResourceGatherer.Rates.food.grain>
       </Modifications>
       <AuraName>Farming bonus</AuraName>
-      <AuraDescription>Boosts gloabal farming with +10%.</AuraDescription>
+      <AuraDescription>Boosts global farming with +10%.</AuraDescription>
     </Aura1>
     <Aura2>
       <Type>range</Type>
