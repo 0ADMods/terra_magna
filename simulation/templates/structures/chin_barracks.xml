@@ -2,7 +2,7 @@
 <Entity parent="template_structure_military_barracks">
   <Identity>
     <Civ>chin</Civ>
-    <SpecificName>Bīng Yíng</SpecificName>
+    <SpecificName>Jūn Yíng</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/chinese/barracks.xml</Actor>

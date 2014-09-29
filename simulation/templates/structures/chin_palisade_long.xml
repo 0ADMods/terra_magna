@@ -18,7 +18,7 @@
 		<Civ>chin</Civ>
 		<SelectionGroupName>other/wallset_palisade</SelectionGroupName>
 		<GenericName>Bamboo Wall</GenericName>
-		<SpecificName>Jiàn</SpecificName>
+		<SpecificName>Zhà</SpecificName> <!-- Jiàn for Bamboo Wall --> 
 		<Icon>gaia/special_palisade.png</Icon>
 	</Identity>
 	<Obstruction>
