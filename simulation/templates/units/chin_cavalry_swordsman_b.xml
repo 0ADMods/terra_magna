@@ -2,7 +2,7 @@
 <Entity parent="template_unit_cavalry_melee_swordsman">
 	<Attack>
 		<Melee>
-			<Hack>8</Hack>
+			<Hack>13.5</Hack>
 			<Pierce>0</Pierce>
 			<Crush>0</Crush>
 		</Melee>
