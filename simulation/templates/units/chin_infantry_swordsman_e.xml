@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="units/chin_infantry_swordsman_a">
   <Armour>
-    <Hack>6</Hack>
-    <Pierce>3</Pierce>
+    <Hack>5</Hack>
+    <Pierce>6</Pierce>
     <Crush>5</Crush>
   </Armour>
   <Attack>

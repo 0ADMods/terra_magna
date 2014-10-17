@@ -7,8 +7,8 @@
     <Entity>units/chin_infantry_swordsman_e</Entity>
   </Promotion>
   <Armour>
-    <Hack>5</Hack>
-    <Pierce>2</Pierce>
+    <Hack>4</Hack>
+    <Pierce>5</Pierce>
     <Crush>4</Crush>
   </Armour>
   <Attack>
