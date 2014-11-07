@@ -1,9 +1,9 @@
 {
 	"name": "han_china",
-	"version": "0.0.17",
+	"version": "0.0.18",
 	"label": "0 A.D. Iron Age Extension.",
-	"url": "sciondevelopment.com",
-	"description": "Adds the Iron Age Han dynasty of the Chinese civilization to 0A.D.",
+	"url": "forum.wildfiregames.com",
+	"description": "Adds the Iron Age Han dynasty of the Chinese civilization to 0 A.D.",
 	"dependencies": ["0ad"],
 	"type": "content.civilization"
 }
