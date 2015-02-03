@@ -14,8 +14,6 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/chin_ship_fishing
-      units/chin_ship_merchant
 	  units/chin_ship_bireme
       units/chin_ship_trireme
       units/chin_ship_tower
