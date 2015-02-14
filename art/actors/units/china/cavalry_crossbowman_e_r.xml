@@ -29,7 +29,7 @@
       <textures><texture file="skeletal/chin_iar_e.png" name="baseTex"/></textures>
     </variant>
     <variant frequency="50" name="Clothes-2">
-      <textures><texture file="skeletal/chin_iar_e2.png" name="baseTex"/></textures>
+      <textures><texture file="skeletal/chin_isp_b.png" name="baseTex"/></textures>
     </variant>
   </group>
   <group>
