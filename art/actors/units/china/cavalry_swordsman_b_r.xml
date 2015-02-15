@@ -15,6 +15,7 @@
       <mesh>skeletal/m_pants_celt.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_china.xml" attachpoint="head"/>
+		<prop actor="props/units/shields/chin_shield3.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/chin_swords_cavalry.xml" attachpoint="r_hand"/>
       </props>
     </variant>
