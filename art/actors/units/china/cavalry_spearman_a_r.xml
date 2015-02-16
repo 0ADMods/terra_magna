@@ -30,16 +30,14 @@
 	        <prop actor="props/units/weapons/chin_ji.xml" attachpoint="r_hand"/>
   		</props>
   	</variant>
-  	<variant frequency="2" name="Halb">
-  		<props>
-	        <prop actor="props/units/weapons/chin_halb.xml" attachpoint="r_hand"/>
-  		</props>
-  	</variant>	
   </group>
 
   <group>
     <variant frequency="1" name="BRider-Texture_1">
       <textures><texture file="skeletal/chin_icr_a.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="B">
+      <textures><texture file="skeletal/chin_isp_a_black.png" name="baseTex"/></textures>
     </variant>
   </group>
   

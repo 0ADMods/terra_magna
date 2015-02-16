@@ -42,14 +42,19 @@
 		</variant>
 	</group>
 	<group>
-		<variant frequency="1" name="full-pectoral-armor">
+		<variant frequency="1" name="A">
 			<textures>
 				<texture file="skeletal/chin_icr_a.png" name="baseTex"/>
 			</textures>
 		</variant>
-		<variant frequency="1" name="nearly-full-pectoral-armor">
+		<variant frequency="1" name="B">
 			<textures>
 				<texture file="skeletal/chin_isp_b_black.png" name="baseTex"/>
+			</textures>
+		</variant>	
+			<variant frequency="1" name="C">
+			<textures>
+				<texture file="skeletal/chin_isp_a_black.png" name="baseTex"/>
 			</textures>
 		</variant>	
 	</group>
