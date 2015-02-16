@@ -2,29 +2,17 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="20" name="Dao-sword">
+    <variant frequency="32" name="Dao-sword">
       <mesh>props/chin_dao.dae</mesh>
     </variant>
-    <variant frequency="5" name="old-sword1">
-      <mesh>props/chin_sword1.dae</mesh>
+    <variant frequency="32" name="Dao-sword">
+      <mesh>props/chin_dao_bronze.dae</mesh>
     </variant>
-    <variant frequency="5" name="old-sword2">
-      <mesh>props/chin_sword2.dae</mesh>
-    </variant>
-    <variant frequency="20" name="Qin-sword1">
-      <mesh>props/chin_sword3.dae</mesh>
-    </variant>
-    <variant frequency="20" name="Qin-sword2">
-      <mesh>props/chin_sword4.dae</mesh>
-    </variant>	
-    <variant frequency="20" name="Qin-sword3">
-      <mesh>props/chin_sword5.dae</mesh>
-    </variant>	
-    <variant frequency="5" name="Han-Sword-Bronze">
-      <mesh>props/chin_sword6.dae</mesh>
+    <variant frequency="4" name="Han-Sword-Bronze">
+      <mesh>props/chin_sword8.dae</mesh>
     </variant>		
-    <variant frequency="20" name="Han-Sword-Iron">
-      <mesh>props/chin_sword7.dae</mesh>
+    <variant frequency="32" name="Han-Sword-Iron">
+      <mesh>props/chin_sword9.dae</mesh>
     </variant>		
   </group>
   <group>

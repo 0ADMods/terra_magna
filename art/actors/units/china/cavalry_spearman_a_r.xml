@@ -19,7 +19,6 @@
       </animations>
       <mesh>skeletal/m_tunic_short.dae</mesh>
       <props>
-		<prop actor="props/units/heads/chin_spearman_helmet.xml" attachpoint="helmet"/>
         <prop actor="props/units/heads/head_china.xml" attachpoint="head"/>
       </props>
     </variant>
@@ -40,7 +39,7 @@
 
   <group>
     <variant frequency="1" name="BRider-Texture_1">
-      <textures><texture file="skeletal/chin_csp_a.png" name="baseTex"/></textures>
+      <textures><texture file="skeletal/chin_icr_a.png" name="baseTex"/></textures>
     </variant>
   </group>
   

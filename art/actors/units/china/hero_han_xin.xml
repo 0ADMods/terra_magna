@@ -21,8 +21,9 @@
       </animations>
 		<mesh>skeletal/m_pants_celt.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_china.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_han_xin.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/chin_qiang.xml" attachpoint="r_hand"/>
+        <prop actor="props/units/weapons/chin_sword_han_xin.xml" attachpoint="r_hip"/>		
         <prop actor="props/units/heads/chin_hairbun.xml" attachpoint="head"/>
       </props>
 		<textures>

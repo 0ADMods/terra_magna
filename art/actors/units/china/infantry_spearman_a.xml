@@ -36,17 +36,14 @@
       <mesh>skeletal/m_pants_celt.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_china.xml" attachpoint="head"/>
-        <prop actor="props/units/shields/chin_shield1.xml" attachpoint="shield"/>
-        <prop actor="props/units/weapons/chin_qiang.xml" attachpoint="r_hand"/>
+        <prop actor="props/units/shields/chin_shield3.xml" attachpoint="shield"/>
+        <prop actor="props/units/weapons/chin_standard_spear.xml" attachpoint="r_hand"/>
       </props>
     </variant>
   </group>
   <group>
     <variant frequency="2" name="Clothes-1">
-      <textures><texture file="skeletal/chin_isp_a.png" name="baseTex"/></textures>
-    </variant>
-    <variant frequency="1" name="Clothes-1">
-      <textures><texture file="skeletal/chin_isp_a2.png" name="baseTex"/></textures>
+      <textures><texture file="skeletal/chin_icr_a.png" name="baseTex"/></textures>
     </variant>
   </group>
   <group>
@@ -64,14 +61,14 @@
   <group>
     <variant frequency="1" name="Idle">
       <props>
-        <prop actor="props/units/shields/chin_shield1.xml" attachpoint="shield"/>
-        <prop actor="props/units/weapons/chin_qiang.xml" attachpoint="r_hand"/>
+        <prop actor="props/units/shields/chin_shield3.xml" attachpoint="shield"/>
+        <prop actor="props/units/weapons/chin_standard_spear.xml" attachpoint="r_hand"/>
       </props>
     </variant>
     <variant name="attack_melee">
       <props>
-        <prop actor="props/units/shields/chin_shield1.xml" attachpoint="shield"/>
-        <prop actor="props/units/weapons/chin_qiang.xml" attachpoint="r_hand"/>
+        <prop actor="props/units/shields/chin_shield3.xml" attachpoint="shield"/>
+        <prop actor="props/units/weapons/chin_standard_spear.xml" attachpoint="r_hand"/>
       </props>
     </variant>
     <variant name="attack_slaughter">
