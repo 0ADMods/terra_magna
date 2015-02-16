@@ -7,10 +7,10 @@
   </group>
   <group>
     <variant frequency="1" name="cap-a">
-      <textures><texture file="props/head/chin_cap_a.dds" name="baseTex"/></textures>
+      <textures><texture file="props/head/chin_cap_a.png" name="baseTex"/></textures>
     </variant>
     <variant frequency="1" name="cap-b">
-      <textures><texture file="props/head/chin_cap_b.dds" name="baseTex"/></textures>
+      <textures><texture file="props/head/chin_cap_b.png" name="baseTex"/></textures>
     </variant>
   </group>
   <material>player_trans.xml</material>

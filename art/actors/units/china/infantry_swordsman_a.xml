@@ -57,9 +57,16 @@
 		</variant>
 	</group>
 	<group>
-		<variant frequency="1" name="Clothes-1">
-			<textures><texture file="skeletal/chin_isw_a.png" name="baseTex"/></textures>
+		<variant frequency="1" name="full-pectoral-armor">
+			<textures>
+				<texture file="skeletal/chin_icr_a.png" name="baseTex"/>
+			</textures>
 		</variant>
+		<variant frequency="1" name="nearly-full-pectoral-armor">
+			<textures>
+				<texture file="skeletal/chin_isp_b_black.png" name="baseTex"/>
+			</textures>
+		</variant>	
 	</group>
 	<group>
 		<variant frequency="1" name="cap-var">
@@ -67,9 +74,15 @@
 				<prop actor="props/units/heads/chin_cap.xml" attachpoint="helmet"/>
 			</props>
 		</variant>
-		<variant frequency="1" name="bun-var">
+		<variant frequency="1" name="open_helmet">
 			<props>
 				<prop actor="props/units/heads/chin_hairbun.xml" attachpoint="helmet"/>
+				<prop actor="props/units/heads/chin_advanced_melee_helmet.xml" attachpoint="helmet"/>				
+			</props>
+		</variant>
+		<variant frequency="1" name="feather_helmet">
+			<props>
+				<prop actor="props/units/heads/chin_heavy_helmet_b.xml" attachpoint="helmet"/>
 			</props>
 		</variant>
 	</group>
