@@ -26,6 +26,11 @@
 				<texture file="skeletal/chin_iar_a.png" name="baseTex"/>
 			</textures>
 		</variant>
+		<variant frequency="1" name="Clothes-2">
+			<textures>
+				<texture file="skeletal/chin_iar_a2.png" name="baseTex"/>
+			</textures>
+		</variant>
 	</group>
 	<group>
 		<variant frequency="33" name="cap-var">

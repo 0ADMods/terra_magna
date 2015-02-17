@@ -47,12 +47,7 @@
 				<texture file="skeletal/chin_icr_a.png" name="baseTex"/>
 			</textures>
 		</variant>
-		<variant frequency="1" name="B">
-			<textures>
-				<texture file="skeletal/chin_isp_b_black.png" name="baseTex"/>
-			</textures>
-		</variant>	
-			<variant frequency="1" name="C">
+		<variant frequency="2" name="C">
 			<textures>
 				<texture file="skeletal/chin_isp_a_black.png" name="baseTex"/>
 			</textures>

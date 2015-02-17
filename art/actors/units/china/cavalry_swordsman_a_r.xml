@@ -22,7 +22,10 @@
 	</group>
 	<group>
 		<variant frequency="1" name="Clothes-1">
-			<textures><texture file="skeletal/chin_iar_e.png" name="baseTex"/></textures>
+			<textures><texture file="skeletal/chin_isp_b_black.png" name="baseTex"/></textures>
+		</variant>
+		<variant frequency="1" name="Clothes-2">
+			<textures><texture file="skeletal/chin_isp_a_black.png" name="baseTex"/></textures>
 		</variant>
 	</group>
 	<group>

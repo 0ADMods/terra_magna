@@ -24,9 +24,9 @@
 		</variant>
 	</group>
 	<group>
-		<variant frequency="50" name="Clothes-1">
+		<variant frequency="1" name="Clothes-1">
 			<textures>
-				<texture file="skeletal/chin_icr_a.png" name="baseTex"/>
+				<texture file="skeletal/chin_isp_b_black.png" name="baseTex"/>
 			</textures>
 		</variant>
 	</group>
