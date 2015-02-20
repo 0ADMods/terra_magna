@@ -3,10 +3,9 @@
 	<castshadow/>
 	<group>
 		<variant frequency="100" name="Base">
-			<mesh>structural/chin_plot_rice_earthwalls_deep_2x2_natural_shape.dae</mesh>
+			<mesh>structural/chin_plotrice7.dae</mesh>
 			<props>
-				<prop actor="gaia/rice.xml" attachpoint="waterlevel_001"/>
-				<prop actor="props/structures/rice_water.xml" attachpoint="waterlevel"/>
+				<prop actor="props/structures/rice_water07.xml" attachpoint="root"/>
 			</props>	
 			<textures>
 				<texture file="gaia/tropic_cliff_mud.png" name="baseTex"/>

@@ -1,34 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
-  <castshadow/>
-  <group>
-    <!-- common if not overridden by reattaching to the same prop point. -->  
-    <variant frequency="100" name="Base">
-      <props>
-        <prop actor="gaia/rice_8x8.xml" attachpoint="root"/>
-      </props>
-      <textures>
-		<texture file="gaia/tropic_cliff_mud.png" name="baseTex"/>
-		<texture file="gaia/tropic_cliff_mud_norm.png" name="normTex"/>
-		<texture file="gaia/tropic_cliff_mud_spec.png" name="specTex"/>
-      </textures>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="25" name="earthwalls_deep">
-      <mesh>structural/chin_plot_rice_earthwalls_deep.dae</mesh>
-      <props>
-		  <!-- Because we use a different attachpoint than in the Base or common variant, we don't have to redefine the prop. -->
-		  <prop actor="water/water_4x4.xml" attachpoint="waterlevel" /><!-- waterlevel is a prop point empty in the above .dae. -->
-	  </props>
-</variant>
-<variant frequency="75" name="rice_terraces">
-	<mesh>gaia/berries.dae</mesh>
-	<props>
-		<prop actor="structures/plot_field_rice_4x4.xml" attachpoint="root" />
-	</props>
-</variant>
-
-</group>
-  <material>player_trans_parallax_spec.xml</material>
+	<castshadow/>
+	<group>
+		<variant frequency="90" name="common_cliff">
+			<mesh>structural/chin_plotrice_field.dae</mesh>
+			<props>
+				<prop actor="structures/plot_rice01.xml" attachpoint="plot01" maxheight="20" minheight="-20"/>
+				<prop actor="structures/plot_rice02.xml" attachpoint="plot02" maxheight="20" minheight="-20"/>
+				<prop actor="structures/plot_rice03.xml" attachpoint="plot03" maxheight="20" minheight="-20"/>
+				<prop actor="structures/plot_rice04.xml" attachpoint="plot04" maxheight="20" minheight="-20"/>
+				<prop actor="structures/plot_rice05.xml" attachpoint="plot05" maxheight="20" minheight="-20"/>
+				<prop actor="structures/plot_rice06.xml" attachpoint="plot06" maxheight="20" minheight="-20"/>
+				<prop actor="structures/plot_rice07.xml" attachpoint="plot07" maxheight="20" minheight="-20"/>
+				<prop actor="structures/plot_rice08.xml" attachpoint="plot08" maxheight="20" minheight="-20"/>
+				<prop actor="structures/plot_rice09.xml" attachpoint="plot09" maxheight="20" minheight="-20"/>				
+			</props>	
+			<textures>
+				<texture file="gaia/tropic_cliff_mud.png" name="baseTex"/>
+				<texture file="gaia/tropic_cliff_mud_norm.png" name="normTex"/>
+				<texture file="gaia/tropic_cliff_mud_spec.png" name="specTex"/>
+			</textures>
+		</variant>
+	</group>
+	<material>basic_trans.xml</material>
 </actor>

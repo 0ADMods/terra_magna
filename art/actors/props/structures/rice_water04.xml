@@ -2,7 +2,7 @@
 <actor version="1">
 	<group>
 		<variant>
-			<mesh>structural/chin_rice_water.dae</mesh>
+			<mesh>structural/chin_plotrice_water4.dae</mesh>
 			<textures>
 				<texture file="props/gardens_turf.png" name="baseTex"/>
 			</textures>
