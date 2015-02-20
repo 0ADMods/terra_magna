@@ -2,19 +2,19 @@
 <Entity parent="template_unit_cavalry_melee_swordsman">
 	<Attack>
 		<Melee>
-			<Hack>13.5</Hack>
+			<Hack>6.5</Hack>
 			<Pierce>0</Pierce>
 			<Crush>0</Crush>
 		</Melee>
 		<Charge>
-			<Hack>24.0</Hack>
+			<Hack>14.0</Hack>
 			<Pierce>0.0</Pierce>
 			<Crush>0.0</Crush>
 		</Charge>
 	</Attack>
 	<Cost>
     <Resources>
-      <wood>30</wood>
+      <wood>25</wood>
       <metal>10</metal>
     </Resources>
   </Cost>

@@ -17,7 +17,7 @@
   </Promotion>
   <Attack>
     <Ranged>
-      <MaxRange>40.0</MaxRange><!-- less in comparison to the crossbowman -->
+      <MaxRange>60.0</MaxRange><!-- less in comparison to the crossbowman and other archers-->
     </Ranged>
   </Attack>
   <Cost>
