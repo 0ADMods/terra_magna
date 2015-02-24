@@ -23,7 +23,7 @@
   <Cost>
     <Resources>
       <food>50</food>
-      <wood>30</wood>
+      <wood>40</wood>
     </Resources>
   </Cost>
   <VisualActor>
