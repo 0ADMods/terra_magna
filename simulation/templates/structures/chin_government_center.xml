@@ -24,6 +24,8 @@
     <Civ>chin</Civ>
     <SpecificName>Government Center</SpecificName>
     <History></History>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <VisibleClasses datatype="tokens">City</VisibleClasses>
     <Icon>structures/civic_centre.png</Icon>
   </Identity>
   <Health>

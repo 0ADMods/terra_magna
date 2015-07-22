@@ -3,6 +3,7 @@
   <Builder>
     <Entities datatype="tokens">
       -structures/{civ}_wonder
+      structures/{civ}_government_center
     </Entities>
   </Builder>
   <Identity>
