@@ -9,11 +9,6 @@
     <SpecificName>Tiě Zuò Fāng</SpecificName>
     <History>The Chinese were the first to use cast iron.</History>
   </Identity>
-  <ProductionQueue>
-    <Technologies datatype="tokens">
-      chin/iron_casting
-    </Technologies>
-  </ProductionQueue>
   <Obstruction>
     <Static width="22.0" depth="24.0"/>
   </Obstruction>
