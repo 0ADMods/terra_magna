@@ -42,8 +42,6 @@
     <Length>42.0</Length>
   </WallPiece>
   <TerritoryInfluence>
-    <Root>false</Root>
     <Radius>24</Radius>
-    <Weight>65536</Weight>
   </TerritoryInfluence>
 </Entity>

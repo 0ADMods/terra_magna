@@ -14,6 +14,7 @@
     </Aura1>
     <Aura2>
       <Type>range</Type>
+      <Radius>60</Radius>
       <Affects>House</Affects>
       <Modifications>
         <Cost.PopulationBonus> <Multiply>1.25</Multiply> </Cost.PopulationBonus>

@@ -55,12 +55,14 @@
 		</variant>
 	</group>
 	<group>
-		<variant frequency="1" name="B">>
+		<variant frequency="1" name="B">
 			<textures>
 				<texture file="skeletal/chin_icr_e.png" name="baseTex"/>
+		        <texture file="skeletal/chin_icr_e_norm.png" name="normTex"/>
+		        <texture file="skeletal/chin_icr_e_spec.png" name="specTex"/> 
 			</textures>
 		</variant>
-		<variant frequency="1" name="C">>
+		<variant frequency="1" name="C">
 			<textures>
 				<texture file="skeletal/chin_isp_e_norm.png" name="normTex"/>
 				<texture file="skeletal/chin_isp_e_black.png" name="baseTex"/>
