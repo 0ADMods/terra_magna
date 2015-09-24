@@ -47,6 +47,7 @@
     <Technologies datatype="tokens">
       chin/iron_casting
       chin/art_of_war
+      chin/alternating_fields
     </Technologies>
   </ProductionQueue>
   <Vision>
