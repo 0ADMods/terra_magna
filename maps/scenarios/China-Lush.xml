@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Scenario version="5">
+<Scenario version="6">
 	<Environment>
 		<SkySet>default</SkySet>
-		<SunColour r="1.34766" g="1.64766" b="1.24766"/>
+		<SunColor r="1.34766" g="1.64766" b="1.24766"/>
 		<SunElevation angle="0.465748"/>
 		<SunRotation angle="0.45056"/>
-		<TerrainAmbientColour r="0.313726" g="0.376471" b="0.521569"/>
-		<UnitsAmbientColour r="0.501961" g="0.501961" b="0.501961"/>
+		<TerrainAmbientColor r="0.313726" g="0.376471" b="0.521569"/>
+		<UnitsAmbientColor r="0.501961" g="0.501961" b="0.501961"/>
 		<Water>
 			<WaterBody>
 				<Type>default</Type>
-				<Colour r="0.247059" g="0.501961" b="0.501961"/>
+				<Color r="0.247059" g="0.501961" b="0.501961"/>
 				<Height>5</Height>
 				<Shininess>144.043</Shininess>
 				<Waviness>6.10352</Waviness>

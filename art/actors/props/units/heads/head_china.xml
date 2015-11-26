@@ -40,7 +40,7 @@
 	</group>
 	<group>
 		<variant frequency="1" name="hair-black">
-			<colour>61 61 61</colour>
+			<color>61 61 61</color>
 		</variant>
 	</group>
 	<material>objectcolor.xml</material>
