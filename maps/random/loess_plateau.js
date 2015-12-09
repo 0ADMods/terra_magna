@@ -63,11 +63,8 @@ var clRock = createTileClass();
 var clMetal = createTileClass();
 var clFood = createTileClass();
 var clBaseResource = createTileClass();
-var clSettlement = createTileClass();
-var clGrass = createTileClass();
 var clHill = createTileClass();
 var clHill2 = createTileClass();
-var clIsland = createTileClass();
 
 // randomize player order
 var playerIDs = [];
@@ -114,7 +111,7 @@ for (var i = 0; i < numPlayers; i++)
 	var cityRadius = radius/3;
 	var placer = new ClumpPlacer(PI*cityRadius*cityRadius, 0.6, 0.3, 10, ix, iz);
 	var painter = new LayeredPainter([tCityPlaza, tCity], [1]);
-	createArea(placer, painter, null);
+	createArea(placer, painter, undefined);
 	
 	// get civ specific starting entities
 	var civEntities = getStartingEntities(id-1);
@@ -122,7 +119,7 @@ for (var i = 0; i < numPlayers; i++)
 	// create the TC
 	var group = new SimpleGroup(	// elements (type, min/max count, min/max distance, min/max angle)
 		[new SimpleObject(civEntities[0].Template, 1,1, 0,0, BUILDING_ANGlE, BUILDING_ANGlE)],
-		true, null, ix, iz
+		true, undefined, ix, iz
 	);
 	createObjectGroup(group, id);
 	
@@ -136,7 +133,7 @@ for (var i = 0; i < numPlayers; i++)
 		var uz = round(fz + uDist * sin(uAngle));
 		group = new SimpleGroup(	// elements (type, min/max count, min/max distance)
 			[new SimpleObject(civEntities[j].Template, count,count, 1,ceil(count/2))],
-			true, null, ux, uz
+			true, undefined, ux, uz
 		);
 		createObjectGroup(group, id);
 		uAngle += PI/4;
