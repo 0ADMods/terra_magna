@@ -544,7 +544,7 @@ for (var i = 0; i < types.length; ++i)
 	);
 }
 
-setWaterColour(0.51, 0.6, 0.4);		
+setWaterColor(0.51, 0.6, 0.4);		
 setWaterTint(0.45, 0.53, 0.4);		
 // Export map data
 ExportMap();

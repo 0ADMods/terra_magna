@@ -1,6 +1,6 @@
 RMS.LoadLibrary("rmgen");
 
-setSunColour(0.733, 0.746, 0.574);	
+setSunColor(0.733, 0.746, 0.574);	
 
 var tGrass = ["desert_dirt_rough", "desert_dirt_rough_2", "desert_sand_dunes_50", "desert_sand_smooth"];
 var tGrassPForest = "desert_dirt_rocks_1";
