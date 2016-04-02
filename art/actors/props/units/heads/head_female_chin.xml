@@ -23,16 +23,16 @@
 
   <group>
     <variant frequency="1" name="color-black">
-      <colour>20 20 20</colour>
+      <color>20 20 20</color>
     </variant>
     <variant frequency="1" name="color-black1">
-      <colour>35 35 35</colour>
+      <color>35 35 35</color>
     </variant>
     <variant frequency="1" name="color-black2">
-      <colour>10 10 10</colour>
+      <color>10 10 10</color>
     </variant>
     <variant frequency="1" name="color-black3">
-      <colour>60 60 60</colour>
+      <color>60 60 60</color>
     </variant>
   </group>
 

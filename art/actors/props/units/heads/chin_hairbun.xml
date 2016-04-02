@@ -2,7 +2,7 @@
 <actor version="1">
   <group>
     <variant frequency="1" name="Base">
-      <colour>61 61 61</colour>
+      <color>61 61 61</color>
       <mesh>props/chin_hairbun.dae</mesh>
       <textures><texture file="props/head/chin_b.png" name="baseTex"/></textures>
     </variant>

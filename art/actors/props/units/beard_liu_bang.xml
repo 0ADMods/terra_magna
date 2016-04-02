@@ -5,7 +5,7 @@
   <!-- common/base/default --> 
   <group>
     <variant frequency="100" name="Base">
-      <colour>241 202 112</colour>
+      <color>241 202 112</color>
       <mesh>props/beard_liu_bang.dae</mesh>
     </variant>
   </group>
@@ -17,13 +17,13 @@
     </variant>
   </group>
 
-  <!-- object colour -->
+  <!-- object color -->
   <group>
     <variant frequency="1" name="hair-grey">
-      <colour>120 120 120</colour>
+      <color>120 120 120</color>
     </variant>
     <variant frequency="1" name="hair-black">
-      <colour>61 61 61</colour>
+      <color>61 61 61</color>
     </variant>
   </group>
 
