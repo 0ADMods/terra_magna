@@ -33,8 +33,8 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="495.099" y="72.0463" z="83.8414"/>
-		<Rotation angle="-0.0729542"/>
+		<Position x="476.53" y="90.393" z="571.085"/>
+		<Rotation angle="0"/>
 		<Declination angle="0.610865"/>
 	</Camera>
 	<ScriptSettings><![CDATA[
@@ -46,7 +46,6 @@
   "LockTeams": false,
   "Name": "ROTE - Guilin",
   "PlayerData": [
-    null,
     {
       "AI": "",
       "Civ": "chin",
@@ -59,7 +58,7 @@
       "Team": -1
     },
     {
-      "AI": "aegis",
+      "AI": "",
       "Civ": "chin",
       "Color": {
         "b": 20,
@@ -70,7 +69,7 @@
       "Team": -1
     },
     {
-      "AI": "aegis",
+      "AI": "",
       "Civ": "chin",
       "Color": {
         "b": 5,
