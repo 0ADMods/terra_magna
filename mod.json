@@ -1,9 +1,9 @@
 {
 	"name": "han_china",
-	"version": "0.0.19",
+	"version": "0.0.20",
 	"label": "0 A.D. Han China",
 	"url": "forum.wildfiregames.com",
 	"description": "Adds the Han dynasty of the Chinese civilization to 0 A.D.",
-	"dependencies": ["0ad>=0.0.19"],
+	"dependencies": ["0ad=0.0.20"],
 	"type": "content.civilization"
 }
