@@ -26,8 +26,5 @@
       units/chin_cavalry_archer_b	 
       units/chin_cavalry_crossbowman_b	 	  
     </Entities>
-    <Technologies datatype="tokens">
-	  -unlock_champion_units
-    </Technologies>
   </ProductionQueue>
 </Entity>
