@@ -113,31 +113,8 @@ for (var i = 0; i < numPlayers; i++)
 	var painter = new LayeredPainter([tCityPlaza, tCity], [1]);
 	createArea(placer, painter, undefined);
 	
-	// get civ specific starting entities
-	var civEntities = getStartingEntities(id-1);
-	
-	// create the TC
-	var group = new SimpleGroup(	// elements (type, min/max count, min/max distance, min/max angle)
-		[new SimpleObject(civEntities[0].Template, 1,1, 0,0, BUILDING_ANGlE, BUILDING_ANGlE)],
-		true, undefined, ix, iz
-	);
-	createObjectGroup(group, id);
-	
 	// create starting units
-	var uDist = 8;
-	var uAngle = -BUILDING_ANGlE + randFloat(-PI/8, PI/8);
-	for (var j = 1; j < civEntities.length; ++j)
-	{
-		var count = (civEntities[j].Count !== undefined ? civEntities[j].Count : 1);
-		var ux = round(fx + uDist * cos(uAngle));
-		var uz = round(fz + uDist * sin(uAngle));
-		group = new SimpleGroup(	// elements (type, min/max count, min/max distance)
-			[new SimpleObject(civEntities[j].Template, count,count, 1,ceil(count/2))],
-			true, undefined, ux, uz
-		);
-		createObjectGroup(group, id);
-		uAngle += PI/4;
-	}
+	placeCivDefaultEntities(fx, fz, id);
 	
 	// create animals
 	for (var j = 0; j < 2; ++j)
@@ -146,7 +123,7 @@ for (var i = 0; i < numPlayers; i++)
 		var aDist = 7;
 		var aX = round(fx + aDist * cos(aAngle));
 		var aZ = round(fz + aDist * sin(aAngle));
-		group = new SimpleGroup(
+		var group = new SimpleGroup(
 			[new SimpleObject(oChicken, 5,5, 0,3)],
 			true, clBaseResource, aX, aZ
 		);
@@ -188,21 +165,21 @@ for (var i = 0; i < numPlayers; i++)
 		true, clBaseResource, mX, mZ
 	);
 	createObjectGroup(group, 0);
+
 	var hillSize = PI * radius * radius;
 	// create starting straggler trees
 	var num = hillSize / 100;
-	
 	for (var j = 0; j < num; j++)
 	{
 		var tAngle = randFloat(0, TWO_PI);
-		var tDist = randFloat(6, radius - 2);
+		var tDist = randFloat(13, 15);
 		var tX = round(fx + tDist * cos(tAngle));
 		var tZ = round(fz + tDist * sin(tAngle));
 		group = new SimpleGroup(
 			[new SimpleObject(oCarob, 1,3, 0,2)],
 			false, clBaseResource, tX, tZ
 		);
-		createObjectGroup(group, 0, avoidClasses(clBaseResource,2));
+		createObjectGroup(group, 0, avoidClasses(clBaseResource,4));
 	}
 	
 	// create grass tufts
@@ -217,7 +194,7 @@ for (var i = 0; i < numPlayers; i++)
 			[new SimpleObject(aBush1, 2,5, 0,1, -PI/8,PI/8)],
 			false, clBaseResource, gX, gZ
 		);
-		createObjectGroup(group, 0);
+		createObjectGroup(group, 0, avoidClasses(clBaseResource,16));
 	}
 }
 
@@ -448,7 +425,7 @@ RMS.SetProgress(75);
 log("Creating bushes...");
 group = new SimpleGroup([new RandomObject(aBushes, 2,3, 0,2)]);
 createObjectGroups(group, 0,
-	avoidClasses(clWater, 1, clPlayer, 5, clForest, 0),
+	avoidClasses(clWater, 1, clPlayer, 10, clForest, 0),
 	10*scaleByMapSize(16, 262)
 );
 

@@ -39,9 +39,6 @@ var aBushSmall = "actor|props/flora/bush_desert_dry_a.xml";
 
 var pForestD = [tGrassDForest + TERRAIN_SEPARATOR + oBush, tGrassDForest];
 var pForestP = [tGrassPForest + TERRAIN_SEPARATOR + oBush, tGrassPForest];
-const BUILDING_ANGlE = -PI/4;
-
-// initialize map
 
 log("Initializing map...");
 
@@ -125,31 +122,8 @@ for (var i = 0; i < numPlayers; i++)
 	var painter = new LayeredPainter([tRoadWild, tRoad], [1]);
 	createArea(placer, painter, undefined);
 	
-	// get civ specific starting entities
-	var civEntities = getStartingEntities(id-1);
-	
-	// create the TC
-	var group = new SimpleGroup(	// elements (type, min/max count, min/max distance, min/max angle)
-		[new SimpleObject(civEntities[0].Template, 1,1, 0,0, BUILDING_ANGlE, BUILDING_ANGlE)],
-		true, undefined, ix, iz
-	);
-	createObjectGroup(group, id);
-	
 	// create starting units
-	var uDist = 8;
-	var uAngle = -BUILDING_ANGlE + randFloat(-PI/8, PI/8);
-	for (var j = 1; j < civEntities.length; ++j)
-	{
-		var count = (civEntities[j].Count !== undefined ? civEntities[j].Count : 1);
-		var ux = round(fx + uDist * cos(uAngle));
-		var uz = round(fz + uDist * sin(uAngle));
-		group = new SimpleGroup(	// elements (type, min/max count, min/max distance)
-			[new SimpleObject(civEntities[j].Template, count,count, 1,ceil(count/2))],
-			true, undefined, ux, uz
-		);
-		createObjectGroup(group, id);
-		uAngle += PI/4;
-	}
+	placeCivDefaultEntities(fx, fz, id);
 	
 	// create animals
 	for (var j = 0; j < 2; ++j)
@@ -158,7 +132,7 @@ for (var i = 0; i < numPlayers; i++)
 		var aDist = 7;
 		var aX = round(fx + aDist * cos(aAngle));
 		var aZ = round(fz + aDist * sin(aAngle));
-		group = new SimpleGroup(
+		var group = new SimpleGroup(
 			[new SimpleObject(oChicken, 5,5, 0,3)],
 			true, clBaseResource, aX, aZ
 		);
@@ -200,20 +174,21 @@ for (var i = 0; i < numPlayers; i++)
 		true, clBaseResource, mX, mZ
 	);
 	createObjectGroup(group, 0);
+
 	var hillSize = PI * radius * radius;
 	// create starting straggler trees
 	var num = hillSize / 40;
 	for (var j = 0; j < num; j++)
 	{
 		var tAngle = randFloat(0, TWO_PI);
-		var tDist = randFloat(6, radius - 2);
+		var tDist = randFloat(11, 13);
 		var tX = round(fx + tDist * cos(tAngle));
 		var tZ = round(fz + tDist * sin(tAngle));
 		group = new SimpleGroup(
-			[new SimpleObject(oBush, 1,3, 0,2)],
+			[new SimpleObject(oBush, 2,2, 0,5)],
 			false, clBaseResource, tX, tZ
 		);
-		createObjectGroup(group, 0, avoidClasses(clBaseResource,2));
+		createObjectGroup(group, 0, avoidClasses(clBaseResource,4));
 	}
 	
 	// create grass tufts
