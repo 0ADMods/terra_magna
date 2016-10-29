@@ -6,14 +6,10 @@
 		<Crush>3</Crush>
 	</Armour>
 	<Attack>
-	<Melee>
-	  <Hack>4.5</Hack>
-	  <Pierce>8.5</Pierce>
-	</Melee>
-	<Charge>
-	  <Hack>12.0</Hack>
-	  <Pierce>24.0</Pierce>
-	</Charge>
+		<Melee>
+		  <Hack>4.5</Hack>
+		  <Pierce>8.5</Pierce>
+		</Melee>
 	</Attack>
 	<Health>
 		<Max>160</Max>

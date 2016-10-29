@@ -11,10 +11,6 @@
       <Hack>5</Hack>
       <Pierce>10</Pierce>
     </Melee>
-    <Charge>
-      <Hack>14.0</Hack>
-      <Pierce>28.0</Pierce>
-    </Charge>
   </Attack>
   <Health>
     <Max>130</Max>

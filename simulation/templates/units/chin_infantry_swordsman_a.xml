@@ -15,9 +15,6 @@
     <Melee>
       <Hack>14</Hack>
     </Melee>
-    <Charge>
-      <Hack>28.0</Hack>
-    </Charge>
   </Attack>
   <Health>
     <Max>130</Max>
