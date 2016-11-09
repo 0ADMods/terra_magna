@@ -532,7 +532,7 @@
 					<!-- IMPORTANT: remember to update session/session.xml in sync with this: -->
 					<attribute id="caption">
 						<keep>[font="sans-bold-16"]</keep>
-						<translate>ALPHA XX: Rise of the East</translate>
+						<translate>ALPHA XXI: Rise of the East</translate>
 						<keep>[/font]\n\n</keep>
 						<translate>WARNING: This is an early version of the mod. Many features have not been added yet.</translate>
 						<keep>\n\n</keep>
