@@ -9,8 +9,8 @@
   	<Attack>
 		<Ranged>
 		  	<Spread>1.9</Spread>  
-		  	<Pierce>10.5</Pierce>
-		  	<MaxRange>76.0</MaxRange>
+		  	<Pierce op="add">3.0</Pierce>
+		  	<MaxRange op="add">4.0</MaxRange>
 		  	<ProjectileSpeed>150.0</ProjectileSpeed>
 		  	<PrepareTime>1200</PrepareTime>
 		  	<RepeatTime>2000</RepeatTime>
@@ -28,9 +28,9 @@
 		<wood>20</wood>
   	</Loot>
   	<UnitMotion>
-		<WalkSpeed>7.0</WalkSpeed>
+		<WalkSpeed op="add">-1.0</WalkSpeed>
 		<Run>
-	  		<Speed>15.0</Speed>
+	  		<Speed op="add">-1.0</Speed>
 		</Run>
   	</UnitMotion>
 </Entity>
