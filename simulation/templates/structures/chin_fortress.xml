@@ -15,9 +15,9 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/chin_mechanical_siege_shoushe
-      units/chin_mechanical_siege_tower
-      units/chin_hero_han_xin
+      units/{civ}_mechanical_siege_shoushe
+      units/{civ}_mechanical_siege_tower
+      units/{civ}_hero_han_xin
     </Entities>
     <Technologies datatype="tokens">
       siege_attack

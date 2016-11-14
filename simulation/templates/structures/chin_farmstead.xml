@@ -13,7 +13,7 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/chin_hero_liu_bang
+      units/{civ}_hero_liu_bang
     </Entities>
   </ProductionQueue>
   <VisualActor>

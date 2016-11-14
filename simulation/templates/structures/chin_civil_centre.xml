@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_civil_centre">
   <Footprint>
-    <Square width="41.0" depth="41.0"/>
+    <Square width="43.0" depth="35.0"/>
     <Height>8.0</Height>
   </Footprint>
   <Identity>
@@ -10,13 +10,13 @@
     <History></History>
   </Identity>
   <Obstruction>
-    <Static width="35.0" depth="35.0"/>
+    <Static width="41.0" depth="33.0"/>
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/chin_infantry_spearman_b
-      units/chin_infantry_archer_b
-      units/chin_cavalry_archer_b
+      units/{civ}_infantry_spearman_b
+      units/{civ}_infantry_archer_b
+      units/{civ}_cavalry_archer_b
     </Entities>
   </ProductionQueue>
   <VisualActor>

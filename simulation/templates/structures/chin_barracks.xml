@@ -17,14 +17,14 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/chin_infantry_archer_b
-      units/chin_infantry_crossbowman_b
-      units/chin_infantry_spearman_b
-      units/chin_infantry_swordsman_b
-      units/chin_cavalry_spearman_b
-      units/chin_cavalry_swordsman_b
-      units/chin_cavalry_archer_b	 
-      units/chin_cavalry_crossbowman_b	 	  
+      units/{civ}_infantry_archer_b
+      units/{civ}_infantry_crossbowman_b
+      units/{civ}_infantry_spearman_b
+      units/{civ}_infantry_swordsman_b
+      units/{civ}_cavalry_spearman_b
+      units/{civ}_cavalry_swordsman_b
+      units/{civ}_cavalry_archer_b	 
+      units/{civ}_cavalry_crossbowman_b	 	  
     </Entities>
   </ProductionQueue>
 </Entity>

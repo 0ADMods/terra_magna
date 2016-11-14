@@ -14,10 +14,10 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-	  units/chin_ship_bireme
-      units/chin_ship_trireme
-      units/chin_ship_tower
-      units/chin_ship_fire
+	  units/{civ}_ship_bireme
+      units/{civ}_ship_trireme
+      units/{civ}_ship_tower
+      units/{civ}_ship_fire
     </Entities>
   </ProductionQueue>
   <VisualActor>
