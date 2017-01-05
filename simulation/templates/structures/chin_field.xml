@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_resource_field">
-	<Footprint>
-		<Square width="30" depth="30"/>
-		<Height>2.0</Height>
-	</Footprint>
-	<Identity>
-		<Civ>chin</Civ>
-		<SpecificName>Shuǐ Tián</SpecificName>
-		<History>A rice paddy.</History>
-	</Identity>
-	<VisualActor>
-		<Actor>structures/chinese/plot_rice.xml</Actor>
-		<FoundationActor>structures/fndn_4x4.xml</FoundationActor>
-	</VisualActor>
+  <Identity>
+    <Civ>chin</Civ>
+    <SpecificName>?</SpecificName>
+    <History>North China didn't cultivate rice but wheat instead</History>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/plot_field_medit.xml</Actor>
+  </VisualActor>
 </Entity>
