@@ -27,11 +27,14 @@
   </group>
   <group>
     <variant frequency="1" name="Idle"/>
-    <variant file="biped/attack_ranged_archer.xml"/>
     <variant file="biped/attack_capture.xml"/>
     <variant file="biped/attack_slaughter.xml"/>
     <variant file="biped/gather_tree.xml"/>
-    <variant file="biped/gather_grain.xml"/>
+    <variant file="biped/gather_grain.xml">
+      <props>
+        <prop actor="props/units/heads/chin_ricehat.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
     <variant file="biped/gather_fruit.xml"/>
     <variant file="biped/gather_meat.xml"/>
     <variant file="biped/gather_rock.xml"/>
@@ -40,7 +43,11 @@
     <variant file="biped/gather_praise.xml"/>
     <variant file="biped/build.xml"/>
     <variant file="biped/build_farm.xml"/>
-    <variant file="biped/carry_food.xml"/>
+    <variant file="biped/carry_food.xml">
+      <props>
+        <prop actor="props/units/heads/chin_ricehat.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
     <variant file="biped/carry_meat.xml"/>
     <variant file="biped/carry_wood.xml"/>
     <variant file="biped/carry_stone.xml"/>

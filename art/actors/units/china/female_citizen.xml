@@ -27,7 +27,11 @@
     <variant file="biped/attack_slaughter.xml"/>
     <variant file="biped/female_death.xml"/>
     <variant file="biped/female_gather_tree.xml"/>
-    <variant file="biped/female_gather_grain.xml"/>
+    <variant file="biped/female_gather_grain.xml">
+      <props>
+        <prop actor="props/units/heads/chin_ricehat.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
     <variant file="biped/female_gather_fruit.xml"/>
     <variant file="biped/female_gather_meat.xml"/>
     <variant file="biped/female_gather_rock.xml"/>
@@ -36,7 +40,11 @@
     <variant file="biped/gather_praise.xml"/>
     <variant file="biped/female_build.xml"/>
     <variant file="biped/female_build_farm.xml"/>
-    <variant file="biped/female_carry_food.xml"/>
+    <variant file="biped/female_carry_food.xml">
+      <props>
+        <prop actor="props/units/heads/chin_ricehat.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
     <variant file="biped/female_carry_meat.xml"/>
     <variant file="biped/female_carry_wood.xml"/>
     <variant file="biped/female_carry_stone.xml"/>
