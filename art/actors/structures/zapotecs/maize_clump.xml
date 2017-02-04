@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="base">
+      <textures>
+        <texture file="structural/zapo_struct.png" name="baseTex"/>
+        <texture file="structural/zapo_struct_spec.png" name="specTex"/>
+        <texture file="structural/zapo_struct_norm.png" name="normTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="farmstead">
+      <mesh>structural/maize_clump.dae</mesh>
+      <textures>
+        <texture file="structural/ao/maize_cluster_AO.png" name="aoTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="alive"/>
+    <variant name="death">
+      <props>
+        <prop attachpoint="garrisoned"/>
+      </props>
+    </variant>
+  </group>
+  <material>basic_glow.xml</material>
+</actor>
