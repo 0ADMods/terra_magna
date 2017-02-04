@@ -17,6 +17,7 @@
     <Civ>zapo</Civ>
     <SpecificName>Barracks</SpecificName>
     <Tooltip>Train Zapotec citizen-soldiers. Research improvements for Zapotec units.</Tooltip>
+    <Icon>units/pers_barracks.png</Icon>
   </Identity>
   <Obstruction>
     <Static width="22.0" depth="23.0"/>
