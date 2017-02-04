@@ -1,9 +1,9 @@
 {
-	"name": "han_china",
+	"name": "terra_magna",
 	"version": "0.0.22",
-	"label": "0 A.D. Han China",
+	"label": "0 A.D. Terra Magna",
 	"url": "forum.wildfiregames.com",
-	"description": "Adds the Han dynasty of the Chinese civilization to 0 A.D.",
+	"description": "Adds various civilizations to 0 A.D.",
 	"dependencies": ["0ad=0.0.22"],
 	"type": "content.civilization"
 }

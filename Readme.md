@@ -27,52 +27,13 @@ always use another helping hand with the project, and you can help us get
 one step closer to introducing the Chinese faction to the game in its
 entirety! There are several ways to contact us and find more information:
 
-  Web site: http://sciondevelopment.com/
-
-  Forums: http://forum.sciondevelopment.com/
-
-  Wiki (see our design documentation): http://wiki.sciondevelopment.com/
-
-  IRC: #scion on irc.quakenet.org
-
-  Email: support@sciondevelopment.com
-
-  ModDB: http://moddb.com/mods/rote
-
-  Twitter: @sciondev
-
-------------------------------------------------------------------------------------
-Installing the mod folder
-------------------------------------------------------------------------------------
-
-Open the "binaries\data\mods" folder.
-
-Copy the "\china" folder or zip archive here.
-
-------------------------------------------------------------------------------------
-Running the mod
-------------------------------------------------------------------------------------
-
-Currently, the game will not auto-detect that a new mod folder is present.
-Though this will be a feature in the future, as of Alpha VIII it is not. For the
-time being, you'll need to run the game via the command line (or on UNIX,
-Terminal). Where "china" is the name of the mod folder or archive:
-
-Windows: ./pyrogenesis.exe -mod=han_china
-
-UNIX: ./pyrogenesis -mod=han_china
-
-Alternatively, you may rename your 'china' folder to 'internal' in the interim and
-the game will load the data automatically. If you have any issues, please contact
-us at support@sciondevelopment.com.
-
 ------------------------------------------------------------------------------------
 Reporting problems
 ------------------------------------------------------------------------------------
 
-Although there shouldn't be any bugs in this first release, as it's quite simply
+Although there shouldn't be any bugs in this release, as it's quite simply
 a bunch of art assets and actors, if you experience any issues, please tell us about
-it on the forums (link above)!
+it on the Wildfiregames Forum!
 
 As always, if you experience problems with the game itself, Wildfire Games would 
 really appreciate it if you'd tell them about it on Trac: trac.wildfiregames.com/
