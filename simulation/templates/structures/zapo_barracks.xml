@@ -15,7 +15,8 @@
   </Health>
   <Identity>
     <Civ>zapo</Civ>
-    <SpecificName>Barracks</SpecificName>
+    <GenericName>Barracks</GenericName>
+    <SpecificName> Naj Ba’ate’il</SpecificName>
     <Tooltip>Train Zapotec citizen-soldiers. Research improvements for Zapotec units.</Tooltip>
     <Icon>structures/pers_barracks.png</Icon>
   </Identity>

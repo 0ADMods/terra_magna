@@ -6,7 +6,8 @@
   </Footprint>
   <Identity>
     <Civ>zapo</Civ>
-    <SpecificName>Wall_gate</SpecificName>
+      <GenericName>Wall Gate</GenericName>
+    <SpecificName>Joonaj</SpecificName>
   </Identity>
   <Obstruction>
     <Obstructions>

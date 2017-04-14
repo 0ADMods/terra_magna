@@ -4,7 +4,7 @@
     <Civ>zapo</Civ>
     <SelectionGroupName>units/zapo_infantry_slinger_b</SelectionGroupName>
     <GenericName>Zapotec Slinger</GenericName>
-    <SpecificName>Zapotec Slinger</SpecificName>
+    <SpecificName> Tzapotēcatl Guixe Bixeenda</SpecificName>
     <Icon>units/zapo_infantry_slinger.png</Icon>
   </Identity>
   <Promotion>

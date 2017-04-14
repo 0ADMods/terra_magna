@@ -9,7 +9,8 @@
   </Health>
   <Identity>
     <Civ>zapo</Civ>
-    <SpecificName>Wonder</SpecificName>
+      <GenericName>Marvel</GenericName>
+    <SpecificName>Yoo Danibaan</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="43.0" depth="43.0"/>

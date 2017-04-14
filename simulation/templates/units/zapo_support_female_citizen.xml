@@ -2,7 +2,7 @@
 <Entity parent="template_unit_support_female_citizen">
   <Identity>
     <Civ>zapo</Civ>
-    <SpecificName>Zapotec Woman</SpecificName>
+    <SpecificName>Tzapotēcatl Gunaa</SpecificName>
     <GenericName>Zapotec Woman</GenericName>
     <Icon>units/ptol_support_female_citizen.png</Icon>
     <SelectionGroupName>units/zapo_support_female_citizen</SelectionGroupName>

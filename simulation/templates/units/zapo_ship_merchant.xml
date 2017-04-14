@@ -7,7 +7,7 @@
   <Identity>
     <Civ>zapo</Civ>
     <GenericName>Trading Ship</GenericName>
-    <SpecificName>Trading Ship</SpecificName>
+    <SpecificName>Koon Ship</SpecificName>
     <Icon>units/maur_ship_merchant.png</Icon>
   </Identity>
   <VisualActor>
