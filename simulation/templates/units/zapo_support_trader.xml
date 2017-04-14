@@ -2,7 +2,7 @@
 <Entity parent="template_unit_support_trader">
   <Identity>
     <Civ>zapo</Civ>
-    <SpecificName>Trader</SpecificName>
+    <SpecificName>Koon</SpecificName>
     <Icon>units/iber_support_trader.png</Icon>
   </Identity>
   <VisualActor>

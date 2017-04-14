@@ -6,7 +6,8 @@
   </Footprint>
   <Identity>
     <Civ>zapo</Civ>
-    <SpecificName>Defense Tower</SpecificName>
+      <GenericName>Defense Tower</GenericName>
+    <SpecificName>Áantaj kiaqte’ </SpecificName>
     <History>Sturdy stone outposts used to keep an eye on desert nomad tribes along the Carthaginian North African frontier.</History>
   </Identity>
   <Obstruction>

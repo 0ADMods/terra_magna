@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_resource_corral">
   <Footprint>
     <Square width="13.0" depth="17.0"/>
@@ -9,7 +9,8 @@
   </Health>
   <Identity>
     <Civ>zapo</Civ>
-    <SpecificName>Corral</SpecificName>
+  <GenericName>Corral</GenericName>
+    <SpecificName> Kúuchil</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="10.0" depth="14.0"/>
