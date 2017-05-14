@@ -3,12 +3,11 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Chinese CC Bixie statues">
-      <mesh>structural/chin_cc_bixie.dae</mesh>
+      <mesh>structural/chin_bixie.dae</mesh>
       <textures>
-<texture file="structural/chin_bixie.png" name="baseTex"/>
-<texture file="structural/chin_bixie_norm.png" name="normTex"/>
-<texture file="structural/chin_bixie_spec.png" name="specTex"/>
-<texture file="structural/ao/chin_cc_ao.png" name="aoTex"/>
+    <texture file="structural/chin_bixie.png" name="baseTex"/>
+    <texture file="structural/chin_bixie_norm.png" name="normTex"/>
+    <texture file="structural/chin_bixie_spec.png" name="specTex"/>
 </textures>
     </variant>
   </group>
