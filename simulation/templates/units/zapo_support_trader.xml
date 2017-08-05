@@ -2,10 +2,10 @@
 <Entity parent="template_unit_support_trader">
   <Identity>
     <Civ>zapo</Civ>
-    <SpecificName>Koon</SpecificName>
+    <SpecificName>Merchant</SpecificName>
     <Icon>units/iber_support_trader.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/iberians/trader.xml</Actor>
+    <Actor>units/zapotecs/trader.xml</Actor>
   </VisualActor>
 </Entity>
