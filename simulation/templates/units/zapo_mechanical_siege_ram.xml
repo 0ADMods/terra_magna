@@ -11,6 +11,6 @@
     <Icon>units/iber_mechanical_siege_ram.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/iberians/siege_ram.xml</Actor>
+    <Actor>structures/zapotecs/siege_ram.xml</Actor>
   </VisualActor>
 </Entity>
