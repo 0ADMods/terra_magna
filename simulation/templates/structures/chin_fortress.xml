@@ -20,6 +20,7 @@
       units/{civ}_hero_han_xin
     </Entities>
     <Technologies datatype="tokens">
+      chinese/art_of_war
       siege_attack
       siege_armor
       siege_cost_metal
