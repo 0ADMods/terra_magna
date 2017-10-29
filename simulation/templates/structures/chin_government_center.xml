@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic">
   <Footprint>
-    <Square width="41.0" depth="41.0"/>
+    <Square width="36.0" depth="40.0"/>
     <Height>8.0</Height>
   </Footprint>
   <BuildRestrictions>
-    <Category>GovernmentalCenter</Category>
+    <Category>GovernmentCenter</Category>
   </BuildRestrictions>
   <Capturable>
     <CapturePoints>3000</CapturePoints>
@@ -23,17 +23,17 @@
   <Identity>
     <Civ>chin</Civ>
     <SpecificName>Government Center</SpecificName>
-    <History></History>
+    <History>As a genuinely sophisticated educational society, China revered government and administration very highly.</History>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <VisibleClasses datatype="tokens">City</VisibleClasses>
-    <Icon>structures/civic_centre.png</Icon>
+    <Icon>structures/tholos.png</Icon>
   </Identity>
   <Health>
     <Max>3000</Max>
-    <SpawnEntityOnDeath>rubble/rubble_stone_6x6</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Obstruction>
-    <Static width="35.0" depth="35.0"/>
+    <Static width="32.0" depth="36.0"/>
   </Obstruction>
   <Loot>
     <xp>200</xp>
@@ -44,10 +44,24 @@
   </Loot>
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/chin_minister
+    </Entities>
     <Technologies datatype="tokens">
-      chin/iron_casting
-      chin/art_of_war
-      chin/alternating_fields
+    chinese/civil_service_01
+    chinese/civil_service_02
+    chinese/civil_service_03
+    chinese/civil_engineering_01
+    chinese/civil_engineering_02
+    chinese/civil_engineering_03
+    chinese/ceremonial_administration_01
+    chinese/ceremonial_administration_02
+    chinese/ceremonial_administration_03
+    chinese/nationalized_industries_01
+    chinese/nationalized_industries_02
+    chinese/nationalized_industries_03
+    unlock_spies
+    spy_counter
     </Technologies>
   </ProductionQueue>
   <Vision>
