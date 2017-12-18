@@ -227,14 +227,14 @@ for (var i = 0; i < sizes.length; i++)
 Engine.SetProgress(55);
 
 log("Creating stone mines...");
-createObjectGroups(
+createObjectGroupsDeprecated(
 	new SimpleGroup([new SimpleObject(oStoneSmall, 0,2, 0,4), new SimpleObject(oStoneLarge, 1,1, 0,4)], true, clRock),
 	0,
 	avoidClasses(clForest, 1, clPlayer, 10, clRock, 10, clHill, 1),
 	scaleByMapSize(2,8),
 	100);
 
-createObjectGroups(
+createObjectGroupsDeprecated(
 	new SimpleGroup([new SimpleObject(oStoneSmall, 2,5, 1,3)], true, clRock),
 	0,
 	avoidClasses(clForest, 1, clPlayer, 10, clRock, 10, clHill, 1),
@@ -242,7 +242,7 @@ createObjectGroups(
 	100);
 
 log("Creating metal mines...");
-createObjectGroups(
+createObjectGroupsDeprecated(
 	new SimpleGroup([new SimpleObject(oMetalLarge, 1,1, 0,4)], true, clMetal),
 	0,
 	avoidClasses(clForest, 1, clPlayer, 10, clMetal, 10, clRock, 5, clHill, 1),
@@ -251,7 +251,7 @@ createObjectGroups(
 Engine.SetProgress(65);
 
 log("Creating small decorative rocks...");
-createObjectGroups(
+createObjectGroupsDeprecated(
 	new SimpleGroup(
 		[new SimpleObject(aRockMedium, 1,3, 0,1)],
 		true),
@@ -260,7 +260,7 @@ createObjectGroups(
 	scaleByMapSize(16, 262), 50);
 
 log("Creating large decorative rocks...");
-createObjectGroups(
+createObjectGroupsDeprecated(
 	new SimpleGroup(
 		[new SimpleObject(aRockLarge, 1,2, 0,1), new SimpleObject(aRockMedium, 1,3, 0,2)],
 		true),
@@ -272,7 +272,7 @@ createObjectGroups(
 Engine.SetProgress(70);
 
 log("Creating deer...");
-createObjectGroups(
+createObjectGroupsDeprecated(
 	new SimpleGroup(
 		[new SimpleObject(oDeer, 5,7, 0,4)],
 		true,
@@ -285,7 +285,7 @@ createObjectGroups(
 Engine.SetProgress(75);
 
 log("Creating sheep...");
-createObjectGroups(
+createObjectGroupsDeprecated(
 	new SimpleGroup(
 		[new SimpleObject(oSheep, 2,3, 0,2)],
 		true,
@@ -301,7 +301,7 @@ log("Creating straggler trees...");
 var types = [oBush];
 var num = floor(numStragglers / types.length);
 for (var i = 0; i < types.length; ++i)
-	createObjectGroups(
+	createObjectGroupsDeprecated(
 		new SimpleGroup(
 			[new SimpleObject(types[i], 1,1, 0,3)],
 			true,
