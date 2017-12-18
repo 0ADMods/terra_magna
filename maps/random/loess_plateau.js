@@ -59,17 +59,14 @@ var clHill = createTileClass();
 var clHill2 = createTileClass();
 
 var playerIDs = sortAllPlayers();
-var playerX = new Array(numPlayers);
-var playerZ = new Array(numPlayers);
-var playerAngle = new Array(numPlayers);
-var playerPos = new Array(numPlayers);
-var iop = 0;
+var playerX = [];
+var playerZ = [];
+var playerAngle = [];
 for (var i = -1; i < numPlayers-1; i++)
 {
-	playerPos[i+1] = (((i+abs(i%2))/2)+1)/(((numPlayers+(numPlayers%2))/2)+1)
-	playerZ[i+1] = playerPos[i+1];
+	let playerPos = (((i+abs(i%2))/2)+1)/(((numPlayers+(numPlayers%2))/2)+1)
+	playerZ[i+1] = playerPos;
 	playerX[i+1] = 0.2 + 0.6*((i+1)%2);
-	log("PP: " + playerPos[i+1]);
 }
 
 
@@ -181,7 +178,7 @@ for (var i = 0; i < numPlayers; i++)
 
 const WATER_WIDTH = 0.03;
 log("Creating river");
-var theta = new Array((numPlayers+(numPlayers%2))/2 + 1);
+var theta = [];
 for (var q=0 ; q < (numPlayers + (numPlayers % 2)) / 2 + 1 ; q++)
 {
 	theta [q] = randFloat(0, TWO_PI);

@@ -68,16 +68,14 @@ for (var ix = 0; ix < mapSize; ix++)
 }
 
 var playerIDs = sortAllPlayers();
-var playerX = new Array(numPlayers);
-var playerZ = new Array(numPlayers);
-var playerAngle = new Array(numPlayers);
-
+var playerX = [];
+var playerZ = [];
 var startAngle = randFloat(0, TWO_PI);
 for (var i = 0; i < numPlayers; i++)
 {
-	playerAngle[i] = startAngle + i*TWO_PI/numPlayers;
-	playerX[i] = 0.5 + 0.25*cos(playerAngle[i]);
-	playerZ[i] = 0.5 + 0.25*sin(playerAngle[i]);
+	let playerAngle = startAngle + i*TWO_PI/numPlayers;
+	playerX[i] = 0.5 + 0.25*cos(playerAngle);
+	playerZ[i] = 0.5 + 0.25*sin(playerAngle);
 }
 
 for (var i = 0; i < numPlayers; i++)
