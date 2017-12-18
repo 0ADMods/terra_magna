@@ -1,4 +1,4 @@
-RMS.LoadLibrary("rmgen");
+Engine.LoadLibrary("rmgen");
 
 //TILE_CENTERED_HEIGHT_MAP = true;
 
@@ -267,7 +267,7 @@ for (ix = 0; ix < mapSize; ix++)
 	}
 }
 
-RMS.SetProgress(45);
+Engine.SetProgress(45);
 
 // create bumps
 log("Creating bumps...");
@@ -361,7 +361,7 @@ for (var i = 0; i < types.length; ++i)
 	);
 }
 
-RMS.SetProgress(60);
+Engine.SetProgress(60);
 // create grass patches
 log("Creating grass patches...");
 var sizes = [scaleByMapSize(3, 48), scaleByMapSize(5, 84), scaleByMapSize(8, 128)];
@@ -394,7 +394,7 @@ for (var i = 0; i < sizes.length; i++)
 		scaleByMapSize(15, 45)
 	);
 }
-RMS.SetProgress(65);
+Engine.SetProgress(65);
 
 log("Creating stone mines...");
 // create large stone quarries
@@ -419,7 +419,7 @@ createObjectGroups(group, 0,
 	scaleByMapSize(4,16), 100
 );
 
-RMS.SetProgress(75);
+Engine.SetProgress(75);
 
 // create bushes
 log("Creating bushes...");
@@ -453,7 +453,7 @@ createObjectGroups(group, 0,
 	scaleByMapSize(16, 262)
 );
 
-RMS.SetProgress(80);
+Engine.SetProgress(80);
 
 // create goats
 log("Creating goats...");
@@ -471,7 +471,7 @@ createObjectGroups(group, 0,
 	scaleByMapSize(5,20), 50
 );
 
-RMS.SetProgress(90);
+Engine.SetProgress(90);
 
 // create fish
 log("Creating fish...");
@@ -484,7 +484,7 @@ createObjectGroups(group, 0,
 	5 * numPlayers, 60
 );
 
-RMS.SetProgress(95);
+Engine.SetProgress(95);
 
 // create straggler trees
 log("Creating straggler trees...");

@@ -1,4 +1,4 @@
-RMS.LoadLibrary("rmgen");
+Engine.LoadLibrary("rmgen");
 
 setSunColor(0.733, 0.746, 0.574);	
 
@@ -207,7 +207,7 @@ for (var i = 0; i < numPlayers; i++)
 	}
 }
 
-RMS.SetProgress(20);
+Engine.SetProgress(20);
 
 // create bumps
 log("Creating bumps...");
@@ -286,7 +286,7 @@ for (var i = 0; i < types.length; ++i)
 	);
 }
 
-RMS.SetProgress(50);
+Engine.SetProgress(50);
 
 // create dirt patches
 log("Creating dirt patches...");
@@ -320,7 +320,7 @@ for (var i = 0; i < sizes.length; i++)
 		scaleByMapSize(30, 90)
 	);
 }
-RMS.SetProgress(55);
+Engine.SetProgress(55);
 
 log("Creating stone mines...");
 // create large stone quarries
@@ -345,7 +345,7 @@ createObjectGroups(group, 0,
 	scaleByMapSize(2,8), 100
 );
 
-RMS.SetProgress(65);
+Engine.SetProgress(65);
 
 
 // create small decorative rocks
@@ -373,7 +373,7 @@ createObjectGroups(
 	scaleByMapSize(8, 131), 50
 );
 
-RMS.SetProgress(70);
+Engine.SetProgress(70);
 
 // create deer
 log("Creating deer...");
@@ -386,7 +386,7 @@ createObjectGroups(group, 0,
 	3 * numPlayers, 50
 );
 
-RMS.SetProgress(75);
+Engine.SetProgress(75);
 
 // create sheep
 log("Creating sheep...");
@@ -399,7 +399,7 @@ createObjectGroups(group, 0,
 	3 * numPlayers, 50
 );
 
-RMS.SetProgress(85);
+Engine.SetProgress(85);
 
 
 // create straggler trees
