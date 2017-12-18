@@ -69,7 +69,6 @@ for (var i = -1; i < numPlayers-1; i++)
 	playerX[i+1] = 0.2 + 0.6*((i+1)%2);
 }
 
-
 for (var i = 0; i < numPlayers; i++)
 {
 	var id = playerIDs[i];

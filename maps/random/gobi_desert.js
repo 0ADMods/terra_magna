@@ -56,15 +56,9 @@ var clSettlement = createTileClass();
 var clSouth = createTileClass();
 
 for (var ix = 0; ix < mapSize; ix++)
-{
 	for (var iz = 0; iz < mapSize; iz++)
-	{
 		if (iz < mapSize/6)
-		{
 			addToClass(ix, iz, clSouth);
-		}
-	}
-}
 
 var playerIDs = sortAllPlayers();
 var playerX = [];
@@ -338,7 +332,7 @@ createObjectGroups(
 Engine.SetProgress(85);
 
 log("Creating straggler trees...");
-var types = [oBush];	// some variation
+var types = [oBush];
 var num = floor(numStragglers / types.length);
 for (var i = 0; i < types.length; ++i)
 	createObjectGroups(
