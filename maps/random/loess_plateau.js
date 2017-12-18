@@ -74,26 +74,26 @@ for (var i = 0; i < numPlayers; i++)
 {
 	var id = playerIDs[i];
 	log("Creating base for player " + id + "...");
-	
+
 	var radius = scaleByMapSize(15,25);
 	var cliffRadius = 2;
 	var elevation = 20;
-	
+
 	var fx = fractionToTiles(playerX[i]);
 	var fz = fractionToTiles(playerZ[i]);
 	var ix = floor(fx);
 	var iz = floor(fz);
 	addToClass(ix, iz, clPlayer);
-	
+
 	// create the city patch
 	var cityRadius = radius/3;
 	var placer = new ClumpPlacer(PI*cityRadius*cityRadius, 0.6, 0.3, 10, ix, iz);
 	var painter = new LayeredPainter([tCityPlaza, tCity], [1]);
 	createArea(placer, painter, undefined);
-	
+
 	// create starting units
 	placeCivDefaultEntities(fx, fz, id);
-	
+
 	// create animals
 	for (var j = 0; j < 2; ++j)
 	{
@@ -107,7 +107,7 @@ for (var i = 0; i < numPlayers; i++)
 		);
 		createObjectGroup(group, 0);
 	}
-	
+
 	// create berry bushes
 	var bbAngle = randFloat(0, TWO_PI);
 	var bbDist = 12;
@@ -118,7 +118,7 @@ for (var i = 0; i < numPlayers; i++)
 		true, clBaseResource, bbX, bbZ
 	);
 	createObjectGroup(group, 0);
-	
+
 	// create metal mine
 	var mAngle = bbAngle;
 	while(abs(mAngle - bbAngle) < PI/3)
@@ -133,7 +133,7 @@ for (var i = 0; i < numPlayers; i++)
 		true, clBaseResource, mX, mZ
 	);
 	createObjectGroup(group, 0);
-	
+
 	// create stone mines
 	mAngle += randFloat(PI/8, PI/4);
 	mX = round(fx + mDist * cos(mAngle));
@@ -159,7 +159,7 @@ for (var i = 0; i < numPlayers; i++)
 		);
 		createObjectGroup(group, 0, avoidClasses(clBaseResource,4));
 	}
-	
+
 	// create grass tufts
 	var num = hillSize / 250;
 	for (var j = 0; j < num; j++)
@@ -189,12 +189,12 @@ for (ix = 0; ix < mapSize; ix++)
 	{
 		var x = ix / (mapSize + 1.0);
 		var z = iz / (mapSize + 1.0);
-		
+
 		var h = 0;
 		var distToWater = 0;
-		
+
 		h = 32 * (z - 0.5);
-		
+
 		// add the rough shape of the water
 		var km = 0.8/scaleByMapSize(35, 160);
 		var rn = (numPlayers+(numPlayers%2))/2;
@@ -208,12 +208,12 @@ for (ix = 0; ix < mapSize; ix++)
 				{
 					if (z < cu+((kal-WATER_WIDTH+0.03)))
 					{
-						h = -5 + 160.0*(cu+((kal-WATER_WIDTH+0.03)-z));	
+						h = -5 + 160.0*(cu+((kal-WATER_WIDTH+0.03)-z));
 						if (((x>0.475)&&(x<0.525))&&(h<-1.5))
 						{
 							h=-1.5;
 						}
-					
+
 					}
 					else if (z > (cu+((kal+WATER_WIDTH-0.03))))
 					{
@@ -250,7 +250,7 @@ Engine.SetProgress(45);
 log("Creating bumps...");
 createAreas(
 	new ClumpPlacer(scaleByMapSize(20, 50), 0.3, 0.06, 1),
-	new SmoothElevationPainter(ELEVATION_MODIFY, 2, 2), 
+	new SmoothElevationPainter(ELEVATION_MODIFY, 2, 2),
 	avoidClasses(clWater, 2, clPlayer, 13),
 	scaleByMapSize(100, 200)
 );
@@ -262,7 +262,7 @@ createAreas(
 		new LayeredPainter([tCliff, tDirtCracks], [2]),
 		new SmoothElevationPainter(ELEVATION_SET, 12, 2),
 		paintClass(clHill)
-	], 
+	],
 	avoidClasses(clPlayer, 18, clWater, 5, clHill, 10),
 	3 * scaleByMapSize(1, 4) * numPlayers);
 
@@ -456,7 +456,7 @@ for (var i = 0; i < types.length; ++i)
 		stayClasses(clHill, 2),
 		num);
 
-setWaterColor(0.51, 0.6, 0.4);		
-setWaterTint(0.45, 0.53, 0.4);		
+setWaterColor(0.51, 0.6, 0.4);
+setWaterTint(0.45, 0.53, 0.4);
 
 ExportMap();
