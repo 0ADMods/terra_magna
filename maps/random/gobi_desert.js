@@ -67,13 +67,7 @@ for (var ix = 0; ix < mapSize; ix++)
 	}
 }
 
-var playerIDs = [];
-for (var i = 0; i < numPlayers; i++)
-{
-	playerIDs.push(i+1);
-}
-playerIDs = shuffleArray(playerIDs);
-
+var playerIDs = sortAllPlayers();
 var playerX = new Array(numPlayers);
 var playerZ = new Array(numPlayers);
 var playerAngle = new Array(numPlayers);

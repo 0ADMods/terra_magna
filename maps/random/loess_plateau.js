@@ -58,13 +58,7 @@ var clBaseResource = createTileClass();
 var clHill = createTileClass();
 var clHill2 = createTileClass();
 
-var playerIDs = [];
-for (var i = 0; i < numPlayers; i++)
-{
-	playerIDs.push(i+1);
-}
-playerIDs = shuffleArray(playerIDs);
-
+var playerIDs = sortAllPlayers();
 var playerX = new Array(numPlayers);
 var playerZ = new Array(numPlayers);
 var playerAngle = new Array(numPlayers);
