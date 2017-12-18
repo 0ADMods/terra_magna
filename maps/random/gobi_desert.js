@@ -9,30 +9,22 @@ var tGrassA = ["desert_sand_dunes_50", "desert_dirt_rough_2", "desert_sand_dunes
 var tGrassB = ["desert_sand_smooth", "desert_dirt_rough_2", "desert_sand_dunes_50", "desert_sand_smooth"];
 var tGrassC = "desert_sand_dunes_50";
 var tHill = ["desert_dirt_rocks_1", "desert_dirt_rocks_2", "desert_dirt_rocks_3"];
-var tDirt = ["desert_lakebed_dry", "desert_lakebed_dry_b"];
 var tRoad = "desert_city_tile";
 var tRoadWild = "desert_city_tile";
 var tSand = ["desert_sand_dunes_50", "desert_sand_dunes_50", "desert_sand_smooth"];
-var tShoreBlend = "desert_shore_stones";
-var tShore = "dirta";
-var tWater = "desert_sand_wet";
 
 var oBush = "gaia/flora_bush_temperate";
 var oBerryBush = "gaia/flora_bush_grapes";
 var oChicken = "gaia/fauna_chicken";
 var oDeer = "gaia/fauna_camel";
-var oFish = "gaia/fauna_fish";
 var oSheep = "gaia/fauna_gazelle";
 var oStoneLarge = "gaia/geology_stonemine_desert_quarry";
 var oStoneSmall = "gaia/geology_stone_desert_small";
 var oMetalLarge = "gaia/geology_metal_desert_slabs";
 
-var aGrass = "actor|props/flora/grass_soft_dry_small_tall.xml";
 var aGrassShort = "actor|props/flora/grass_soft_dry_large.xml";
 var aRockLarge = "actor|geology/stone_desert_med.xml";
 var aRockMedium = "actor|geology/stone_desert_med.xml";
-var aBushMedium = "actor|props/flora/bush_desert_dry_a.xml";
-var aBushSmall = "actor|props/flora/bush_desert_dry_a.xml";
 
 var pForestD = [tGrassDForest + TERRAIN_SEPARATOR + oBush, tGrassDForest];
 var pForestP = [tGrassPForest + TERRAIN_SEPARATOR + oBush, tGrassPForest];
@@ -41,7 +33,6 @@ InitMap();
 
 var numPlayers = getNumPlayers();
 var mapSize = getMapSize();
-var mapArea = mapSize*mapSize;
 
 var clPlayer = createTileClass();
 var clHill = createTileClass();
@@ -52,7 +43,6 @@ var clRock = createTileClass();
 var clMetal = createTileClass();
 var clFood = createTileClass();
 var clBaseResource = createTileClass();
-var clSettlement = createTileClass();
 var clSouth = createTileClass();
 
 for (var ix = 0; ix < mapSize; ix++)
@@ -76,8 +66,6 @@ for (var i = 0; i < numPlayers; i++)
 	var id = playerIDs[i];
 	log("Creating base for player " + id + "...");
 	var radius = scaleByMapSize(15,25);
-	var cliffRadius = 2;
-	var elevation = 20;
 	var fx = fractionToTiles(playerX[i]);
 	var fz = fractionToTiles(playerZ[i]);
 	var ix = round(fx);

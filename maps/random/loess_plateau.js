@@ -2,15 +2,12 @@ Engine.LoadLibrary("rmgen");
 
 const tCity = "road_flat";
 const tCityPlaza = "road_flat";
-const tMainDirt = "temp_dirt_gravel";
 const tForestFloor = "temp_grass_clovers_2";
 const tGrassC = "temp_grass";
 const tGrassA = "temp_grass_c";
 const tGrassB = "peat_temp";
-const tDirt = "temp_grass_plants";
 const tDirtCracks = "temp_dirt_gravel_plants";
 const tCliff = "temp_cliff_b";
-const tShore = "dirt_soft";
 const tWater = "dirt_soft";
 
 const oBerryBush = "gaia/flora_bush_berry";
@@ -37,7 +34,6 @@ const eHillBush = "actor|props/flora/bush_tempe_b.xml";
 
 var pForestP = [tForestFloor + TERRAIN_SEPARATOR + oCarob, tForestFloor];
 var pForestD = [tForestFloor + TERRAIN_SEPARATOR + oBamboo, tForestFloor];
-const BUILDING_ANGlE = -PI/4;
 
 log("Initializing map...");
 
@@ -45,7 +41,6 @@ InitMap();
 
 var numPlayers = getNumPlayers();
 var mapSize = getMapSize();
-var mapArea = mapSize*mapSize;
 
 var clPlayer = createTileClass();
 var clForest = createTileClass();
@@ -61,7 +56,6 @@ var clHill2 = createTileClass();
 var playerIDs = sortAllPlayers();
 var playerX = [];
 var playerZ = [];
-var playerAngle = [];
 for (var i = -1; i < numPlayers-1; i++)
 {
 	let playerPos = (((i+abs(i%2))/2)+1)/(((numPlayers+(numPlayers%2))/2)+1)
@@ -75,8 +69,6 @@ for (var i = 0; i < numPlayers; i++)
 	log("Creating base for player " + id + "...");
 
 	var radius = scaleByMapSize(15,25);
-	var cliffRadius = 2;
-	var elevation = 20;
 
 	var fx = fractionToTiles(playerX[i]);
 	var fz = fractionToTiles(playerZ[i]);
@@ -190,7 +182,6 @@ for (ix = 0; ix < mapSize; ix++)
 		var z = iz / (mapSize + 1.0);
 
 		var h = 0;
-		var distToWater = 0;
 
 		h = 32 * (z - 0.5);
 
