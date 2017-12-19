@@ -53,6 +53,9 @@ var clBaseResource = createTileClass();
 var clHill = createTileClass();
 var clHill2 = createTileClass();
 
+var shallowsHeight = -1.5;
+var waterHeight = -3;
+
 var playerIDs = sortAllPlayers();
 var playerX = [];
 var playerZ = [];
@@ -154,74 +157,40 @@ for (var i = 0; i < numPlayers; i++)
 	placeDefaultDecoratives(playerX[i], playerZ[i], aBush1, clBaseResource, radius);
 }
 
-const WATER_WIDTH = 0.03;
-log("Creating river");
-var theta = [];
-for (var q=0 ; q < (numPlayers + (numPlayers % 2)) / 2 + 1 ; q++)
+// A pair of players is placed between two rivers
+var riverCount = Math.ceil(numPlayers / 2) + 1;
+for (let riverID = 0; riverID < riverCount; ++riverID)
 {
-	theta [q] = randFloat(0, TWO_PI);
-}
-for (ix = 0; ix < mapSize; ix++)
-{
-	for (iz = 0; iz < mapSize; iz++)
-	{
-		var x = ix / (mapSize + 1.0);
-		var z = iz / (mapSize + 1.0);
+	let z = (2 * riverID + 1) / (2 * riverCount);
 
-		var h = 0;
+	paintRiver({
+		"parallel": true,
+		"startX": 0,
+		"startZ": z,
+		"endX": 1,
+		"endZ": z,
+		"width": 0.06,
+		"fadeDist": 0.01,
+		"deviation": 0,
+		"waterHeight": -5,
+		"landHeight": 1,
+		"meanderShort": 16,
+		"meanderLong": 0,
+		"waterHeight": waterHeight,
+		"mihHeight": waterHeight,
+		"waterFunc": (ix, iz, height, riverFraction) => {
+			let isShallows = riverFraction > 0.475 && riverFraction < 0.525;
 
-		h = 32 * (z - 0.5);
+			if (isShallows && height < shallowsHeight)
+				setHeight(ix, iz, shallowsHeight);
 
-		// add the rough shape of the water
-		var km = 0.8/scaleByMapSize(35, 160);
-		var rn = (numPlayers+(numPlayers%2))/2;
-		if (-3.0 < getHeight(ix, iz))
-		{
-			for (var nr = 0; nr < rn + 1 ; nr++)
-			{
-				var cu = km*sin(theta[nr]+x*PI*(mapSize/64));
-				var kal = (2*nr+1)/(2*rn+2);
-				if ((z > cu+(kal-WATER_WIDTH))&&(z < cu+(kal+WATER_WIDTH)))
-				{
-					if (z < cu+((kal-WATER_WIDTH+0.03)))
-					{
-						h = -5 + 160.0*(cu+((kal-WATER_WIDTH+0.03)-z));
-						if (((x>0.475)&&(x<0.525))&&(h<-1.5))
-						{
-							h=-1.5;
-						}
-
-					}
-					else if (z > (cu+((kal+WATER_WIDTH-0.03))))
-					{
-						h = -5 + 160.0*(z-(cu+((kal+WATER_WIDTH-0.03))));
-						if (((x>0.475)&&(x<0.525))&&(h<-1.5))
-						{
-							h=-1.5;
-						}
-					}
-					else
-					{
-						if ((x>0.475)&&(x<0.525))
-						{
-							h = -1.5;
-						}
-						else
-						{
-							h = -3.0;
-						}
-					}
-					setHeight(ix, iz, h);
-					addToClass(ix, iz, clWater);
-					placeTerrain(ix, iz, tWater);
-					placeTerrain(ix, iz+1, tWater);
-					placeTerrain(ix, iz-1, tWater);
-				}
-			}
+			addToClass(ix, iz, clWater);
+			placeTerrain(ix, iz, tWater);
+			placeTerrain(ix, iz+1, tWater);
+			placeTerrain(ix, iz-1, tWater);
 		}
-	}
+	});
 }
-
 Engine.SetProgress(45);
 
 log("Creating bumps...");
