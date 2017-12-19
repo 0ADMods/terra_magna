@@ -16,6 +16,6 @@
     <Actor>structures/zapotecs/wall_short.xml</Actor>
   </VisualActor>
   <WallPiece>
-    <Length>13.0</Length>
+    <Length>12.35</Length>
   </WallPiece>
 </Entity>

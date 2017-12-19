@@ -39,7 +39,7 @@
     <Actor>structures/chinese/wall_gate.xml</Actor>
   </VisualActor>
   <WallPiece>
-    <Length>42.0</Length>
+    <Length>37.6</Length>
   </WallPiece>
   <TerritoryInfluence>
     <Radius>24</Radius>

@@ -20,6 +20,6 @@
     <Actor>structures/zapotecs/wall_gate.xml</Actor>
   </VisualActor>
   <WallPiece>
-    <Length>38.0</Length>
+    <Length>34.1</Length>
   </WallPiece>
 </Entity>

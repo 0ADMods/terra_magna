@@ -93,6 +93,11 @@
 			"Special": "" 
 		} 
 	],
+	"WallSets":
+	[
+		"other/wallset_palisade",
+		"structures/chin_wallset_stone"
+	],
 	"StartEntities":
 	[
 		{

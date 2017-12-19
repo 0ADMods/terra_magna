@@ -15,4 +15,8 @@
   <VisualActor>
     <Actor>structures/zapotecs/fortress.xml</Actor>
   </VisualActor>
+  <WallPiece>
+    <Length>23.2</Length>
+    <Indent>4.8</Indent>
+  </WallPiece>
 </Entity>
