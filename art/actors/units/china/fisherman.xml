@@ -12,7 +12,7 @@
         <animation file="biped/fisherman_gather.dae" name="gather_fish" speed="130"/>
         <animation file="biped/fisherman_death.dae" name="death" speed="100"/>
       </animations>
-      <mesh>skeletal/m_pants_celt.dae</mesh>
+      <mesh>skeletal/m_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_china.xml" attachpoint="head"/>
         <prop actor="props/units/row.xml" attachpoint="l_hand"/>
