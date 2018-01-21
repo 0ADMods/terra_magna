@@ -1,23 +1,66 @@
-====================== 0 A.D.: Terra Magna Information ======================                                                                                                
+# Terra Magna - a 0 A.D. civilization mod
 
-0 A.D. (pronounced "zero ey-dee") is a free, open-source, cross-platform
-real-time strategy game of ancient warfare. But you already knew that. Let's
-get to how you'll be installing our mod.
+Terra Magna mod adds new civilizations to the free and open source real-time strategy game [0 A.D.](https://play0ad.com/) The following civilizations are added by the mod:
 
-If you're interested in helping us out, we'd love to hear from you! We could
-always use another helping hand with the project, and you can help us get
-one step closer to introducing the Chinese faction to the game in its
-entirety! There are several ways to contact us and find more information:
+- Han China
+- Kushites
+- Zapotecs
 
-------------------------------------------------------------------------------------
-Reporting problems
-------------------------------------------------------------------------------------
+The Terra Magna mod was formerly known as [Rise of the East](http://www.moddb.com/mods/rote). A new name for the mod was necessary after we added the Zapotec and Kushite civilization. Therefore, the Terra Magna mod is a continuation of the Rise of the East mod with extended content.
 
-Although there shouldn't be any bugs in this release, as it's quite simply
-a bunch of art assets and actors, if you experience any issues, please tell us about
-it on the Wildfiregames Forum!
+### Han China
 
-As always, if you experience problems with the game itself, Wildfire Games would 
-really appreciate it if you'd tell them about it on Trac: trac.wildfiregames.com/
-After searching to make sure it's not a duplicate, just register a new ticket and
-the team will get to fixing it!
+Adds Han China as fraction to 0 A.D. The Han dynasty (206 BC - 220 AD) was the second great imperial dynasty of China. Preceded by the Qin dynasty (221 - 207 BC) and succeeded by the Three Kingdoms period (220 - 280 AD). The Han dynasty lasted over four centuries. It is considered a golden age in Chinese history, because China made significant progress in arts and sciences during the Han period. 
+
+### Kushites
+
+The Kingdom of Kush was one of the most powerful African empires in classical antiquity. Located in present-day Sudan, it lay on the intersection of trade routes connecting the interior of the continent with the Mediterannean world. Builders of pyramids and temples, cities and fortified strongholds, the Kushites built a trade empire, backed by strong armies, lead by powerful kings and queens. In popular culture, they are most known for their excellent archers, the Nubian Bowmen.
+
+This Mod focuses on the time frame between 590 B.C. and 330 A.D. During this period, the Kushite capital shifted from Napata to the more southern Meroe. Facing Persian invasions, military engagements with Ptolemaic Egypt and a 5 year war with Rome, this period features many interesting events. Due to incessant raids from desert tribes, increasing aggression from the warlike Noba, and two Axumite invasions, the power of Meroe eventually waned, and by 350AD the last king was burried in its royal cemetaries. The Kingdom of Kush offers an exciting and often forgotten chapter in history.
+
+### Zapotecs
+
+Adds the Zapotec fraction to 0 A.D. 
+
+## Download
+
+{Will be added after the transition and migration of the Rise of the East mod is finished.}
+
+There is only one download option for every version, because the same mod can work across all platforms 0 A.D. can run on. This means you only need one ZIP file regardless if you are using Windows, Linux or macOS.
+
+## Installation 
+
+{Will be added after the transition and migration of the Rise of the East mod is finished.}
+
+## Contributing
+
+We could always use another helping hand with this project. There are several ways to help and contribute to the Terra Magna mod:
+
+- Download, install and play the mod.
+- Promote the Terra Magna mod by telling friends about it, create game play videos or write a blog article about it.
+- Report problems and bugs.
+- Help to translate the mod in different languages.
+- Be a community manager and help others.
+- Create maps.
+- Write news article for new releases and changes.
+- Create 2D or 3D art.
+- Help with research for units and buildings.
+- Contribute sound.
+- Help with the development.
+- Test new releases and report your findings.
+
+Feel free to ask any questions about helping and contributing in our [forum](https://wildfiregames.com/forum/index.php?/forum/423-rise-of-the-east/). If you are uncomfortable to ask in English ask in your language. 0 A.D. has an international community and will most likely be able to help you to translate your question. 
+
+### Tasks
+
+Our current goal is to complete the Chinese fraction. Any help is welcome to achieve this goal.
+
+## Current Status
+
+We are currently in the process of developing a stable version of the Terra Magna mod for 0 A.D. Alpha 22 "Venustas". In addition, we are transitioning and migrating the forum and the ModDB page to reflect the name change from Rise of the East to Terra Magna.
+
+## Reporting problems
+
+To report a problem in with the mod you can open a new issue in our [Github repository](https://github.com/0ADMods/terra_magna) or create a new post in our [forum](https://wildfiregames.com/forum/index.php?/forum/423-rise-of-the-east/).
+
+If you experience any problems with the main game open a new ticket in: trac.wildfiregames.com/. Please, search for potential duplicates before creating a new ticked.
