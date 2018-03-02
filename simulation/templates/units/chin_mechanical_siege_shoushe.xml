@@ -21,7 +21,8 @@
     <SpecificName>Shoushe Nu</SpecificName>
     <Icon>units/chin_mechanical_siege_shoushe.png</Icon>
   </Identity>
-    <Promotion disable=""/>
+  <Pack disable=""/>
+  <Promotion disable=""/>
   <VisualActor>
     <Actor>units/china/siege_shoushe.xml</Actor>
   </VisualActor>

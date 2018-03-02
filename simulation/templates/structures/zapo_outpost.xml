@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defense_tower_outpost">
   <Identity>
-    <Civ>spart</Civ>
-    <GenericName>Greek Outpost</GenericName>
-    <SpecificName>Prophylakḗ</SpecificName>
+    <Civ>zapo</Civ>
+    <GenericName>Zapotec Outpost</GenericName>
   </Identity>
   <VisualActor>
     <Actor>structures/hellenes/outpost.xml</Actor>
