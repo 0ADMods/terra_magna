@@ -10,12 +10,7 @@
 			{"File":"Tradition.ogg", "Type":"peace"}
 		],
 	"Factions":
-	[
-		{
-			"Name": "Zapotecs",
-			"Description": ""
-		}
-	],
+	[],
 	"CivBonuses":
 	[
 		{
@@ -25,13 +20,7 @@
 		}
 	],
 	"TeamBonuses":
-	[
-		{
-			"Name": ".",
-			"History": ".",
-			"Description": "."
-		}
-	],
+	[],
 	"Structures":
 	[
 		{
