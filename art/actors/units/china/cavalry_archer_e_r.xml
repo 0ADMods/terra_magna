@@ -25,7 +25,7 @@
   <group>
     <variant frequency="100" name="Idle"/>
     <variant file="biped/attack_ranged_cavalry_archer_back.xml" frequency="100" name="attack_ranged"/>
-    <variant file="biped/attack_slaughter_shield_cavalry.xml" name="attack_slaughter">
+    <variant file="biped/rider/attack_slaughter_shield.xml" name="attack_slaughter">
       <props>
           <prop actor="props/units/tools/tool_knife.xml" attachpoint="weapon_R"/>
       </props>
