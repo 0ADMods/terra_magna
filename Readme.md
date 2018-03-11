@@ -1,26 +1,19 @@
-# Terra Magna - a 0 A.D. civilization mod
+# Terra Magna - 0 A.D. Civilization Mod
 
 Terra Magna mod adds new civilizations to the free and open source real-time strategy game [0 A.D.](https://play0ad.com/) The following civilizations are added by the mod:
 
 - Han China
-- Kushites
 - Zapotecs
 
 The Terra Magna mod was formerly known as [Rise of the East](http://www.moddb.com/mods/rote). A new name for the mod was necessary after we added the Zapotec and Kushite civilization. Therefore, the Terra Magna mod is a continuation of the Rise of the East mod with extended content.
 
 ### Han China
 
-Adds Han China as fraction to 0 A.D. The Han dynasty (206 BC - 220 AD) was the second great imperial dynasty of China. Preceded by the Qin dynasty (221 - 207 BC) and succeeded by the Three Kingdoms period (220 - 280 AD). The Han dynasty lasted over four centuries. It is considered a golden age in Chinese history, because China made significant progress in arts and sciences during the Han period. 
-
-### Kushites
-
-The Kingdom of Kush was one of the most powerful African empires in classical antiquity. Located in present-day Sudan, it lay on the intersection of trade routes connecting the interior of the continent with the Mediterannean world. Builders of pyramids and temples, cities and fortified strongholds, the Kushites built a trade empire, backed by strong armies, lead by powerful kings and queens. In popular culture, they are most known for their excellent archers, the Nubian Bowmen.
-
-This Mod focuses on the time frame between 590 B.C. and 330 A.D. During this period, the Kushite capital shifted from Napata to the more southern Meroe. Facing Persian invasions, military engagements with Ptolemaic Egypt and a 5 year war with Rome, this period features many interesting events. Due to incessant raids from desert tribes, increasing aggression from the warlike Noba, and two Axumite invasions, the power of Meroe eventually waned, and by 350AD the last king was burried in its royal cemetaries. The Kingdom of Kush offers an exciting and often forgotten chapter in history.
+Adds [Han China](https://en.wikipedia.org/wiki/Han_dynasty) as faction to 0 A.D. The Han dynasty (206 BC - 220 AD) was the second great imperial dynasty of China. Preceded by the Qin dynasty (221 - 207 BC) and succeeded by the Three Kingdoms period (220 - 280 AD). The Han dynasty lasted over four centuries. It is considered a golden age in Chinese history, because China made significant progress in arts and sciences during the Han period.
 
 ### Zapotecs
 
-Adds the Zapotec fraction to 0 A.D. 
+Adds the [Zapotec](https://en.wikipedia.org/wiki/Zapotec_civilization) faction to 0 A.D.
 
 ## Download
 
@@ -28,7 +21,7 @@ Adds the Zapotec fraction to 0 A.D.
 
 There is only one download option for every version, because the same mod can work across all platforms 0 A.D. can run on. This means you only need one ZIP file regardless if you are using Windows, Linux or macOS.
 
-## Installation 
+## Installation
 
 {Will be added after the transition and migration of the Rise of the East mod is finished.}
 
@@ -49,15 +42,15 @@ We could always use another helping hand with this project. There are several wa
 - Help with the development.
 - Test new releases and report your findings.
 
-Feel free to ask any questions about helping and contributing in our [forum](https://wildfiregames.com/forum/index.php?/forum/423-rise-of-the-east/). If you are uncomfortable to ask in English ask in your language. 0 A.D. has an international community and will most likely be able to help you to translate your question. 
+Feel free to ask any questions about helping and contributing in our [forum](https://wildfiregames.com/forum/index.php?/forum/423-rise-of-the-east/). If you are uncomfortable to ask in English ask in your language. 0 A.D. has an international community and will most likely be able to help you to translate your question.
 
 ### Tasks
 
-Our current goal is to complete the Chinese fraction. Any help is welcome to achieve this goal.
+Our current goal is to complete the Zapotecs and Chinese factions. Any help is welcome to achieve this goal.
 
 ## Current Status
 
-We are currently in the process of developing a stable version of the Terra Magna mod for 0 A.D. Alpha 22 "Venustas". In addition, we are transitioning and migrating the forum and the ModDB page to reflect the name change from Rise of the East to Terra Magna.
+We are currently in the process of developing a stable version of the Terra Magna mod for 0 A.D. Alpha 23 "Ken wood". In addition, we are transitioning and migrating the forum and the ModDB page to reflect the name change from Rise of the East to Terra Magna.
 
 ## Reporting problems
 
