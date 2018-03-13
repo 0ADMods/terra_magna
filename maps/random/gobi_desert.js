@@ -1,4 +1,5 @@
 Engine.LoadLibrary("rmgen");
+Engine.LoadLibrary("rmgen-common");
 
 var tGrass = ["desert_dirt_rough", "desert_dirt_rough_2", "desert_sand_dunes_50", "desert_sand_smooth"];
 var tGrassPForest = "desert_dirt_rocks_1";

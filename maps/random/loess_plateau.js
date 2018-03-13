@@ -1,4 +1,5 @@
 Engine.LoadLibrary("rmgen");
+Engine.LoadLibrary("rmgen-common");
 
 const tPrimary = ["temp_grass", "temp_grass_c"];
 const tCity = "road_flat";
