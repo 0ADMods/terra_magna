@@ -4,16 +4,7 @@
   <castshadow/>
 
   <group>
-    <variant frequency="100" name="Base">
-      <animations>
-        <animation file="quadraped/horse_idle.dae" name="Idle" speed="50"/>
-        <animation file="quadraped/horse_walk.dae" name="Walk" speed="120"/>
-        <animation file="quadraped/horse_gallop.dae" name="Run" speed="50"/>
-        <animation file="quadraped/horse_walk.dae" name="carry_meat" speed="120"/>
-        <animation file="quadraped/horse_idle.dae" name="attack_melee" speed="20" event=".5"/>
-        <animation file="quadraped/horse_death_a.dae" name="death" id="death1" speed="140"/>
-        <animation file="quadraped/horse_death_b.dae" name="death" id="death2" speed="140"/>
-      </animations>
+    <variant frequency="1" file="quadraped/base_horse_chariot.xml" name="Base">
       <mesh>skeletal/horse.dae</mesh>
     </variant>
   </group>
@@ -56,7 +47,13 @@
       <color>211 123 44</color>
     </variant>
   </group>
-
+  
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="quadraped/base_horse_death.xml"/>
+    <variant file="quadraped/base_horse_run.xml"/>
+  </group>
+  
   <material>objectcolor.xml</material>
 
 </actor>

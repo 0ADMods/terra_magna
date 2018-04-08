@@ -2,17 +2,15 @@
 <actor version="1">
 	<castshadow/>
 	<group>
-		<variant file="biped/base_cavalry_archer_ready.xml" frequency="100" name="Base">
-			<mesh>skeletal/new/m_pants.dae</mesh>
-			<props>
+    <variant frequency="1" name="Base">
+      <mesh>skeletal/new/m_pants.dae</mesh>
+      <props>
 				<prop actor="props/units/heads/head_china.xml" attachpoint="head"/>
-				<prop actor="props/units/weapons/arrow_back.xml" attachpoint="weapon_R"/>
-				<prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
-				<prop actor="props/units/weapons/chin_rcrossbow.xml" attachpoint="weapon_L"/>
+				<prop actor="props/units/weapons/chin_rcrossbow.xml" attachpoint="weapon_R"/>
 				<prop actor="props/units/quiver_hip.xml" attachpoint="sheath_L"/>
 			</props>
-		</variant>
-	</group>
+    </variant>
+  </group>
 	<group>
 		<variant frequency="1" name="open_helmet">
 			<props>
@@ -34,26 +32,17 @@
       <textures><texture file="skeletal/chin_icr_e.png" name="baseTex"/></textures>
     </variant>
   </group>
-	<group>
-		<variant frequency="100" name="Idle"/>
-		<variant file="biped/attack_ranged_cavalry_crossbow.xml" frequency="100" name="attack_ranged"/>
-		<variant file="biped/rider/attack_slaughter_shield.xml" name="attack_slaughter">
-			<props>
-					<prop actor="props/units/tools/tool_knife.xml" attachpoint="weapon_R"/>
-			</props>
-		</variant>
-		<variant name="gather_meat">
-			<props>
-				<prop attachpoint="weapon_R"/>
-				<prop attachpoint="weapon_L"/>
-			</props>
-		</variant>
-		<variant name="carry_meat">
-			<props>
-				<prop actor="props/units/shuttle_meat.xml" attachpoint="weapon_R"/>
-				<prop attachpoint="weapon_L"/>
-			</props>
-		</variant>
-	</group>
+  <group>
+    <variant file="biped/base_cavalry_crossbowman.xml"/>
+    <variant file="biped/rider/carry_meat.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/attack_ranged_cavalry_crossbowman.xml"/>
+    <variant file="biped/rider/promotion.xml"/>
+    <variant file="biped/rider/attack_slaughter_hele.xml"/>
+    <variant file="biped/gather_meat.xml"/>
+    <variant file="biped/rider/death_archer.xml"/>
+  </group>
 <material>player_trans.xml</material>
 </actor>

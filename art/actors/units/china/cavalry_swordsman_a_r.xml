@@ -2,7 +2,7 @@
 <actor version="1">
 	<castshadow/>
 	<group>
-		<variant file="biped/base_cavalry_swordsman_shield_relax.xml" frequency="100" name="Base">
+		<variant frequency="1" name="Base">
 			<mesh>skeletal/new/m_pants.dae</mesh>
 			<props>
 				<prop actor="props/units/heads/head_china.xml" attachpoint="head"/>
@@ -32,14 +32,16 @@
 		</variant>
 	</group>
 	<group>
-		<variant frequency="100" name="Idle"/>
-		<variant file="biped/rider/attack_slaughter_shield.xml" name="attack_slaughter"/>
-		<variant name="carry_meat">
-			<props>
-				<prop actor="props/units/shuttle_meat.xml" attachpoint="weapon_R"/>
-			</props>
-		</variant>
-	</group>
+    <variant file="biped/base_cavalry_swordsman_shield_relax.xml"/>
+    <variant file="biped/rider/carry_meat.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/rider/promotion_shield.xml"/>
+    <variant file="biped/rider/attack_slaughter_shield_hele.xml"/>
+    <variant file="biped/gather_meat.xml"/>
+    <variant file="biped/rider/death_shield_a.xml"/>
+  </group>
 	<material>player_trans.xml</material>
 </actor>
 

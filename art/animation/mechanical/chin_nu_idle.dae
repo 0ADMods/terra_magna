@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.79.0 commit date:2017-09-11, commit time:10:43, hash:5bd8ac9</authoring_tool>
     </contributor>
-    <created>2018-03-30T04:45:28</created>
-    <modified>2018-03-30T04:45:28</modified>
+    <created>2018-03-30T04:49:37</created>
+    <modified>2018-03-30T04:49:37</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -56,6 +56,264 @@
       </mesh>
     </geometry>
   </library_geometries>
+  <library_animations>
+    <animation id="Nu_chin_nu_Nu_base_pose_matrix">
+      <source id="Nu_chin_nu_Nu_base_pose_matrix-input">
+        <float_array id="Nu_chin_nu_Nu_base_pose_matrix-input-array" count="2">0 0.4166666</float_array>
+        <technique_common>
+          <accessor source="#Nu_chin_nu_Nu_base_pose_matrix-input-array" count="2" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Nu_chin_nu_Nu_base_pose_matrix-output">
+        <float_array id="Nu_chin_nu_Nu_base_pose_matrix-output-array" count="32">-0.01295869 0.01275064 0.9998344 -0.08134569 -0.01605635 0.999787 -0.01295813 -0.2625735 -0.9997872 -0.01622162 -0.0127512 0.09689544 0 0 0 1 -0.01295869 0.01275064 0.9998344 -0.08134569 -0.01605635 0.999787 -0.01295813 -0.2625735 -0.9997872 -0.01622162 -0.0127512 0.09689544 0 0 0 1</float_array>
+        <technique_common>
+          <accessor source="#Nu_chin_nu_Nu_base_pose_matrix-output-array" count="2" stride="16">
+            <param name="TRANSFORM" type="float4x4"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Nu_chin_nu_Nu_base_pose_matrix-interpolation">
+        <Name_array id="Nu_chin_nu_Nu_base_pose_matrix-interpolation-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor source="#Nu_chin_nu_Nu_base_pose_matrix-interpolation-array" count="2" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Nu_chin_nu_Nu_base_pose_matrix-sampler">
+        <input semantic="INPUT" source="#Nu_chin_nu_Nu_base_pose_matrix-input"/>
+        <input semantic="OUTPUT" source="#Nu_chin_nu_Nu_base_pose_matrix-output"/>
+        <input semantic="INTERPOLATION" source="#Nu_chin_nu_Nu_base_pose_matrix-interpolation"/>
+      </sampler>
+      <channel source="#Nu_chin_nu_Nu_base_pose_matrix-sampler" target="Nu_chin_nu_Nu_base/transform"/>
+    </animation>
+    <animation id="Nu_chin_nu_Nu_pivot_pose_matrix">
+      <source id="Nu_chin_nu_Nu_pivot_pose_matrix-input">
+        <float_array id="Nu_chin_nu_Nu_pivot_pose_matrix-input-array" count="2">0 0.4166666</float_array>
+        <technique_common>
+          <accessor source="#Nu_chin_nu_Nu_pivot_pose_matrix-input-array" count="2" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Nu_chin_nu_Nu_pivot_pose_matrix-output">
+        <float_array id="Nu_chin_nu_Nu_pivot_pose_matrix-output-array" count="32">0.9999999 -6.4075e-7 0 -0.01165314 6.4075e-7 1 3.4312e-7 -0.2994105 -9.31323e-10 -3.43061e-7 0.9999997 0.1096839 0 0 0 1 0.9999999 -6.4075e-7 0 -0.01165314 6.4075e-7 1 3.4312e-7 -0.2994105 -9.31323e-10 -3.43061e-7 0.9999997 0.1096839 0 0 0 1</float_array>
+        <technique_common>
+          <accessor source="#Nu_chin_nu_Nu_pivot_pose_matrix-output-array" count="2" stride="16">
+            <param name="TRANSFORM" type="float4x4"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Nu_chin_nu_Nu_pivot_pose_matrix-interpolation">
+        <Name_array id="Nu_chin_nu_Nu_pivot_pose_matrix-interpolation-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor source="#Nu_chin_nu_Nu_pivot_pose_matrix-interpolation-array" count="2" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Nu_chin_nu_Nu_pivot_pose_matrix-sampler">
+        <input semantic="INPUT" source="#Nu_chin_nu_Nu_pivot_pose_matrix-input"/>
+        <input semantic="OUTPUT" source="#Nu_chin_nu_Nu_pivot_pose_matrix-output"/>
+        <input semantic="INTERPOLATION" source="#Nu_chin_nu_Nu_pivot_pose_matrix-interpolation"/>
+      </sampler>
+      <channel source="#Nu_chin_nu_Nu_pivot_pose_matrix-sampler" target="Nu_chin_nu_Nu_pivot/transform"/>
+    </animation>
+    <animation id="Nu_chin_nu_Nu_slide_pose_matrix">
+      <source id="Nu_chin_nu_Nu_slide_pose_matrix-input">
+        <float_array id="Nu_chin_nu_Nu_slide_pose_matrix-input-array" count="2">0 0.4166666</float_array>
+        <technique_common>
+          <accessor source="#Nu_chin_nu_Nu_slide_pose_matrix-input-array" count="2" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Nu_chin_nu_Nu_slide_pose_matrix-output">
+        <float_array id="Nu_chin_nu_Nu_slide_pose_matrix-output-array" count="32">1 4.41447e-7 3.72529e-9 -0.03741633 -4.45172e-7 1 -3.8142e-7 0.7319487 -2.79397e-9 3.79951e-7 0.9999998 -0.03338844 0 0 0 1 1 4.41447e-7 3.72529e-9 -0.03741633 -4.45172e-7 1 -3.8142e-7 0.7319487 -2.79397e-9 3.79951e-7 0.9999998 -0.03338844 0 0 0 1</float_array>
+        <technique_common>
+          <accessor source="#Nu_chin_nu_Nu_slide_pose_matrix-output-array" count="2" stride="16">
+            <param name="TRANSFORM" type="float4x4"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Nu_chin_nu_Nu_slide_pose_matrix-interpolation">
+        <Name_array id="Nu_chin_nu_Nu_slide_pose_matrix-interpolation-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor source="#Nu_chin_nu_Nu_slide_pose_matrix-interpolation-array" count="2" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Nu_chin_nu_Nu_slide_pose_matrix-sampler">
+        <input semantic="INPUT" source="#Nu_chin_nu_Nu_slide_pose_matrix-input"/>
+        <input semantic="OUTPUT" source="#Nu_chin_nu_Nu_slide_pose_matrix-output"/>
+        <input semantic="INTERPOLATION" source="#Nu_chin_nu_Nu_slide_pose_matrix-interpolation"/>
+      </sampler>
+      <channel source="#Nu_chin_nu_Nu_slide_pose_matrix-sampler" target="Nu_chin_nu_Nu_slide/transform"/>
+    </animation>
+    <animation id="Nu_chin_nu_Nu_sling_pose_matrix">
+      <source id="Nu_chin_nu_Nu_sling_pose_matrix-input">
+        <float_array id="Nu_chin_nu_Nu_sling_pose_matrix-input-array" count="2">0 0.4166666</float_array>
+        <technique_common>
+          <accessor source="#Nu_chin_nu_Nu_sling_pose_matrix-input-array" count="2" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Nu_chin_nu_Nu_sling_pose_matrix-output">
+        <float_array id="Nu_chin_nu_Nu_sling_pose_matrix-output-array" count="32">0.9999999 4.42203e-4 7.18515e-6 -0.09954313 -4.42194e-4 0.99942 0.03405209 -0.4761381 7.8762e-6 -0.03405209 0.9994202 -0.01999854 0 0 0 1 0.9999999 4.42203e-4 7.18515e-6 -0.09954313 -4.42194e-4 0.99942 0.03405209 -0.4761381 7.8762e-6 -0.03405209 0.9994202 -0.01999854 0 0 0 1</float_array>
+        <technique_common>
+          <accessor source="#Nu_chin_nu_Nu_sling_pose_matrix-output-array" count="2" stride="16">
+            <param name="TRANSFORM" type="float4x4"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Nu_chin_nu_Nu_sling_pose_matrix-interpolation">
+        <Name_array id="Nu_chin_nu_Nu_sling_pose_matrix-interpolation-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor source="#Nu_chin_nu_Nu_sling_pose_matrix-interpolation-array" count="2" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Nu_chin_nu_Nu_sling_pose_matrix-sampler">
+        <input semantic="INPUT" source="#Nu_chin_nu_Nu_sling_pose_matrix-input"/>
+        <input semantic="OUTPUT" source="#Nu_chin_nu_Nu_sling_pose_matrix-output"/>
+        <input semantic="INTERPOLATION" source="#Nu_chin_nu_Nu_sling_pose_matrix-interpolation"/>
+      </sampler>
+      <channel source="#Nu_chin_nu_Nu_sling_pose_matrix-sampler" target="Nu_chin_nu_Nu_sling/transform"/>
+    </animation>
+    <animation id="Nu_chin_nu_prop_projectile_pose_matrix">
+      <source id="Nu_chin_nu_prop_projectile_pose_matrix-input">
+        <float_array id="Nu_chin_nu_prop_projectile_pose_matrix-input-array" count="2">0 0.4166666</float_array>
+        <technique_common>
+          <accessor source="#Nu_chin_nu_prop_projectile_pose_matrix-input-array" count="2" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Nu_chin_nu_prop_projectile_pose_matrix-output">
+        <float_array id="Nu_chin_nu_prop_projectile_pose_matrix-output-array" count="32">0.9997702 -0.01660941 -0.0135365 0.02257717 0.01631742 0.9996377 -0.02140374 -0.03177202 0.01388709 0.02117794 0.9996794 -1.16481e-4 0 0 0 1 0.9997702 -0.01660941 -0.0135365 0.02257717 0.01631742 0.9996377 -0.02140374 -0.03177202 0.01388709 0.02117794 0.9996794 -1.16481e-4 0 0 0 1</float_array>
+        <technique_common>
+          <accessor source="#Nu_chin_nu_prop_projectile_pose_matrix-output-array" count="2" stride="16">
+            <param name="TRANSFORM" type="float4x4"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Nu_chin_nu_prop_projectile_pose_matrix-interpolation">
+        <Name_array id="Nu_chin_nu_prop_projectile_pose_matrix-interpolation-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor source="#Nu_chin_nu_prop_projectile_pose_matrix-interpolation-array" count="2" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Nu_chin_nu_prop_projectile_pose_matrix-sampler">
+        <input semantic="INPUT" source="#Nu_chin_nu_prop_projectile_pose_matrix-input"/>
+        <input semantic="OUTPUT" source="#Nu_chin_nu_prop_projectile_pose_matrix-output"/>
+        <input semantic="INTERPOLATION" source="#Nu_chin_nu_prop_projectile_pose_matrix-interpolation"/>
+      </sampler>
+      <channel source="#Nu_chin_nu_prop_projectile_pose_matrix-sampler" target="Nu_chin_nu_prop_projectile/transform"/>
+    </animation>
+    <animation id="Nu_chin_nu_Nu_crank_pose_matrix">
+      <source id="Nu_chin_nu_Nu_crank_pose_matrix-input">
+        <float_array id="Nu_chin_nu_Nu_crank_pose_matrix-input-array" count="2">0 0.4166666</float_array>
+        <technique_common>
+          <accessor source="#Nu_chin_nu_Nu_crank_pose_matrix-input-array" count="2" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Nu_chin_nu_Nu_crank_pose_matrix-output">
+        <float_array id="Nu_chin_nu_Nu_crank_pose_matrix-output-array" count="32">1.63084e-4 -1 -2.10075e-4 -0.04985151 1 1.63132e-4 2.0942e-4 0.4316592 -2.09386e-4 -2.10109e-4 0.9999998 -0.03148515 0 0 0 1 1.63084e-4 -1 -2.10075e-4 -0.04985151 1 1.63132e-4 2.0942e-4 0.4316592 -2.09386e-4 -2.10109e-4 0.9999998 -0.03148515 0 0 0 1</float_array>
+        <technique_common>
+          <accessor source="#Nu_chin_nu_Nu_crank_pose_matrix-output-array" count="2" stride="16">
+            <param name="TRANSFORM" type="float4x4"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Nu_chin_nu_Nu_crank_pose_matrix-interpolation">
+        <Name_array id="Nu_chin_nu_Nu_crank_pose_matrix-interpolation-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor source="#Nu_chin_nu_Nu_crank_pose_matrix-interpolation-array" count="2" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Nu_chin_nu_Nu_crank_pose_matrix-sampler">
+        <input semantic="INPUT" source="#Nu_chin_nu_Nu_crank_pose_matrix-input"/>
+        <input semantic="OUTPUT" source="#Nu_chin_nu_Nu_crank_pose_matrix-output"/>
+        <input semantic="INTERPOLATION" source="#Nu_chin_nu_Nu_crank_pose_matrix-interpolation"/>
+      </sampler>
+      <channel source="#Nu_chin_nu_Nu_crank_pose_matrix-sampler" target="Nu_chin_nu_Nu_crank/transform"/>
+    </animation>
+    <animation id="Nu_chin_nu_Nu_arm_L_pose_matrix">
+      <source id="Nu_chin_nu_Nu_arm_L_pose_matrix-input">
+        <float_array id="Nu_chin_nu_Nu_arm_L_pose_matrix-input-array" count="2">0 0.4166666</float_array>
+        <technique_common>
+          <accessor source="#Nu_chin_nu_Nu_arm_L_pose_matrix-input-array" count="2" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Nu_chin_nu_Nu_arm_L_pose_matrix-output">
+        <float_array id="Nu_chin_nu_Nu_arm_L_pose_matrix-output-array" count="32">1 5.52796e-5 -2.12342e-7 -0.04975637 -5.52814e-5 0.9999914 0.004229625 -0.8282291 4.44241e-7 -0.004229625 0.999991 0.3590242 0 0 0 1 1 5.52796e-5 -2.12342e-7 -0.04975637 -5.52814e-5 0.9999914 0.004229625 -0.8282291 4.44241e-7 -0.004229625 0.999991 0.3590242 0 0 0 1</float_array>
+        <technique_common>
+          <accessor source="#Nu_chin_nu_Nu_arm_L_pose_matrix-output-array" count="2" stride="16">
+            <param name="TRANSFORM" type="float4x4"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Nu_chin_nu_Nu_arm_L_pose_matrix-interpolation">
+        <Name_array id="Nu_chin_nu_Nu_arm_L_pose_matrix-interpolation-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor source="#Nu_chin_nu_Nu_arm_L_pose_matrix-interpolation-array" count="2" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Nu_chin_nu_Nu_arm_L_pose_matrix-sampler">
+        <input semantic="INPUT" source="#Nu_chin_nu_Nu_arm_L_pose_matrix-input"/>
+        <input semantic="OUTPUT" source="#Nu_chin_nu_Nu_arm_L_pose_matrix-output"/>
+        <input semantic="INTERPOLATION" source="#Nu_chin_nu_Nu_arm_L_pose_matrix-interpolation"/>
+      </sampler>
+      <channel source="#Nu_chin_nu_Nu_arm_L_pose_matrix-sampler" target="Nu_chin_nu_Nu_arm_L/transform"/>
+    </animation>
+    <animation id="Nu_chin_nu_Nu_arm_R_pose_matrix">
+      <source id="Nu_chin_nu_Nu_arm_R_pose_matrix-input">
+        <float_array id="Nu_chin_nu_Nu_arm_R_pose_matrix-input-array" count="2">0 0.4166666</float_array>
+        <technique_common>
+          <accessor source="#Nu_chin_nu_Nu_arm_R_pose_matrix-input-array" count="2" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Nu_chin_nu_Nu_arm_R_pose_matrix-output">
+        <float_array id="Nu_chin_nu_Nu_arm_R_pose_matrix-output-array" count="32">0.9997882 -0.01583229 -0.01312956 -0.0383366 0.01600099 0.9997893 0.01284505 -0.8404028 0.01292343 -0.01305242 0.999831 -0.3577084 0 0 0 1 0.9997882 -0.01583229 -0.01312956 -0.0383366 0.01600099 0.9997893 0.01284505 -0.8404028 0.01292343 -0.01305242 0.999831 -0.3577084 0 0 0 1</float_array>
+        <technique_common>
+          <accessor source="#Nu_chin_nu_Nu_arm_R_pose_matrix-output-array" count="2" stride="16">
+            <param name="TRANSFORM" type="float4x4"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Nu_chin_nu_Nu_arm_R_pose_matrix-interpolation">
+        <Name_array id="Nu_chin_nu_Nu_arm_R_pose_matrix-interpolation-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor source="#Nu_chin_nu_Nu_arm_R_pose_matrix-interpolation-array" count="2" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Nu_chin_nu_Nu_arm_R_pose_matrix-sampler">
+        <input semantic="INPUT" source="#Nu_chin_nu_Nu_arm_R_pose_matrix-input"/>
+        <input semantic="OUTPUT" source="#Nu_chin_nu_Nu_arm_R_pose_matrix-output"/>
+        <input semantic="INTERPOLATION" source="#Nu_chin_nu_Nu_arm_R_pose_matrix-interpolation"/>
+      </sampler>
+      <channel source="#Nu_chin_nu_Nu_arm_R_pose_matrix-sampler" target="Nu_chin_nu_Nu_arm_R/transform"/>
+    </animation>
+  </library_animations>
   <library_controllers>
     <controller id="Nu_chin_nu_chin_nu_weapon-skin" name="Nu_chin_nu">
       <skin source="#Scorpio_001-mesh">
@@ -100,7 +358,11 @@
   <library_visual_scenes>
     <visual_scene id="Scene" name="Scene">
       <node id="Nu_chin_nu" name="Nu_chin_nu" type="NODE">
-        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <translate sid="location">0 0 0</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
         <node id="Nu_chin_nu_Nu_base" name="Nu_base" sid="Nu_base" type="JOINT">
           <matrix sid="transform">-0.01295831 0.01275073 0.9998347 -0.08134571 -0.01605639 0.999787 -0.01295822 -0.2625735 -0.9997871 -0.01622165 -0.01275082 0.09689544 0 0 0 1</matrix>
           <node id="Nu_chin_nu_Nu_pivot" name="Nu_pivot" sid="Nu_pivot" type="JOINT">

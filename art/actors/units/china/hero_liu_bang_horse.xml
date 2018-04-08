@@ -3,9 +3,10 @@
   <castshadow/>
   <group>
     <variant frequency="1" file="quadraped/base_horse_swordsman.xml" name="Base">
-      <mesh>skeletal/horse.pmd</mesh>
+      <mesh>skeletal/horse.dae</mesh>
       <props>
         <prop actor="units/china/hero_liu_bang.xml" attachpoint="rider"/>
+        <prop actor="props/horse/cav_rein_swordsman_shield.xml" attachpoint="head"/>
       </props>
     </variant>
   </group>
@@ -53,12 +54,9 @@
     </variant>
   </group>
   <group>
-    <variant frequency="100" name="Idle"/>
-    <variant name="Run">
-      <props>
-        <prop actor="particle/dust_cav.xml" attachpoint="root"/>
-      </props>
-    </variant>
+    <variant frequency="1" name="Idle"/>
+    <variant file="quadraped/base_horse_death.xml"/>
+    <variant file="quadraped/base_horse_run.xml"/>
   </group>
   <material>objectcolor.xml</material>
 </actor>
