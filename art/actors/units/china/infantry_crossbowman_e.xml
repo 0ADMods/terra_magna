@@ -9,9 +9,6 @@
 				<prop actor="props/units/weapons/chin_rcrossbow.xml" attachpoint="weapon_R"/>
 				<prop actor="props/units/quiver_hip.xml" attachpoint="sheath_L"/>
 			</props>
-			<animations>
-				<animation event="0.85" file="biped/new/crossbow_attack_a.dae" load="0.47" name="attack_ranged" speed="15"/>
-			</animations>
 		</variant>
 	</group>
 	<group>
@@ -36,12 +33,20 @@
 		</variant>
 	</group>
   <group>
+    <variant file="biped/base_crossbowman_ready.xml"/>
+    <variant file="biped/carry_food.xml">
+      <props>
+        <prop actor="props/units/helmet/new/chin_ricehat.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant file="biped/carry_meat.xml"/>
+    <variant file="biped/carry_wood.xml"/>
+    <variant file="biped/carry_stone.xml"/>
+    <variant file="biped/carry_metal.xml"/>
+  </group>
+  <group>
     <variant frequency="1" name="Idle"/>
-    <variant name="attack_ranged">
-		<props>
-			<prop actor="props/units/weapons/arrow_back.xml" attachpoint="loaded-weapon_L"/>
-		</props>
-	</variant>
+    <variant file="biped/attack_ranged_crossbowman_hip.xml" name="attack_ranged"/>
     <variant file="biped/attack_capture.xml"/>
     <variant file="biped/attack_slaughter.xml"/>
     <variant file="biped/gather_tree.xml"/>
@@ -58,20 +63,6 @@
     <variant file="biped/gather_praise.xml"/>
     <variant file="biped/build.xml"/>
     <variant file="biped/build_farm.xml"/>
-    <variant file="biped/carry_food.xml">
-      <props>
-        <prop actor="props/units/helmet/new/chin_ricehat.xml" attachpoint="helmet"/>
-      </props>
-    </variant>
-    <variant file="biped/carry_meat.xml"/>
-    <variant file="biped/carry_wood.xml"/>
-    <variant file="biped/carry_stone.xml"/>
-    <variant file="biped/carry_metal.xml"/>
-    <variant file="biped/carry_food_idle.xml"/>
-    <variant file="biped/carry_meat_idle.xml"/>
-    <variant file="biped/carry_wood_idle.xml"/>
-    <variant file="biped/carry_stone_idle.xml"/>
-    <variant file="biped/carry_metal_idle.xml"/>
     <variant file="biped/death_infantry.xml"/>
   </group>
 	<material>player_trans.xml</material>
