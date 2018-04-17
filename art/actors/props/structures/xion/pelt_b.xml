@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="Skin_b">
+      <mesh>props/pelt_b.dae</mesh>
+      <textures>
+        <texture file="structural/leather.dds" name="baseTex"/>
+        <texture file="structural/leather_norm.png" name="normTex"/>
+        <texture file="structural/leather_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_parallax_spec.xml</material>
+</actor>

@@ -1,0 +1,14 @@
+{
+	"genericName": "Traveller Band",
+	"autoResearch": true,
+	"description": "Nomadism is a lifestyle adapted to infertile regions such as steppe, tundra, or ice and sand, where mobility is the most efficient strategy for exploiting scarce resources.",
+	"supersedes": "phase_village",
+	"replaces": ["phase_town"],
+	"icon": "town_phase.png",
+	"tooltip": "Nomad tribes won't have phase technologies.",
+	"requirements": { "all": [{ "entity": { "class": "Yurt", "number": 6 } }] },
+	"requirementsTooltip": "Requires 6 Yurts.",
+	"modifications": [
+		{"value": "Capturable/GarrisonRegenRate", "add": 2.0, "affects": "Structure"}
+	]
+}

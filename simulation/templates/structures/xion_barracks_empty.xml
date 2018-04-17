@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="structures/xion_barracks">
+  <Cost>
+    <Resources>
+      <wood>150</wood>
+      <stone>150</stone>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="40.0" depth="40.0"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+  </Health>
+  <Upgrade>
+    <BarracksReconstructed>
+      <Entity>structures/xion_barracks</Entity>
+      <Cost>
+        <wood>100</wood>
+      </Cost>
+      <Time>25</Time>
+    </BarracksReconstructed>
+  </Upgrade>
+  <ProductionQueue>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      -units/{civ}_infantry_spearman_b
+      -units/{civ}_infantry_pikeman_b
+      -units/{civ}_infantry_swordsman_b
+      -units/{civ}_infantry_javelinist_b
+      -units/{civ}_infantry_slinger_b
+      -units/{civ}_infantry_archer_b
+    </Entities>
+    <Technologies datatype="tokens">
+      -heal_barracks
+      -training_conscription
+    </Technologies>
+  </ProductionQueue>
+  <BuildRestrictions>
+    <Territory>own neutral</Territory>
+  </BuildRestrictions>
+  <TerritoryDecay disable=""/>
+  <Identity>
+    <Civ>xion</Civ>
+    <GenericName>Training Grounds</GenericName>
+  </Identity>
+  <Obstruction>
+    <Static width="40.0" depth="40.0"/>
+  </Obstruction>
+  <VisualActor>
+	<ConstructionPreview disable=""/>
+    <Actor>structures/xion/barracks_empty.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_house">
+  <Footprint replace="">
+    <Circle radius="10.0"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>xion</Civ>
+    <GenericName>Yurt</GenericName>
+    <VisibleClasses datatype="tokens">Village House Yurt</VisibleClasses>
+  </Identity>
+  <BuildRestrictions>
+    <Territory>own neutral</Territory>
+  </BuildRestrictions>
+  <Obstruction>
+    <Static width="14.0" depth="14.0"/>
+  </Obstruction>
+  <ResourceDropsite>
+    <Types>food wood</Types>
+    <Sharable>false</Sharable> 
+  </ResourceDropsite>
+  <TerritoryDecay disable=""/>
+  <Upgrade>
+    <Pack>
+      <Entity>structures/xion_house_packed</Entity>
+      <Time>25</Time>
+    </Pack>
+  </Upgrade>
+  <VisualActor>
+	<ConstructionPreview disable=""/>
+    <Actor>structures/xion/house.xml</Actor>
+    <FoundationActor>structures/xion/house_foundation.xml</FoundationActor>
+  </VisualActor>
+</Entity>

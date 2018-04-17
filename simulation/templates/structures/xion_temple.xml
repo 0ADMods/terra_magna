@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_temple">
+  <Footprint replace="">
+    <Circle radius="10.0"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>xion</Civ>
+  </Identity>
+  <BuildRestrictions>
+    <Territory>own neutral</Territory>
+  </BuildRestrictions>
+   <ProductionQueue>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      -units/{civ}_support_healer_b
+    </Entities>
+    <Technologies datatype="tokens">
+     -heal_range
+     -heal_range_2
+     -heal_rate
+     -heal_rate_2
+      heal_temple
+      health_regen_units
+    </Technologies>
+  </ProductionQueue>
+  <Upgrade>
+    <Unpack>
+      <Entity>structures/xion_temple_packed</Entity>
+      <Time>45</Time>
+    </Unpack>
+  </Upgrade>
+  <Obstruction>
+    <Static width="14.0" depth="14.0"/>
+  </Obstruction>
+  <TerritoryDecay disable=""/>
+  <VisualActor>
+	<ConstructionPreview disable=""/>
+    <Actor>structures/xion/temple.xml</Actor>
+	<FoundationActor>structures/xion/temple_foundation.xml</FoundationActor>
+  </VisualActor>
+</Entity>
