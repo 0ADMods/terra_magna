@@ -57,7 +57,7 @@
     <Civ>xion</Civ>
     <GenericName>Xiongnu Woman</GenericName>
     <Icon>units/spart_support_female_citizen.png</Icon>
-    <SelectionGroupName>units/spart_support_female_citizen</SelectionGroupName>
+    <SelectionGroupName>units/xion_support_female_citizen</SelectionGroupName>
     <Gender>female</Gender>
     <Classes datatype="tokens">FemaleCitizen</Classes>
     <VisibleClasses datatype="tokens">Citizen Worker</VisibleClasses>

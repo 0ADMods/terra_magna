@@ -52,6 +52,7 @@
     <Pack>
       <Entity>structures/xion_market_packed</Entity>
       <Time>25</Time>
+      <RequiredTechnology>nomadism</RequiredTechnology>
     </Pack>
   </Upgrade>
   <Obstruction>

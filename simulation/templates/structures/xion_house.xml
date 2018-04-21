@@ -24,6 +24,7 @@
     <Pack>
       <Entity>structures/xion_house_packed</Entity>
       <Time>25</Time>
+      <RequiredTechnology>nomadism</RequiredTechnology>
     </Pack>
   </Upgrade>
   <VisualActor>

@@ -34,7 +34,8 @@
     <Unpack>
       <Entity>structures/xion_house</Entity>
       <Time>45</Time>
-	  <CheckPlacementRestrictions/>
+      <CheckPlacementRestrictions/>
+      <RequiredTechnology>nomadism</RequiredTechnology>
     </Unpack>
   </Upgrade>
   <UnitMotion>

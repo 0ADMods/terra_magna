@@ -19,7 +19,7 @@
   <ProductionQueue>
     <Entities datatype="tokens">
 	  -units/{civ}_champion_cavalry
-	  -gaia/fauna_sheep
+	  -gaia/fauna_sheep_trainable
   	</Entities>
     <Technologies datatype="tokens">
 	  -gather_animals_stockbreeding 

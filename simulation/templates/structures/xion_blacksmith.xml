@@ -23,6 +23,7 @@
     <BlacksmithPacked>
       <Entity>structures/xion_blacksmith_packed</Entity>
       <Time>45</Time>
+      <RequiredTechnology>nomadism</RequiredTechnology>
     </BlacksmithPacked>
   </Upgrade>
   <Identity>
@@ -33,8 +34,8 @@
   </Obstruction>
   <TerritoryDecay disable=""/>
   <VisualActor>
-	<ConstructionPreview disable=""/>
+    <ConstructionPreview disable=""/>
     <Actor>structures/xion/blacksmith.xml</Actor>
-	<FoundationActor>structures/xion/blacksmith_foundation.xml</FoundationActor>
+    <FoundationActor>structures/xion/blacksmith_foundation.xml</FoundationActor>
   </VisualActor>
 </Entity>

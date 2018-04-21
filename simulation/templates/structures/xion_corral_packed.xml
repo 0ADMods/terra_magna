@@ -39,7 +39,8 @@
     <Pack>
       <Entity>structures/xion_corral_empty</Entity>
       <Time>45</Time>
-	  <CheckPlacementRestrictions/>
+      <CheckPlacementRestrictions/>
+      <RequiredTechnology>nomadism</RequiredTechnology>
     </Pack>
   </Upgrade>
   <Vision>

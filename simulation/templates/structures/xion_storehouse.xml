@@ -8,7 +8,8 @@
     <Pack>
       <Entity>units/xion_support_wagon</Entity>
       <Time>25</Time>
-	  <CheckPlacementRestrictions/>
+      <CheckPlacementRestrictions/>
+      <RequiredTechnology>nomadism</RequiredTechnology>
     </Pack>
   </Upgrade>
   <Identity>
@@ -19,8 +20,8 @@
   </BuildRestrictions>
   <TerritoryDecay disable=""/>
   <VisualActor>
-	<ConstructionPreview disable=""/>
+    <ConstructionPreview disable=""/>
     <Actor>structures/xion/storehouse.xml</Actor>
-	<FoundationActor>structures/xion/storehouse_foundation.xml</FoundationActor>
+    <FoundationActor>structures/xion/storehouse_foundation.xml</FoundationActor>
   </VisualActor>
 </Entity>

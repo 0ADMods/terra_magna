@@ -2,7 +2,7 @@
 	"genericName": "Caravan Pack",
 	"autoResearch": true,
 	"description": "Nomadism is a lifestyle adapted to infertile regions such as steppe, tundra, or ice and sand, where mobility is the most efficient strategy for exploiting scarce resources.",
-	"supersedes": "phase_town",
+	"supersedes": "phase_town_xion",
 	"replaces": ["phase_city"],
 	"icon": "city_phase.png",
 	"tooltip": "Nomad tribes won't have phase technologies.",

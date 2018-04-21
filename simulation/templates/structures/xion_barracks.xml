@@ -6,9 +6,9 @@
       <stone>150</stone>
     </Resources>
   </Cost>
-  <Footprint>
-    <Square width="40.0" depth="40.0"/>
-    <Height>12.0</Height>
+  <Footprint replace="">
+    <Circle radius="21.0"/>
+    <Height>8.0</Height>
   </Footprint>
   <Health>
     <SpawnEntityOnDeath>rubble/rubble_stone_5x5</SpawnEntityOnDeath>
@@ -31,10 +31,11 @@
     <BarracksPacked>
       <Entity>structures/xion_barracks_packed</Entity>
       <Time>45</Time>
+      <RequiredTechnology>nomadism</RequiredTechnology>
     </BarracksPacked>
   </Upgrade>
   <Obstruction>
-    <Static width="40.0" depth="40.0"/>
+    <Static width="35.0" depth="35.0"/>
   </Obstruction>
   <VisualActor>
     <ConstructionPreview disable=""/>

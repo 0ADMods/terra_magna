@@ -42,7 +42,8 @@
     <BarracksUnpacked>
       <Entity>structures/xion_barracks_empty</Entity>
       <Time>25</Time>
-	  <CheckPlacementRestrictions/>
+      <CheckPlacementRestrictions/>
+      <RequiredTechnology>nomadism</RequiredTechnology>
     </BarracksUnpacked>
   </Upgrade>
   <VisualActor>

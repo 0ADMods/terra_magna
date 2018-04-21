@@ -57,7 +57,7 @@
 	"StartEntities":
 	[
 		{
-			"Template": "structures/xion_civil_centre_unpacked",
+			"Template": "structures/xion_civil_centre",
 			"Count": 1
 		},
 		{
@@ -121,7 +121,7 @@
 		"skirmish/structures/default_storehouse": "structures/xion_storehouse",
 		"skirmish/structures/default_dock": "",
 		"skirmish/units/special_starting_unit": "units/xion_support_wagon",
-		"skirmish/structures/default_civil_centre": "structures/xion_civil_centre_unpacked",
+		"skirmish/structures/default_civil_centre": "structures/xion_civil_centre",
 		"skirmish/structures/default_barracks": "structures/xion_barracks",
 		"skirmish/structures/default_barracks": "structures/xion_corral",
 		"skirmish/structures/default_temple": "structures/xion_temple"

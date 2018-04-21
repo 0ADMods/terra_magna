@@ -10,7 +10,7 @@
   <BuildRestrictions>
     <Territory>own neutral</Territory>
   </BuildRestrictions>
-   <ProductionQueue>
+  <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
       -units/{civ}_support_healer_b
@@ -28,6 +28,7 @@
     <Unpack>
       <Entity>structures/xion_temple_packed</Entity>
       <Time>45</Time>
+      <RequiredTechnology>nomadism</RequiredTechnology>
     </Unpack>
   </Upgrade>
   <Obstruction>

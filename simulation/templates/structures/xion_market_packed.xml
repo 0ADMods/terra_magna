@@ -39,7 +39,8 @@
     <UnPack>
       <Entity>structures/xion_market</Entity>
       <Time>45</Time>
-	  <CheckPlacementRestrictions/>
+      <RequiredTechnology>nomadism</RequiredTechnology>
+      <CheckPlacementRestrictions/>
     </UnPack>
   </Upgrade>
   <Vision>

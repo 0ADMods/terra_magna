@@ -34,6 +34,7 @@
       <Entity>structures/xion_civil_centre_packed</Entity>
       <Time>45</Time>
       <CheckPlacementRestrictions/>
+      <RequiredTechnology>nomadism</RequiredTechnology>
     </Unpack>
   </Upgrade>
   <VisualActor>
