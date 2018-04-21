@@ -12,7 +12,7 @@
   <group>
 	 <variant>
       <textures>
-        <texture file="structural/celt_siege_ram.png" name="baseTex"/>
+        <texture file="structural/celt_siege_ram.dds" name="baseTex"/>
       </textures>
     </variant>
   </group>
