@@ -12,7 +12,7 @@
         <prop actor="" attachpoint="shield_left_back"/>
         <prop actor="" attachpoint="shield_right_mback"/>
         <prop actor="" attachpoint="shield_right_back"/>
-        <prop actor="fauna/zebu_b.xml" attachpoint="shield_right_front"/>
+        <prop actor="fauna/zebu.xml" attachpoint="shield_right_front"/>
         <prop actor="" attachpoint="shield_right_back"/>
       </props>
     </variant>
