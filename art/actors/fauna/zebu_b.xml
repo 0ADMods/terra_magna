@@ -17,10 +17,10 @@
     </variant>
   </group>
   <group>
-	<variant name="brown">
-        <textures>
-			<texture file="skeletal/animal_zebu_b.png" name="baseTex"/>
-		</textures>
+    <variant name="brown">
+      <textures>
+          <texture file="skeletal/animal_zebu_b.png" name="baseTex"/>
+      </textures>
     </variant>
   </group>
   <group>
