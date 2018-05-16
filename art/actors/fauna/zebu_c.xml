@@ -11,7 +11,7 @@
       </animations>
       <mesh>skeletal/zebu.dae</mesh>
       <textures>
-        <texture file="skeletal/animal_zebu_brown.png" name="baseTex"/>
+        <texture file="skeletal/animal_zebu_black.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
