@@ -7,12 +7,12 @@
   <Identity>
     <Civ>xion</Civ>
     <SpecificName>Blacksmith Packed</SpecificName>
-	<Icon>units/xion_house_packed.png</Icon>
+    <Icon>units/xion_house_packed.png</Icon>
   </Identity>
   <Capturable disable=""/>
   <Position>
     <Anchor>pitch</Anchor>
-	<TurnRate>2.0</TurnRate>
+    <TurnRate>2.0</TurnRate>
   </Position>
   <Selectable>
     <Overlay>
@@ -42,7 +42,8 @@
     <BarracksUnpacked>
       <Entity>structures/xion_blacksmith_empty</Entity>
       <Time>25</Time>
-	  <CheckPlacementRestrictions/>
+      <RequiredTechnology>nomadism</RequiredTechnology>
+      <CheckPlacementRestrictions/>
     </BarracksUnpacked>
   </Upgrade>
   <VisualActor>
