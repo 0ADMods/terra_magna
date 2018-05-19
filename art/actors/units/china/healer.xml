@@ -12,14 +12,14 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="healer-robe-1">
+    <variant frequency="1" name="minister">
       <textures>
-        <texture file="skeletal/hele_healer_1.dds" name="baseTex"/>
+        <texture file="skeletal/chin_minister.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="healer-robe-2">
+    <variant frequency="1" name="minister-b">
       <textures>
-        <texture file="skeletal/hele_healer_2.dds" name="baseTex"/>
+        <texture file="skeletal/chin_minister_b.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
@@ -27,8 +27,7 @@
     <variant frequency="1" name="Idle"/>
     <variant file="biped/attack_capture.xml"/>
     <variant file="biped/attack_slaughter.xml"/>
-    <variant file="biped/death_infantry.xml">
-    </variant>
+    <variant file="biped/death_infantry.xml"/>
   </group>
   <material>player_trans.xml</material>
 </actor>
