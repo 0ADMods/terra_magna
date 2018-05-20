@@ -14,7 +14,7 @@
   </group>
   <group>
     <variant frequency="1" name="A">
-      <mesh>skeletal/new/m_dress.dae</mesh>
+      <mesh>skeletal/new/m_dress_sleeves.dae</mesh>
       <textures>
         <texture file="skeletal/chin_isw_e_b.png" name="baseTex"/>
       </textures>
