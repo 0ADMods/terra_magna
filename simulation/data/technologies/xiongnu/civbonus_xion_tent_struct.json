@@ -1,0 +1,14 @@
+{
+	"genericName": "Yurt Construction",
+	"autoResearch": true,
+	"description": "Xiongnu structures were mostly made of animal hide and pelt with wooden support.",
+	"requirements": {"civ": "xion"},
+	"icon": "wooden_buildings.png",
+	"tooltip": "Xiongnu buildings have 50% less health, but are also 50% cheaper and faster to construct.",
+	"modifications": [
+		{"value": "Health/Max", "multiply": 0.5},
+		{"value": "Capturable/CapturePoints", "multiply": 0.5},
+		{"value": "Cost/BuildTime", "multiply": 0.5}
+	],
+	"affects": ["Structure"]
+}

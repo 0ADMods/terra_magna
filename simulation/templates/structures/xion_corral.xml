@@ -31,7 +31,7 @@
       gaia/fauna_sheep_trainable
   	</Entities>
     <Technologies datatype="tokens">
-      gather_animals_stockbreeding
+      gather_animals_nomadic_pastoralism
 	  speed_cavalry_01
       speed_cavalry_02
       -heal_barracks
