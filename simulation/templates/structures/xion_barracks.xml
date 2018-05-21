@@ -17,6 +17,7 @@
     <Technologies datatype="tokens">
       heal_barracks
       training_conscription
+	  xiongnu/special_archery_tradition
     </Technologies>
   </ProductionQueue>
   <BuildRestrictions>

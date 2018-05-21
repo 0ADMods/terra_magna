@@ -32,6 +32,8 @@
   	</Entities>
     <Technologies datatype="tokens">
       gather_animals_stockbreeding
+	  speed_cavalry_01
+      speed_cavalry_02
       -heal_barracks
       -training_conscription    
   	</Technologies>

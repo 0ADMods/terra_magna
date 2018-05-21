@@ -15,6 +15,7 @@
       units/{civ}_cavalry_spearman_b
     </Entities>
     <Technologies datatype="tokens">
+      attack_soldiers_will
     </Technologies>
   </ProductionQueue>
   <Position>
