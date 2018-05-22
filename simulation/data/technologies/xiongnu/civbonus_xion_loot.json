@@ -1,7 +1,7 @@
 {
 	"genericName": "Marauders",
 	"autoResearch": true,
-	"description": "Nomadic marauders raided and pillaged villages.",
+	"description": "Xiongnu structures were mostly made of animal hide and pelt with wooden support.",
 	"requirements": {"civ": "xion"},
 	"icon": "nisean_war_horses.png",
 	"tooltip": "Xiongnu buildings have 50% less health, but are also 50% cheaper and faster to construct.",
