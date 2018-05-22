@@ -4,7 +4,7 @@
 		"chin": "Sūnzi de zhànzhēng yìshù"
 	},
 	"description": "This famous and most important work of the Seven Military Classics teaches Chinese commanders everything about planning battles, maintaining armies, and defeating one's enemies.",
-	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 0, "glory": 1000},
+	"cost": {"food": 1000, "wood": 200, "stone": 0, "metal": 1000},
 	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "chin"}]},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "sibylline_books.png",
@@ -16,12 +16,10 @@
 		{ "value": "ProductionQueue/TechCostMultiplier/food", "multiply": 0.5, "affects": "Fortress" },
 		{ "value": "ProductionQueue/TechCostMultiplier/metal", "multiply": 0.5, "affects": "Fortress" },
 		{ "value": "ProductionQueue/TechCostMultiplier/stone", "multiply": 0.5, "affects": "Fortress" },
-		{ "value": "ProductionQueue/TechCostMultiplier/glory", "multiply": 0.5, "affects": "Fortress" },
 		{ "value": "ProductionQueue/TechCostMultiplier/wood", "multiply": 0.5, "affects": "Barracks" },
 		{ "value": "ProductionQueue/TechCostMultiplier/food", "multiply": 0.5, "affects": "Barracks" },
 		{ "value": "ProductionQueue/TechCostMultiplier/metal", "multiply": 0.5, "affects": "Barracks" },
-		{ "value": "ProductionQueue/TechCostMultiplier/stone", "multiply": 0.5, "affects": "Barracks" },
-		{ "value": "ProductionQueue/TechCostMultiplier/glory", "multiply": 0.5, "affects": "Barracks" }
+		{ "value": "ProductionQueue/TechCostMultiplier/stone", "multiply": 0.5, "affects": "Barracks" }
 	],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

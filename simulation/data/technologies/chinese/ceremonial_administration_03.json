@@ -4,12 +4,12 @@
 		"chin": "Yíshì Guǎnlǐ"
 	},
 	"supersedes": "chinese/ceremonial_administration_02",
-	"description": ".",
-	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 0, "glory": 1000},
+	"description": "",
+	"cost": {"food": 0, "wood": 400, "stone": 400, "metal": 800},
 	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "chin"}]},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "chinese_ceremonial_03.png",
-	"researchTime": 90,
+	"researchTime": 180,
 	"tooltip": "Civic Centers +25% capture resistance, Temples research technologies and train Healers nearly instantly.",
 	"modifications": [
 		{"value": "Capturable/CapturePoints", "multiply": 1.5, "affects": "CivilCenter"},

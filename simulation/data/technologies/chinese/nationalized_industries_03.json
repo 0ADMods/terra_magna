@@ -4,12 +4,12 @@
 		"chin": "Guóyǒu Huà Chǎnyè"
 	},
 	"supersedes": "chinese/nationalized_industries_02",
-	"description": ".",
-	"cost": {"food": 800, "wood": 0, "stone": 0, "metal": 0, "glory": 800},
+	"description": "",
+	"cost": {"food": 800, "wood": 750, "stone": 0, "metal": 0},
 	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "chin"}]},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "chinese_nationalized_03.png",
-	"researchTime": 90,
+	"researchTime": 180,
 	"tooltip": "Gatherers +25% gathering rate for all resources, but Bartering -20% profit.",
 	"modifications": [
 		{"value": "ResourceGatherer/BaseSpeed", "multiply": 1.25, "affects": "Gatherer"},

@@ -4,12 +4,12 @@
 		"chin": "Guānliáo"
 	},
 	"supersedes": "chinese/civil_service_01",
-	"description": ".",
-	"cost": {"food": 200, "wood": 200, "stone": 0, "metal": 0, "glory": 0},
+	"description": "",
+	"cost": {"food": 200, "wood": 200, "stone": 0, "metal": 0},
 	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "chin"}]},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "chinese_bureaucracy_2.png",
-	"researchTime": 90,
+	"researchTime": 120,
 	"tooltip": "Technologies at all buildings, except the Blacksmith, -10% cost and -10% research time.",
 	"modifications": [
 		{"value": "ProductionQueue/TechCostMultiplier/time", "multiply": 0.9},
