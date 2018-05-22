@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_economic_farmstead">
+<Entity parent="template_structure_economic_market">
   <Footprint replace="">
     <Circle radius="11.0"/>
     <Height>8.0</Height>
@@ -21,6 +21,8 @@
     <GenericName>Food deposit</GenericName>
     <Classes datatype="tokens">BarterMarket</Classes>
     <VisibleClasses datatype="tokens">Village Farmstead Market</VisibleClasses>
+    <RequiredTechnology></RequiredTechnology>
+    <Icon>structures/farmstead.png</Icon>
   </Identity>
   <Market>
     <TradeType>land</TradeType>
@@ -30,13 +32,9 @@
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Technologies datatype="tokens">
       gather_wicker_baskets
-      unlock_shared_los
-      unlock_shared_dropsites
-      trade_convoys_speed
-      trade_convoys_armor
-      trade_gain_01
-      trade_gain_02
-      trade_commercial_treaty
+      gather_farming_plows
+      gather_farming_training
+      gather_farming_fertilizer
     </Technologies>
   </ProductionQueue>
   <ResourceDropsite>
