@@ -43,6 +43,18 @@
         <texture file="skeletal/xion_elite_f_spec.png" name="specTex"/>
       </textures>
     </variant>
+    <variant frequency="1" name="new-4">
+      <textures>
+        <texture file="skeletal/xion_elite_g.png" name="baseTex"/>
+        <texture file="skeletal/xion_elite_e_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="new-5">
+      <textures>
+        <texture file="skeletal/xion_elite_h.png" name="baseTex"/>
+        <texture file="skeletal/xion_elite_f_spec.png" name="specTex"/>
+      </textures>
+    </variant>
   </group>
   <group>
     <variant name="carry_meat_idle">
