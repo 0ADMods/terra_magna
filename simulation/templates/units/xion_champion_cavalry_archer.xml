@@ -11,6 +11,7 @@
     <Melee>
       <Entity>units/xion_champion_cavalry</Entity>
       <Time>10</Time>
+      <Tooltip>Switch Weapon.</Tooltip>
     </Melee>
   </Upgrade>
   <VisualActor>

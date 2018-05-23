@@ -11,6 +11,7 @@
     <Ranged>
       <Entity>units/xion_champion_cavalry_archer</Entity>
       <Time>10</Time>
+      <Tooltip>Switch Weapon.</Tooltip>
     </Ranged>
   </Upgrade>
   <VisualActor>

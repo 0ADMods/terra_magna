@@ -1,0 +1,16 @@
+<skeletons>
+   <standard_skeleton title="Trunk_ram" id="Trunk_ram">
+    <bone name="Trunk_root">
+      <bone name="Trunk_weap">
+      </bone>
+    </bone>
+</standard_skeleton>
+  <skeleton title="Trunk_ram" target="Trunk_ram">
+    <identifier>
+      <root>Trunk_root</root>
+    </identifier>
+    <bone name="Trunk_root"><target>Trunk_root</target>
+      <bone name="Trunk_weap"><target>Trunk_weap</target></bone>
+    </bone>
+  </skeleton>
+</skeletons>
