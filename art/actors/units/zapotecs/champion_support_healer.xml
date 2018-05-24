@@ -26,7 +26,6 @@
         <animation file="biped/new/promotion.dae" name="idle" speed="50"/>
       </animations>
     </variant>
-    <variant file="biped/attack_melee_pikeman.xml"/>
     <variant file="biped/attack_capture.xml"/>
     <variant file="biped/attack_slaughter.xml"/>
     <variant file="biped/gather_tree.xml"/>
