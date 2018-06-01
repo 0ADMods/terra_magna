@@ -4,6 +4,9 @@
     <Square width="18.0" depth="18.0"/>
     <Height>5.0</Height>
   </Footprint>
+  <GarrisonHolder>
+    <List datatype="tokens">Minister Civilian+Citizen</List>
+  </GarrisonHolder>
   <Identity>
     <Civ>chin</Civ>
     <SpecificName>Cāng</SpecificName>
