@@ -10,8 +10,8 @@
         <prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke01"/>
         <prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke02"/>
         <prop actor="props/geology/geo_waterfall_single_water.xml" attachpoint="waterfall"/>
-        <prop actor="props/structures/chin_blacksmith_water.xml" attachpoint="root"/>
-        <prop actor="props/structures/chin_blacksmith_wheel.xml" attachpoint="root"/>
+        <prop actor="props/structures/chinese/blacksmith_water.xml" attachpoint="root"/>
+        <prop actor="props/structures/chinese/blacksmith_wheel.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/chin_struct2.png" name="baseTex"/>

@@ -5,8 +5,8 @@
 		<variant frequency="100" name="Base">
 			<mesh>structural/chin_dock.dae</mesh>
 			<props>
-				<prop actor="props/structures/dock_props.xml" attachpoint="root"/>
-				<prop actor="props/structures/dock_props2.xml" attachpoint="root"/>
+				<prop actor="props/structures/chinese/dock_props.xml" attachpoint="root"/>
+				<prop actor="props/structures/chinese/dock_props2.xml" attachpoint="root"/>
 				<prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
 			</props>
 			<textures>
