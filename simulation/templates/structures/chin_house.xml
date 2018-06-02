@@ -12,7 +12,6 @@
     <List datatype="tokens">
       +Minister
     </List>
-</GarrisonHolder>
   </GarrisonHolder>
   <Health>
     <Max>1200</Max>
