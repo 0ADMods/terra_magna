@@ -6,7 +6,7 @@
      <variant frequency="1" name="ship_oar">
       <mesh>props/ship_oar_short.dae</mesh>
       <textures>
-        <texture file="structural/norse_snekkja.png" name="baseTex"/>
+        <texture file="structural/chin_struct.png" name="baseTex"/>
       </textures>
       <animations>
         <animation file="other/ship_oar_idle_left.dae" name="idle" speed="50"/>
