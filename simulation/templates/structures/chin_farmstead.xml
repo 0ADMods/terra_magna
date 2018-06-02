@@ -5,7 +5,10 @@
     <Height>5.0</Height>
   </Footprint>
   <GarrisonHolder>
-    <List datatype="tokens">Minister Civilian+Citizen</List>
+    <Max>1<Max>
+    <List datatype="tokens">
+      +Minister
+    </List>
   </GarrisonHolder>
   <Identity>
     <Civ>chin</Civ>
