@@ -16,9 +16,4 @@
     <Actor>structures/zapotecs/dock.xml</Actor>
     <FoundationActor>structures/fndn_6x4_dock.xml</FoundationActor>
   </VisualActor>
-  <ProductionQueue>
-    <Entities datatype="tokens">
-      units/{civ}_ship_canoe
-    </Entities>
-  </ProductionQueue>
 </Entity>
