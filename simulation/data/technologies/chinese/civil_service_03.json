@@ -8,7 +8,7 @@
 	"cost": {"food": 200, "wood": 200, "stone": 200, "metal": 700},
 	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "chin"}]},
 	"requirementsTooltip": "Unlocked in City Phase.",
-	"icon": "chinese_bureaucracy_2.png",
+	"icon": "chinese_bureaucracy_3.png",
 	"researchTime": 180,
 	"tooltip": "Technologies at all buildings, except the Blacksmith, -10% cost and -10% research time.",
 	"modifications": [

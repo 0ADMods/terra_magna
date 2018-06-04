@@ -9,9 +9,7 @@
   </Cost>
   <GarrisonHolder>
     <Max>6</Max>
-    <List datatype="tokens">
-      +Minister
-    </List>
+    <List datatype="tokens">Support+!Elephant Minister</List>
   </GarrisonHolder>
   <Health>
     <Max>1200</Max>

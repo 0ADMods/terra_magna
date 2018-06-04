@@ -5,9 +5,7 @@
     <Height>8.0</Height>
   </Footprint>
   <GarrisonHolder>
-    <List datatype="tokens">
-      +Minister
-    </List>
+    <List datatype="tokens">Infantry Healer Minister</List>
   </GarrisonHolder>
   <Identity>
     <Civ>chin</Civ>
