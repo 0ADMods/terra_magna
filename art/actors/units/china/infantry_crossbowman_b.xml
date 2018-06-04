@@ -7,7 +7,7 @@
       <props>
         <prop actor="props/units/heads/head_china.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/chin_rcrossbow.xml" attachpoint="weapon_R"/>
-        <prop actor="props/units/quiver_hip.xml" attachpoint="sheath_L"/>
+        <prop actor="props/units/weapons/chin_bolt_quiver.xml" attachpoint="back"/>
       </props>
     </variant>
   </group>
@@ -51,7 +51,7 @@
   </group>
   <group>
     <variant frequency="1" name="Idle"/>
-    <variant file="biped/attack_ranged_crossbowman_hip.xml" name="attack_ranged"/>
+    <variant file="biped/attack_ranged_crossbowman_back.xml" name="attack_ranged"/>
     <variant file="biped/attack_capture.xml"/>
     <variant file="biped/attack_slaughter.xml"/>
     <variant file="biped/gather_tree.xml"/>
