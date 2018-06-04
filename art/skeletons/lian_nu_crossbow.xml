@@ -1,49 +1,49 @@
 <?xml version='1.0' encoding='utf-8'?>
 <skeletons>
   <standard_skeleton id="lian_nu_crossbow" title="lian nu crossbow">
-    <bone name="stock">
-      <bone name="right_lath">
-        <bone name="right_lathNub" />
+    <bone name="lian_nu_crossbow_root">
+      <bone name="lian_nu_crossbow_stock">
+        <bone name="lian_nu_crossbowstock_Nub" />
+        <bone name="lian_nu_crossbow_lath_nub_R" />
+        <bone name="lian_nu_crossbow_lath_nub_L" />
       </bone>
-      <bone name="_lian_nu_crossbowstock_Nub" />
-      <bone name="left_lath">
-        <bone name="left_lathNub" />
-      </bone>
-    </bone>
-    <bone name="lower_lever">
-      <bone name="upper_lever">
-        <bone name="magazine" />
+      <bone name="lian_nu_crossbow_lower_lever">
+        <bone name="lian_nu_crossbow_upper_lever">
+          <bone name="lian_nu_crossbow_magazine">
+            <bone name="lian_nu_crossbow_sling" />
+          </bone>
+        </bone>
       </bone>
     </bone>
   </standard_skeleton>
   <skeleton target="lian_nu_crossbow" title="lian nu crossbow">
     <identifier>
-      <root>stock</root>
+      <root>lian_nu_crossbow_root</root>
     </identifier>
-    <bone name="stock">
-      <target>stock</target>
-      <bone name="right_lath">
-        <target>right_lath</target>
-        <bone name="right_lathNub">
-          <target>right_lathNub</target>
+    <bone name="lian_nu_crossbow_root">
+      <target>lian_nu_crossbow_root</target>
+      <bone name="lian_nu_crossbow_stock">
+        <target>lian_nu_crossbow_stock</target>
+        <bone name="lian_nu_crossbowstock_Nub">
+          <target>lian_nu_crossbowstock_Nub</target>
+        </bone>
+        <bone name="lian_nu_crossbow_lath_nub_R">
+          <target>lian_nu_crossbow_lath_nub_R</target>
+        </bone>
+        <bone name="lian_nu_crossbow_lath_nub_L">
+          <target>lian_nu_crossbow_lath_nub_L</target>
         </bone>
       </bone>
-      <bone name="_lian_nu_crossbowstock_Nub">
-        <target>_lian_nu_crossbowstock_Nub</target>
-      </bone>
-      <bone name="left_lath">
-        <target>left_lath</target>
-        <bone name="left_lathNub">
-          <target>left_lathNub</target>
-        </bone>
-      </bone>
-    </bone>
-    <bone name="lower_lever">
-      <target>lower_lever</target>
-      <bone name="upper_lever">
-        <target>upper_lever</target>
-        <bone name="magazine">
-          <target>magazine</target>
+      <bone name="lian_nu_crossbow_lower_lever">
+        <target>lian_nu_crossbow_lower_lever</target>
+        <bone name="lian_nu_crossbow_upper_lever">
+          <target>lian_nu_crossbow_upper_lever</target>
+          <bone name="lian_nu_crossbow_magazine">
+            <target>lian_nu_crossbow_magazine</target>
+            <bone name="lian_nu_crossbow_sling">
+              <target>lian_nu_crossbow_sling</target>
+            </bone>
+          </bone>
         </bone>
       </bone>
     </bone>
