@@ -5,8 +5,8 @@
       <author>Daniel Morgado</author>
       <authoring_tool>Blender 2.79.0 commit date:2018-03-22, commit time:14:10, hash:f4dc9f9d68b</authoring_tool>
     </contributor>
-    <created>2018-06-04T18:36:50</created>
-    <modified>2018-06-04T18:36:50</modified>
+    <created>2018-06-04T18:39:28</created>
+    <modified>2018-06-04T18:39:28</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -72,6 +72,9 @@
       <node id="chinese_trireme" name="chinese_trireme" type="NODE">
         <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
         <instance_geometry url="#chinese_triremeMesh_000-mesh" name="chinese_trireme"/>
+        <node id="prop-projectile" name="prop-projectile" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 -5.017983 0 0 1 5.617146 0 0 0 1</matrix>
+        </node>
       </node>
     </visual_scene>
   </library_visual_scenes>
