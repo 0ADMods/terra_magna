@@ -8,9 +8,7 @@
     <BuffHeal>0</BuffHeal>
     <EjectHealth>0.1</EjectHealth>
     <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
-    <List datatype="tokens">
-      +Minister
-    </List>
+    <List datatype="tokens">Minister</List>
     <LoadingRange>1</LoadingRange>
     <Max>1</Max>
   </GarrisonHolder>

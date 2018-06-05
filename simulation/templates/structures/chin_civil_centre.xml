@@ -5,10 +5,8 @@
     <Height>8.0</Height>
   </Footprint>
   <GarrisonHolder>
-    <List datatype="tokens">
-      +Minister
-    </List>
-</GarrisonHolder>
+    <List datatype="tokens">Support Infantry Cavalry Minister</List>
+  </GarrisonHolder>
   <Identity>
     <Civ>chin</Civ>
     <SpecificName>Guān Sì</SpecificName>

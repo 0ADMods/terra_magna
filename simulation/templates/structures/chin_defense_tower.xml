@@ -6,9 +6,7 @@
         <X>0</X><Y>16</Y><Z>0</Z>
       </Archer1>
     </VisibleGarrisonPoints>
-    <List datatype="tokens">
-      +Minister
-    </List>
+    <List datatype="tokens">Support Infantry Minister</List>
   </GarrisonHolder>
   <Footprint>
     <Square width="10.0" depth="10.5"/>

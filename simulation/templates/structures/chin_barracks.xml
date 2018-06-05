@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_barracks">
   <GarrisonHolder>
-    <List datatype="tokens">
-      +Minister
-    </List>
+    <List datatype="tokens">Infantry Cavalry Minister</List>
   </GarrisonHolder>
   <Identity>
     <Civ>chin</Civ>
@@ -28,8 +26,8 @@
       units/{civ}_infantry_swordsman_b
       units/{civ}_cavalry_spearman_b
       units/{civ}_cavalry_swordsman_b
-      units/{civ}_cavalry_archer_b	 
-      units/{civ}_cavalry_crossbowman_b	 	  
+      units/{civ}_cavalry_archer_b
+      units/{civ}_cavalry_crossbowman_b
     </Entities>
   </ProductionQueue>
 </Entity>
