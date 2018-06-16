@@ -19,11 +19,6 @@
   <Obstruction>
     <Static width="16.0" depth="16.0"/>
   </Obstruction>
-  <ProductionQueue>
-    <Entities datatype="tokens">
-      units/{civ}_hero_liu_bang
-    </Entities>
-  </ProductionQueue>
   <VisualActor>
     <Actor>structures/chinese/farmstead.xml</Actor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
