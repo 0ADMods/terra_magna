@@ -32,7 +32,7 @@
     <Civ>chin</Civ>
     <SpecificName>Government Center</SpecificName>
     <History>As a genuinely sophisticated educational society, China revered government and administration very highly.</History>
-    <RequiredTechnology>phase_city</RequiredTechnology>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     <VisibleClasses datatype="tokens">City</VisibleClasses>
     <Icon>structures/tholos.png</Icon>
   </Identity>
