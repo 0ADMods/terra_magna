@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <actor version="1">
-	<castshadow/>
-	<group>
-		<variant name="helmet_A">
-			<mesh>props/helmet/chin_cavalry_helmet.dae</mesh>
-			<textures>
-				<texture file="props/helmet/chin_cavalry_helmet.png" name="baseTex"/>
-			</textures>
-		</variant>
-	</group>
+  <castshadow/>
+  <group>
+    <variant name="helmet_A">
+      <mesh>props/helmet/chin_cavalry_helmet.dae</mesh>
+        <textures>
+           <texture file="props/helmet/chin_cavalry_helmet.png" name="baseTex"/>
+        </textures>
+      </variant>
+  </group>
   <group>
     <variant file="biped/base_cavalry_spearman_ready.xml"/>
     <variant file="biped/rider/carry_meat.xml"/>
@@ -20,5 +20,5 @@
     <variant file="biped/gather_meat.xml"/>
     <variant file="biped/rider/death.xml"/>
   </group>
-	<material>player_trans.xml</material>
+  <material>player_trans.xml</material>
 </actor>
