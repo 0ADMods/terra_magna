@@ -1,0 +1,11 @@
+{
+	"genericName": "Secondary Bows",
+	"description": ".",
+	"cost": {"food": 0, "wood": 300, "stone": 0, "metal": 0},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "bow_recurved.png",
+	"researchTime": 60,
+	"tooltip": "Champion Swordsman unlock weapon-switching ability, from sword to bow.",
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
