@@ -19,6 +19,14 @@
 	</Classes>
     <History></History>
   </Identity>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/{civ}_champion_infantry_archer
+      units/{civ}_champion_infantry_swordsman
+      units/{civ}_champion_cavalry
+    </Entities>
+    <Technologies datatype="tokens">chinese/attack_champion_infantry</Technologies>
+  </ProductionQueue>
   <Upgrade disable=""/>
   <VisualActor>
     <Actor>structures/chinese/civil_centre.xml</Actor>

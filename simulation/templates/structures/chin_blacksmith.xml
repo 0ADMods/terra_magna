@@ -16,9 +16,7 @@
     <Static width="24.0" depth="24.0"/>
   </Obstruction>
   <ProductionQueue>
-    <Technologies datatype="tokens">
-      chinese/iron_casting
-    </Technologies>
+    <Technologies datatype="tokens">chinese/iron_casting</Technologies>
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/chinese/blacksmith.xml</Actor>

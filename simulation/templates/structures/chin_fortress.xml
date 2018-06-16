@@ -22,6 +22,9 @@
       units/{civ}_mechanical_siege_tower
       units/{civ}_hero_han_xin
       units/{civ}_champion_cavalry
+      units/{civ}_champion_infantry_archer
+      units/{civ}_champion_infantry_swordsman
+      units/{civ}_champion_chariot
     </Entities>
     <Technologies datatype="tokens">
       chinese/art_of_war
