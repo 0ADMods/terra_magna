@@ -56,20 +56,21 @@
       units/chin_minister
     </Entities>
     <Technologies datatype="tokens">
-    chinese/civil_service_01
-    chinese/civil_service_02
-    chinese/civil_service_03
-    chinese/civil_engineering_01
-    chinese/civil_engineering_02
-    chinese/civil_engineering_03
-    chinese/ceremonial_administration_01
-    chinese/ceremonial_administration_02
-    chinese/ceremonial_administration_03
-    chinese/nationalized_industries_01
-    chinese/nationalized_industries_02
-    chinese/nationalized_industries_03
-    unlock_spies
-    spy_counter
+      chinese/civil_service_01
+      chinese/civil_service_02
+      chinese/civil_service_03
+      chinese/civil_engineering_01
+      chinese/civil_engineering_02
+      chinese/civil_engineering_03
+      chinese/ceremonial_administration_01
+      chinese/ceremonial_administration_02
+      chinese/ceremonial_administration_03
+      chinese/nationalized_industries_01
+      chinese/nationalized_industries_02
+      chinese/nationalized_industries_03
+      unlock_spies
+      spy_counter
+      chinese/art_of_war
     </Technologies>
   </ProductionQueue>
   <Vision>
