@@ -12,6 +12,7 @@
     <SwitchToBow>
       <Entity>units/chin_champion_infantry_archer</Entity>
       <Tooltip>Switch weapon from sword (melee) to bow (ranged).</Tooltip>
+      <RequiredTechnology>chinese/attack_champion_infantry_swordsman</RequiredTechnology>
       <Cost>
         <wood>5</wood>
       </Cost>
