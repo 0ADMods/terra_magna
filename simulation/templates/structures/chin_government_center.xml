@@ -76,6 +76,11 @@
   <Vision>
     <Range>90</Range>
   </Vision>
+  <TerritoryInfluence>
+    <Root>false</Root>
+    <Radius>40</Radius>
+    <Weight>30000</Weight>
+  </TerritoryInfluence>
   <VisualActor>
   	<FoundationActor>structures/fndn_8x8.xml</FoundationActor>
     <Actor>structures/chinese/government_center.xml</Actor>
