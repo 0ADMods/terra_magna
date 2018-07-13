@@ -20,6 +20,9 @@
       <metal>500</metal>
     </Resources>
   </Cost>
+  <Auras datatype="tokens">
+    structures/loyalty_regen
+  </Auras>
   <GarrisonHolder>
     <Max>9</Max>
     <EjectHealth>0</EjectHealth>
@@ -78,7 +81,7 @@
   </Vision>
   <TerritoryInfluence>
     <Root>false</Root>
-    <Radius>40</Radius>
+    <Radius>70</Radius>
     <Weight>30000</Weight>
   </TerritoryInfluence>
   <VisualActor>
