@@ -1,8 +1,9 @@
 {
 	"name": "terra_magna",
-	"version": "0.0.23",
-	"label": "0 A.D. Terra Magna",
-	"url": "forum.wildfiregames.com",
-	"description": "Adds various civilizations to 0 A.D.",
-	"dependencies": ["0ad=0.0.23"]
+	"label": "Terra Magna",
+	"version": "1.0.0",
+	"url": "https://github.com/0ADMods/terra_magna",
+	"description": "Adds various civilizations to 0 A.D and maps.",
+	"dependencies": ["0ad=0.0.23"],
+	"type": "Factions"
 }
