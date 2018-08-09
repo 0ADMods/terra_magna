@@ -8,41 +8,93 @@
 		<SunRotation angle="-0.785396"/>
 		<TerrainAmbientColor r="0.313726" g="0.376471" b="0.521569"/>
 		<UnitsAmbientColor r="0.501961" g="0.501961" b="0.501961"/>
+		<Fog>
+			<FogFactor>0</FogFactor>
+			<FogThickness>0.5</FogThickness>
+			<FogColor r="0.8" g="0.8" b="0.898039"/>
+		</Fog>
 		<Water>
 			<WaterBody>
-				<Type>default</Type>
+				<Type>ocean</Type>
 				<Color r="0.294118" g="0.34902" b="0.694118"/>
+				<Tint r="0.27451" g="0.294118" b="0.584314"/>
 				<Height>5</Height>
-				<Shininess>150</Shininess>
 				<Waviness>8</Waviness>
 				<Murkiness>0.45</Murkiness>
-				<Tint r="0.27451" g="0.294118" b="0.584314"/>
-				<ReflectionTint r="0.27451" g="0.294118" b="0.584314"/>
-				<ReflectionTintStrength>0</ReflectionTintStrength>
+				<WindAngle>0</WindAngle>
 			</WaterBody>
 		</Water>
+		<Postproc>
+			<Brightness>0</Brightness>
+			<Contrast>1</Contrast>
+			<Saturation>0.99</Saturation>
+			<Bloom>0.1999</Bloom>
+			<PostEffect>default</PostEffect>
+		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="290.619" y="94.6657" z="232.697"/>
+		<Position x="312.782" y="84.7468" z="311.473"/>
 		<Rotation angle="0"/>
-		<Declination angle="0.523599"/>
+		<Declination angle="0.610865"/>
 	</Camera>
 	<ScriptSettings><![CDATA[
 {
-  "Name": "ROTE - Siege on Tiyrns",
+  "AISeed": 0,
+  "CircularMap": true,
   "Description": "The map used in the screenshot, Siege on Tiyrns.",
   "Keywords": [
+    "demo",
     "hidden"
   ],
+  "LockTeams": false,
+  "Name": "Terra Magna - Siege on Tiyrns",
   "PlayerData": [
     {
-      "Civ": "hele"
+      "Civ": "athen",
+      "Color": {
+        "b": 149,
+        "g": 55,
+        "r": 21
+      },
+      "StartingCamera": {
+        "Position": {
+          "x": 93.3222,
+          "y": 22.2609,
+          "z": 405.362
+        },
+        "Rotation": {
+          "x": 35,
+          "y": 0,
+          "z": 0
+        }
+      }
     },
     {
-      "Civ": "hele"
+      "Civ": "athen",
+      "Color": {
+        "b": 20,
+        "g": 20,
+        "r": 150
+      },
+      "StartingCamera": {
+        "Position": {
+          "x": 312.782,
+          "y": 22.2609,
+          "z": 400.713
+        },
+        "Rotation": {
+          "x": 35,
+          "y": 0,
+          "z": 0
+        }
+      }
     }
   ],
-  "CircularMap": true
+  "Preview": "",
+  "RevealMap": false,
+  "VictoryConditions": [
+    "conquest"
+  ]
 }
 ]]></ScriptSettings>
 	<Entities>
@@ -830,7 +882,7 @@
 			<Template>actor|props/special/eyecandy/crate_a.xml</Template>
 			<Position x="299.9123" z="420.22205"/>
 			<Orientation y="2.10358"/>
-		</Entity>		
+		</Entity>
 		<Entity uid="246">
 			<Template>actor|props/special/eyecandy/basket_rome_a.xml</Template>
 			<Position x="336.52213" z="441.51734"/>
@@ -937,11 +989,10 @@
 			<Orientation y="-2.38395"/>
 		</Entity>
 		<Entity uid="376">
-
 			<Template>actor|units/global/slave.xml</Template>
 			<Position x="187.47916" z="432.77414"/>
-			<Orientation y="2.35621"/>	
-			</Entity>
+			<Orientation y="2.35621"/>
+		</Entity>
 		<Entity uid="377">
 			<Template>actor|units/china/infantry_archer_b.xml</Template>
 			<Position x="193.05402" z="433.54847"/>
@@ -1028,180 +1079,6 @@
 			<Player>2</Player>
 			<Position x="136.12122" z="448.79572"/>
 			<Orientation y="2.77402"/>
-		</Entity>
-		<Entity uid="399">
-			<Template>structures/hele_market</Template>
-			<Player>1</Player>
-			<Position x="309.85605" z="418.9502"/>
-			<Orientation y="-2.36446"/>
-		</Entity>
-		<Entity uid="400">
-			<Template>structures/hele_farmstead</Template>
-			<Player>0</Player>
-			<Position x="96.84347" z="530.23737"/>
-			<Orientation y="3.0356"/>
-		</Entity>
-		<Entity uid="402">
-			<Template>structures/hele_gymnasion</Template>
-			<Player>1</Player>
-			<Position x="288.77161" z="449.61362"/>
-			<Orientation y="-2.29217"/>
-		</Entity>
-		<Entity uid="403">
-			<Template>structures/hele_corral</Template>
-			<Player>0</Player>
-			<Position x="111.34972" z="532.30622"/>
-			<Orientation y="3.06719"/>
-		</Entity>
-		<Entity uid="404">
-			<Template>structures/hele_corral</Template>
-			<Player>0</Player>
-			<Position x="26.74381" z="531.7024"/>
-			<Orientation y="1.18705"/>
-		</Entity>
-		<Entity uid="405">
-			<Template>structures/hele_corral</Template>
-			<Player>0</Player>
-			<Position x="45.10589" z="566.08423"/>
-			<Orientation y="-3.00765"/>
-		</Entity>
-		<Entity uid="406">
-			<Template>structures/hele_corral</Template>
-			<Player>0</Player>
-			<Position x="31.03336" z="531.7024"/>
-			<Orientation y="-1.84957"/>
-		</Entity>
-		<Entity uid="407">
-			<Template>structures/hele_house</Template>
-			<Player>0</Player>
-			<Position x="41.09658" z="508.27802"/>
-			<Orientation y="0.18299"/>
-		</Entity>
-		<Entity uid="408">
-			<Template>structures/hele_house</Template>
-			<Player>1</Player>
-			<Position x="59.68212" z="515.42347"/>
-			<Orientation y="3.10628"/>
-		</Entity>
-		<Entity uid="409">
-			<Template>structures/hele_house</Template>
-			<Player>1</Player>
-			<Position x="45.00861" z="542.14856"/>
-			<Orientation y="1.53869"/>
-		</Entity>
-		<Entity uid="410">
-			<Template>structures/hele_house</Template>
-			<Player>1</Player>
-			<Position x="56.79633" z="543.28895"/>
-			<Orientation y="-1.63865"/>
-		</Entity>
-		<Entity uid="411">
-			<Template>structures/hele_house</Template>
-			<Player>1</Player>
-			<Position x="25.68609" z="505.23807"/>
-			<Orientation y="0.48722"/>
-		</Entity>
-		<Entity uid="412">
-			<Template>structures/hele_house</Template>
-			<Player>1</Player>
-			<Position x="62.31052" z="570.26191"/>
-			<Orientation y="-2.18676"/>
-		</Entity>
-		<Entity uid="413">
-			<Template>structures/hele_house</Template>
-			<Player>1</Player>
-			<Position x="46.27913" z="550.20545"/>
-			<Orientation y="-2.59232"/>
-		</Entity>
-		<Entity uid="414">
-			<Template>structures/hele_house</Template>
-			<Player>1</Player>
-			<Position x="37.58068" z="533.32251"/>
-			<Orientation y="0.7218"/>
-		</Entity>
-		<Entity uid="415">
-			<Template>structures/hele_house</Template>
-			<Player>1</Player>
-			<Position x="50.3113" z="541.24671"/>
-			<Orientation y="-0.83645"/>
-		</Entity>
-		<Entity uid="416">
-			<Template>structures/hele_house</Template>
-			<Player>1</Player>
-			<Position x="19.45282" z="551.20191"/>
-			<Orientation y="0.95752"/>
-		</Entity>
-		<Entity uid="417">
-			<Template>structures/hele_house</Template>
-			<Player>1</Player>
-			<Position x="25.12151" z="546.80036"/>
-			<Orientation y="0.05401"/>
-		</Entity>
-		<Entity uid="418">
-			<Template>structures/hele_house</Template>
-			<Player>1</Player>
-			<Position x="27.51294" z="546.32416"/>
-			<Orientation y="1.19362"/>
-		</Entity>
-		<Entity uid="419">
-			<Template>structures/hele_house</Template>
-			<Player>1</Player>
-			<Position x="32.93998" z="543.74921"/>
-			<Orientation y="-0.74982"/>
-		</Entity>
-		<Entity uid="420">
-			<Template>structures/hele_house</Template>
-			<Player>1</Player>
-			<Position x="21.98916" z="546.08698"/>
-			<Orientation y="0.00915"/>
-		</Entity>
-		<Entity uid="421">
-			<Template>structures/hele_house</Template>
-			<Player>1</Player>
-			<Position x="24.09794" z="546.08698"/>
-			<Orientation y="2.35621"/>
-		</Entity>
-		<Entity uid="422">
-			<Template>structures/hele_house</Template>
-			<Player>1</Player>
-			<Position x="22.00155" z="546.80036"/>
-			<Orientation y="0.03681"/>
-		</Entity>
-		<Entity uid="423">
-			<Template>structures/hele_house</Template>
-			<Player>1</Player>
-			<Position x="23.26537" z="542.3755"/>
-			<Orientation y="0.75181"/>
-		</Entity>
-		<Entity uid="424">
-			<Template>structures/hele_house</Template>
-			<Player>1</Player>
-			<Position x="29.6026" z="538.81366"/>
-			<Orientation y="0.21445"/>
-		</Entity>
-		<Entity uid="425">
-			<Template>structures/hele_house</Template>
-			<Player>1</Player>
-			<Position x="31.39802" z="542.60291"/>
-			<Orientation y="0.2405"/>
-		</Entity>
-		<Entity uid="426">
-			<Template>structures/hele_fortress</Template>
-			<Player>1</Player>
-			<Position x="84.70093" z="437.85483"/>
-			<Orientation y="2.92399"/>
-		</Entity>
-		<Entity uid="429">
-			<Template>structures/hele_dock</Template>
-			<Player>1</Player>
-			<Position x="44.5875" z="423.20377"/>
-			<Orientation y="1.49192"/>
-		</Entity>
-		<Entity uid="430">
-			<Template>structures/hele_dock</Template>
-			<Player>1</Player>
-			<Position x="61.51812" z="425.68073"/>
-			<Orientation y="-1.65166"/>
 		</Entity>
 		<Entity uid="431">
 			<Template>structures/chin_barracks</Template>
@@ -1502,60 +1379,6 @@
 			<Player>0</Player>
 			<Position x="341.15363" z="339.87678"/>
 			<Orientation y="-0.32221"/>
-		</Entity>
-		<Entity uid="512">
-			<Template>units/hele_infantry_spearman_e</Template>
-			<Player>1</Player>
-			<Position x="300.91138" z="409.52277"/>
-			<Orientation y="2.6529"/>
-		</Entity>
-		<Entity uid="513">
-			<Template>units/hele_infantry_spearman_e</Template>
-			<Player>1</Player>
-			<Position x="298.84989" z="408.70154"/>
-			<Orientation y="2.77633"/>
-		</Entity>
-		<Entity uid="514">
-			<Template>units/hele_infantry_spearman_e</Template>
-			<Player>1</Player>
-			<Position x="296.3441" z="409.52277"/>
-			<Orientation y="2.77715"/>
-		</Entity>
-		<Entity uid="515">
-			<Template>units/hele_infantry_spearman_e</Template>
-			<Player>1</Player>
-			<Position x="298.9936" z="412.43635"/>
-			<Orientation y="2.50376"/>
-		</Entity>
-		<Entity uid="516">
-			<Template>units/hele_cavalry_javelinist_e</Template>
-			<Player>1</Player>
-			<Position x="311.21747" z="399.59849"/>
-			<Orientation y="-2.59896"/>
-		</Entity>
-		<Entity uid="517">
-			<Template>units/hele_cavalry_javelinist_e</Template>
-			<Player>1</Player>
-			<Position x="316.39298" z="402.30433"/>
-			<Orientation y="-2.47698"/>
-		</Entity>
-		<Entity uid="518">
-			<Template>units/hele_cavalry_javelinist_e</Template>
-			<Player>1</Player>
-			<Position x="317.15073" z="409.52277"/>
-			<Orientation y="-2.52277"/>
-		</Entity>
-		<Entity uid="519">
-			<Template>units/hele_cavalry_javelinist_e</Template>
-			<Player>1</Player>
-			<Position x="321.83695" z="409.11158"/>
-			<Orientation y="-2.36323"/>
-		</Entity>
-		<Entity uid="520">
-			<Template>units/hele_cavalry_javelinist_e</Template>
-			<Player>1</Player>
-			<Position x="324.96543" z="416.2743"/>
-			<Orientation y="-2.37514"/>
 		</Entity>
 	</Entities>
 	<Paths/>

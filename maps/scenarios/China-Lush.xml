@@ -3,34 +3,50 @@
 <Scenario version="6">
 	<Environment>
 		<SkySet>default</SkySet>
-		<SunColor r="1.34766" g="1.64766" b="1.24766"/>
+		<SunColor r="1.34397" g="1.64766" b="1.24705"/>
 		<SunElevation angle="0.465748"/>
 		<SunRotation angle="0.45056"/>
 		<TerrainAmbientColor r="0.313726" g="0.376471" b="0.521569"/>
 		<UnitsAmbientColor r="0.501961" g="0.501961" b="0.501961"/>
+		<Fog>
+			<FogFactor>0</FogFactor>
+			<FogThickness>0.5</FogThickness>
+			<FogColor r="0.8" g="0.8" b="0.898039"/>
+		</Fog>
 		<Water>
 			<WaterBody>
-				<Type>default</Type>
+				<Type>ocean</Type>
 				<Color r="0.247059" g="0.501961" b="0.501961"/>
+				<Tint r="0.0156863" g="0.458824" b="0.811765"/>
 				<Height>5</Height>
-				<Shininess>144.043</Shininess>
 				<Waviness>6.10352</Waviness>
 				<Murkiness>0.288086</Murkiness>
-				<Tint r="0.0196078" g="0.458824" b="0.811765"/>
-				<ReflectionTint r="0.501961" g="1" b="1"/>
-				<ReflectionTintStrength>0</ReflectionTintStrength>
+				<WindAngle>0</WindAngle>
 			</WaterBody>
 		</Water>
+		<Postproc>
+			<Brightness>0</Brightness>
+			<Contrast>1</Contrast>
+			<Saturation>0.99</Saturation>
+			<Bloom>0.1999</Bloom>
+			<PostEffect>default</PostEffect>
+		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="328.415" y="69.7903" z="306.287"/>
-		<Rotation angle="-0.336"/>
-		<Declination angle="0.523599"/>
+		<Position x="290.021" y="34.989" z="361.927"/>
+		<Rotation angle="0"/>
+		<Declination angle="0.610865"/>
 	</Camera>
 	<ScriptSettings><![CDATA[
 {
-  "Name": "ROTE - Demo",
+  "AISeed": 0,
+  "CircularMap": true,
   "Description": "A demonstration of the Chinese infantry release pack in a lush bamboo swamp.",
+  "Keywords": [
+    "demo"
+  ],
+  "LockTeams": false,
+  "Name": "Terra Magna - China Lush",
   "PlayerData": [
     {
       "Civ": "chin"
@@ -39,7 +55,11 @@
       "Civ": "chin"
     }
   ],
-  "CircularMap": true
+  "Preview": "",
+  "RevealMap": false,
+  "VictoryConditions": [
+    "conquest"
+  ]
 }
 ]]></ScriptSettings>
 	<Entities>

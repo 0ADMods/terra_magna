@@ -33,19 +33,21 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="800.45" y="457.901" z="-317.079"/>
+		<Position x="800.45" y="246.916" z="-15.761"/>
 		<Rotation angle="0"/>
 		<Declination angle="0.610865"/>
 	</Camera>
 	<ScriptSettings><![CDATA[
 {
+  "AISeed": 0,
   "CircularMap": true,
   "Description": "Sorry, I can't help it! Zapotecs call themselves the Cloud People. :P",
   "GameType": "conquest",
   "Keywords": [],
   "LockTeams": false,
-  "Name": "Reaching for the Clouds: Rise of the Zapotecs",
+  "Name": "Terra Magna - Reaching for the Clouds: Rise of the Zapotecs",
   "PlayerData": [
+    null,
     {
       "Civ": "zapo",
       "Team": 0
@@ -59,22 +61,13 @@
     },
     {
       "Civ": "zapo"
-    },
-    {
-      "Civ": "zapo"
-    },
-    {
-      "Civ": "zapo"
-    },
-    {
-      "Civ": "zapo"
-    },
-    {
-      "Civ": "zapo"
     }
   ],
   "Preview": "",
-  "RevealMap": false
+  "RevealMap": false,
+  "VictoryConditions": [
+    "conquest"
+  ]
 }
 ]]></ScriptSettings>
 	<Entities>
@@ -48115,20 +48108,6 @@
 			<Orientation y="2.35621"/>
 			<Actor seed="61032"/>
 		</Entity>
-		<Entity uid="8576">
-			<Template>gaia/special_treasure_stone</Template>
-			<Player>3</Player>
-			<Position x="385.89463" z="1083.09021"/>
-			<Orientation y="1.52927"/>
-			<Actor seed="15022"/>
-		</Entity>
-		<Entity uid="8577">
-			<Template>gaia/special_treasure_stone</Template>
-			<Player>3</Player>
-			<Position x="388.11072" z="1077.42762"/>
-			<Orientation y="0.27268"/>
-			<Actor seed="50208"/>
-		</Entity>
 		<Entity uid="8578">
 			<Template>actor|props/special/eyecandy/block_granite.xml</Template>
 			<Position x="401.35187" z="1091.67444"/>
@@ -48320,20 +48299,6 @@
 			<Position x="422.0579" z="1077.16639"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="2040"/>
-		</Entity>
-		<Entity uid="8610">
-			<Template>gaia/special_treasure_stone</Template>
-			<Player>3</Player>
-			<Position x="417.98572" z="1073.49451"/>
-			<Orientation y="0.27268"/>
-			<Actor seed="50208"/>
-		</Entity>
-		<Entity uid="8611">
-			<Template>gaia/special_treasure_stone</Template>
-			<Player>3</Player>
-			<Position x="422.88111" z="1079.86426"/>
-			<Orientation y="0.27268"/>
-			<Actor seed="50208"/>
 		</Entity>
 		<Entity uid="8612">
 			<Template>actor|props/flora/bush_medit_underbrush.xml</Template>
@@ -49428,37 +49393,37 @@
 			<Actor seed="12368"/>
 		</Entity>
 		<Entity uid="8795">
-			<Template>actor|props/structures/chin_box.xml</Template>
+			<Template>actor|props/structures/chinese/box.xml</Template>
 			<Position x="204.88257" z="669.4845"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="27408"/>
 		</Entity>
 		<Entity uid="8796">
-			<Template>actor|props/structures/chin_box.xml</Template>
+			<Template>actor|props/structures/chinese/box.xml</Template>
 			<Position x="204.15812" z="670.20197"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="46574"/>
 		</Entity>
 		<Entity uid="8797">
-			<Template>actor|props/structures/chin_box.xml</Template>
+			<Template>actor|props/structures/chinese/box.xml</Template>
 			<Position x="203.69532" z="668.08344"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="19850"/>
 		</Entity>
 		<Entity uid="8798">
-			<Template>actor|props/structures/chin_box.xml</Template>
+			<Template>actor|props/structures/chinese/box.xml</Template>
 			<Position x="203.04603" z="668.77155"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="6136"/>
 		</Entity>
 		<Entity uid="8799">
-			<Template>actor|props/structures/chin_box.xml</Template>
+			<Template>actor|props/structures/chinese/box.xml</Template>
 			<Position x="201.37497" z="671.0575"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="38728"/>
 		</Entity>
 		<Entity uid="8800">
-			<Template>actor|props/structures/chin_box.xml</Template>
+			<Template>actor|props/structures/chinese/box.xml</Template>
 			<Position x="200.5759" z="671.9134"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="18018"/>

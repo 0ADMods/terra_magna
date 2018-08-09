@@ -33,18 +33,19 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="476.53" y="90.393" z="571.085"/>
+		<Position x="474.495" y="90.6522" z="576.534"/>
 		<Rotation angle="0"/>
 		<Declination angle="0.610865"/>
 	</Camera>
 	<ScriptSettings><![CDATA[
 {
+  "AISeed": 0,
   "CircularMap": true,
-  "Description": "Give an interesting description of your map.",
+  "Description": "A demonstration map of the Chinese",
   "GameType": "conquest",
   "Keywords": [],
   "LockTeams": false,
-  "Name": "ROTE - Guilin",
+  "Name": "Terra Magna - Demo",
   "PlayerData": [
     {
       "AI": "",
@@ -55,10 +56,22 @@
         "r": 80
       },
       "Name": "Player 1",
+      "StartingCamera": {
+        "Position": {
+          "x": 474.495,
+          "y": 22.2609,
+          "z": 674.832
+        },
+        "Rotation": {
+          "x": 47.4407,
+          "y": -10.8566,
+          "z": 0.00334128
+        }
+      },
       "Team": -1
     },
     {
-      "AI": "",
+      "AI": "petra",
       "Civ": "chin",
       "Color": {
         "b": 20,
@@ -66,10 +79,22 @@
         "r": 150
       },
       "Name": "Player 2",
-      "Team": -1
+      "StartingCamera": {
+        "Position": {
+          "x": 202.825,
+          "y": 23.0101,
+          "z": 262.289
+        },
+        "Rotation": {
+          "x": 36.9991,
+          "y": -5.84783,
+          "z": -0.00320628
+        }
+      },
+      "Team": 1
     },
     {
-      "AI": "",
+      "AI": "petra",
       "Civ": "chin",
       "Color": {
         "b": 5,
@@ -77,17 +102,33 @@
         "r": 50
       },
       "Name": "Player 3",
-      "Team": -1
+      "StartingCamera": {
+        "Position": {
+          "x": 909.578,
+          "y": 22.2609,
+          "z": 389.322
+        },
+        "Rotation": {
+          "x": 53.1219,
+          "y": -4.45166,
+          "z": -3.21134e-7
+        }
+      },
+      "Team": 1
     }
   ],
-  "RevealMap": false
+  "Preview": "",
+  "RevealMap": false,
+  "VictoryConditions": [
+    "conquest"
+  ]
 }
 ]]></ScriptSettings>
 	<Entities>
 		<Entity uid="14">
 			<Template>structures/chin_civil_centre</Template>
 			<Player>1</Player>
-			<Position x="476.53046" z="669.38373"/>
+			<Position x="369.58136" z="805.86615"/>
 			<Orientation y="2.35621"/>
 		</Entity>
 		<Entity uid="15">
@@ -246,21 +287,21 @@
 		<Entity uid="47">
 			<Template>other/chin_gate</Template>
 			<Player>1</Player>
-			<Position x="449.81867" z="737.56196"/>
+			<Position x="400.2331" z="784.51996"/>
 			<Orientation y="-0.76275"/>
 			<Obstruction group="37" group2="45"/>
 		</Entity>
 		<Entity uid="48">
 			<Template>other/chin_bridge</Template>
 			<Player>1</Player>
-			<Position x="435.65629" z="748.6344"/>
+			<Position x="437.32612" z="749.04255"/>
 			<Orientation y="0.72342"/>
 		</Entity>
 		<Entity uid="49">
 			<Template>other/chin_bridge</Template>
 			<Player>1</Player>
-			<Position x="414.55436" z="771.28785"/>
-			<Orientation y="-2.44343"/>
+			<Position x="413.5542" z="770.51288"/>
+			<Orientation y="-2.38791"/>
 		</Entity>
 		<Entity uid="50">
 			<Template>structures/chin_wall_long</Template>
@@ -340,30 +381,30 @@
 			<Template>other/chin_bridge</Template>
 			<Player>1</Player>
 			<Position x="505.16514" z="582.67951"/>
-			<Orientation y="2.02157"/>
+			<Orientation y="1.97706"/>
 		</Entity>
 		<Entity uid="70">
 			<Template>other/chin_bridge</Template>
 			<Player>1</Player>
-			<Position x="468.56122" z="596.17676"/>
+			<Position x="468.69321" z="595.89246"/>
 			<Orientation y="2.35621"/>
 		</Entity>
 		<Entity uid="71">
 			<Template>other/chin_bridge</Template>
 			<Player>1</Player>
-			<Position x="426.103" z="622.22053"/>
-			<Orientation y="2.19967"/>
+			<Position x="426.8996" z="621.4737"/>
+			<Orientation y="2.17022"/>
 		</Entity>
 		<Entity uid="72">
 			<Template>other/chin_bridge</Template>
 			<Player>1</Player>
-			<Position x="414.10209" z="566.34375"/>
+			<Position x="414.3787" z="563.96094"/>
 			<Orientation y="2.91076"/>
 		</Entity>
 		<Entity uid="74">
 			<Template>structures/chin_defense_tower</Template>
 			<Player>1</Player>
-			<Position x="385.33271" z="547.84827"/>
+			<Position x="384.8849" z="548.7682"/>
 			<Orientation y="-0.12774"/>
 		</Entity>
 		<Entity uid="76">
@@ -387,7 +428,7 @@
 		<Entity uid="84">
 			<Template>other/chin_gate</Template>
 			<Player>1</Player>
-			<Position x="433.35181" z="569.35645"/>
+			<Position x="398.95176" z="560.06214"/>
 			<Orientation y="-1.8624"/>
 			<Obstruction group="25" group2="83"/>
 		</Entity>
@@ -431,13 +472,13 @@
 		<Entity uid="91">
 			<Template>units/chin_support_female_citizen</Template>
 			<Player>1</Player>
-			<Position x="462.11628" z="654.3603"/>
+			<Position x="459.84952" z="652.27149"/>
 			<Orientation y="-1.76368"/>
 		</Entity>
 		<Entity uid="92">
 			<Template>units/chin_support_female_citizen</Template>
 			<Player>1</Player>
-			<Position x="461.13282" z="655.47211"/>
+			<Position x="458.86606" z="653.38331"/>
 			<Orientation y="2.35621"/>
 		</Entity>
 		<Entity uid="93">
@@ -461,19 +502,19 @@
 		<Entity uid="96">
 			<Template>units/chin_infantry_archer_a</Template>
 			<Player>1</Player>
-			<Position x="462.01877" z="741.26996"/>
+			<Position x="461.57514" z="736.06702"/>
 			<Orientation y="-2.21982"/>
 		</Entity>
 		<Entity uid="97">
 			<Template>units/chin_infantry_archer_a</Template>
 			<Player>1</Player>
-			<Position x="444.63233" z="729.02808"/>
+			<Position x="452.25873" z="728.83906"/>
 			<Orientation y="2.57346"/>
 		</Entity>
 		<Entity uid="98">
 			<Template>units/chin_infantry_archer_a</Template>
 			<Player>1</Player>
-			<Position x="445.67621" z="727.1858"/>
+			<Position x="450.23075" z="727.41913"/>
 			<Orientation y="-0.56815"/>
 		</Entity>
 		<Entity uid="99">
@@ -491,7 +532,7 @@
 		<Entity uid="101">
 			<Template>units/chin_infantry_archer_a</Template>
 			<Player>1</Player>
-			<Position x="439.75882" z="563.73884"/>
+			<Position x="442.84421" z="568.80744"/>
 			<Orientation y="1.3148"/>
 		</Entity>
 		<Entity uid="102">
@@ -1279,7 +1320,7 @@
 		<Entity uid="261">
 			<Template>structures/chin_defense_tower</Template>
 			<Player>1</Player>
-			<Position x="367.73511" z="778.54792"/>
+			<Position x="373.30118" z="776.14026"/>
 			<Orientation y="2.35621"/>
 		</Entity>
 		<Entity uid="262">
@@ -1518,13 +1559,13 @@
 		</Entity>
 		<Entity uid="331">
 			<Template>structures/chin_house</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="303.13254" z="747.38099"/>
 			<Orientation y="1.11193"/>
 		</Entity>
 		<Entity uid="332">
 			<Template>structures/chin_house</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="393.50394" z="883.25928"/>
 			<Orientation y="2.35621"/>
 		</Entity>
@@ -1825,7 +1866,7 @@
 		<Entity uid="411">
 			<Template>gaia/flora_chin_bamboo</Template>
 			<Player>0</Player>
-			<Position x="408.92688" z="788.19422"/>
+			<Position x="392.8495" z="769.57111"/>
 			<Orientation y="2.35621"/>
 		</Entity>
 		<Entity uid="412">
@@ -24191,6 +24232,29 @@
 			<Position x="466.59812" z="100.84594"/>
 			<Orientation y="1.7591"/>
 			<Actor seed="58286"/>
+		</Entity>
+		<Entity uid="4786">
+			<Template>structures/chin_civil_centre_fortified</Template>
+			<Player>1</Player>
+			<Position x="475.48581" z="669.43097"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="22763"/>
+		</Entity>
+		<Entity uid="4787">
+			<Template>structures/chin_wall_gate</Template>
+			<Player>1</Player>
+			<Position x="432.77018" z="570.6261"/>
+			<Orientation y="-1.93168"/>
+			<Obstruction group="25" group2="83"/>
+			<Actor seed="632"/>
+		</Entity>
+		<Entity uid="4788">
+			<Template>structures/chin_wall_gate</Template>
+			<Player>1</Player>
+			<Position x="449.23163" z="738.44556"/>
+			<Orientation y="-0.7975"/>
+			<Obstruction group="37" group2="45"/>
+			<Actor seed="632"/>
 		</Entity>
 	</Entities>
 	<Paths/>
