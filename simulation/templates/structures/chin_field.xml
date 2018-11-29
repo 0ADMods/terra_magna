@@ -2,7 +2,7 @@
 <Entity parent="template_structure_resource_field">
   <Identity>
     <Civ>chin</Civ>
-    <SpecificName>?</SpecificName>
+    <SpecificName>Tián</SpecificName>
     <History>North China didn't cultivate rice but wheat instead</History>
   </Identity>
   <VisualActor>
