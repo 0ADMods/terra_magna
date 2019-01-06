@@ -45,7 +45,7 @@
       <textures><texture file="props/banner_celt.png" name="baseTex"/></textures>
     </variant>
     <variant name="maur">
-      <textures><texture file="props/banner_mauryans.png" name="baseTex"/></textures>
+      <textures><texture file="props/banner_mauryas.png" name="baseTex"/></textures>
     </variant>
     <variant name="chin">
       <textures><texture file="props/banner_chinese.png" name="baseTex"/></textures>
