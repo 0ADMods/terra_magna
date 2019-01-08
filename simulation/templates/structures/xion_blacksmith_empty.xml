@@ -19,10 +19,10 @@
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
-	  -units/xion_support_wagon
+      -units/{civ}_support_wagon
     </Entities>
     <Technologies datatype="tokens">
-	  -attack_infantry_melee_01
+	    -attack_infantry_melee_01
       -attack_infantry_melee_02
       -attack_infantry_ranged_01
       -attack_infantry_ranged_02
