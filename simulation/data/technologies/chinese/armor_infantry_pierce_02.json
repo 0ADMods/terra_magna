@@ -11,7 +11,7 @@
 	"modifications": [
 		{"value": "Armour/Pierce", "add": 2.0},
 		{"value": "UnitMotion/WalkSpeed", "multiply": 0.95},
-		{"value": "UnitMotion/Run/Speed", "multiply": 0.95}
+		{"value": "UnitMotion/RunMultiplier", "multiply": 0.95}
 	],
 	"affects": ["Melee Soldier"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
