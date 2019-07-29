@@ -3,7 +3,7 @@
 	"genericName": "Lamellar Armor",
 	"description": ".",
 	"cost": {"food": 0, "wood": 200, "stone": 0, "metal": 500},
-	"requirements": {"tech": "phase_city"},
+	"requirements": {"all": [{ "tech": "phase_city" }, { "civ": "chin" }] },
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "armor_lamellar.png",
 	"researchTime": 60,

@@ -2,7 +2,7 @@
 	"genericName": "Nomadic Pastoralism",
 	"description": "Nomadic societies practice pastoralism for food production.",
 	"cost": {"food": 100, "wood": 0, "stone": 0, "metal": 0},
-	"requirements": {"tech": "phase_village"},
+	"requirements": { "all": [{ "tech": "phase_village" }, { "civ": "xion" }] },
 	"icon": "meat.png",
 	"researchTime": 40,
 	"tooltip": "Breed time -75% for domestic animals (sheep, goats, cattle, etc.).",

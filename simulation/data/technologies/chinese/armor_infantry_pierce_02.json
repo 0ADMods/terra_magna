@@ -3,7 +3,7 @@
 	"genericName": "Wooden Shields",
 	"description": ".",
 	"cost": {"food": 0, "wood": 500, "stone": 0, "metal": 0},
-	"requirements": {"tech": "phase_city"},
+	"requirements": {"all": [{ "tech": "phase_city" }, { "civ": "chin" }] },
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "shields_generic_wood.png",
 	"researchTime": 60,

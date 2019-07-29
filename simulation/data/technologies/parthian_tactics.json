@@ -2,7 +2,7 @@
 	"genericName": "Parthian Tactics",
 	"description": "This tactic was used by most nomads of the Eurasian steppe, including the Scythians, Huns, Turks, Magyars, and Mongols, as well as armies from elsewhere such as the Sassanid clibanarii and cataphracts.",
 	"autoResearch": true,
-	"requirements": {"any": [{"civ": "xion"}]},
+	"requirements": { "any": [{"civ": "xion"}] },
 	"icon": "nisean_war_horses.png",
 	"tooltip": "-15% ranged cavalry tech cost.",
 	"modifications": [

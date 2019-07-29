@@ -3,7 +3,7 @@
 	"genericName": "Ceremonial Armor",
 	"description": ".",
 	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 900},
-	"requirements": { "all": [{ "tech": "phase_city" }, { "any": [{ "tech": "techs_blacksmith_cost" }, { "tech": "techs_blacksmith_speed" }] }] },
+	"requirements": { "all": [{ "tech": "phase_city" }, { "civ": "chin" }, { "any": [{ "tech": "techs_blacksmith_cost" }, { "tech": "techs_blacksmith_speed" }] }] },
 	"requirementsTooltip": "Unlocked in City Phase. Requires Forging or Metallurgy",
 	"icon": "armor_cuirass_iron.png",
 	"researchTime": 60,

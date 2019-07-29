@@ -3,7 +3,7 @@
 	"genericName": "Standardized Crossbows",
 	"description": "The Chinese military created standardized templates for building crossbows.",
 	"cost": {"food": 0, "wood": 100, "stone": 0, "metal": 100},
-	"requirements": { "all": [{ "tech": "phase_town" }, { "any": [{ "tech": "techs_blacksmith_cost" }, { "tech": "techs_blacksmith_speed" }] }] },
+	"requirements": { "all": [{ "tech": "phase_town" }, { "civ": "chin" }, { "any": [{ "tech": "techs_blacksmith_cost" }, { "tech": "techs_blacksmith_speed" }] }] },
 	"requirementsTooltip": "Unlocked in Town Phase. Requires Forging or Metallurgy",
 	"icon": "arrow.png",
 	"researchTime": 60,
