@@ -2,24 +2,15 @@
 <Entity parent="template_unit_infantry_melee_swordsman">
   <Builder>
     <Entities datatype="tokens">
-      structures/{civ}_house
-      structures/{civ}_market
-      structures/{civ}_blacksmith
-      structures/xion_civil_centre
-      -structures/{civ}_civil_centre
-      structures/{civ}_corral
       -structures/{civ}_fortress
       -structures/{civ}_wonder
       -structures/{civ}_defense_tower
       -structures/{civ}_wallset_stone
-      structures/{civ}_temple
       -structures/{civ}_dock
-      structures/{civ}_barracks
       -structures/{civ}_sentry_tower
       -structures/{civ}_outpost
       -structures/{civ}_field
       -structures/{civ}_farmstead
-      structures/{civ}_storehouse
     </Entities>
   </Builder>
   <Identity>
