@@ -11,7 +11,7 @@
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}_support_wagon
-      units/{civ}_mechanical_siege_ram_blacksmith
+      units/{civ}_siege_ram_blacksmith
     </Entities>
     <Technologies datatype="tokens">
       unlock_champion_units_xion

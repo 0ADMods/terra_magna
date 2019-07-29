@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_mechanical_siege_ram">
+<Entity parent="template_unit_siege_ram">
   <Footprint replace="">
     <Square width="6.75" depth="9.0"/>
     <Height>3.0</Height>
@@ -8,7 +8,7 @@
     <Civ>zapo</Civ>
     <SpecificName>Battering Ram</SpecificName>
     <History>It is not known if any of the Zapotec culture used rams; the unit is added to the civ roster for gameplay purposes.</History>
-    <Icon>units/iber_mechanical_siege_ram.png</Icon>
+    <Icon>units/iber_siege_ram.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/zapotecs/siege_ram.xml</Actor>

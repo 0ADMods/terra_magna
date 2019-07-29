@@ -18,8 +18,8 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_mechanical_siege_shoushe
-      units/{civ}_mechanical_siege_tower
+      units/{civ}_siege_shoushe
+      units/{civ}_siege_tower
       units/{civ}_hero_han_xin
       units/{civ}_hero_liu_bang
       units/{civ}_champion_cavalry
