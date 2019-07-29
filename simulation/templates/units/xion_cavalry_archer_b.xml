@@ -9,10 +9,12 @@
       </Damage>
       <MaxRange>72.0</MaxRange>
       <MinRange>20.0</MinRange>
-      <ProjectileSpeed>75.0</ProjectileSpeed>
+      <Projectile>
+        <Speed>75.0</Speed>
+        <Spread>3.0</Spread>
+      </Projectile>
       <PrepareTime>500</PrepareTime>
       <RepeatTime>1000</RepeatTime>
-      <Spread>3.0</Spread>
     </Ranged>
   </Attack>
   <Identity>

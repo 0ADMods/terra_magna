@@ -8,12 +8,14 @@
   	</Identity>
   	<Attack>
 		<Ranged>
-		  	<Spread>1.9</Spread>  
 			<Damage>
 				<Pierce op="add">3.0</Pierce>
 			</Damage>
 		  	<MaxRange op="add">4.0</MaxRange>
-		  	<ProjectileSpeed>150.0</ProjectileSpeed>
+			<Projectile>
+				<Speed>150.0</Speed>
+				<Spread>1.9</Spread>
+			</Projectile>
 		  	<PrepareTime>1200</PrepareTime>
 		  	<RepeatTime>2000</RepeatTime>
 		</Ranged>
