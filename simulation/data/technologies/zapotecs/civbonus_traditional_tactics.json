@@ -5,7 +5,7 @@
 	"requirements": {"civ": "zapo"},
 	"modifications": [
 		{"value": "Armour/Pierce", "add": -1.0},
-		{"value": "Attack/Melee/Hack", "add": 1.0},
+		{"value": "Attack/Melee/Damage/Hack", "add": 1.0},
 		{"value": "UnitMotion/WalkSpeed", "add": 1.5}
 	],
 	"affects": ["Melee"]

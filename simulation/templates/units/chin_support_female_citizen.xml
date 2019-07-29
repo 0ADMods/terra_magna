@@ -7,7 +7,9 @@
   </Builder>
 	<Attack>
 		<Melee>
-			<Hack>10.0</Hack>
+			<Damage>
+				<Hack>10.0</Hack>
+			</Damage>
 		</Melee>
 	</Attack>
 	<Health>

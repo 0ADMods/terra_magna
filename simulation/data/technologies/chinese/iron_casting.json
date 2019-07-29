@@ -7,7 +7,7 @@
 	"icon": "iron_casting.png",
 	"researchTime": 40,
 	"tooltip": "+10% gatherspeed and +1 hack attack for every unit",
-	"modifications": [{"value": "Attack/Melee/Hack", "add": 1.0}, {"value": "ResourceGatherer/BaseSpeed", "multiply": 1.1}],
+	"modifications": [{"value": "Attack/Melee/Damage/Hack", "add": 1.0}, {"value": "ResourceGatherer/BaseSpeed", "multiply": 1.1}],
 	"affects": ["Unit"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

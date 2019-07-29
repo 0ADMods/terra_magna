@@ -2,9 +2,11 @@
 <Entity parent="template_unit_infantry_ranged_archer">
   <Attack>
     <Ranged>
-      <Hack>0</Hack>
-      <Pierce>3.0</Pierce>
-      <Crush>0</Crush>
+      <Damage>
+        <Hack>0</Hack>
+        <Pierce>3.0</Pierce>
+        <Crush>0</Crush>
+      </Damage>
       <MaxRange>45.0</MaxRange>
       <MinRange>0.0</MinRange>
       <ProjectileSpeed>75.0</ProjectileSpeed>

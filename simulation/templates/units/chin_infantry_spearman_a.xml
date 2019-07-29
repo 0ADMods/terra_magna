@@ -8,8 +8,10 @@
   </Promotion>
   <Attack>
     <Melee>
-      <Hack>5</Hack>
-      <Pierce>10</Pierce>
+      <Damage>
+        <Hack>5</Hack>
+        <Pierce>10</Pierce>
+      </Damage>
     </Melee>
   </Attack>
   <Health>

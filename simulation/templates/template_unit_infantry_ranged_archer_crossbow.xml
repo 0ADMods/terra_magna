@@ -9,7 +9,9 @@
   	<Attack>
 		<Ranged>
 		  	<Spread>1.9</Spread>  
-		  	<Pierce op="add">3.0</Pierce>
+			<Damage>
+				<Pierce op="add">3.0</Pierce>
+			</Damage>
 		  	<MaxRange op="add">4.0</MaxRange>
 		  	<ProjectileSpeed>150.0</ProjectileSpeed>
 		  	<PrepareTime>1200</PrepareTime>

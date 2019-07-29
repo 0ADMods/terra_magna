@@ -7,8 +7,10 @@
 	</Armour>
 	<Attack>
 		<Melee>
-		  <Hack>4.5</Hack>
-		  <Pierce>8.5</Pierce>
+		  <Damage>
+		    <Hack>4.5</Hack>
+		    <Pierce>8.5</Pierce>
+		  </Damage>
 		</Melee>
 	</Attack>
 	<Health>

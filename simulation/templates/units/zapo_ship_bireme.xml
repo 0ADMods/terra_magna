@@ -2,9 +2,11 @@
 <Entity parent="template_unit_ship_bireme">
   <Attack>
     <Ranged>
-      <Hack>0.0</Hack>
-      <Pierce>24.0</Pierce>
-      <Crush>0.0</Crush>
+      <Damage>
+        <Hack>0.0</Hack>
+        <Pierce>24.0</Pierce>
+        <Crush>0.0</Crush>
+      </Damage>
       <MaxRange>60.0</MaxRange>
       <MinRange>0.0</MinRange>
       <ProjectileSpeed>30.0</ProjectileSpeed>
