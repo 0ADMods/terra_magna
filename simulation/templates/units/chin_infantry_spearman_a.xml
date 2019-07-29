@@ -6,31 +6,6 @@
   <Promotion>
     <Entity>units/chin_infantry_spearman_e</Entity>
   </Promotion>
-  <Attack>
-    <Melee>
-      <Damage>
-        <Hack>5</Hack>
-        <Pierce>10</Pierce>
-      </Damage>
-    </Melee>
-  </Attack>
-  <Health>
-    <Max>130</Max>
-  </Health>
-  <Armour>
-    <Hack>3</Hack>
-    <Pierce>5</Pierce>
-    <Crush>4</Crush>
-  </Armour>
-  <ResourceGatherer>
-    <BaseSpeed>0.75</BaseSpeed>
-  </ResourceGatherer>
-  <UnitMotion>
-    <WalkSpeed>9</WalkSpeed>
-    <Run>
-      <Speed>22.5</Speed>
-    </Run>
-  </UnitMotion>
   <VisualActor>
     <Actor>units/china/infantry_spearman_a.xml</Actor>
   </VisualActor>

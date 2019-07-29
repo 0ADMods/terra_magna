@@ -3,15 +3,6 @@
   <Identity>
     <Rank>Elite</Rank>
   </Identity>
-  <Attack>
-    <Ranged>
-      <MaxRange>55.0</MaxRange>
-      <Spread>1.2</Spread>
-    </Ranged>
-  </Attack>
-  <Armour>
-    <Hack>4.0</Hack>
-  </Armour>
   <Promotion disable=""/>
   <VisualActor>
     <Actor>units/china/infantry_archer_e.xml</Actor>

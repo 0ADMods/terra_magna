@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="units/chin_cavalry_swordsman_b">
-	<Armour>
-		<Hack>5</Hack>
-		<Pierce>4</Pierce>
-		<Crush>5</Crush>
-	</Armour>
-	<Attack>
-		<Melee>
-			<Damage>
-				<Hack>16.0</Hack>
-			</Damage>
-		</Melee>
-	</Attack>
-	<Health>
-    <Max>160</Max>
-  </Health>
 	<Identity>
 		<Rank>Advanced</Rank>
 	</Identity>

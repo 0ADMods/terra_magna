@@ -3,18 +3,7 @@
   <Identity>
     <Rank>Elite</Rank>
   </Identity>
-  <Attack>
-    <Ranged>
-      <Spread>1.0</Spread>
-    </Ranged>
-  </Attack>
-  <Armour>
-    <Hack>4.0</Hack>
-  </Armour>
   <Promotion disable=""/>
-  <ResourceGatherer>
-    <BaseSpeed>0.5</BaseSpeed>
-  </ResourceGatherer>
   <VisualActor>
     <Actor>units/china/infantry_crossbowman_e.xml</Actor>
   </VisualActor>
