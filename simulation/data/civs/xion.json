@@ -1,12 +1,25 @@
 {
 	"Code": "xion",
-	"Culture": "Nomads",
+	"Culture": "xion",
 	"Name": "Xiongnu",
 	"Emblem": "session/portraits/emblems/emblem_xiongnu.png",
-	"History": "The Xiongnu were formidable warriors whose most fearsome weapon was the double-curved bow with bone ends. They lived on horseback, from which they took advantage of everything, they dressed and wore leather, they wore helmet, breastplate, shield along with the quiver and curved saber. Their squads evolved to the sound of hunting horns and their charges and sudden withdrawals surprised their enemies. They were careful not to ever sell whole horses or mares to China. During these centuries, the Xiongnu (hsiung-nu) gathered under their rule other steppe tribes, forming a large confederation. In 209 BC, just three years before the founding of the Han Dynasty, the Xiongnu were assembled into a powerful confederation under a new chanyu .",
+	"History": "The Xiongnu were formidable warriors whose most fearsome weapon was the double-curved bow with bone ends. They lived on horseback, from which they took advantage of everything, they dressed and wore leather, they wore helmet, breastplate, shield along with the quiver and curved saber. Their squads evolved to the sound of hunting horns and their charges and sudden withdrawals surprised their enemies. They were careful not to ever sell whole horses or mares to China. During these centuries, the Xiongnu (hsiung-nu) gathered under their rule other steppe tribes, forming a large confederation. In 209 BC, just three years before the founding of the Han Dynasty, the Xiongnu were assembled into a powerful confederation under a new chanyu.",
 	"Music":[
-		{"File":"Omri Lahav - Hill of Sorrows.ogg", "Type":"peace"},
-		{"File":"Omri Lahav - Red Dawn.ogg", "Type":"peace"}
+		{ "File": "Omri Lahav - Hill of Sorrows.ogg", "Type": "peace" },
+		{ "File": "Omri Lahav - Red Dawn.ogg", "Type": "peace" }
+	],
+	"Factions":
+	[
+		{
+			"Name": "Xiongnu",
+			"Description": "",
+			"Technologies":
+			[
+			],
+			"Heroes":
+			[
+			] 
+		} 
 	],
 	"CivBonuses":
 	[
@@ -29,48 +42,17 @@
 			"Description": "Cavalry is 15% cheaper."
 		}
 	],
-	"Factions":
-	[
-		{
-			"Name": "Xiongnu",
-			"Description": "",
-			"Technologies":
-			[
-			],
-			"Heroes":
-			[
-			] 
-		} 
-	],
 	"Structures":
 	[
-		{
-			"Name": "Corral",
-			"Class": "",
-			"Emblem": "",
-			"History": "",
-			"Requirements": "",
-			"Phase": "",
-			"Special": ""
-		}
 	],
 	"StartEntities":
 	[
 		{
-			"Template": "structures/xion_civil_centre",
-			"Count": 1
-		},
-		{
-			"Template": "units/xion_support_wagon",
-			"Count": 1
+			"Template": "structures/xion_civil_centre"
 		},
 		{
 			"Template": "units/xion_support_female_citizen",
 			"Count": 4
-		},
-		{
-			"Template": "units/xion_cavalry_archer_b",
-			"Count": 1
 		},
 		{
 			"Template": "units/xion_infantry_archer_b",
@@ -79,6 +61,12 @@
 		{
 			"Template": "units/xion_infantry_spearman_b",
 			"Count": 2
+		},
+		{
+			"Template": "units/xion_cavalry_archer_b"
+		},
+		{
+			"Template": "units/xion_support_wagon"
 		}
 	],
 	"Formations":

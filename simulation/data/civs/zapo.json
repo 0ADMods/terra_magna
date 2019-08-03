@@ -5,9 +5,9 @@
 	"Emblem": "session/portraits/emblems/emblem_zapotecs.png",
 	"History": "The Zapotec civilization was an indigenous pre-Columbian civilization that flourished in the Valley of Oaxaca in Mesoamerica.",
 	"Music":[
-			{"File":"Old New World.ogg", "Type":"peace"},
-			{"File":"Cloud_People.ogg", "Type":"peace"},
-			{"File":"Tradition.ogg", "Type":"peace"}
+			{ "File": "Old New World.ogg", "Type": "peace" },
+			{ "File": "Cloud_People.ogg", "Type": "peace" },
+			{ "File": "Tradition.ogg", "Type": "peace" }
 		],
 	"Factions":
 	[],
@@ -24,13 +24,13 @@
 	"Structures":
 	[
 		{
-			"Name":"Ball Court",
-			"Class":"SB",
-			"Emblem":"",
-			"History":".",
-			"Requirements":".",
-			"Phase":"City",
-			"Special":"."
+			"Name": "Ball Court",
+			"Class": "SB",
+			"Emblem": "",
+			"History": ".",
+			"Requirements": ".",
+			"Phase": "City",
+			"Special": "."
 		}
 	],
 	"WallSets":
