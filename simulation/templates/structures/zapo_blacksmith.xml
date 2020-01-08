@@ -2,12 +2,8 @@
 <Entity parent="template_structure_military_blacksmith">
   <Identity>
     <Civ>zapo</Civ>
-    <GenericName>Blacksmith</GenericName>
     <SpecificName>ch’ayal ch’ich’</SpecificName>
   </Identity>
-  <VisualActor>
-    <Actor>structures/zapotecs/blacksmith.xml</Actor>
-  </VisualActor>
   <ProductionQueue>
     <Technologies datatype="tokens">
       -attack_cavalry_melee_01
@@ -18,4 +14,7 @@
       -armor_cav_02
     </Technologies>
   </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/zapotecs/blacksmith.xml</Actor>
+  </VisualActor>
 </Entity>

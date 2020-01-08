@@ -9,7 +9,6 @@
     <SpecificName>Blacksmith Packed</SpecificName>
     <Icon>units/xion_house_packed.png</Icon>
   </Identity>
-  <Capturable disable=""/>
   <Position>
     <Anchor>pitch</Anchor>
     <TurnRate>2.0</TurnRate>
@@ -30,9 +29,6 @@
       <walk>actor/singlesteps/steps_grass.xml</walk>
     </SoundGroups>
   </Sound>
-  <Vision>
-    <Range>0</Range>
-  </Vision>
   <UnitMotion>
     <FormationController>false</FormationController>
     <WalkSpeed>5.5</WalkSpeed>
@@ -46,6 +42,9 @@
       <CheckPlacementRestrictions/>
     </BarracksUnpacked>
   </Upgrade>
+  <Vision>
+    <Range>1</Range>
+  </Vision>
   <VisualActor>
     <Actor>structures/xion/xion_wagon_barracks.xml</Actor>
   </VisualActor>

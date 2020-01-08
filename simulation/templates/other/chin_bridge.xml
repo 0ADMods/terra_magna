@@ -3,6 +3,10 @@
   <BuildRestrictions>
     <Category>Special</Category>
   </BuildRestrictions>
+  <Footprint>
+    <Square width="22.0" depth="22.0"/>
+    <Height>5.0</Height>
+  </Footprint>
   <Health>
     <Max>200000</Max>
   </Health>
@@ -10,15 +14,11 @@
     <Civ>gaia</Civ>
     <SpecificName>Bridge</SpecificName>
   </Identity>
-  <VisualActor>
-    <Actor>structures/chinese/bridge.xml</Actor>
-  </VisualActor>
-  <Footprint>
-    <Square width="22.0" depth="22.0"/>
-    <Height>5.0</Height>
-  </Footprint>
-  <ProductionQueue disable=""/>
   <Obstruction>
     <Static width="12.0" depth="5.0"/>
   </Obstruction>
+  <ProductionQueue disable=""/>
+  <VisualActor>
+    <Actor>structures/chinese/bridge.xml</Actor>
+  </VisualActor>
 </Entity>

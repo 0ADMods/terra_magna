@@ -2,9 +2,9 @@
 <Entity parent="template_unit_infantry_ranged_slinger">
   <Identity>
     <Civ>zapo</Civ>
-    <SelectionGroupName>units/zapo_infantry_slinger_b</SelectionGroupName>
     <GenericName>Zapotec Slinger</GenericName>
     <SpecificName>Guixe Bixeenda</SpecificName>
+    <SelectionGroupName>units/zapo_infantry_slinger_b</SelectionGroupName>
     <Icon>units/zapo_infantry_slinger.png</Icon>
   </Identity>
   <Promotion>

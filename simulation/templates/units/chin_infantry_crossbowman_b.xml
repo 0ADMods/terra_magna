@@ -7,9 +7,8 @@
   </Builder>
   <Identity>
     <Civ>chin</Civ>
-	<SelectionGroupName>units/chin_infantry_crossbowman_b</SelectionGroupName>
     <SpecificName>Nǔ Shǒu</SpecificName>
-    <GenericName>Crossbowman</GenericName>
+    <SelectionGroupName>units/chin_infantry_crossbowman_b</SelectionGroupName>
     <Icon>units/chin_infantry_crossbowman.png</Icon>
   </Identity>
   <Promotion>

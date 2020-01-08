@@ -2,7 +2,6 @@
 <Entity parent="template_unit_support_trader">
   <Identity>
     <Civ>zapo</Civ>
-    <SpecificName>Merchant</SpecificName>
     <Icon>units/iber_support_trader.png</Icon>
   </Identity>
   <VisualActor>

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_house">
+  <BuildRestrictions>
+    <Territory>own neutral</Territory>
+  </BuildRestrictions>
   <Footprint replace="">
     <Circle radius="10.0"/>
     <Height>10.0</Height>
@@ -9,9 +12,6 @@
     <GenericName>Yurt</GenericName>
     <VisibleClasses datatype="tokens">Village House Yurt</VisibleClasses>
   </Identity>
-  <BuildRestrictions>
-    <Territory>own neutral</Territory>
-  </BuildRestrictions>
   <Obstruction>
     <Static width="14.0" depth="14.0"/>
   </Obstruction>
@@ -28,7 +28,7 @@
     </Pack>
   </Upgrade>
   <VisualActor>
-	<ConstructionPreview disable=""/>
+    <ConstructionPreview disable=""/>
     <Actor>structures/xion/house.xml</Actor>
     <FoundationActor>structures/xion/house_foundation.xml</FoundationActor>
   </VisualActor>

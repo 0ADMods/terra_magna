@@ -7,7 +7,6 @@
   <Identity>
     <Civ>zapo</Civ>
     <SelectionGroupName>structures/zapo_wallset_stone</SelectionGroupName>
-    <SpecificName>City Wall</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="13.0" depth="6.0"/>

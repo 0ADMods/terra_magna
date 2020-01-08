@@ -5,10 +5,10 @@
     <Height>10.0</Height>
   </Footprint>
   <Identity>
+    <GenericName>Bamboo</GenericName>
     <SpecificName>Zhēng</SpecificName>
-    <History>Bamboo is the largest member of the grass family, harvested for its flexibility and astounding resilience.</History>
-    <Tooltip>Gather bamboo for wood.</Tooltip>
     <Icon>gaia/flora_tree_apple.png</Icon>
+    <Tooltip>Gather bamboo for wood.</Tooltip>
   </Identity>
   <ResourceSupply>
     <Amount>150</Amount>

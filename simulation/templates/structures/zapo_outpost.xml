@@ -2,7 +2,6 @@
 <Entity parent="template_structure_defensive_tower_outpost">
   <Identity>
     <Civ>zapo</Civ>
-    <GenericName>Zapotec Outpost</GenericName>
   </Identity>
   <VisualActor>
     <Actor>structures/hellenes/outpost.xml</Actor>

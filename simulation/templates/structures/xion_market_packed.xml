@@ -7,12 +7,11 @@
   <Identity>
     <Civ>xion</Civ>
     <SpecificName>Food Deposit Packed</SpecificName>
-	<Icon>units/xion_house_packed.png</Icon>
+    <Icon>units/xion_house_packed.png</Icon>
   </Identity>
-  <Capturable disable=""/>
   <Position>
     <Anchor>pitch</Anchor>
-	<TurnRate>2.0</TurnRate>
+    <TurnRate>2.0</TurnRate>
   </Position>
   <Selectable>
     <Overlay>
@@ -44,7 +43,7 @@
     </UnPack>
   </Upgrade>
   <Vision>
-    <Range>0</Range>
+    <Range>1</Range>
   </Vision>
   <VisualActor>
     <Actor>structures/xion/xion_wagon_food_deposit.xml</Actor>

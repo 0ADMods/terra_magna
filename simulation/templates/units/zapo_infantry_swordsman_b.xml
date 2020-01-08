@@ -2,9 +2,9 @@
 <Entity parent="template_unit_infantry_melee_swordsman">
   <Identity>
     <Civ>zapo</Civ>
-    <SelectionGroupName>units/zapo_infantry_swordsman_b</SelectionGroupName>
     <GenericName>Macuahuitl Warrior</GenericName>
     <SpecificName>Macuahuitl  ch’o’jinel </SpecificName>
+    <SelectionGroupName>units/zapo_infantry_swordsman_b</SelectionGroupName>
     <Icon>units/zapo_infantry_swordsman.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>

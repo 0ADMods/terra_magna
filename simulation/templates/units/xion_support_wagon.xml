@@ -9,7 +9,7 @@
     <BuildTime>35</BuildTime>
     <Resources>
       <food>50</food>
-	  <wood>150</wood>
+      <wood>150</wood>
     </Resources>
   </Cost>
   <Footprint replace="">
@@ -36,7 +36,7 @@
   </Loot>
   <Position>
     <Anchor>pitch</Anchor>
-	<TurnRate>2.0</TurnRate>
+    <TurnRate>2.0</TurnRate>
   </Position>
   <ResourceDropsite>
     <Types>wood stone metal</Types>

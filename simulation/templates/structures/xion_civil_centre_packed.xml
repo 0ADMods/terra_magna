@@ -5,20 +5,18 @@
     <Height>8.0</Height>
   </Footprint>
   <Health>
-	<Max>1500</Max>
-	<SpawnEntityOnDeath>decay|rubble/rubble_stone_4x4</SpawnEntityOnDeath>
+    <Max>1500</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x4</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Civ>xion</Civ>
     <GenericName>Chanyu's Hall</GenericName>
     <Icon>structures/military_settlement.png</Icon>
   </Identity>
-  <Capturable disable=""/>
-  <UnitMotion>
-    <FormationController>false</FormationController>
-    <WalkSpeed>3.0</WalkSpeed>
-    <PassabilityClass>large</PassabilityClass>
-  </UnitMotion>
+  <Position>
+    <Anchor>pitch</Anchor>
+    <TurnRate>0.20</TurnRate>
+  </Position>
   <Selectable>
     <Overlay>
       <Texture>
@@ -35,6 +33,11 @@
       <walk>actor/singlesteps/steps_grass.xml</walk>
     </SoundGroups>
   </Sound>
+  <UnitMotion>
+    <FormationController>false</FormationController>
+    <WalkSpeed>3.0</WalkSpeed>
+    <PassabilityClass>large</PassabilityClass>
+  </UnitMotion>
   <Upgrade>
     <Unpack>
       <Entity>structures/xion_civil_centre</Entity>
@@ -43,12 +46,8 @@
     </Unpack>
   </Upgrade>
   <Vision>
-    <Range>0</Range>
+    <Range>1</Range>
   </Vision>
-  <Position>
-    <Anchor>pitch</Anchor>
-    <TurnRate>0.20</TurnRate>
-  </Position>
   <VisualActor>
     <Actor>structures/xion/royal_yurt_charioth_pivot.xml</Actor>
   </VisualActor>

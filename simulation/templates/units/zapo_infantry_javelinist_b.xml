@@ -2,9 +2,9 @@
 <Entity parent="template_unit_infantry_ranged_javelinist">
   <Identity>
     <Civ>zapo</Civ>
-    <SelectionGroupName>units/zapo_infantry_javelinist_b</SelectionGroupName>
     <GenericName>Zapotec Hunter</GenericName>
     <SpecificName>Tzapotēcatl Atlatl</SpecificName>
+    <SelectionGroupName>units/zapo_infantry_javelinist_b</SelectionGroupName>
     <Icon>units/zapo_infantry_javelinist.png</Icon>
   </Identity>
   <Promotion>

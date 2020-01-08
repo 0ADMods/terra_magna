@@ -10,14 +10,8 @@
     <Max op="mul">1.5</Max>
   </Health>
   <Identity>
+    <VisibleClasses datatype="tokens">Defensive</VisibleClasses>
     <GenericName>Fortified Civic Center</GenericName>
-    <VisibleClasses datatype="tokens">
-	  Defensive
-	</VisibleClasses>
-    <Classes datatype="tokens">
-	  CivilCentre
-	</Classes>
-    <History></History>
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">

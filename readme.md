@@ -9,7 +9,7 @@ The *Terra Magna* mod was formerly known as [Rise of the East](http://www.moddb.
 
 ### Han China
 
-Adds [Han China](https://en.wikipedia.org/wiki/Han_dynasty) as faction to 0 A.D. The Han dynasty (206 BC - 220 AD) was the second great imperial dynasty of China. Preceded by the Qin dynasty (221 - 207 BC) and succeeded by the Three Kingdoms period (220 - 280 AD). The Han dynasty lasted over four centuries. It is considered a golden age in Chinese history, because China made significant progress in arts and sciences during the Han period.
+Adds the [Han China](https://en.wikipedia.org/wiki/Han_dynasty) faction to 0 A.D. The Han dynasty (206 BC – AD 220) was the second imperial dynasty of China, preceded by the Qin dynasty (221–207 BC) and succeeded by the Three Kingdoms period (AD 220–280). It is considered a golden age in Chinese history, and China made significant progress in arts and sciences during the Han period.
 
 ### Xiongnu
 

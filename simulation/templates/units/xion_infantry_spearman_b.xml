@@ -15,8 +15,8 @@
   </Builder>
   <Identity>
     <Civ>xion</Civ>
-    <SelectionGroupName>units/xion_infantry_spearman</SelectionGroupName>
     <GenericName>Xiongnu Spearman</GenericName>
+    <SelectionGroupName>units/xion_infantry_spearman</SelectionGroupName>
     <Icon>units/xion_infantry_spearman.png</Icon>
   </Identity>
   <Promotion>

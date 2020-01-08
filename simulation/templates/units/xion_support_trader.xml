@@ -7,7 +7,6 @@
   <Identity>
     <Civ>xion</Civ>
     <SpecificName>Xiongnu Trader</SpecificName>
-    <History>Xiongnu Trader.</History>
     <Icon>units/hele_support_trader.png</Icon>
   </Identity>
   <VisualActor>

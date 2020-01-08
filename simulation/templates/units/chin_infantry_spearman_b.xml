@@ -7,9 +7,8 @@
   </Builder>
   <Identity>
     <Civ>chin</Civ>
-	<SelectionGroupName>units/chin_infantry_spearman_b</SelectionGroupName>
     <SpecificName>Cháng Máo Bīng</SpecificName>
-    <History>Needs history.</History>
+    <SelectionGroupName>units/chin_infantry_spearman_b</SelectionGroupName>
     <Icon>units/chin_infantry_spearman.png</Icon>
   </Identity>
   <Promotion>

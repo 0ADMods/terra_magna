@@ -15,8 +15,8 @@
   </Builder>
   <Identity>
     <Civ>xion</Civ>
-    <SelectionGroupName>units/xion_infantry_swordsman</SelectionGroupName>
     <GenericName>Xiongnu Axeman</GenericName>
+    <SelectionGroupName>units/xion_infantry_swordsman</SelectionGroupName>
     <Icon>units/xion_infantry_swordsman.png</Icon>
   </Identity>
   <Promotion>

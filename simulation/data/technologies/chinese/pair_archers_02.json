@@ -1,5 +1,5 @@
 {
-	"genericName": "Archers vs. Crossbows",
+	"genericName": "Archers vs Crossbowmen",
 	"top": "chinese/attack_archers_recurved_bows",
 	"bottom": "chinese/rate_crossbows",
     "supersedes": "chinese/pair_archers_01"

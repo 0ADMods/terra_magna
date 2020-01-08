@@ -5,18 +5,17 @@
     <GenericName>Palace Guard Archer</GenericName>
     <SpecificName>Hu Ben</SpecificName>
     <SelectionGroupName>units/chin_champion_infantry_archer</SelectionGroupName>
-    <History>.</History>
     <Icon>units/chin_champion_infantry_archer.png</Icon>
   </Identity>
   <Upgrade>
     <SwitchToSword>
       <Entity>units/chin_champion_infantry_swordsman</Entity>
-      <Tooltip>Switch weapon from bow (ranged) to sword (melee).</Tooltip>
-	  <RequiredTechnology>chinese/attack_champion_infantry_archer</RequiredTechnology>
+      <RequiredTechnology>chinese/attack_champion_infantry_archer</RequiredTechnology>
       <Cost>
         <metal>5</metal>
       </Cost>
       <Time>5</Time>
+      <Tooltip>Switch weapon from bow (ranged) to sword (melee).</Tooltip>
     </SwitchToSword>
   </Upgrade>
   <VisualActor>

@@ -2,7 +2,6 @@
 <Entity parent="template_wallset">
   <Identity>
     <Civ>zapo</Civ>
-    <SpecificName>Stone Wall</SpecificName>
   </Identity>
   <WallSet>
     <Templates>

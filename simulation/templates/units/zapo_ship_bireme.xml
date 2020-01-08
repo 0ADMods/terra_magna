@@ -18,10 +18,7 @@
       <PreferredClasses datatype="tokens">Ship Human</PreferredClasses>
     </Ranged>
   </Attack>
-  <Footprint>
-    <Square width="5.0" depth="12.0"/>
-    <Height>6.0</Height>
-  </Footprint>
+  <BuildingAI disable=""/>
   <Cost>
     <Population>1</Population>
     <BuildTime>10</BuildTime>
@@ -31,6 +28,10 @@
       <food>100</food>
     </Resources>
   </Cost>
+  <Footprint>
+    <Square width="5.0" depth="12.0"/>
+    <Height>6.0</Height>
+  </Footprint>
   <GarrisonHolder>
     <Max>1</Max>
     <EjectHealth>0</EjectHealth>
@@ -40,11 +41,9 @@
     <LoadingRange>10</LoadingRange>
     <Pickup>true</Pickup>
   </GarrisonHolder>
-  <BuildingAI disable=""/>
   <Identity>
     <Civ>zapo</Civ>
     <GenericName>Battle Canoe</GenericName>
-    <SpecificName>Battle Canoe</SpecificName>
     <Icon>units/zapo_ship_canoe.png</Icon>
     <Classes datatype="tokens">FishingBoat</Classes>
   </Identity>
@@ -70,11 +69,11 @@
       <order_attack>actor/ship/boat_move.xml</order_attack>
     </SoundGroups>
   </Sound>
-  <VisualActor>
-    <Actor>structures/zapotecs/canoe.xml</Actor>
-  </VisualActor>
   <UnitMotion>
     <PassabilityClass>ship-small</PassabilityClass>
     <WalkSpeed>10</WalkSpeed>
   </UnitMotion>
+  <VisualActor>
+    <Actor>structures/zapotecs/canoe.xml</Actor>
+  </VisualActor>
 </Entity>

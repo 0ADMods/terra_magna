@@ -7,6 +7,10 @@
       <wood>150</wood>
     </Resources>
   </Cost>
+  <Footprint>
+    <Square width="18.0" depth="18.0"/>
+    <Height>5.0</Height>
+  </Footprint>
   <GarrisonHolder>
     <Max>6</Max>
     <List datatype="tokens">Support+!Elephant Minister</List>
@@ -17,12 +21,7 @@
   <Identity>
     <Civ>chin</Civ>
     <SpecificName>Wū</SpecificName>
-    <History>Needs history.</History>
   </Identity>
-  <Footprint>
-    <Square width="18.0" depth="18.0"/>
-    <Height>5.0</Height>
-  </Footprint>
   <Obstruction>
     <Static width="16" depth="15.0"/>
   </Obstruction>

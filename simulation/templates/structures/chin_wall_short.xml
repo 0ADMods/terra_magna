@@ -6,9 +6,8 @@
   </Footprint>
   <Identity>
     <Civ>chin</Civ>
-	<SelectionGroupName>structures/chin_wallset_stone</SelectionGroupName>
     <SpecificName>Yōng</SpecificName>
-    <History>Few civilizations are as widely recognized for their wall building as the Han Chinese.</History>
+    <SelectionGroupName>structures/chin_wallset_stone</SelectionGroupName>
   </Identity>
   <Obstruction>
     <Static width="13.0" depth="7.5"/>

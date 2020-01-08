@@ -5,12 +5,11 @@
     <Height>8.0</Height>
   </Footprint>
   <GarrisonHolder>
-    <List datatype="tokens">Infantry Healer Minister</List>
+    <List datatype="tokens">Minister</List>
   </GarrisonHolder>
   <Identity>
     <Civ>chin</Civ>
     <SpecificName>Tiě Zuò Fāng</SpecificName>
-    <History>The Chinese were the first to use cast iron.</History>
   </Identity>
   <Obstruction>
     <Static width="24.0" depth="24.0"/>

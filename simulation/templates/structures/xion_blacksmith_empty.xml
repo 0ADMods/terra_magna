@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="structures/xion_blacksmith">
+  <BuildRestrictions>
+    <Territory>own neutral</Territory>
+  </BuildRestrictions>
   <Footprint replace="">
     <Circle radius="16.0"/>
     <Height>8.0</Height>
@@ -7,22 +10,19 @@
   <Health>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
-  <Upgrade>
-    <BlacksmithReconstructed>
-      <Entity>structures/xion_blacksmith</Entity>
-      <Cost>
-        <wood>150</wood>
-      </Cost>
-      <Time>25</Time>
-    </BlacksmithReconstructed>
-  </Upgrade>
+  <Identity>
+    <Civ>xion</Civ>
+  </Identity>
+  <Obstruction>
+    <Static width="25.0" depth="25.0"/>
+  </Obstruction>
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
       -units/{civ}_support_wagon
     </Entities>
     <Technologies datatype="tokens">
-	    -attack_infantry_melee_01
+      -attack_infantry_melee_01
       -attack_infantry_melee_02
       -attack_infantry_ranged_01
       -attack_infantry_ranged_02
@@ -38,18 +38,18 @@
       -unlock_champion_units_xion
     </Technologies>
   </ProductionQueue>
-  <BuildRestrictions>
-    <Territory>own neutral</Territory>
-  </BuildRestrictions>
   <TerritoryDecay disable=""/>
-  <Identity>
-    <Civ>xion</Civ>
-  </Identity>
-  <Obstruction>
-    <Static width="25.0" depth="25.0"/>
-  </Obstruction>
+  <Upgrade>
+    <BlacksmithReconstructed>
+      <Entity>structures/xion_blacksmith</Entity>
+      <Cost>
+        <wood>150</wood>
+      </Cost>
+      <Time>25</Time>
+    </BlacksmithReconstructed>
+  </Upgrade>
   <VisualActor>
-	<ConstructionPreview disable=""/>
+    <ConstructionPreview disable=""/>
     <Actor>structures/xion/blacksmith_empty.xml</Actor>
   </VisualActor>
 </Entity>

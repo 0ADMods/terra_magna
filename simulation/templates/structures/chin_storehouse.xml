@@ -15,7 +15,6 @@
   <Identity>
     <Civ>chin</Civ>
     <SpecificName>Kù</SpecificName>
-    <History>Resources and building materials were kept in warehouses.</History>
   </Identity>
   <Obstruction>
     <Static width="14.0" depth="16.5"/>

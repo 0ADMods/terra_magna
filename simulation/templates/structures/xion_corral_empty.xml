@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="structures/xion_corral">
+  <BuildRestrictions>
+    <Territory>own neutral</Territory>
+  </BuildRestrictions>
   <Footprint replace="">
     <Circle radius="15.0"/>
     <Height>8.0</Height>
@@ -7,6 +10,19 @@
   <Health>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
+  <Identity>
+    <Civ>xion</Civ>
+  </Identity>
+  <Obstruction>
+    <Static width="26.0" depth="26.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      -units/{civ}_champion_cavalry
+      -gaia/fauna_sheep_trainable
+    </Entities>
+  </ProductionQueue>
+  <TerritoryDecay disable=""/>
   <Upgrade>
     <CorralReconstructed>
       <Entity>structures/xion_corral</Entity>
@@ -16,24 +32,8 @@
       <Time>25</Time>
     </CorralReconstructed>
   </Upgrade>
-  <ProductionQueue>
-    <Entities datatype="tokens">
-	  -units/{civ}_champion_cavalry
-	  -gaia/fauna_sheep_trainable
-  	</Entities>
-  </ProductionQueue>
-  <BuildRestrictions>
-    <Territory>own neutral</Territory>
-  </BuildRestrictions>
-  <TerritoryDecay disable=""/>
-  <Identity>
-    <Civ>xion</Civ>
-  </Identity>
-  <Obstruction>
-    <Static width="26.0" depth="26.0"/>
-  </Obstruction>
   <VisualActor>
-	<ConstructionPreview disable=""/>
+    <ConstructionPreview disable=""/>
     <Actor>structures/xion/corral_empty.xml</Actor>
   </VisualActor>
 </Entity>

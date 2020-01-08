@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_blacksmith">
+  <BuildRestrictions>
+    <Territory>own neutral</Territory>
+  </BuildRestrictions>
   <Cost>
     <PopulationBonus>2</PopulationBonus>
   </Cost>
@@ -7,6 +10,12 @@
     <Circle radius="16.0"/>
     <Height>8.0</Height>
   </Footprint>
+  <Identity>
+    <Civ>xion</Civ>
+  </Identity>
+  <Obstruction>
+    <Static width="25.0" depth="25.0"/>
+  </Obstruction>
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
@@ -17,9 +26,7 @@
       unlock_champion_units_xion
     </Technologies>
   </ProductionQueue>
-  <BuildRestrictions>
-    <Territory>own neutral</Territory>
-  </BuildRestrictions>
+  <TerritoryDecay disable=""/>
   <Upgrade>
     <BlacksmithPacked>
       <Entity>structures/xion_blacksmith_packed</Entity>
@@ -27,13 +34,6 @@
       <RequiredTechnology>nomadism</RequiredTechnology>
     </BlacksmithPacked>
   </Upgrade>
-  <Identity>
-    <Civ>xion</Civ>
-  </Identity>
-  <Obstruction>
-    <Static width="25.0" depth="25.0"/>
-  </Obstruction>
-  <TerritoryDecay disable=""/>
   <VisualActor>
     <ConstructionPreview disable=""/>
     <Actor>structures/xion/blacksmith.xml</Actor>

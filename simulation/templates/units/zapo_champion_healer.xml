@@ -10,9 +10,9 @@
   </Cost>
   <Identity>
     <Civ>zapo</Civ>
-    <SelectionGroupName>units/zapo_champion_healer</SelectionGroupName>
     <GenericName>Zapotec Battle Priest</GenericName>
     <SpecificName>Ba’ate’e K’iin</SpecificName>
+    <SelectionGroupName>units/zapo_champion_healer</SelectionGroupName>
     <Icon>units/zapo_champion_healer.png</Icon>
     <Rank>Elite</Rank>
   </Identity>
@@ -20,13 +20,13 @@
   <Health>
     <Max>200</Max>
   </Health>
-  <VisualActor>
-    <Actor>units/zapotecs/champion_support_healer.xml</Actor>
-  </VisualActor>
   <UnitMotion>
     <WalkSpeed>11</WalkSpeed>
   </UnitMotion>
   <Vision>
     <Range>80</Range>
   </Vision>
+  <VisualActor>
+    <Actor>units/zapotecs/champion_support_healer.xml</Actor>
+  </VisualActor>
 </Entity>

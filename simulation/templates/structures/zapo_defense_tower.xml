@@ -6,18 +6,11 @@
   </Footprint>
   <Identity>
     <Civ>zapo</Civ>
-      <GenericName>Defense Tower</GenericName>
-    <SpecificName>Áantaj kiaqte’ </SpecificName>
-    <History>Sturdy stone outposts used to keep an eye on desert nomad tribes along the Carthaginian North African frontier.</History>
+    <SpecificName>Áantaj kiaqte’</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="9.0" depth="9.0"/>
   </Obstruction>
-  <StatusBars>
-    <BarWidth>6.0</BarWidth>
-    <BarHeight>0.6</BarHeight>
-    <HeightOffset>20.0</HeightOffset>
-  </StatusBars>
   <VisualActor>
     <FoundationActor>structures/carthaginians/fndn_defense_tower.xml</FoundationActor>
     <Actor>structures/zapotecs/scout_tower.xml</Actor>

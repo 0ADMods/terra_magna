@@ -7,12 +7,11 @@
   <Identity>
     <Civ>xion</Civ>
     <SpecificName>Temple Packed</SpecificName>
-	<Icon>units/xion_house_packed.png</Icon>
+    <Icon>units/xion_house_packed.png</Icon>
   </Identity>
-  <Capturable disable=""/>
   <Position>
     <Anchor>pitch</Anchor>
-	<TurnRate>2.0</TurnRate>
+    <TurnRate>2.0</TurnRate>
   </Position>
   <Selectable>
     <Overlay>
@@ -30,6 +29,11 @@
       <walk>actor/singlesteps/steps_grass.xml</walk>
     </SoundGroups>
   </Sound>
+  <UnitMotion>
+    <FormationController>false</FormationController>
+    <WalkSpeed>5.5</WalkSpeed>
+    <PassabilityClass>large</PassabilityClass>
+  </UnitMotion>
   <Upgrade>
     <Unpack>
       <Entity>structures/xion_temple</Entity>
@@ -38,13 +42,8 @@
       <RequiredTechnology>nomadism</RequiredTechnology>
     </Unpack>
   </Upgrade>
-  <UnitMotion>
-    <FormationController>false</FormationController>
-    <WalkSpeed>5.5</WalkSpeed>
-    <PassabilityClass>large</PassabilityClass>
-  </UnitMotion>
   <Vision>
-    <Range>0</Range>
+    <Range>1</Range>
   </Vision>
   <VisualActor>
     <Actor>structures/xion/xion_wagon_house.xml</Actor>

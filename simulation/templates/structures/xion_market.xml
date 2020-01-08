@@ -1,33 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_economic_market">
-  <Footprint replace="">
-    <Circle radius="11.0"/>
-    <Height>8.0</Height>
-  </Footprint>
+  <BuildRestrictions>
+    <Territory>own neutral</Territory>
+  </BuildRestrictions>
   <Cost>
     <BuildTime>45</BuildTime>
     <Resources>
       <wood>150</wood>
     </Resources>
   </Cost>
+  <Footprint replace="">
+    <Circle radius="11.0"/>
+    <Height>8.0</Height>
+  </Footprint>
   <Health>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x2</SpawnEntityOnDeath>
   </Health>
-  <BuildRestrictions>
-    <Territory>own neutral</Territory>
-  </BuildRestrictions>
   <Identity>
     <Civ>xion</Civ>
     <GenericName>Food deposit</GenericName>
-    <Classes datatype="tokens">BarterMarket</Classes>
-    <VisibleClasses datatype="tokens">Village Farmstead Market</VisibleClasses>
-    <RequiredTechnology></RequiredTechnology>
+    <VisibleClasses datatype="tokens">-Town Village Farmstead</VisibleClasses>
+    <RequiredTechnology>phase_village</RequiredTechnology>
     <Icon>structures/farmstead.png</Icon>
   </Identity>
-  <Market>
-    <TradeType>land</TradeType>
-    <InternationalBonus>0.2</InternationalBonus>
-  </Market>
+  <Obstruction>
+    <Static width="13.0" depth="13.0"/>
+  </Obstruction>
+  <Position>
+    <Anchor>pitch</Anchor>
+    <TurnRate>0.0001</TurnRate>
+  </Position>
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Technologies datatype="tokens">
@@ -41,10 +43,6 @@
     <Types>food</Types>
     <Sharable>true</Sharable>
   </ResourceDropsite>
-  <Position>
-    <Anchor>pitch</Anchor>
-    <TurnRate>0.0001</TurnRate>
-  </Position>
   <TerritoryDecay disable=""/>
   <Upgrade>
     <Pack>
@@ -53,9 +51,6 @@
       <RequiredTechnology>nomadism</RequiredTechnology>
     </Pack>
   </Upgrade>
-  <Obstruction>
-    <Static width="13.0" depth="13.0"/>
-  </Obstruction>
   <VisualActor>
     <ConstructionPreview disable=""/>
     <Actor>structures/xion/food_deposit.xml</Actor>

@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_cavalry_spearman">
   <Identity>
     <Civ>xion</Civ>
-    <GenericName>Xion Warlord</GenericName>
+    <GenericName>Xiongnu Warlord</GenericName>
     <SelectionGroupName>units/xion_champion_cavalry</SelectionGroupName>
     <Icon>units/xion_champion_cavalry.png</Icon>
     <RequiredTechnology>unlock_champion_units_xion</RequiredTechnology>

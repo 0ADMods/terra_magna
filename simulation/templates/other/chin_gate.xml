@@ -14,7 +14,7 @@
     <stone>100</stone>
   </Loot>
   <Obstruction>
-	<Obstructions>
+    <Obstructions>
       <!-- TODO does not really apply to the current model -->
       <Right width="12" depth="6.5" x="12.5" z="0"/>
       <Left width="12" depth="6.5" x="-12.5" z="0"/>

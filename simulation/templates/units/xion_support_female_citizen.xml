@@ -20,11 +20,6 @@
   <Auras datatype="tokens">
     units/female_inspiration
   </Auras>
-  <Cost>
-    <Resources>
-      <food>50</food>
-    </Resources>
-  </Cost>
   <Builder>
     <Entities datatype="tokens">
       -structures/{civ}_wonder
@@ -33,9 +28,25 @@
       -structures/{civ}_farmstead
     </Entities>
   </Builder>
+  <Cost>
+    <Resources>
+      <food>50</food>
+    </Resources>
+  </Cost>
   <Health>
     <Max>25</Max>
   </Health>
+  <Identity>
+    <Civ>xion</Civ>
+    <GenericName>Xiongnu Woman</GenericName>
+    <Icon>units/spart_support_female_citizen.png</Icon>
+    <SelectionGroupName>units/xion_support_female_citizen</SelectionGroupName>
+    <Gender>female</Gender>
+    <Classes datatype="tokens">FemaleCitizen</Classes>
+    <VisibleClasses datatype="tokens">Citizen Worker</VisibleClasses>
+    <Formations disable=""/>
+  </Identity>
+  <Promotion disable=""/>
   <ResourceGatherer>
     <MaxDistance>2.0</MaxDistance>
     <BaseSpeed>1.0</BaseSpeed>
@@ -50,17 +61,6 @@
       <metal.ore>0.35</metal.ore>
     </Rates>
   </ResourceGatherer>
-  <Promotion disable=""/>
-  <Identity>
-    <Civ>xion</Civ>
-    <GenericName>Xiongnu Woman</GenericName>
-    <Icon>units/spart_support_female_citizen.png</Icon>
-    <SelectionGroupName>units/xion_support_female_citizen</SelectionGroupName>
-    <Gender>female</Gender>
-    <Classes datatype="tokens">FemaleCitizen</Classes>
-    <VisibleClasses datatype="tokens">Citizen Worker</VisibleClasses>
-    <Formations disable=""/>
-  </Identity>
   <VisualActor>
     <Actor>units/xion/female_citizen.xml</Actor>
   </VisualActor>

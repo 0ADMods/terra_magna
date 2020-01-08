@@ -8,7 +8,6 @@
     <Civ>xion</Civ>
     <SelectionGroupName>units/xion_cavalry_spearman</SelectionGroupName>
     <Icon>units/xion_cav_spearman.png</Icon>
-    <Tooltip>Causes trample damage to enemy units.</Tooltip>
   </Identity>
   <Promotion>
     <Entity>units/xion_cavalry_spearman_a</Entity>

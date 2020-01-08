@@ -9,23 +9,15 @@
   </Health>
   <Identity>
     <Civ>zapo</Civ>
-      <GenericName>Marvel</GenericName>
+    <GenericName>Marvel</GenericName>
     <SpecificName>Yoo Danibaan</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="43.0" depth="43.0"/>
   </Obstruction>
   <StatusBars>
-    <BarWidth>6.0</BarWidth>
-    <BarHeight>0.6</BarHeight>
     <HeightOffset>12.0</HeightOffset>
   </StatusBars>
-  <TerritoryInfluence>
-    <Radius>100</Radius>
-  </TerritoryInfluence>
-  <Vision>
-    <Range>72</Range>
-  </Vision>
   <VisualActor>
     <FoundationActor>structures/fndn_8x8.xml</FoundationActor>
     <Actor>structures/zapotecs/wonder.xml</Actor>

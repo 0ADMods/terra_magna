@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_barracks">
+  <BuildRestrictions>
+    <Territory>own neutral</Territory>
+  </BuildRestrictions>
   <Cost>
     <PopulationBonus>8</PopulationBonus>
   </Cost>
@@ -11,14 +14,18 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <GenericName>Corral</GenericName>
     <Civ>xion</Civ>
-	<VisibleClasses datatype="tokens">-Barracks Stables Corral</VisibleClasses>
+    <VisibleClasses datatype="tokens">-Barracks Stables Corral</VisibleClasses>
+    <GenericName>Corral</GenericName>
     <Icon>structures/pers_stable.png</Icon>
   </Identity>
   <Obstruction>
     <Static width="26.0" depth="26.0"/>
   </Obstruction>
+  <Position>
+    <Anchor>pitch</Anchor>
+    <TurnRate>0.0001</TurnRate>
+  </Position>
   <ProductionQueue>
     <Entities datatype="tokens">
       -units/{civ}_infantry_spearman_b
@@ -29,29 +36,15 @@
       -units/{civ}_infantry_archer_b 
       units/{civ}_champion_cavalry
       gaia/fauna_sheep_trainable
-  	</Entities>
+    </Entities>
     <Technologies datatype="tokens">
       gather_animals_nomadic_pastoralism
-	  speed_cavalry_01
+      speed_cavalry_01
       speed_cavalry_02
       -heal_barracks
       -training_conscription    
-  	</Technologies>
+    </Technologies>
   </ProductionQueue>
-  <BuildRestrictions>
-    <Territory>own neutral</Territory>
-  </BuildRestrictions>
-  <Position>
-    <Anchor>pitch</Anchor>
-	<TurnRate>0.0001</TurnRate>
-  </Position>
-  <Upgrade>
-    <Pack>
-      <Entity>structures/xion_corral_packed</Entity>
-      <Time>25</Time>
-      <RequiredTechnology>nomadism</RequiredTechnology>
-    </Pack>
-  </Upgrade>
   <Sound>
     <SoundGroups>
       <select>interface/select/building/sel_cavalry_stables.xml</select>
@@ -60,6 +53,13 @@
     </SoundGroups>
   </Sound>
   <TerritoryDecay disable=""/>
+  <Upgrade>
+    <Pack>
+      <Entity>structures/xion_corral_packed</Entity>
+      <Time>25</Time>
+      <RequiredTechnology>nomadism</RequiredTechnology>
+    </Pack>
+  </Upgrade>
   <VisualActor>
     <ConstructionPreview disable=""/>
     <Actor>structures/xion/corral.xml</Actor>
