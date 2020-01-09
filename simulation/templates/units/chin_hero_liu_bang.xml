@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero_cavalry_swordsman">
-  <Auras datatype="tokens">chin_hero_liu_bang</Auras>
+  <Auras datatype="tokens">
+    units/heroes/chin_hero_liu_bang
+  </Auras>
   <Identity>
     <Civ>chin</Civ>
     <SpecificName>Liu Bang</SpecificName>

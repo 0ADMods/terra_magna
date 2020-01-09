@@ -13,10 +13,10 @@
     </Capture>
   </Attack>
   <Auras datatype="tokens">
-    chin_minister_cost
-    chin_minister_garrison
-    chin_minister_gathering
-    chin_minister_building
+    units/minister_cost
+    units/minister_garrison
+    units/minister_gathering
+    units/minister_building
   </Auras>
   <Cost>
     <Population>2</Population>

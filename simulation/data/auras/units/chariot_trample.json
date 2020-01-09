@@ -1,0 +1,12 @@
+{
+	"type": "range",
+	"radius": 8,
+	"affectedPlayers": ["Enemy"],
+	"affects": ["Unit"],
+	"modifications": [
+		{ "value": "Health/RegenRate", "add": -5 }
+	],
+	"auraName": "Scythes",
+	"auraDescription": "Enemy units −5 health regeneration rate.",
+	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
+}

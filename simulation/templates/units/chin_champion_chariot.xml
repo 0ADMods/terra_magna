@@ -4,7 +4,7 @@
     <Hack>6.0</Hack>
   </Armour>
   <Auras datatype="tokens">
-    chin_chariot_trample_e
+    units/chariot_trample
   </Auras>
   <Cost>
     <Population>4</Population>

@@ -1,0 +1,12 @@
+{
+	"type": "range",
+	"radius": 40,
+	"affects": ["Worker"],
+	"modifications": [
+		{ "value": "Builder/Rate", "multiply": 1.1 }
+	],
+	"auraName": "Building Programs",
+	"auraDescription": "Workers +10% build rate (stackable).",
+	"overlayIcon": "art/textures/ui/session/auras/build_bonus.png",
+	"stackable": true
+}
