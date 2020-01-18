@@ -1,9 +1,14 @@
 {
 	"type": "range",
 	"radius": 40,
-	"affects": ["Worker"],
+	"affects": [
+		"Worker"
+	],
 	"modifications": [
-		{ "value": "ResourceGatherer/BaseSpeed", "multiply": 1.1 }
+		{
+			"value": "ResourceGatherer/BaseSpeed",
+			"multiply": 1.1
+		}
 	],
 	"auraName": "Minister over the Masses",
 	"auraDescription": "Workers +10% gather speed (stackable).",

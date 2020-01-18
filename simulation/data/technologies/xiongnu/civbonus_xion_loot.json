@@ -2,14 +2,30 @@
 	"genericName": "Marauders",
 	"autoResearch": true,
 	"description": "Xiongnu structures were mostly made of animal hide and pelt with wooden support.",
-	"requirements": {"civ": "xion"},
+	"requirements": {
+		"civ": "xion"
+	},
 	"icon": "nisean_war_horses.png",
 	"tooltip": "Xiongnu buildings have 50% less health, but are also 50% cheaper and faster to construct.",
 	"modifications": [
-		{ "value": "Looter/Resource/food", "multiply": 0.5 },
-		{ "value": "Looter/Resource/wood", "multiply": 0.5 },
-		{ "value": "Looter/Resource/stone", "multiply": 0.5 },
-		{ "value": "Looter/Resource/metal", "multiply": 0.5 }
+		{
+			"value": "Looter/Resource/food",
+			"multiply": 0.5
+		},
+		{
+			"value": "Looter/Resource/wood",
+			"multiply": 0.5
+		},
+		{
+			"value": "Looter/Resource/stone",
+			"multiply": 0.5
+		},
+		{
+			"value": "Looter/Resource/metal",
+			"multiply": 0.5
+		}
 	],
-	"affects": ["Soldier"]
+	"affects": [
+		"Soldier"
+	]
 }

@@ -2,11 +2,25 @@
 	"genericName": "Nomadism",
 	"autoResearch": true,
 	"description": "lifestyle adapted to infertile regions such as steppe, tundra, or ice and sand, where mobility is the most efficient strategy for exploiting scarce resources.",
-	"requirements": { "any": [{ "civ": "xion" }] },
+	"requirements": {
+		"any": [
+			{
+				"civ": "xion"
+			}
+		]
+	},
 	"icon": "nisean_war_horses.png",
 	"tooltip": "Allow to nomad factions to pack & unpack buildings for nomad features.",
 	"modifications": [
-		{ "value": "Cost/Resources/food", "multiply": 0.8, "affects": "Domestic" },
-		{ "value": "Cost/BuildTime", "multiply": 0.8, "affects": "Domestic" }
+		{
+			"value": "Cost/Resources/food",
+			"multiply": 0.8,
+			"affects": "Domestic"
+		},
+		{
+			"value": "Cost/BuildTime",
+			"multiply": 0.8,
+			"affects": "Domestic"
+		}
 	]
 }

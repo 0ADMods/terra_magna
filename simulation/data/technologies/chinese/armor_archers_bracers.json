@@ -2,13 +2,44 @@
 	"pair": "chinese/pair_archers_01",
 	"genericName": "Bracers",
 	"description": "Leather protection for the forearm and wrist of an archer.",
-	"cost": {"food": 100, "wood": 100, "stone": 0, "metal": 0},
-	"requirements": { "all": [{ "tech": "phase_town" }, { "civ": "chin" }, { "any": [{ "tech": "techs_blacksmith_cost" }, { "tech": "techs_blacksmith_speed" }] }] },
+	"cost": {
+		"food": 100,
+		"wood": 100,
+		"stone": 0,
+		"metal": 0
+	},
+	"requirements": {
+		"all": [
+			{
+				"tech": "phase_town"
+			},
+			{
+				"civ": "chin"
+			},
+			{
+				"any": [
+					{
+						"tech": "techs_blacksmith_cost"
+					},
+					{
+						"tech": "techs_blacksmith_speed"
+					}
+				]
+			}
+		]
+	},
 	"requirementsTooltip": "Unlocked in Town Phase. Requires Forging or Metallurgy",
 	"icon": "armor_leather.png",
 	"researchTime": 60,
 	"tooltip": "Archer Infantry and Archer Cavalry +1 hack armor.",
-	"modifications": [{"value": "Armour/Hack", "add": 1.0}],
-	"affects": ["Archer"],
+	"modifications": [
+		{
+			"value": "Armour/Hack",
+			"add": 1.0
+		}
+	],
+	"affects": [
+		"Archer"
+	],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

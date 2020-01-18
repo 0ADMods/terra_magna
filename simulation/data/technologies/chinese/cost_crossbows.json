@@ -2,15 +2,44 @@
 	"pair": "chinese/pair_archers_01",
 	"genericName": "Standardized Crossbows",
 	"description": "The Chinese military created standardized templates for building crossbows.",
-	"cost": {"food": 0, "wood": 100, "stone": 0, "metal": 100},
-	"requirements": { "all": [{ "tech": "phase_town" }, { "civ": "chin" }, { "any": [{ "tech": "techs_blacksmith_cost" }, { "tech": "techs_blacksmith_speed" }] }] },
+	"cost": {
+		"food": 0,
+		"wood": 100,
+		"stone": 0,
+		"metal": 100
+	},
+	"requirements": {
+		"all": [
+			{
+				"tech": "phase_town"
+			},
+			{
+				"civ": "chin"
+			},
+			{
+				"any": [
+					{
+						"tech": "techs_blacksmith_cost"
+					},
+					{
+						"tech": "techs_blacksmith_speed"
+					}
+				]
+			}
+		]
+	},
 	"requirementsTooltip": "Unlocked in Town Phase. Requires Forging or Metallurgy",
 	"icon": "arrow.png",
 	"researchTime": 60,
 	"tooltip": "Crossbowmen -25% wood cost.",
 	"modifications": [
-		{"value": "Cost/Resources/wood", "multiply": 0.75}
+		{
+			"value": "Cost/Resources/wood",
+			"multiply": 0.75
+		}
 	],
-	"affects": ["Crossbowman"],
+	"affects": [
+		"Crossbowman"
+	],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

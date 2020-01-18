@@ -1,9 +1,14 @@
 {
 	"type": "range",
 	"radius": 30,
-	"affects": ["Melee"],
+	"affects": [
+		"Melee"
+	],
 	"modifications": [
-		{ "value": "Attack/Melee/RepeatTime", "multiply": 0.75 }
+		{
+			"value": "Attack/Melee/RepeatTime",
+			"multiply": 0.75
+		}
 	],
 	"auraName": "Terrifying Presence",
 	"auraDescription": "Melee units −25% attack repeat time.",

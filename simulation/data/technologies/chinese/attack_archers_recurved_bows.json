@@ -1,18 +1,43 @@
 {
-	"pair": "chinese/pair_archers_02",	
+	"pair": "chinese/pair_archers_02",
 	"genericName": "Recurved Bows",
 	"description": ".",
-	"cost": {"food": 0, "wood": 500, "stone": 0, "metal": 0},
-	"requirements": {"all": [{ "tech": "phase_city" }, { "civ": "chin" }] },
+	"cost": {
+		"food": 0,
+		"wood": 500,
+		"stone": 0,
+		"metal": 0
+	},
+	"requirements": {
+		"all": [
+			{
+				"tech": "phase_city"
+			},
+			{
+				"civ": "chin"
+			}
+		]
+	},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "bow_recurved.png",
 	"researchTime": 60,
 	"tooltip": "Infantry Archers and Cavalry Archers +20% range and +10% attack.",
 	"modifications": [
-		{"value": "Attack/Ranged/Damage/Pierce", "multiply": 1.1},
-		{"value": "Attack/Ranged/MaxRange", "multiply": 1.2},
-		{"value": "Vision/Range", "multiply": 1.1}
+		{
+			"value": "Attack/Ranged/Damage/Pierce",
+			"multiply": 1.1
+		},
+		{
+			"value": "Attack/Ranged/MaxRange",
+			"multiply": 1.2
+		},
+		{
+			"value": "Vision/Range",
+			"multiply": 1.1
+		}
 	],
-	"affects": ["Infantry Archer"],
+	"affects": [
+		"Infantry Archer"
+	],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

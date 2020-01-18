@@ -1,12 +1,28 @@
 {
 	"type": "global",
-	"affects": ["Cavalry"],
-	"affectedPlayers": ["ExclusiveMutualAlly"],
+	"affects": [
+		"Cavalry"
+	],
+	"affectedPlayers": [
+		"ExclusiveMutualAlly"
+	],
 	"modifications": [
-		{ "value": "Cost/Resources/food", "multiply": 0.85 },
-		{ "value": "Cost/Resources/wood", "multiply": 0.85 },
-		{ "value": "Cost/Resources/stone", "multiply": 0.85 },
-		{ "value": "Cost/Resources/metal", "multiply": 0.85 }
+		{
+			"value": "Cost/Resources/food",
+			"multiply": 0.85
+		},
+		{
+			"value": "Cost/Resources/wood",
+			"multiply": 0.85
+		},
+		{
+			"value": "Cost/Resources/stone",
+			"multiply": 0.85
+		},
+		{
+			"value": "Cost/Resources/metal",
+			"multiply": 0.85
+		}
 	],
 	"auraName": "Horse Breeding",
 	"auraDescription": "Allied Cavalry −15% resouce costs."

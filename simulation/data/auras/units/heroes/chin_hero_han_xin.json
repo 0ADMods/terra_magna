@@ -1,9 +1,17 @@
 {
 	"type": "global",
-	"affects": ["Soldier"],
+	"affects": [
+		"Soldier"
+	],
 	"modifications": [
-		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.2 },
-		{ "value": "Vision/Range", "multiply": 1.2 }
+		{
+			"value": "UnitMotion/WalkSpeed",
+			"multiply": 1.2
+		},
+		{
+			"value": "Vision/Range",
+			"multiply": 1.2
+		}
 	],
 	"auraName": "Swift Camouflage Maneuvers",
 	"auraDescription": "Soldiers +20% walk speed and +20% vision range.",

@@ -1,8 +1,13 @@
 {
 	"type": "global",
-	"affects": ["Worker"],
+	"affects": [
+		"Worker"
+	],
 	"modifications": [
-		{ "value": "ResourceGatherer/Rates/food/grain", "multiply": 1.2 }
+		{
+			"value": "ResourceGatherer/Rates/food/grain",
+			"multiply": 1.2
+		}
 	],
 	"auraName": "Provincial Hero",
 	"auraDescription": "Workers +20% grain gather rate.",

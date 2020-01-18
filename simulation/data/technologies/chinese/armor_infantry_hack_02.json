@@ -2,17 +2,42 @@
 	"pair": "chinese/pair_soldier_armor",
 	"genericName": "Lamellar Armor",
 	"description": ".",
-	"cost": {"food": 0, "wood": 200, "stone": 0, "metal": 500},
-	"requirements": {"all": [{ "tech": "phase_city" }, { "civ": "chin" }] },
+	"cost": {
+		"food": 0,
+		"wood": 200,
+		"stone": 0,
+		"metal": 500
+	},
+	"requirements": {
+		"all": [
+			{
+				"tech": "phase_city"
+			},
+			{
+				"civ": "chin"
+			}
+		]
+	},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "armor_lamellar.png",
 	"researchTime": 60,
 	"tooltip": "Melee and Ranged Soldiers +1 hack armor level, -5% walk speed.",
 	"modifications": [
-		{"value": "Armour/Hack", "add": 1.0},
-		{"value": "UnitMotion/WalkSpeed", "multiply": 0.95},
-		{"value": "UnitMotion/RunMultiplier", "multiply": 0.95}
+		{
+			"value": "Armour/Hack",
+			"add": 1.0
+		},
+		{
+			"value": "UnitMotion/WalkSpeed",
+			"multiply": 0.95
+		},
+		{
+			"value": "UnitMotion/RunMultiplier",
+			"multiply": 0.95
+		}
 	],
-	"affects": ["Soldier"],
+	"affects": [
+		"Soldier"
+	],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }
