@@ -5,8 +5,9 @@
 		<variant frequency="100" name="Base">
 			<mesh>structural/chin_plotrice1.dae</mesh>
 			<props>
-				<prop actor="props/structures/rice_water01.xml" attachpoint="root"/>
-			</props>	
+				<prop actor="props/structures/field_rice_plot_01_rice.xml" attachpoint="root"/>
+				<prop actor="props/structures/field_rice_plot_01_water.xml" attachpoint="root"/>
+			</props>
 			<textures>
 				<texture file="gaia/tropic_cliff_mud.png" name="baseTex"/>
 				<texture file="gaia/tropic_cliff_mud_norm.png" name="normTex"/>
