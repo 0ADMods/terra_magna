@@ -24,6 +24,6 @@
   <Pack disable=""/>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/china/siege_shoushe_pivot.xml</Actor>
+    <Actor>units/china/siege_shoushe.xml</Actor>
   </VisualActor>
 </Entity>

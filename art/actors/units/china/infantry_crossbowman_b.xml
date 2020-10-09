@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="biped/base_crossbowman_ready.xml">
+    <variant>
       <mesh>skeletal/new/m_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_china.xml" attachpoint="head"/>
@@ -38,7 +38,7 @@
     </variant>
   </group>
   <group>
-    <variant file="biped/base_crossbowman_ready.xml"/>
+    <variant file="biped/base_crossbowman_relax.xml"/>
     <variant file="biped/carry_food.xml">
       <props>
         <prop actor="props/units/helmet/new/chin_ricehat.xml" attachpoint="helmet"/>

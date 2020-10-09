@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <variant frequency="1" name="base">
-  <mesh>props/horse_straps_head.dae</mesh>
+  <mesh>props/horse/straps_head.dae</mesh>
   <textures>
     <texture file="props/horse/head_straps.png" name="baseTex"/>
     <texture file="props/horse/head_straps_norm.png" name="normTex"/>
