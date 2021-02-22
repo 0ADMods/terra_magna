@@ -4150,19 +4150,19 @@
 			<Orientation y="2.1392"/>
 		</Entity>
 		<Entity uid="911">
-			<Template>units/chin_infantry_archer_b</Template>
+			<Template>units/chin/infantry_archer_b</Template>
 			<Player>2</Player>
 			<Position x="285.92286" z="404.63047"/>
 			<Orientation y="2.29192"/>
 		</Entity>
 		<Entity uid="912">
-			<Template>units/chin_infantry_archer_b</Template>
+			<Template>units/chin/infantry_archer_b</Template>
 			<Player>2</Player>
 			<Position x="309.08451" z="402.74592"/>
 			<Orientation y="-1.07155"/>
 		</Entity>
 		<Entity uid="913">
-			<Template>units/chin_infantry_archer_b</Template>
+			<Template>units/chin/infantry_archer_b</Template>
 			<Player>2</Player>
 			<Position x="313.82776" z="411.8335"/>
 			<Orientation y="-2.01816"/>
