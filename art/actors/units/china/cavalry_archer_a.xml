@@ -6,15 +6,15 @@
       <mesh>skeletal/horse.dae</mesh>
       <props>
         <prop actor="units/china/cavalry_archer_a_r.xml" attachpoint="rider"/>
-        <prop actor="props/units/horse/horse_chest_colorband.xml" attachpoint="chest"/>
-        <prop actor="props/horse/cav_rein_archer.xml" attachpoint="head"/>
+        <prop actor="props/horse/chest_colorband_02.xml" attachpoint="chest"/>
+        <prop actor="props/horse/cav_winged_armor_03.xml" attachpoint="head"/>
       </props>
     </variant>
   </group>
   <group>
     <variant frequency="100" name="horse-texture-1">
       <textures>
-        <texture file="skeletal/horse_celt_dapple_a.dds" name="baseTex"/>
+        <texture file="skeletal/horse_cream_spotted_01.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
