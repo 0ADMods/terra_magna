@@ -40,7 +40,7 @@
   </UnitMotion>
   <Upgrade>
     <Unpack>
-      <Entity>structures/xion_civil_centre</Entity>
+      <Entity>structures/xion/civil_centre</Entity>
       <Time>45</Time>
       <RequiredTechnology>nomadism</RequiredTechnology>
     </Unpack>

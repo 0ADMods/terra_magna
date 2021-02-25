@@ -19,8 +19,8 @@
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/{civ}_support_wagon
-      units/{civ}_siege_ram_blacksmith
+      units/{civ}/support_wagon
+      units/{civ}/siege_ram_blacksmith
     </Entities>
     <Technologies datatype="tokens">
       unlock_champion_units_xion
@@ -29,7 +29,7 @@
   <TerritoryDecay disable=""/>
   <Upgrade>
     <BlacksmithPacked>
-      <Entity>structures/xion_blacksmith_packed</Entity>
+      <Entity>structures/xion/blacksmith_packed</Entity>
       <Time>45</Time>
       <RequiredTechnology>nomadism</RequiredTechnology>
     </BlacksmithPacked>

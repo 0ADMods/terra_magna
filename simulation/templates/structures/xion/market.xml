@@ -46,7 +46,7 @@
   <TerritoryDecay disable=""/>
   <Upgrade>
     <Pack>
-      <Entity>structures/xion_market_packed</Entity>
+      <Entity>structures/xion/market_packed</Entity>
       <Time>25</Time>
       <RequiredTechnology>nomadism</RequiredTechnology>
     </Pack>

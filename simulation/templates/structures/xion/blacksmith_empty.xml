@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="structures/xion_blacksmith">
+<Entity parent="structures/xion/blacksmith">
   <BuildRestrictions>
     <Territory>own neutral</Territory>
   </BuildRestrictions>
@@ -19,7 +19,7 @@
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
-      -units/{civ}_support_wagon
+      -units/{civ}/support_wagon
     </Entities>
     <Technologies datatype="tokens">
       -attack_infantry_melee_01
@@ -41,7 +41,7 @@
   <TerritoryDecay disable=""/>
   <Upgrade>
     <BlacksmithReconstructed>
-      <Entity>structures/xion_blacksmith</Entity>
+      <Entity>structures/xion/blacksmith</Entity>
       <Cost>
         <wood>150</wood>
       </Cost>

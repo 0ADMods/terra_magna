@@ -36,7 +36,7 @@
   </UnitMotion>
   <Upgrade>
     <BarracksUnpacked>
-      <Entity>structures/xion_barracks_empty</Entity>
+      <Entity>structures/xion/barracks_empty</Entity>
       <Time>25</Time>
       <CheckPlacementRestrictions/>
       <RequiredTechnology>nomadism</RequiredTechnology>

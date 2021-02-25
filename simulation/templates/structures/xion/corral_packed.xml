@@ -36,7 +36,7 @@
   </UnitMotion>
   <Upgrade>
     <Pack>
-      <Entity>structures/xion_corral_empty</Entity>
+      <Entity>structures/xion/corral_empty</Entity>
       <Time>45</Time>
       <CheckPlacementRestrictions/>
       <RequiredTechnology>nomadism</RequiredTechnology>

@@ -16,7 +16,7 @@
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
-      -units/{civ}_support_healer_b
+      -units/{civ}/support_healer_b
     </Entities>
     <Technologies datatype="tokens">
      -heal_range
@@ -30,7 +30,7 @@
   <TerritoryDecay disable=""/>
   <Upgrade>
     <Unpack>
-      <Entity>structures/xion_temple_packed</Entity>
+      <Entity>structures/xion/temple_packed</Entity>
       <Time>45</Time>
       <RequiredTechnology>nomadism</RequiredTechnology>
     </Unpack>

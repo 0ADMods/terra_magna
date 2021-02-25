@@ -21,9 +21,9 @@
   </Position>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_infantry_archer_b
-      units/{civ}_infantry_spearman_b
-      units/{civ}_cavalry_spearman_b
+      units/{civ}/infantry_archer_b
+      units/{civ}/infantry_spearman_b
+      units/{civ}/cavalry_spearman_b
     </Entities>
     <Technologies datatype="tokens">
       attack_soldiers_will
@@ -32,7 +32,7 @@
   <TerritoryDecay disable=""/>
   <Upgrade>
     <Unpack>
-      <Entity>structures/xion_civil_centre_packed</Entity>
+      <Entity>structures/xion/civil_centre_packed</Entity>
       <Time>45</Time>
       <CheckPlacementRestrictions/>
       <RequiredTechnology>nomadism</RequiredTechnology>

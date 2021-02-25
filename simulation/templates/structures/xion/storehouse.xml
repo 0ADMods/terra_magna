@@ -13,7 +13,7 @@
   <TerritoryDecay disable=""/>
   <Upgrade>
     <Pack>
-      <Entity>units/xion_support_wagon</Entity>
+      <Entity>units/xion/support_wagon</Entity>
       <Time>25</Time>
       <CheckPlacementRestrictions/>
       <RequiredTechnology>nomadism</RequiredTechnology>

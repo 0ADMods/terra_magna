@@ -36,7 +36,7 @@
   </UnitMotion>
   <Upgrade>
     <Unpack>
-      <Entity>structures/xion_temple</Entity>
+      <Entity>structures/xion/temple</Entity>
       <Time>45</Time>
       <CheckPlacementRestrictions/>
       <RequiredTechnology>nomadism</RequiredTechnology>

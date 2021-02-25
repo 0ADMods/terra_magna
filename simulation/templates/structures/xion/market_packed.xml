@@ -36,7 +36,7 @@
   </UnitMotion>
   <Upgrade>
     <UnPack>
-      <Entity>structures/xion_market</Entity>
+      <Entity>structures/xion/market</Entity>
       <Time>45</Time>
       <RequiredTechnology>nomadism</RequiredTechnology>
       <CheckPlacementRestrictions/>

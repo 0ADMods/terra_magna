@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="structures/xion_corral">
+<Entity parent="structures/xion/corral">
   <BuildRestrictions>
     <Territory>own neutral</Territory>
   </BuildRestrictions>
@@ -18,14 +18,14 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      -units/{civ}_champion_cavalry
+      -units/{civ}/champion_cavalry
       -gaia/fauna_sheep_trainable
     </Entities>
   </ProductionQueue>
   <TerritoryDecay disable=""/>
   <Upgrade>
     <CorralReconstructed>
-      <Entity>structures/xion_corral</Entity>
+      <Entity>structures/xion/corral</Entity>
       <Cost>
         <wood>100</wood>
       </Cost>

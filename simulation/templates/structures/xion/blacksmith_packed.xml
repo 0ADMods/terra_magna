@@ -36,7 +36,7 @@
   </UnitMotion>
   <Upgrade>
     <BarracksUnpacked>
-      <Entity>structures/xion_blacksmith_empty</Entity>
+      <Entity>structures/xion/blacksmith_empty</Entity>
       <Time>25</Time>
       <RequiredTechnology>nomadism</RequiredTechnology>
       <CheckPlacementRestrictions/>

@@ -22,7 +22,7 @@
   <TerritoryDecay disable=""/>
   <Upgrade>
     <Pack>
-      <Entity>structures/xion_house_packed</Entity>
+      <Entity>structures/xion/house_packed</Entity>
       <Time>25</Time>
       <RequiredTechnology>nomadism</RequiredTechnology>
     </Pack>
