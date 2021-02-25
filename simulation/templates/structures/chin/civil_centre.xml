@@ -16,14 +16,14 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_infantry_spearman_b
-      units/{civ}_infantry_archer_b
-      units/{civ}_cavalry_archer_b
+      units/{civ}/infantry_spearman_b
+      units/{civ}/infantry_archer_b
+      units/{civ}/cavalry_archer_b
     </Entities>
   </ProductionQueue>
   <Upgrade>
     <FortifiedCivicCenter>
-      <Entity>structures/chin_civil_centre_fortified</Entity>
+      <Entity>structures/chin/civil_centre_fortified</Entity>
       <RequiredTechnology>phase_town</RequiredTechnology>
       <Cost>
         <stone>200</stone>
