@@ -4,12 +4,12 @@
     <Civ>chin</Civ>
     <GenericName>Palace Guard Archer</GenericName>
     <SpecificName>Hu Ben</SpecificName>
-    <SelectionGroupName>units/chin_champion_infantry_archer</SelectionGroupName>
-    <Icon>units/chin_champion_infantry_archer.png</Icon>
+    <SelectionGroupName>units/chin/champion_infantry_archer</SelectionGroupName>
+    <Icon>units/chin/champion_infantry_archer.png</Icon>
   </Identity>
   <Upgrade>
     <SwitchToSword>
-      <Entity>units/chin_champion_infantry_swordsman</Entity>
+      <Entity>units/chin/champion_infantry_swordsman</Entity>
       <RequiredTechnology>chinese/attack_champion_infantry_archer</RequiredTechnology>
       <Cost>
         <metal>5</metal>

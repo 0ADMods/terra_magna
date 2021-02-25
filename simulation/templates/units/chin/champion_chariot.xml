@@ -27,8 +27,8 @@
     <VisibleClasses datatype="tokens">Chariot Trample</VisibleClasses>
     <GenericName>War Chariot</GenericName>
     <SpecificName>Zhàn Chē</SpecificName>
-    <SelectionGroupName>units/chin_champion_chariot</SelectionGroupName>
-    <Icon>units/chin_champion_chariot.png</Icon>
+    <SelectionGroupName>units/chin/champion_chariot</SelectionGroupName>
+    <Icon>units/chin/champion_chariot.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/china/chariot.xml</Actor>

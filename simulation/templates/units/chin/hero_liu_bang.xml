@@ -6,7 +6,7 @@
   <Identity>
     <Civ>chin</Civ>
     <SpecificName>Liu Bang</SpecificName>
-    <Icon>units/chin_hero_liu_bang.png</Icon>
+    <Icon>units/chin/hero_liu_bang.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Promotion disable=""/>

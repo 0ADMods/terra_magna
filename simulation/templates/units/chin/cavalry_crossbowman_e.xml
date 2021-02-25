@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/chin_cavalry_crossbowman_a">
+<Entity parent="units/chin/cavalry_crossbowman_a">
   <Identity>
     <Rank>Elite</Rank>
   </Identity>

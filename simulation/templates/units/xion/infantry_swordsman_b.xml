@@ -2,15 +2,15 @@
 <Entity parent="template_unit_infantry_melee_swordsman">
   <Builder>
     <Entities datatype="tokens">
-      -structures/{civ}_fortress
-      -structures/{civ}_wonder
-      -structures/{civ}_defense_tower
-      -structures/{civ}_wallset_stone
-      -structures/{civ}_dock
-      -structures/{civ}_sentry_tower
-      -structures/{civ}_outpost
-      -structures/{civ}_field
-      -structures/{civ}_farmstead
+      -structures/{civ}/fortress
+      -structures/{civ}/wonder
+      -structures/{civ}/defense_tower
+      -structures/{civ}/wallset_stone
+      -structures/{civ}/dock
+      -structures/{civ}/sentry_tower
+      -structures/{civ}/outpost
+      -structures/{civ}/field
+      -structures/{civ}/farmstead
     </Entities>
   </Builder>
   <Identity>

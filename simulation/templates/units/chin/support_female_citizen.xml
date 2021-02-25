@@ -9,7 +9,7 @@
   </Attack>
   <Builder>
     <Entities datatype="tokens">
-      structures/{civ}_government_center
+      structures/{civ}/government_center
     </Entities>
   </Builder>
   <Health>

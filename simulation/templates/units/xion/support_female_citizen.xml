@@ -22,10 +22,10 @@
   </Auras>
   <Builder>
     <Entities datatype="tokens">
-      -structures/{civ}_wonder
-      -structures/{civ}_dock
-      -structures/{civ}_field
-      -structures/{civ}_farmstead
+      -structures/{civ}/wonder
+      -structures/{civ}/dock
+      -structures/{civ}/field
+      -structures/{civ}/farmstead
     </Entities>
   </Builder>
   <Cost>

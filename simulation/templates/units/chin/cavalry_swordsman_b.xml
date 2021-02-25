@@ -17,13 +17,13 @@
   </Cost>
   <Identity>
     <Civ>chin</Civ>
-    <SelectionGroupName>units/chin_cavalry_swordsman_b</SelectionGroupName>
+    <SelectionGroupName>units/chin/cavalry_swordsman_b</SelectionGroupName>
     <SpecificName>Qīngqí</SpecificName>
-    <Icon>units/chin_cavalry_swordsman.png</Icon>
+    <Icon>units/chin/cavalry_swordsman.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>  
   </Identity>
    <Promotion>
-    <Entity>units/chin_cavalry_swordsman_a</Entity>
+    <Entity>units/chin/cavalry_swordsman_a</Entity>
    </Promotion>
   <VisualActor>
     <Actor>units/china/cavalry_swordsman_b.xml</Actor>

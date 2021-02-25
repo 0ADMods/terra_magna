@@ -2,8 +2,8 @@
 <Entity parent="template_unit_champion_cavalry_spearman">
   <Identity>
     <Civ>chin</Civ>
-    <SelectionGroupName>units/chin_champion_cavalry</SelectionGroupName>
-    <Icon>units/chin_cavalry_spearman.png</Icon>
+    <SelectionGroupName>units/chin/champion_cavalry</SelectionGroupName>
+    <Icon>units/chin/cavalry_spearman.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/china/cavalry_spearman_c_m.xml</Actor>

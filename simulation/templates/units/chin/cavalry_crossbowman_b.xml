@@ -3,10 +3,10 @@
   <Identity>
     <Civ>chin</Civ>
     <SpecificName>Nǔ qí</SpecificName>
-    <Icon>units/chin_cavalry_crossbowman.png</Icon>
+    <Icon>units/chin/cavalry_crossbowman.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/chin_cavalry_crossbowman_a</Entity>
+    <Entity>units/chin/cavalry_crossbowman_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/china/cavalry_crossbowman_b.xml</Actor>

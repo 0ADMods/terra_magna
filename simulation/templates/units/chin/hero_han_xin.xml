@@ -6,7 +6,7 @@
   <Identity>
     <Civ>chin</Civ>
     <SpecificName>Han Xin</SpecificName>
-    <Icon>units/chin_hero_han_xin.png</Icon>
+    <Icon>units/chin/hero_han_xin.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>

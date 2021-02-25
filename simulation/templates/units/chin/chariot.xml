@@ -8,8 +8,8 @@
     <Civ>chin</Civ>
     <Classes datatype="tokens">Chariot</Classes>
     <GenericName>Chinese Chariot</GenericName>
-    <SelectionGroupName>units/chin_cavalry_archer_b</SelectionGroupName>
-    <Icon>units/chin_cavalry_archer.png</Icon>
+    <SelectionGroupName>units/chin/cavalry_archer_b</SelectionGroupName>
+    <Icon>units/chin/cavalry_archer.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Promotion disable=""/>

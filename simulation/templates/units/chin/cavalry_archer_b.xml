@@ -3,7 +3,7 @@
   <Identity>
     <Civ>chin</Civ>
     <SpecificName>Gōng qí</SpecificName>
-    <SelectionGroupName>units/chin_cavalry_archer_b</SelectionGroupName>
+    <SelectionGroupName>units/chin/cavalry_archer_b</SelectionGroupName>
     <Icon>units/chin_cavalry_archer.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>

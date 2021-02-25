@@ -2,7 +2,7 @@
 <Entity parent="template_unit_infantry_melee_spearman">
   <Builder>
     <Entities datatype="tokens">
-      structures/{civ}_government_center
+      structures/{civ}/government_center
     </Entities>
   </Builder>
   <Identity>

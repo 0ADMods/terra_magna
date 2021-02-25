@@ -3,11 +3,11 @@
   <Identity>
     <Civ>chin</Civ>
     <SpecificName>Tú Qí</SpecificName>
-    <SelectionGroupName>units/chin_cavalry_spearman_b</SelectionGroupName>
-    <Icon>units/chin_cavalry_spearman.png</Icon>
+    <SelectionGroupName>units/chin/cavalry_spearman_b</SelectionGroupName>
+    <Icon>units/chin/cavalry_spearman.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/chin_cavalry_spearman_a</Entity>
+    <Entity>units/chin/cavalry_spearman_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/china/cavalry_spearman_b.xml</Actor>

@@ -4,7 +4,7 @@
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/chin_cavalry_archer_e</Entity>
+    <Entity>units/chin/cavalry_archer_e</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/china/cavalry_archer_a.xml</Actor>
