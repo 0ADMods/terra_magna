@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>zapo</Civ>
-    <SelectionGroupName>structures/zapo_wallset_stone</SelectionGroupName>
+    <SelectionGroupName>structures/zapo/wallset_stone</SelectionGroupName>
   </Identity>
   <Obstruction>
     <Static width="13.0" depth="6.0"/>

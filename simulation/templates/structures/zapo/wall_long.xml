@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>zapo</Civ>
-    <SelectionGroupName>structures/zapo_wallset_stone</SelectionGroupName>
+    <SelectionGroupName>structures/zapo/wallset_stone</SelectionGroupName>
     <SpecificName>Pak’</SpecificName>
   </Identity>
   <Obstruction>

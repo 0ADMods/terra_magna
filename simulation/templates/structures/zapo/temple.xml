@@ -16,7 +16,7 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_champion_healer
+      units/{civ}/champion_healer
     </Entities>
   </ProductionQueue>
   <VisualActor>
