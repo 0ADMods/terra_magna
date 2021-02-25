@@ -17,7 +17,7 @@
     <Civ>xion</Civ>
     <SelectionGroupName>units/xion_infantry_archer</SelectionGroupName>
     <GenericName>Xiongnu Archer</GenericName>
-    <Icon>units/xion/infantry_archer.png</Icon>
+    <Icon>units/xion_infantry_archer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/xion/infantry_archer_a</Entity>

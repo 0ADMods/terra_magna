@@ -20,7 +20,7 @@
     <Icon>units/xion_infantry_spearman.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/xion_infantry_spearman_a</Entity>
+    <Entity>units/xion/infantry_spearman_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/xion/infantry_spearman_b.xml</Actor>
