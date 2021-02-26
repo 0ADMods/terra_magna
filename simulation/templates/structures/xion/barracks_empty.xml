@@ -29,13 +29,12 @@
       -units/{civ}/infantry_spearman_b
       -units/{civ}/infantry_pikeman_b
       -units/{civ}/infantry_swordsman_b
-      -units/{civ}/infantry_javelinist_b
       -units/{civ}/infantry_slinger_b
       -units/{civ}/infantry_archer_b
     </Entities>
     <Technologies datatype="tokens">
-      -heal_barracks
-      -training_conscription
+      -garrison_heal
+      -barracks_batch_training
     </Technologies>
   </ProductionQueue>
   <TerritoryDecay disable=""/>

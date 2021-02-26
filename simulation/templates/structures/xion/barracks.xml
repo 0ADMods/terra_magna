@@ -25,8 +25,8 @@
   </Obstruction>
   <ProductionQueue>
     <Technologies datatype="tokens">
-      heal_barracks
-      training_conscription
+      garrison_heal
+      barracks_batch_training
       xiongnu/special_archery_tradition
     </Technologies>
   </ProductionQueue>

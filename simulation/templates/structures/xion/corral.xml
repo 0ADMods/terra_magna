@@ -31,7 +31,6 @@
       -units/{civ}/infantry_spearman_b
       -units/{civ}/infantry_pikeman_b
       -units/{civ}/infantry_swordsman_b
-      -units/{civ}/infantry_javelinist_b
       -units/{civ}/infantry_slinger_b
       -units/{civ}/infantry_archer_b 
       units/{civ}/champion_cavalry
@@ -39,10 +38,7 @@
     </Entities>
     <Technologies datatype="tokens">
       gather_animals_nomadic_pastoralism
-      speed_cavalry_01
-      speed_cavalry_02
-      -heal_barracks
-      -training_conscription    
+      cavalry_movement_speed
     </Technologies>
   </ProductionQueue>
   <Sound>
