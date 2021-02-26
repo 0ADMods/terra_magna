@@ -31,8 +31,11 @@
         <prop actor="props/structures/xion/crate_large.xml" attachpoint="crate_c"/>
         <prop actor="props/structures/xion/royal_yurt_decoration.xml" attachpoint="root"/>
         <prop actor="particle/smoke_curved.xml" attachpoint="smoke"/>
-        <prop actor="fauna/zebu.xml" attachpoint="horse_a"/>
-        <prop actor="fauna/zebu_wild.xml" attachpoint="horse_b"/>
+        <prop actor="fauna/zebu.xml" attachpoint="zebu_a" maxheight="20" minheight="-20"/>
+        <prop actor="fauna/zebu_wild.xml" attachpoint="zebu_b" maxheight="20" minheight="-20"/>
+        <prop actor="fauna/zebu.xml" attachpoint="zebu_c" maxheight="20" minheight="-20"/>
+        <prop actor="fauna/zebu_wild.xml" attachpoint="zebu_d" maxheight="20" minheight="-20"/>
+        <prop actor="fauna/zebu.xml" attachpoint="zebu_e" maxheight="20" minheight="-20"/>
         <prop actor="props/special/eyecandy/well_woodbit.xml" attachpoint="horse_a_holder"/>
         <prop actor="props/special/eyecandy/well_woodbit.xml" attachpoint="horse_b_holder"/>
         <prop actor="props/special/eyecandy/well_woodbit.xml" attachpoint="horse_c_holder"/>
@@ -57,8 +60,11 @@
   <group>
     <variant name="Zebus_a">
       <props>
-        <prop actor="fauna/zebu.xml" attachpoint="horse_a"/>
-        <prop actor="fauna/zebu_wild.xml" attachpoint="horse_b"/>
+        <prop actor="fauna/zebu.xml" attachpoint="zebu_a" maxheight="20" minheight="-20"/>
+        <prop actor="fauna/zebu_wild.xml" attachpoint="zebu_b" maxheight="20" minheight="-20"/>
+        <prop actor="fauna/zebu.xml" attachpoint="zebu_c" maxheight="20" minheight="-20"/>
+        <prop actor="fauna/zebu_wild.xml" attachpoint="zebu_d" maxheight="20" minheight="-20"/>
+        <prop actor="fauna/zebu.xml" attachpoint="zebu_e" maxheight="20" minheight="-20"/>
       </props>
     </variant>
   </group>
