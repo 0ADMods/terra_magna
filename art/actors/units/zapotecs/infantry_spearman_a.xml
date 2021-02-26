@@ -2,8 +2,8 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="biped/base_spearman_ready_fast.xml">
-      <mesh>skeletal/new/armor/m_pants_tunic_short.dae</mesh>
+    <variant file="biped/base_spearman_ready.xml">
+      <mesh>skeletal/new/m_pants_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_zapo_a.xml" attachpoint="head"/>
         <prop actor="props/units/heads/zapo_plume_e.xml" attachpoint="helmet"/>
@@ -21,7 +21,7 @@
   </group>
   <group>
     <variant frequency="100" name="Idle"/>
-    <variant file="biped/pikeman_base.xml" name="attack_melee"/>
+    <variant file="biped/base_pikeman_relax.xml" name="attack_melee"/>
     <variant file="biped/attack_capture.xml"/>
     <variant file="biped/attack_slaughter.xml"/>
     <variant file="biped/gather_tree.xml"/>
