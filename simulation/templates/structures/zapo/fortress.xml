@@ -11,6 +11,12 @@
   <Obstruction>
     <Static width="26.0" depth="28.0"/>
   </Obstruction>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/{civ}/champion_healer
+      units/{civ}/siege_ram
+    </Entities>
+  </ProductionQueue>
   <VisualActor>
     <Actor>structures/zapotecs/fortress.xml</Actor>
   </VisualActor>

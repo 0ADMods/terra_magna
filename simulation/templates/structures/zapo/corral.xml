@@ -14,12 +14,6 @@
   <Obstruction>
     <Static width="10.0" depth="14.0"/>
   </Obstruction>
-  <ProductionQueue>
-    <Technologies datatype="tokens">
-      -speed_cavalry_01
-      -speed_cavalry_02
-    </Technologies>
-  </ProductionQueue>
   <VisualActor>
     <Actor>structures/zapotecs/corral.xml</Actor>
     <FoundationActor>structures/fndn_3x3.xml</FoundationActor>
