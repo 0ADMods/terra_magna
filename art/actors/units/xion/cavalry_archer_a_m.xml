@@ -10,7 +10,7 @@
     <variant frequency="1" name="rider_relax">
       <props>
         <prop actor="units/xion/cavalry_archer_a_r.xml" attachpoint="rider"/>
-        <prop actor="props/horse/cav_rein_archer.xml" attachpoint="head"/>
+        <prop actor="props/horse/cav_straps_head_kush.xml" attachpoint="head"/>
         <prop actor="props/horse/cav_blanket_kush.xml" attachpoint="root"/>
         <prop actor="props/horse/cav_straps_head.xml" attachpoint="head"/>
       </props>

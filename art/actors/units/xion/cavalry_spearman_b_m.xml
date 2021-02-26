@@ -4,7 +4,7 @@
   <group>
     <variant frequency="1" file="quadraped/base_horse_spearman.xml" name="Base">
       <mesh>skeletal/horse.dae</mesh>
-	    <textures><texture file="skeletal/horse_pers_csw_b.dds" name="baseTex"/></textures>
+	    <textures><texture file="skeletal/horse_gray.png" name="baseTex"/></textures>
 	    <props>
         <prop actor="props/horse/cav_rein_spearman.xml" attachpoint="head"/>
       </props>

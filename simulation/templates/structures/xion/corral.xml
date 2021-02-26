@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_military_barracks">
+<Entity parent="template_structure_resource_corral">
   <BuildRestrictions>
     <Territory>own neutral</Territory>
   </BuildRestrictions>
@@ -15,7 +15,7 @@
   </Health>
   <Identity>
     <Civ>xion</Civ>
-    <VisibleClasses datatype="tokens">-Barracks Stables Corral</VisibleClasses>
+    
     <GenericName>Corral</GenericName>
     <Icon>structures/pers_stable.png</Icon>
   </Identity>
@@ -28,11 +28,6 @@
   </Position>
   <ProductionQueue>
     <Entities datatype="tokens">
-      -units/{civ}/infantry_spearman_b
-      -units/{civ}/infantry_pikeman_b
-      -units/{civ}/infantry_swordsman_b
-      -units/{civ}/infantry_slinger_b
-      -units/{civ}/infantry_archer_b 
       units/{civ}/champion_cavalry
       gaia/fauna_sheep_trainable
     </Entities>
