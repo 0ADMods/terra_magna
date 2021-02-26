@@ -17,9 +17,6 @@
       <RepeatTime>1000</RepeatTime>
     </Ranged>
   </Attack>
-  <Auras datatype="tokens">
-    units/female_inspiration
-  </Auras>
   <Builder>
     <Entities datatype="tokens">
       -structures/{civ}/wonder

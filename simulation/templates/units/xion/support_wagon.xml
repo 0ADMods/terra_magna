@@ -67,7 +67,7 @@
   </UnitMotion>
   <Upgrade>
     <UnPack>
-      <Entity>structures/xion_storehouse</Entity>
+      <Entity>structures/xion/storehouse</Entity>
       <Time>45</Time>
     </UnPack>
   </Upgrade>

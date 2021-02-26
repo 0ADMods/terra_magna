@@ -3,13 +3,13 @@
   <Identity>
     <Civ>xion</Civ>
     <GenericName>Xiongnu Warlord</GenericName>
-    <SelectionGroupName>units/xion_champion_cavalry</SelectionGroupName>
+    <SelectionGroupName>units/xion/champion_cavalry</SelectionGroupName>
     <Icon>units/xion_champion_cavalry.png</Icon>
     <RequiredTechnology>unlock_champion_units_xion</RequiredTechnology>
   </Identity>
   <Upgrade>
     <Melee>
-      <Entity>units/xion_champion_cavalry</Entity>
+      <Entity>units/xion/champion_cavalry</Entity>
       <Time>10</Time>
       <Tooltip>Switch Weapon.</Tooltip>
     </Melee>
