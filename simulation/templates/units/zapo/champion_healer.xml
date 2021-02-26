@@ -14,7 +14,7 @@
     <Civ>zapo</Civ>
     <GenericName>Zapotec Battle Priest</GenericName>
     <SpecificName>Ba’ate’e K’iin</SpecificName>
-    <SelectionGroupName>units/zapo_champion_healer</SelectionGroupName>
+    <SelectionGroupName>units/zapo/champion_healer</SelectionGroupName>
     <Icon>units/zapo_champion_healer.png</Icon>
     <Rank>Elite</Rank>
   </Identity>

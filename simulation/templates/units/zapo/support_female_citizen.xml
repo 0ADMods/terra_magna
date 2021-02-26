@@ -4,7 +4,7 @@
     <Civ>zapo</Civ>
     <GenericName>Zapotec Woman</GenericName>
     <SpecificName>Tzapotēcatl Gunaa</SpecificName>
-    <SelectionGroupName>units/zapo_support_female_citizen</SelectionGroupName>
+    <SelectionGroupName>units/zapo/support_female_citizen</SelectionGroupName>
     <Icon>units/ptol_support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>

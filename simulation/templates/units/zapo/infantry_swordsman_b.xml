@@ -4,12 +4,12 @@
     <Civ>zapo</Civ>
     <GenericName>Macuahuitl Warrior</GenericName>
     <SpecificName>Macuahuitl  ch’o’jinel </SpecificName>
-    <SelectionGroupName>units/zapo_infantry_swordsman_b</SelectionGroupName>
+    <SelectionGroupName>units/zapo/infantry_swordsman_b</SelectionGroupName>
     <Icon>units/zapo_infantry_swordsman.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Promotion>
-    <Entity>units/zapo_infantry_swordsman_a</Entity>
+    <Entity>units/zapo/infantry_swordsman_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/zapotecs/infantry_swordsman_b.xml</Actor>

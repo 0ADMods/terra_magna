@@ -4,7 +4,7 @@
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/zapo_infantry_slinger_e</Entity>
+    <Entity>units/zapo/infantry_slinger_e</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/zapotecs/infantry_slinger_a.xml</Actor>

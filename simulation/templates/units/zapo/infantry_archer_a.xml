@@ -4,7 +4,7 @@
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/zapo_infantry_archer_e</Entity>
+    <Entity>units/zapo/infantry_archer_e</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/zapotecs/infantry_archer_a.xml</Actor>

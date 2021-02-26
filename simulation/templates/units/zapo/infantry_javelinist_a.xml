@@ -4,7 +4,7 @@
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/zapo_infantry_javelinist_e</Entity>
+    <Entity>units/zapo/infantry_javelinist_e</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/zapotecs/infantry_javelinist_a.xml</Actor>

@@ -4,7 +4,7 @@
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/zapo_infantry_swordsman_e</Entity>
+    <Entity>units/zapo/infantry_swordsman_e</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/zapotecs/infantry_swordsman_a.xml</Actor>

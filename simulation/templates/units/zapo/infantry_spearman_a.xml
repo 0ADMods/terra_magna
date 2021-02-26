@@ -4,7 +4,7 @@
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/zapo_infantry_spearman_e</Entity>
+    <Entity>units/zapo/infantry_spearman_e</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/zapotecs/infantry_spearman_a.xml</Actor>

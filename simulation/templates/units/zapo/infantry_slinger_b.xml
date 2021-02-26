@@ -4,11 +4,11 @@
     <Civ>zapo</Civ>
     <GenericName>Zapotec Slinger</GenericName>
     <SpecificName>Guixe Bixeenda</SpecificName>
-    <SelectionGroupName>units/zapo_infantry_slinger_b</SelectionGroupName>
+    <SelectionGroupName>units/zapo/infantry_slinger_b</SelectionGroupName>
     <Icon>units/zapo_infantry_slinger.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/zapo_infantry_slinger_a</Entity>
+    <Entity>units/zapo/infantry_slinger_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/zapotecs/infantry_slinger_b.xml</Actor>

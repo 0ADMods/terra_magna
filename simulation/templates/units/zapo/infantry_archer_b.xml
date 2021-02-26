@@ -4,7 +4,7 @@
     <Civ>zapo</Civ>
     <GenericName>Zapotec Archer</GenericName>
     <SpecificName>k’iäqbal ch’ab</SpecificName>
-    <SelectionGroupName>units/zapo_infantry_archer_b</SelectionGroupName>
+    <SelectionGroupName>units/zapo/infantry_archer_b</SelectionGroupName>
     <Icon>units/zapo_infantry_archer.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>

@@ -4,11 +4,11 @@
     <Civ>zapo</Civ>
     <GenericName>Zapotec Hunter</GenericName>
     <SpecificName>Tzapotēcatl Atlatl</SpecificName>
-    <SelectionGroupName>units/zapo_infantry_javelinist_b</SelectionGroupName>
+    <SelectionGroupName>units/zapo/infantry_javelinist_b</SelectionGroupName>
     <Icon>units/zapo_infantry_javelinist.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/zapo_infantry_javelinist_a</Entity>
+    <Entity>units/zapo/infantry_javelinist_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/zapotecs/infantry_javelinist_b.xml</Actor>
