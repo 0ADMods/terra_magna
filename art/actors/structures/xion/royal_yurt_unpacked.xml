@@ -60,11 +60,11 @@
   <group>
     <variant name="Zebus_a">
       <props>
-        <prop actor="fauna/zebu.xml" attachpoint="horse_a" maxheight="20" minheight="-20"/>
-        <prop actor="fauna/zebu_wild.xml" attachpoint="horse_b" maxheight="20" minheight="-20"/>
-        <prop actor="fauna/zebu.xml" attachpoint="horse_c" maxheight="20" minheight="-20"/>
-        <prop actor="fauna/zebu_wild.xml" attachpoint="horse_d" maxheight="20" minheight="-20"/>
-        <prop actor="fauna/zebu.xml" attachpoint="horse_e" maxheight="20" minheight="-20"/>
+        <prop actor="fauna/zebu.xml" attachpoint="horse_a"/>
+        <prop actor="fauna/zebu_wild.xml" attachpoint="horse_b"/>
+        <prop actor="fauna/zebu.xml" attachpoint="horse_c"/>
+        <prop actor="fauna/zebu_wild.xml" attachpoint="horse_d"/>
+        <prop actor="fauna/zebu.xml" attachpoint="horse_e"/>
       </props>
     </variant>
   </group>
