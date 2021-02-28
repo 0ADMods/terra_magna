@@ -14,7 +14,6 @@
   <ProductionQueue>
     <Entities datatype="tokens">
       units/{civ}/champion_healer
-      units/{civ}/siege_ram
     </Entities>
   </ProductionQueue>
   <VisualActor>
