@@ -94,27 +94,27 @@
 	"WallSets":
 	[
 		"other/wallset_palisade",
-		"structures/chin_wallset_stone"
+		"structures/chin/wallset_stone"
 	],
 	"StartEntities":
 	[
 		{
-			"Template": "structures/chin_civil_centre"
+			"Template": "structures/chin/civil_centre"
 		},
 		{
-			"Template": "units/chin_support_female_citizen",
+			"Template": "units/chin/support_female_citizen",
 			"Count": 4
 		},
 		{
-			"Template": "units/chin_infantry_spearman_b",
+			"Template": "units/chin/infantry_spearman_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/chin_infantry_archer_b",
+			"Template": "units/chin/infantry_archer_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/chin_cavalry_archer_b"
+			"Template": "units/chin/cavalry_archer_b"
 		}
 		],
 	"Formations":
@@ -165,8 +165,8 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/units/default_cavalry": "units/chin_cavalry_archer_b",
-		"skirmish/units/default_infantry_ranged_b": "units/chin_infantry_archer_b"
+		"skirmish/units/default_cavalry": "units/chin/cavalry_archer_b",
+		"skirmish/units/default_infantry_ranged_b": "units/chin/infantry_archer_b"
 	},
 	"SelectableInGameSetup": true
 }

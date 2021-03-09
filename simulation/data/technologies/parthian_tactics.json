@@ -30,9 +30,8 @@
 		}
 	],
 	"affects": [
-		"speed_cavalry_01",
-		"speed_cavalry_02",
-		"attack_cavalry_ranged_02",
-		"attack_cavalry_ranged_01"
+		"cavalry_movement_speed",
+		"soldier_attack_ranged_01",
+		"soldier_attack_ranged_02"
 	]
 }

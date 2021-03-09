@@ -41,18 +41,18 @@
 	"StartEntities":
 	[
 		{
-			"Template": "structures/zapo_civil_centre"
+			"Template": "structures/zapo/civil_centre"
 		},
 		{
-			"Template": "units/zapo_support_female_citizen",
+			"Template": "units/zapo/support_female_citizen",
 			"Count": 4
 		},
 		{
-			"Template": "units/zapo_infantry_swordsman_b",
+			"Template": "units/zapo/infantry_swordsman_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/zapo_infantry_javelinist_b",
+			"Template": "units/zapo/infantry_javelinist_b",
 			"Count": 3
 		}
 	],
@@ -79,9 +79,9 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/units/default_cavalry": "units/zapo_infantry_swordsman_b",
-		"skirmish/units/default_infantry_ranged_b": "units/zapo_infantry_javelinist_b",
-		"skirmish/structures/default_house_10": "structures/{civ}_house"
+		"skirmish/units/default_cavalry": "units/zapo/infantry_swordsman_b",
+		"skirmish/units/default_infantry_ranged_b": "units/zapo/infantry_javelinist_b",
+		"skirmish/structures/default_house_10": "structures/{civ}/house"
 	},
 	"SelectableInGameSetup": true
 }

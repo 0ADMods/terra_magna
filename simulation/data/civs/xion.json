@@ -44,25 +44,25 @@
 	"Structures": [],
 	"StartEntities": [
 		{
-			"Template": "structures/xion_civil_centre"
+			"Template": "structures/xion/civil_centre"
 		},
 		{
-			"Template": "units/xion_support_female_citizen",
+			"Template": "units/xion/support_female_citizen",
 			"Count": 4
 		},
 		{
-			"Template": "units/xion_infantry_archer_b",
+			"Template": "units/xion/infantry_archer_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/xion_infantry_spearman_b",
+			"Template": "units/xion/infantry_spearman_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/xion_cavalry_archer_b"
+			"Template": "units/xion/cavalry_archer_b"
 		},
 		{
-			"Template": "units/xion_support_wagon"
+			"Template": "units/xion/support_wagon"
 		}
 	],
 	"Formations": [
@@ -83,13 +83,13 @@
 		"Lǎoshàng"
 	],
 	"SkirmishReplacements": {
-		"skirmish/units/default_support_female_citizen": "units/xion_support_female_citizen",
-		"skirmish/units/default_cavalry": "units/xion_cavalry_archer_b",
-		"skirmish/units/default_infantry_ranged_b": "units/xion_infantry_archer_b",
-		"skirmish/structures/default_corral": "structures/xion_corral",
+		"skirmish/units/default_support_female_citizen": "units/xion/support_female_citizen",
+		"skirmish/units/default_cavalry": "units/xion/cavalry_archer_b",
+		"skirmish/units/default_infantry_ranged_b": "units/xion/infantry_archer_b",
+		"skirmish/structures/default_corral": "structures/xion/corral",
 		"skirmish/structures/default_defense_tower": "",
 		"skirmish/structures/default_fortress": "",
-		"skirmish/structures/default_house_5": "structures/xion_house_unpacked",
+		"skirmish/structures/default_house_5": "structures/xion/house_unpacked",
 		"skirmish/structures/default_house_10": "",
 		"skirmish/structures/default_wall_tower": "",
 		"skirmish/structures/default_wall_gate": "",
@@ -97,14 +97,14 @@
 		"skirmish/structures/default_wall_medium": "",
 		"skirmish/structures/default_wall_long": "",
 		"skirmish/structures/default_field": "",
-		"skirmish/structures/default_farmstead": "structures/xion_market",
-		"skirmish/structures/default_market": "structures/xion_market",
-		"skirmish/structures/default_storehouse": "structures/xion_storehouse",
+		"skirmish/structures/default_farmstead": "structures/xion/market",
+		"skirmish/structures/default_market": "structures/xion/market",
+		"skirmish/structures/default_storehouse": "structures/xion/storehouse",
 		"skirmish/structures/default_dock": "",
-		"skirmish/units/special_starting_unit": "units/xion_support_wagon",
-		"skirmish/structures/default_civil_centre": "structures/xion_civil_centre",
-		"skirmish/structures/default_barracks": "structures/xion_corral",
-		"skirmish/structures/default_temple": "structures/xion_temple"
+		"skirmish/units/special_starting_unit": "units/xion/support_wagon",
+		"skirmish/structures/default_civil_centre": "structures/xion/civil_centre",
+		"skirmish/structures/default_barracks": "structures/xion/corral",
+		"skirmish/structures/default_temple": "structures/xion/temple"
 	},
 	"SelectableInGameSetup": true
 }

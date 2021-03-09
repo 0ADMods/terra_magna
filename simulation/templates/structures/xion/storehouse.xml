@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_storehouse">
+  <BuildRestrictions>
+    <Territory>own neutral</Territory>
+  </BuildRestrictions>
+  <Footprint replace="">
+    <Circle radius="7.0"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>xion</Civ>
+  </Identity>
+  <TerritoryDecay disable=""/>
+  <Upgrade>
+    <Pack>
+      <Entity>units/xion/support_wagon</Entity>
+      <Time>25</Time>
+      <CheckPlacementRestrictions/>
+      <RequiredTechnology>nomadism</RequiredTechnology>
+    </Pack>
+  </Upgrade>
+  <VisualActor>
+    <ConstructionPreview disable=""/>
+    <Actor>structures/xion/storehouse.xml</Actor>
+    <FoundationActor>structures/xion/storehouse_foundation.xml</FoundationActor>
+  </VisualActor>
+</Entity>

@@ -11,9 +11,9 @@
       <props>
         <prop actor="units/xion/cavalry_archer_e_r.xml" attachpoint="rider"/>
         <prop actor="props/horse/cav_blanket_leather_02.xml" attachpoint="root"/>
-        <prop actor="props/horse/cav_straps_head.xml" attachpoint="head"/>
         <prop actor="props/horse/cav_straps_xion.xml" attachpoint="root"/>
-        <prop actor="props/horse/cav_rein_archer.xml" attachpoint="head"/>
+        <prop actor="props/horse/cav_straps_head_kush.xml" attachpoint="head"/>
+        <prop actor="props/horse/cav_head_pelt_kush.xml" attachpoint="head"/>
       </props>
     </variant>
   </group>

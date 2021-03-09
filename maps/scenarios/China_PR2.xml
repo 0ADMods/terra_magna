@@ -1237,67 +1237,67 @@
 			<Orientation y="0.4304"/>
 		</Entity>
 		<Entity uid="473">
-			<Template>units/chin_infantry_archer_b</Template>
+			<Template>units/chin/infantry_archer_b</Template>
 			<Player>2</Player>
 			<Position x="258.4853" z="362.48179"/>
 			<Orientation y="0.55103"/>
 		</Entity>
 		<Entity uid="474">
-			<Template>units/chin_infantry_archer_b</Template>
+			<Template>units/chin/infantry_archer_b</Template>
 			<Player>2</Player>
 			<Position x="256.6761" z="367.042"/>
 			<Orientation y="1.00646"/>
 		</Entity>
 		<Entity uid="475">
-			<Template>units/chin_infantry_archer_b</Template>
+			<Template>units/chin/infantry_archer_b</Template>
 			<Player>2</Player>
 			<Position x="255.18569" z="372.6803"/>
 			<Orientation y="1.31939"/>
 		</Entity>
 		<Entity uid="476">
-			<Template>units/chin_infantry_archer_b</Template>
+			<Template>units/chin/infantry_archer_b</Template>
 			<Player>2</Player>
 			<Position x="252.45498" z="378.33213"/>
 			<Orientation y="1.28885"/>
 		</Entity>
 		<Entity uid="477">
-			<Template>units/chin_infantry_archer_b</Template>
+			<Template>units/chin/infantry_archer_b</Template>
 			<Player>2</Player>
 			<Position x="260.25034" z="358.87613"/>
 			<Orientation y="0.92312"/>
 		</Entity>
 		<Entity uid="478">
-			<Template>units/chin_infantry_archer_b</Template>
+			<Template>units/chin/infantry_archer_b</Template>
 			<Player>2</Player>
 			<Position x="312.0463" z="322.24891"/>
 			<Orientation y="0.1077"/>
 		</Entity>
 		<Entity uid="479">
-			<Template>units/chin_infantry_archer_b</Template>
+			<Template>units/chin/infantry_archer_b</Template>
 			<Player>2</Player>
 			<Position x="314.97413" z="323.17606"/>
 			<Orientation y="0.11158"/>
 		</Entity>
 		<Entity uid="480">
-			<Template>units/chin_infantry_archer_b</Template>
+			<Template>units/chin/infantry_archer_b</Template>
 			<Player>2</Player>
 			<Position x="317.58835" z="325.07029"/>
 			<Orientation y="0.03498"/>
 		</Entity>
 		<Entity uid="481">
-			<Template>units/chin_infantry_archer_b</Template>
+			<Template>units/chin/infantry_archer_b</Template>
 			<Player>2</Player>
 			<Position x="319.71818" z="326.72355"/>
 			<Orientation y="-0.03458"/>
 		</Entity>
 		<Entity uid="482">
-			<Template>units/chin_infantry_archer_b</Template>
+			<Template>units/chin/infantry_archer_b</Template>
 			<Player>2</Player>
 			<Position x="308.40787" z="321.06281"/>
 			<Orientation y="0.05002"/>
 		</Entity>
 		<Entity uid="483">
-			<Template>units/chin_infantry_archer_b</Template>
+			<Template>units/chin/infantry_archer_b</Template>
 			<Player>2</Player>
 			<Position x="305.83793" z="320.75544"/>
 			<Orientation y="0.01632"/>

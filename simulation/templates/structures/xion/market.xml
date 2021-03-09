@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_market">
+  <BuildRestrictions>
+    <Territory>own neutral</Territory>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime>45</BuildTime>
+    <Resources>
+      <wood>150</wood>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="11.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x2</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>xion</Civ>
+    <GenericName>Food deposit</GenericName>
+    <VisibleClasses datatype="tokens">-Town Village Farmstead</VisibleClasses>
+    <RequiredTechnology>phase_village</RequiredTechnology>
+    <Icon>structures/farmstead.png</Icon>
+  </Identity>
+  <Obstruction>
+    <Static width="13.0" depth="13.0"/>
+  </Obstruction>
+  <Position>
+    <Anchor>pitch</Anchor>
+    <TurnRate>0.0001</TurnRate>
+  </Position>
+  <ProductionQueue>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
+    <Technologies datatype="tokens">
+      gather_wicker_baskets
+      gather_farming_plows
+      gather_farming_training
+      gather_farming_fertilizer
+    </Technologies>
+  </ProductionQueue>
+  <ResourceDropsite>
+    <Types>food</Types>
+    <Sharable>true</Sharable>
+  </ResourceDropsite>
+  <TerritoryDecay disable=""/>
+  <Upgrade>
+    <Pack>
+      <Entity>structures/xion/market_packed</Entity>
+      <Time>25</Time>
+      <RequiredTechnology>nomadism</RequiredTechnology>
+    </Pack>
+  </Upgrade>
+  <VisualActor>
+    <ConstructionPreview disable=""/>
+    <Actor>structures/xion/food_deposit.xml</Actor>
+    <FoundationActor>structures/xion/food_deposit_foundation.xml</FoundationActor>
+  </VisualActor>
+</Entity>

@@ -6,7 +6,7 @@
       <mesh>skeletal/horse.dae</mesh>
       <props>
         <prop actor="units/china/cavalry_archer_e_r.xml" attachpoint="rider"/>
-        <prop actor="props/horse/cav_rein_archer.xml" attachpoint="head"/>
+        <prop actor="props/horse/cav_winged_armor_03.xml" attachpoint="head"/>
       </props>
     </variant>
   </group>
@@ -23,7 +23,7 @@
     </variant>
     <variant frequency="1" name="horse-texture-3">
       <textures>
-        <texture file="skeletal/horse_pers_csw_e_3.dds" name="baseTex"/>
+        <texture file="skeletal/horse_cream_spotted_02.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

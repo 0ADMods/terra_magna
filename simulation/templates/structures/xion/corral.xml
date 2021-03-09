@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_resource_corral">
+  <BuildRestrictions>
+    <Territory>own neutral</Territory>
+  </BuildRestrictions>
+  <Cost>
+    <PopulationBonus>8</PopulationBonus>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="15.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>xion</Civ>
+    
+    <GenericName>Corral</GenericName>
+    <Icon>structures/pers_stable.png</Icon>
+  </Identity>
+  <Obstruction>
+    <Static width="26.0" depth="26.0"/>
+  </Obstruction>
+  <Position>
+    <Anchor>pitch</Anchor>
+    <TurnRate>0.0001</TurnRate>
+  </Position>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/{civ}/champion_cavalry
+      gaia/fauna_sheep_trainable
+    </Entities>
+    <Technologies datatype="tokens">
+      gather_animals_nomadic_pastoralism
+      cavalry_movement_speed
+    </Technologies>
+  </ProductionQueue>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_cavalry_stables.xml</select>
+      <constructed>interface/complete/building/complete_cavalry_stables.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+    </SoundGroups>
+  </Sound>
+  <TerritoryDecay disable=""/>
+  <Upgrade>
+    <Pack>
+      <Entity>structures/xion/corral_packed</Entity>
+      <Time>25</Time>
+      <RequiredTechnology>nomadism</RequiredTechnology>
+    </Pack>
+  </Upgrade>
+  <VisualActor>
+    <ConstructionPreview disable=""/>
+    <Actor>structures/xion/corral.xml</Actor>
+    <FoundationActor>structures/xion/corral_foundation.xml</FoundationActor>
+  </VisualActor>
+</Entity>
