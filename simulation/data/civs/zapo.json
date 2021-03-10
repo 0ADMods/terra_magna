@@ -36,7 +36,7 @@
 	"WallSets":
 	[
 		"other/wallset_palisade",
-		"structures/zapo_wallset_stone"
+		"structures/zapo/wallset_stone"
 	],
 	"StartEntities":
 	[
@@ -81,7 +81,8 @@
 	{
 		"skirmish/units/default_cavalry": "units/zapo/infantry_swordsman_b",
 		"skirmish/units/default_infantry_ranged_b": "units/zapo/infantry_javelinist_b",
-		"skirmish/structures/default_house_10": "structures/{civ}/house"
+		"skirmish/structures/default_house_10": "structures/{civ}/house",
+	       "skirmish/units/default_ship_trireme":"units/{civ}/ship_merchant"
 	},
 	"SelectableInGameSetup": true
 }

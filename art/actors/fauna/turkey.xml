@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Mesh">
+      <animations>
+        <animation file="quadraped/turkey_idle_1.dae" name="idle" speed="60"/>
+        <animation file="quadraped/turkey_feeding.dae" name="feeding" speed="30"/>
+        <animation file="quadraped/turkey_walk.dae" name="walk" speed="25"/>
+        <animation file="quadraped/turkey_run.dae" name="run" speed="30"/>
+        <animation file="quadraped/turkey_death.dae" name="death" speed="75"/>
+      </animations>
+      <mesh>skeletal/turkey.dae</mesh>
+      <textures><texture file="skeletal/guajolote_silvestre.png" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="Idle"/>
+    <variant name="death">
+      <props>
+        <prop actor="props/units/blood_01.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

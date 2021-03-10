@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='utf-8'?>
+<skeletons>
+  <standard_skeleton title="Turkey" id="Turkey">
+    <bone name="Root" />
+    <bone name="Hip">
+      <bone name="UpLeg_l">
+        <bone name="Upperleg_l">
+          <bone name="Leg_l" />
+        </bone>
+      </bone>
+      <bone name="SpineA">
+        <bone name="SpineB">
+          <bone name="Clavicle_l">
+            <bone name="Upper_Arm_l">
+              <bone name="Arm_l" />
+            </bone>
+          </bone>
+          <bone name="NeckA">
+            <bone name="NeckB">
+              <bone name="NeckC">
+                <bone name="Head"/>
+              </bone>
+            </bone>
+          </bone>
+          <bone name="Clavicle_r">
+            <bone name="Upper_Arm_r">
+              <bone name="Arm_r" />
+            </bone>
+          </bone>
+        </bone>
+      </bone>
+      <bone name="Tail_control">
+        <bone name="TailA">
+          <bone name="TailB">
+            <bone name="TailC" />
+          </bone>
+        </bone>
+      </bone>
+      <bone name="UpLeg_r">
+        <bone name="Upperleg_r">
+          <bone name="Leg_r" />
+        </bone>
+      </bone>
+      <bone name="Feet_r"/>
+      <bone name="Feet_l"/>
+    </bone>
+    <bone name="GuajoloteSilvestre" />
+  </standard_skeleton>
+  <skeleton title="Turkey" target="Turkey">
+    <identifier>
+      <root>Root</root>
+    </identifier>
+    <bone name="Root">
+      <target>Root</target>
+    </bone>
+    <bone name="Hip">
+      <target>Hip</target>
+      <bone name="UpLeg_l">
+        <target>UpLeg_l</target>
+        <bone name="Upperleg_l">
+          <target>Upperleg_l</target>
+          <bone name="Leg_l">
+            <target>Leg_l</target>
+          </bone>
+        </bone>
+      </bone>
+      <bone name="SpineA">
+        <target>SpineA</target>
+        <bone name="SpineB">
+          <target>SpineB</target>
+          <bone name="Clavicle_l">
+            <target>Clavicle_l</target>
+            <bone name="Upper_Arm_l">
+              <target>Upper_Arm_l</target>
+              <bone name="Arm_l">
+                <target>Arm_l</target>
+              </bone>
+            </bone>
+          </bone>
+          <bone name="NeckA">
+            <target>NeckA</target>
+            <bone name="NeckB">
+              <target>NeckB</target>
+              <bone name="NeckC">
+                <target>NeckC</target>
+                <bone name="Head">
+                  <target>Head</target>
+                </bone>
+              </bone>
+            </bone>
+          </bone>
+          <bone name="Clavicle_r">
+            <target>Clavicle_l</target>
+            <bone name="Upper_Arm_r">
+              <target>Upper_Arm_l</target>
+              <bone name="Arm_r">
+                <target>Arm_l</target>
+              </bone>
+            </bone>
+          </bone>
+        </bone>
+      </bone>
+      <bone name="Tail_control">
+        <target>Tail_control</target>
+        <bone name="TailA">
+          <target>TailA</target>
+          <bone name="TailB">
+            <target>TailB</target>
+            <bone name="TailC">
+              <target>TailC</target>
+            </bone>
+          </bone>
+        </bone>
+      </bone>
+      <bone name="UpLeg_r">
+        <target>UpLeg_r</target>
+        <bone name="Upperleg_r">
+          <target>Upperleg_r</target>
+          <bone name="Leg_r">
+            <target>Leg_r</target>
+          </bone>
+        </bone>
+      </bone>
+      <bone name="Feet_r">
+        <target>Feet_r</target>
+      </bone>
+      <bone name="Feet_l">
+        <target>Feet_l</target>
+      </bone>
+    </bone>
+    <bone name="GuajoloteSilvestre">
+      <target>GuajoloteSilvestre</target>
+    </bone>
+  </skeleton>
+</skeletons>

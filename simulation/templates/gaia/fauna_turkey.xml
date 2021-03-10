@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_fauna_herd_domestic">
+  <Footprint>
+    <Square width="0.9" depth="1.8"/>
+    <Height>1.0</Height>
+  </Footprint>
+  <Health>
+    <Max>5</Max>
+  </Health>
+  <Identity>
+    <GenericName>Trukey</GenericName>
+    <SpecificName>Huaxolotl</SpecificName>
+    <Tooltip>mesoamerican domestic bird. Nota del creador: Que pedo con el nombre en ingles xd</Tooltip>
+    <Icon>gaia/fauna_turkey.png</Icon>
+  </Identity>
+  <Obstruction>
+    <BlockMovement>false</BlockMovement>
+  </Obstruction>
+  <Position>
+    <Anchor>upright</Anchor>
+  </Position>
+  <ResourceSupply>
+    <Amount>40</Amount>
+    <MaxGatherers>5</MaxGatherers>
+  </ResourceSupply>
+  <Sound>
+    <SoundGroups>
+      <panic>actor/fauna/animal/turkey_attack.xml</panic>
+      <select>actor/fauna/animal/turkey_select.xml</select>
+      <death>actor/fauna/animal/turkey_attack.xml</death>
+    </SoundGroups>
+  </Sound>
+  <StatusBars>
+    <HeightOffset>3.0</HeightOffset>
+  </StatusBars>
+  <UnitAI>
+    <RoamDistance>4.0</RoamDistance>
+    <FleeDistance>12.0</FleeDistance>
+    <RoamTimeMin>2000</RoamTimeMin>
+    <RoamTimeMax>8000</RoamTimeMax>
+    <FeedTimeMin>10000</FeedTimeMin>
+    <FeedTimeMax>40000</FeedTimeMax>
+  </UnitAI>
+  <UnitMotion>
+    <WalkSpeed op="mul">0.15</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>fauna/turkey.xml</Actor>
+  </VisualActor>
+</Entity>
