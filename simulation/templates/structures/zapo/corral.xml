@@ -14,6 +14,16 @@
   <Obstruction>
     <Static width="10.0" depth="14.0"/>
   </Obstruction>
+    <ProductionQueue>
+    <BatchTimeModifier>1</BatchTimeModifier>
+    <Entities datatype="tokens">
+      gaia/fauna_turkey_trainable
+      -gaia/fauna_goat_trainable
+      -gaia/fauna_sheep_trainable
+      -gaia/fauna_pig_trainable
+      -gaia/fauna_cattle_cow_trainable
+    </Entities>
+  </ProductionQueue>
   <VisualActor>
     <Actor>structures/zapotecs/corral.xml</Actor>
     <FoundationActor>structures/fndn_3x3.xml</FoundationActor>

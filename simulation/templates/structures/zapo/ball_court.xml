@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_special">
+  <Cost>
+    <BuildTime>200</BuildTime>
+    <Resources>
+      <stone>200</stone>
+      <wood>200</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="40.0" depth="50.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <Max>10</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max>2000</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x6</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>zapo</Civ>
+    <GenericName>Ball Court</GenericName>
+    <Tooltip></Tooltip>
+    <Classes datatype="tokens">ConquestCritical CivSpecific</Classes>
+    <VisibleClasses datatype="tokens">Ballcourt</VisibleClasses>
+    <Icon>structures/syssition.png</Icon>
+  </Identity>
+  <Obstruction>
+    <Static width="38.0" depth="48.0"/>
+  </Obstruction>
+    <ProductionQueue>
+    <Entities datatype="tokens">
+      units/{civ}/champion_infantry_spear
+      units/{civ}/hero_lord_jaguar
+    </Entities>
+  </ProductionQueue>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_gymnasium.xml</select>
+      <constructed>interface/complete/building/complete_gymnasium.xml</constructed>
+    </SoundGroups>
+  </Sound>
+  <TerritoryInfluence>
+    <Root>true</Root>
+    <Radius>38</Radius>
+    <Weight>40000</Weight>
+  </TerritoryInfluence>
+  <Vision>
+    <Range>40</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>structures/zapotecs/ball_court.xml</Actor>
+  </VisualActor>
+</Entity>
