@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_resource_corral">
+  <Population>
+    <Bonus>8</Bonus>
+  </Population>
   <BuildRestrictions>
     <Territory>own neutral</Territory>
   </BuildRestrictions>
-  <Cost>
-    <PopulationBonus>8</PopulationBonus>
-  </Cost>
   <Footprint replace="">
     <Circle radius="15.0"/>
     <Height>8.0</Height>
@@ -15,7 +15,6 @@
   </Health>
   <Identity>
     <Civ>xion</Civ>
-    
     <GenericName>Corral</GenericName>
     <Icon>structures/pers_stable.png</Icon>
   </Identity>
