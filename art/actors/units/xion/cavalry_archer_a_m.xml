@@ -18,22 +18,22 @@
   </group>
   <group>
     <variant frequency="16" name="black">
-      <textures><texture file="skeletal/horse_black_a.dds" name="baseTex"/></textures>
+      <textures><texture file="skeletal/horse_gray.png" name="baseTex"/></textures>
     </variant>
     <variant frequency="17" name="brown">
-      <textures><texture file="skeletal/horse_brown_a.dds" name="baseTex"/></textures>
+      <textures><texture file="skeletal/horse_palomino_02.png" name="baseTex"/></textures>
     </variant>
     <variant frequency="16" name="chestnut">
-      <textures><texture file="skeletal/horse_chestnut_a.dds" name="baseTex"/></textures>
+      <textures><texture file="skeletal/horse_skewbald.png" name="baseTex"/></textures>
     </variant>
     <variant frequency="17" name="dun">
-      <textures><texture file="skeletal/horse_dun_a.dds" name="baseTex"/></textures>
+      <textures><texture file="skeletal/horse_white.png" name="baseTex"/></textures>
     </variant>
     <variant frequency="17" name="gray">
-      <textures><texture file="skeletal/horse_gray_a.dds" name="baseTex"/></textures>
+      <textures><texture file="skeletal/horse_spec.png" name="baseTex"/></textures>
     </variant>
     <variant frequency="17" name="tan">
-      <textures><texture file="skeletal/horse_tan_a.dds" name="baseTex"/></textures>
+      <textures><texture file="skeletal/horse_halflinger.png" name="baseTex"/></textures>
     </variant>
   </group>
   <group>

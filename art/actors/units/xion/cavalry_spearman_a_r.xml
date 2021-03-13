@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="biped/base_cavalry_spearman_ready.xml" frequency="1" name="ready">
+    <variant file="biped/base_spearman_ready.xml" frequency="1" name="ready">
       <mesh>skeletal/new/m_armor_nomad_a.dae</mesh>
       <props>
         <prop actor="props/units/heads/xion_head.xml" attachpoint="head"/>
@@ -61,7 +61,7 @@
     </variant>
   </group>
   <group>
-    <variant file="biped/base_cavalry_spearman_ready.xml"/>
+    <variant file="biped/base_spearman_ready.xml"/>
     <variant file="biped/rider/carry_meat.xml"/>
   </group>
   <group>

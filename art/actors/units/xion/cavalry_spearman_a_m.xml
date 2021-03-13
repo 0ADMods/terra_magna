@@ -2,12 +2,12 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" file="quadraped/base_horse_spearman.xml" name="Base">
+    <variant frequency="1" file="quadraped/base_horse_trot.xml" name="Base">
       <mesh>skeletal/horse.dae</mesh>
       <textures><texture file="skeletal/horse_gray.png" name="baseTex"/></textures>
       <props>
         <prop actor="units/xion/cavalry_spearman_a_r.xml" attachpoint="rider"/>
-        <prop actor="props/horse/cav_rein_spearman.xml" attachpoint="head"/>
+        <prop actor="props/horse/cav_blanket_iber.xml" attachpoint="head"/>
         <prop actor="props/horse/cav_blanket_kush.xml" attachpoint="root"/>
         <prop actor="props/horse/cav_straps_head.xml" attachpoint="head"/>
       </props>
