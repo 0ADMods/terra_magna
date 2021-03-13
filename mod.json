@@ -4,6 +4,6 @@
 	"version": "1.0.2",
 	"url": "https://github.com/0ADMods/terra_magna",
 	"description": "Adds various civilizations to 0 A.D.",
-	"dependencies": ["0ad=0.0.24", "thracians"],
+	"dependencies": ["0ad=0.0.24", "thracians", "han_china"],
 	"type": "civ"
 }
