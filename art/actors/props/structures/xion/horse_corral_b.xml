@@ -16,10 +16,10 @@
   </group>
   <group>
     <variant frequency="16" name="chestnut">
-      <textures><texture file="skeletal/horse_chestnut_a.dds" name="baseTex"/></textures>
+      <textures><texture file="skeletal/horse_dark_chestnut.png" name="baseTex"/></textures>
     </variant>
     <variant frequency="17" name="dun">
-      <textures><texture file="skeletal/horse_dun_a.dds" name="baseTex"/></textures>
+      <textures><texture file="skeletal/horse_cherrybay.png" name="baseTex"/></textures>
     </variant>
   </group>
   <group>

@@ -2,10 +2,10 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="quadraped/base_horse_spearman.xml" name="Spearman Horse"/>
+    <variant file="quadraped/base_horse_pace.xml" name="Spearman Horse"/>
   </group>
   <group>
-    <variant file="quadraped/base_horse_swordsman.xml"  name="Swordsman Horse"/>
+    <variant file="quadraped/base_horse_trot.xml"  name="Swordsman Horse"/>
   </group>
   <group>
     <variant file="quadraped/base_horse_javelin.xml"  name="Javelinist Horse"/>
