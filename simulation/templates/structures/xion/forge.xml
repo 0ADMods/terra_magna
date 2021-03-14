@@ -3,9 +3,9 @@
   <BuildRestrictions>
     <Territory>own neutral</Territory>
   </BuildRestrictions>
-  <Cost>
-    <PopulationBonus>2</PopulationBonus>
-  </Cost>
+  <Population>
+    <Bonus>2</Bonus>
+  </Population>
   <Footprint replace="">
     <Circle radius="16.0"/>
     <Height>8.0</Height>

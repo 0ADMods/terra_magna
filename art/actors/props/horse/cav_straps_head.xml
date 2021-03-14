@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="quadraped/props/straps_head.xml" name="horse-straps-head"/>
+    <variant file="quadraped/horse/props/straps_kush_head.xml" name="horse-straps-head"/>
   </group>
   <material>basic_trans_parallax_spec.xml</material>
 </actor>

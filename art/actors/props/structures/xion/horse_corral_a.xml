@@ -16,10 +16,10 @@
   </group>
   <group>
     <variant frequency="17" name="gray">
-      <textures><texture file="skeletal/horse_gray_a.dds" name="baseTex"/></textures>
+      <textures><texture file="skeletal/horse_black.png" name="baseTex"/></textures>
     </variant>
     <variant frequency="17" name="tan">
-      <textures><texture file="skeletal/horse_tan_a.dds" name="baseTex"/></textures>
+      <textures><texture file="skeletal/horse_gray.png" name="baseTex"/></textures>
     </variant>
   </group>
   <group>

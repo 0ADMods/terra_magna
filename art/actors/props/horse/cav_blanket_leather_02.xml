@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="quadraped/base_horse_spearman.xml" name="Spearman Horse"/>
+    <variant file="quadraped/base_horse_pace.xml" name="Spearman Horse"/>
   </group>
   <group>
     <variant file="quadraped/base_horse_swordsman.xml"  name="Swordsman Horse"/>
@@ -17,7 +17,7 @@
     <variant file="quadraped/base_horse_archer.xml" name="Archer Horse"/>
   </group>
   <group>
-    <variant file="quadraped/props/blanket_leather_02.xml" name="horse-blanket-leather-02"/>
+    <variant file="quadraped/horse/props/blanket_leather_01.xml" name="horse-blanket-leather-02"/>
   </group>
   <group>
     <variant frequency="1" name="Idle"/>
