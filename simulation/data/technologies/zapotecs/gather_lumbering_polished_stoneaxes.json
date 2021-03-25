@@ -1,0 +1,18 @@
+{
+	"genericName": "Stone Axe Heads",
+	"description": "Increases wood gathering rates for trees.",
+	"cost": {
+		"wood": 200,
+		"stone": 100
+	},
+	"requirements": {"civ": "zapo", "tech": "phase_village" },
+	"requirementsTooltip": "Unlocked in Village Phase.",
+	"icon": "wood_axe_01.png",
+	"researchTime": 40,
+	"tooltip": "Workers +20% wood gather rate.",
+	"modifications": [
+		{ "value": "ResourceGatherer/Rates/wood.tree", "multiply": 1.2 }
+	],
+	"affects": ["Worker"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_swordsman">
+  <Identity>
+    <Civ>zapo</Civ>
+    <GenericName>Champion Swordsman</GenericName>
+    <SelectionGroupName>units/zapo/champion_swordsman</SelectionGroupName>
+    <Icon>units/zapo_champion_swordsman.png</Icon>
+  </Identity>
+  <Upgrade>
+    <Ranged>
+      <Entity>units/zapo/champion_swordsman_archer</Entity>
+      <Time>10</Time>
+      <Tooltip>Switch Weapon.</Tooltip>
+    </Ranged>
+  </Upgrade>
+  <VisualActor>
+    <Actor>units/zapotecs/infantry_swordsman_c.xml</Actor>
+  </VisualActor>
+</Entity>

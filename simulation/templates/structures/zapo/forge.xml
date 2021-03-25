@@ -14,6 +14,26 @@
   <Obstruction>
     <Static width="24.0" depth="24.0"/>
   </Obstruction>
+    <ProductionQueue>
+    <Technologies datatype="tokens">
+      -soldier_attack_melee_01
+      -soldier_attack_melee_02
+      -soldier_attack_ranged_01
+      -soldier_attack_ranged_02
+      -soldier_resistance_hack_01
+      -soldier_resistance_hack_02
+      -soldier_resistance_pierce_01
+      -soldier_resistance_pierce_02
+     zapotecs/soldier_attack_melee_01
+     zapotecs/soldier_attack_melee_02
+     zapotecs/soldier_attack_ranged_01
+     zapotecs/soldier_attack_ranged_02
+     zapotecs/soldier_resistance_hack_01
+     zapotecs/soldier_resistance_hack_02
+     zapotecs/soldier_resistance_pierce_01
+     zapotecs/soldier_resistance_pierce_02
+    </Technologies>
+  </ProductionQueue>
   <VisualActor>
     <Actor>structures/zapotecs/blacksmith.xml</Actor>
   </VisualActor>

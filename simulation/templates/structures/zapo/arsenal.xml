@@ -22,6 +22,6 @@
     </Technologies>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/kushites/workshop.xml</Actor>
+    <Actor>structures/zapotecs/workshop.xml</Actor>
   </VisualActor>
 </Entity>

@@ -1,0 +1,22 @@
+{
+	"genericName": "Conveyor",
+	"description": "Conveyor servants. Increases transport capacity for all resources",
+	"cost": {
+		"food": 400,
+		"wood": 400
+	},
+	"supersedes": "gather_capacity_basket",
+	"requirements": { "civ": "zapo" , "tech": "phase_town" },
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "wheelbarrow_empty.png",
+	"researchTime": 50,
+	"tooltip": "Workers +5 resource capacity.",
+	"modifications": [
+		{ "value": "ResourceGatherer/Capacities/food", "add": 5 },
+		{ "value": "ResourceGatherer/Capacities/wood", "add": 5 },
+		{ "value": "ResourceGatherer/Capacities/stone", "add": 5 },
+		{ "value": "ResourceGatherer/Capacities/metal", "add": 5 }
+	],
+	"affects": ["Worker"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

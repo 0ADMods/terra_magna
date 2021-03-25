@@ -30,9 +30,14 @@
     <Static width="38.0" depth="48.0"/>
   </Obstruction>
     <ProductionQueue>
+    <Technologies datatype="tokens">
+      zapotecs/ball_players
+    </Technologies>
     <Entities datatype="tokens">
       units/{civ}/champion_infantry_spear
-      units/{civ}/hero_lord_jaguar
+      units/{civ}/hero_lord_1_jaguar
+      units/{civ}/hero_lord_13_night
+      units/{civ}/hero_lord_11_rain
     </Entities>
   </ProductionQueue>
   <Sound>

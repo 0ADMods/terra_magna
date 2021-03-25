@@ -23,6 +23,10 @@
       -gaia/fauna_pig_trainable
       -gaia/fauna_cattle_cow_trainable
     </Entities>
+    <Technologies datatype="tokens">
+     -gather_animals_stockbreeding
+     zapotecs/gather_poultry_farming
+    </Technologies>
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/zapotecs/corral.xml</Actor>

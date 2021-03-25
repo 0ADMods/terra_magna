@@ -1,0 +1,18 @@
+{
+        "genericName": "Cacao Trade",
+	"description": "Cacao trade is very profitable, since it was the favorite drink of the nobles and kings.",
+	"cost": {
+		"wood": 100
+	},
+	"requirements": { "tech": "phase_city" },
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "sibylline_books.png",
+	"researchTime": 50,
+	"tooltip": "+20% international trade bonus.",
+	"modifications": [
+		{ "value": "Market/InternationalBonus", "add": 0.2 }
+	],
+	"affects": ["Trade"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
+

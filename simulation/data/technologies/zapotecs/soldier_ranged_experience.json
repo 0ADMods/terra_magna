@@ -1,0 +1,9 @@
+{
+	"autoResearch": true,
+	"icon": "arrow.png",
+	"tooltip": "Ranged Soldiers +25% promotion experience.",
+	"modifications": [
+		{ "value": "Promotion/RequiredXp", "multiply": 1.25 }
+	],
+	"affects": ["Ranged Soldier"]
+}

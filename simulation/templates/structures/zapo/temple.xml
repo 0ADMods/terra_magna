@@ -15,6 +15,10 @@
     <Static width="21" depth="22"/>
   </Obstruction>
   <ProductionQueue>
+      <BatchTimeModifier>1.0</BatchTimeModifier>
+    <Technologies datatype="tokens">
+     zapotecs/nagual_heroes
+    </Technologies>
     <Entities datatype="tokens">
       units/{civ}/champion_healer
     </Entities>

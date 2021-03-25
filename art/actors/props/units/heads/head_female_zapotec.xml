@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="basic">
+      <mesh>props/head/zapo_fem_head.dae</mesh>
+       <props>
+        <prop actor="props/units/heads/female_zapo_1.xml" attachpoint="root"/>
+        <prop actor="props/units/heads/female_zapo_2.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="basic">
+      <textures>
+        <texture file="props/head/zapo_fem_b.png" name="baseTex"/>
+        <texture file="props/head/zapo_fem_b_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_specmap.xml</material>
+</actor>
