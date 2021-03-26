@@ -1,0 +1,29 @@
+{
+	"genericName": "Reinforced armor",
+	"description": "Body armor padded with cotton and salt.",
+	"cost": {
+		"food": 600,
+		"stone": 600
+	},
+	"supersedes": "soldier_resistance_hack_01",
+	"requirements":  {
+		"all": [
+			{
+				"tech": "phase_city"
+			},
+			{
+				"civ": "zapo"
+			}
+		]
+	},
+	
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "armor_pteruges.png",
+	"researchTime": 60,
+	"tooltip": "Soldiers +1 hack resistance.",
+	"modifications": [
+		{ "value": "Resistance/Entity/Damage/Hack", "add": 1 }
+	],
+	"affects": ["Soldier"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

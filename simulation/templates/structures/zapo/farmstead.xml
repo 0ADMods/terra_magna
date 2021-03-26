@@ -10,6 +10,13 @@
   <Obstruction>
     <Static width="16.0" depth="17"/>
   </Obstruction>
+  <ProductionQueue>
+    <Technologies datatype="tokens">
+      -gather_farming_plows
+      -gather_farming_harvester
+      zapotecs/gather_irrigation_canals
+    </Technologies>
+  </ProductionQueue>
   <VisualActor>
     <Actor>structures/zapotecs/farmstead.xml</Actor>
   </VisualActor>

@@ -1,0 +1,43 @@
+{
+	"genericName": "Nagual",
+	"description": ".",
+	"cost": {
+		"food": 200,
+		"wood": 700,
+		"stone": 0,
+		"metal": 300
+	},
+	"requirements": {
+		"all": [
+			{
+				"tech": "phase_city"
+			},
+			{
+				"civ": "zapo"
+			}
+		
+		]
+	},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "armor_plates_iron_swords.png",
+	"researchTime": 60,
+	"tooltip": "Heroes +20% attack.",
+	"modifications": [
+		{
+			"value": "Attack/Melee/Damage/Hack",
+			"multiply": 1.15
+		},
+		{
+			"value": "Attack/Melee/Damage/Pierce",
+			"multiply": 1.15
+		},
+		{
+			"value": "Attack/Melee/Damage/Crush",
+			"multiply": 1.15
+		}
+	],
+	"affects": [
+		"Hero"
+	],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

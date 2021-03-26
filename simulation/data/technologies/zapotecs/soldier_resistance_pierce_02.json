@@ -1,0 +1,28 @@
+{
+	"genericName": "Stronger shields",
+	"description": "Reinforced wooden shields.",
+	"cost": {
+		"wood": 600,
+		"stone": 600
+	},
+	"supersedes": "soldier_resistance_pierce_01",
+	"requirements":  {
+		"all": [
+			{
+				"tech": "phase_city"
+			},
+			{
+				"civ": "zapo"
+			}
+		]
+	},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "shields_generic_bronze.png",
+	"researchTime": 60,
+	"tooltip": "Soldiers +1 pierce resistance.",
+	"modifications": [
+		{ "value": "Resistance/Entity/Damage/Pierce", "add": 1 }
+	],
+	"affects": ["Soldier"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

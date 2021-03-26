@@ -11,6 +11,18 @@
   <Obstruction>
     <Static width="15.0" depth="15.0"/>
   </Obstruction>
+  <ProductionQueue>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Technologies datatype="tokens">
+     -gather_lumbering_ironaxes
+     -gather_mining_silvermining
+     -gather_capacity_wheelbarrow
+     -gather_capacity_carts
+     zapotecs/gather_capacity_conveyor
+     zapotecs/gather_lumbering_polished_stoneaxes
+     -zapotecs/gather_capacity_2
+    </Technologies>
+  </ProductionQueue>
   <VisualActor>
     <Actor>structures/zapotecs/storehouse.xml</Actor>
   </VisualActor>

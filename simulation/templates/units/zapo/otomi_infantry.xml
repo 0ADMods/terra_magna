@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_maceman">
+  <Identity>
+    <SpecificName>Otomi warrior ally</SpecificName>
+    <Icon>units/merc_infantry_2.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/mercenaries/otomi_maceman.xml</Actor>
+  </VisualActor>
+</Entity>
