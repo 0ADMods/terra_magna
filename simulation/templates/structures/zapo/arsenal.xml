@@ -19,6 +19,7 @@
     <Technologies datatype="tokens">
       -siege_bolt_accuracy
       -siege_pack_unpack
+      -siege_health
     </Technologies>
   </ProductionQueue>
   <VisualActor>

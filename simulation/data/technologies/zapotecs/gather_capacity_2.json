@@ -1,6 +1,6 @@
 {
-	"genericName": "Horse-drawn Carts",
-	"description": "Workers use horse-drawn carts. Increases shuttling capacity for all resources.",
+	"genericName": "Transporter Teams",
+	"description": "Workers roads and transporter teams. Increases shuttling capacity for all resources.",
 	"cost": {
 		"food": 600,
 		"wood": 600
