@@ -6,8 +6,8 @@
 		"stone": 300
 	},
 	"supersedes": "gather_farming_training",
-	"requirements": { "tech": "phase_city" },
-	"requirementsTooltip": "Unlocked in City Phase.",
+	"requirements": { "tech": "phase_town" },
+	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "olives.png",
 	"researchTime": 40,
 	"tooltip": "Workers +10% grain gather rate.",

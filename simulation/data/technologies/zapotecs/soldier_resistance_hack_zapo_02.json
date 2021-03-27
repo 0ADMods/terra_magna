@@ -5,18 +5,7 @@
 		"food": 600,
 		"stone": 600
 	},
-	"supersedes": "soldier_resistance_hack_01",
-	"requirements":  {
-		"all": [
-			{
-				"tech": "phase_city"
-			},
-			{
-				"civ": "zapo"
-			}
-		]
-	},
-	
+	"requirements": {"tech": "phase_city" },
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "armor_pteruges.png",
 	"researchTime": 60,

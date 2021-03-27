@@ -1,0 +1,20 @@
+{
+	"genericName": "All Obsidian Blades",
+	"description": "Replace all blades on your weapons for good quality obsidian.",
+	"cost": {
+		"food": 900,
+		"stone": 600
+	},
+	"requirements": {"tech": "phase_city"},
+        "requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "sword_cross.png",
+	"researchTime": 60,
+	"tooltip": "Soldiers +15% melee attack damage.",
+	"modifications": [
+		{ "value": "Attack/Melee/Damage/Hack", "multiply": 1.15 },
+		{ "value": "Attack/Melee/Damage/Pierce", "multiply": 1.15 },
+		{ "value": "Attack/Melee/Damage/Crush", "multiply": 1.15 }
+	],
+	"affects": ["Soldier !Elephant"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

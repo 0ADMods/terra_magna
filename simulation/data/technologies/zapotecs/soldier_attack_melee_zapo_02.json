@@ -5,17 +5,7 @@
 		"food": 900,
 		"stone": 600
 	},
-	"supersedes": "soldier_attack_melee_01",
-	"requirements": {
-		"all": [
-			{
-				"tech": "phase_city"
-			},
-			{
-				"civ": "zapo"
-			}
-		]
-	},
+	"requirements": {"tech": "phase_city" },
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "sword_cross.png",
 	"researchTime": 60,
