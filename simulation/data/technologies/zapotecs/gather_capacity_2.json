@@ -5,8 +5,7 @@
 		"food": 600,
 		"wood": 600
 	},
-	"supersedes": "gather_capacity_wheelbarrow",
-	"requirements": { "civ": "zapo" , "tech": "phase_city" },
+	"requirements": {"tech": "phase_city" },
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "handcart_empty.png",
 	"researchTime": 60,
