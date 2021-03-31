@@ -2,10 +2,16 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="100" name="basic">
+    <variant frequency="100" name="n1">
       <mesh>props/head/zapo_fem_head.dae</mesh>
        <props>
         <prop actor="props/units/heads/female_zapo_1.xml" attachpoint="root"/>
+        <prop actor="props/units/heads/female_zapo_2.xml" attachpoint="root"/>
+      </props>
+    </variant>
+        <variant frequency="100" name="n2">
+      <mesh>props/head/zapo_fem_head.dae</mesh>
+       <props>
         <prop actor="props/units/heads/female_zapo_2.xml" attachpoint="root"/>
       </props>
     </variant>

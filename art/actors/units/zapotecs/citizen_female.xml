@@ -2,10 +2,20 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Base-Female">
+    <variant frequency="1" name="Base-Female_a">
       <mesh>skeletal/new/f_dress.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/head_female_test.xml" attachpoint="head"/>
+      </props>
+      <textures>
+        <texture file="skeletal/zapo_support_citizen_female_01.png" name="baseTex"/>
+        <texture file="skeletal/zapo_support_citizen_female_01_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Base-Female_b">
+      <mesh>skeletal/new/f_dress.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/head_female_zapotec.xml" attachpoint="head"/>
       </props>
       <textures>
         <texture file="skeletal/zapo_support_citizen_female_01.png" name="baseTex"/>
