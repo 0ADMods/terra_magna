@@ -5,7 +5,7 @@
 		"food": 400,
 		"wood": 400
 	},
-	"requirements": {"civ": "zapo" , "tech": "phase_town" },
+	"requirements": {"tech": "phase_town" },
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "armor_leather.png",
 	"researchTime": 40,

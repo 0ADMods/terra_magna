@@ -5,17 +5,7 @@
 		"wood": 900,
 		"stone": 600
 	},
-	"supersedes": "soldier_attack_ranged_01",
-	"requirements": {
-		"all": [
-			{
-				"tech": "phase_city"
-			},
-			{
-				"civ": "zapo"
-			}
-		]
-	},
+	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "arrow_accuracy.png",
 	"researchTime": 60,

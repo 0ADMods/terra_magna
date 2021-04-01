@@ -4,7 +4,8 @@
     <SpecificName>Otomi warrior ally</SpecificName>
     <Icon>units/merc_infantry_2.png</Icon>
   </Identity>
+      <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/mercenaries/otomi_maceman.xml</Actor>
+    <Actor>units/zapotecs/otomi_maceman.xml</Actor>
   </VisualActor>
 </Entity>

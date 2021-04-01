@@ -20,7 +20,7 @@
      -gather_capacity_carts
      zapotecs/gather_capacity_conveyor
      zapotecs/gather_lumbering_polished_stoneaxes
-     -zapotecs/gather_capacity_2
+     zapotecs/gather_capacity_2
     </Technologies>
   </ProductionQueue>
   <VisualActor>

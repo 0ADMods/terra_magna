@@ -4,7 +4,8 @@
     <SpecificName>Mixteca Jaguar Warrior</SpecificName>
     <Icon>units/merc_infantry_1.png</Icon>
   </Identity>
+      <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/mercenaries/mixteca_spearman.xml</Actor>
+    <Actor>units/zapotecs/mixteca_spearman.xml</Actor>
   </VisualActor>
 </Entity>
