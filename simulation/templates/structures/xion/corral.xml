@@ -16,25 +16,25 @@
   <Identity>
     <Civ>xion</Civ>
     <GenericName>Corral</GenericName>
-    <Icon>structures/pers_stable.png</Icon>
+    <Icon>structures/stable_01.png</Icon>
   </Identity>
   <Obstruction>
     <Static width="26.0" depth="26.0"/>
   </Obstruction>
-  <Position>
-    <Anchor>pitch</Anchor>
-    <TurnRate>0.0001</TurnRate>
-  </Position>
-  <ProductionQueue>
-    <Entities datatype="tokens">
-      units/{civ}/champion_cavalry
-      gaia/fauna_sheep_trainable
-    </Entities>
+
+      
+  <ProductionQueue/>
+  <Researcher>
     <Technologies datatype="tokens">
       gather_animals_nomadic_pastoralism
       cavalry_movement_speed
     </Technologies>
-  </ProductionQueue>
+  </Researcher>
+
+  <Position>
+    <Anchor>pitch</Anchor>
+    <TurnRate>0.0001</TurnRate>
+  </Position>
   <Sound>
     <SoundGroups>
       <select>interface/select/building/sel_cavalry_stables.xml</select>
@@ -42,7 +42,15 @@
       <death>attack/destruction/building_collapse_large.xml</death>
     </SoundGroups>
   </Sound>
+
   <TerritoryDecay disable=""/>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/champion_cavalry
+      gaia/fauna_sheep_trainable
+    </Entities>
+  </Trainer>
+
   <Upgrade>
     <Pack>
       <Entity>structures/xion/corral_packed</Entity>

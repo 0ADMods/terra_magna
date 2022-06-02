@@ -11,12 +11,12 @@
   <Obstruction>
     <Static width="27.0" depth="27.0"/>
   </Obstruction>
-    <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
+   <ProductionQueue/>
+  <Researcher>
     <Technologies datatype="tokens">
      zapotecs/trade_commercial_cacao
     </Technologies>
-  </ProductionQueue>
+  </Researcher>
   <VisualActor>
     <Actor>structures/zapotecs/market.xml</Actor>
   </VisualActor>

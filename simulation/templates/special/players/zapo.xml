@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <!-- <Auras datatype="tokens">
+    teambonuses/xion_player_teambonus
+  </Auras> -->
+  <Identity>
+    <Civ>zapo</Civ>
+    <GenericName>Zapotecs</GenericName>
+    <History>The Zapotec civilization was an indigenous pre-Columbian civilization that flourished in the Valley of Oaxaca in Mesoamerica.</History>
+    <Icon>emblems/emblem_zapotecs.png</Icon>
+  </Identity>
+  <Player>
+    <!-- <Formations datatype="tokens">
+      special/formations/phalanx
+    </Formations> -->
+  </Player>
+</Entity>

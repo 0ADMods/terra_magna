@@ -4,7 +4,15 @@
     <Civ>zapo</Civ>
     <SpecificName>Pr-ỉwn n ms</SpecificName>
   </Identity>
-  <ProductionQueue>
+  <ProductionQueue/>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -siege_bolt_accuracy
+      -siege_pack_unpack
+      -siege_health
+    </Technologies>
+  </Researcher>
+  <Trainer>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
       -units/{civ}/champion_infantry_crossbowman
@@ -16,12 +24,7 @@
       -units/{civ}/siege_tower
       units/{civ}/siege_ram
     </Entities>
-    <Technologies datatype="tokens">
-      -siege_bolt_accuracy
-      -siege_pack_unpack
-      -siege_health
-    </Technologies>
-  </ProductionQueue>
+  </Trainer>
   <VisualActor>
     <Actor>structures/zapotecs/workshop.xml</Actor>
   </VisualActor>

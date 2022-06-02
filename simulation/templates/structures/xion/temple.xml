@@ -13,11 +13,9 @@
   <Obstruction>
     <Static width="14.0" depth="14.0"/>
   </Obstruction>
-  <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
-    <Entities datatype="tokens">
-      -units/{civ}/support_healer_b
-    </Entities>
+
+    <ProductionQueue/>
+  <Researcher>
     <Technologies datatype="tokens">
      -heal_range
      -heal_range_2
@@ -25,8 +23,14 @@
      -heal_rate_2
       health_regen_units
     </Technologies>
-  </ProductionQueue>
+  </Researcher>
   <TerritoryDecay disable=""/>
+  <Trainer>
+    <Entities datatype="tokens">
+      -units/{civ}/support_healer_b
+    </Entities>
+  </Trainer>
+
   <Upgrade>
     <Unpack>
       <Entity>structures/xion/temple_packed</Entity>

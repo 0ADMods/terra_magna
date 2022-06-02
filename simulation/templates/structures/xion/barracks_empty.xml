@@ -23,8 +23,15 @@
   <Obstruction>
     <Static width="35.0" depth="35.0"/>
   </Obstruction>
-  <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
+  <ProductionQueue/>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -garrison_heal
+      -barracks_batch_training
+    </Technologies>
+  </Researcher>
+  <TerritoryDecay disable=""/>
+  <Trainer>
     <Entities datatype="tokens">
       -units/{civ}/infantry_spearman_b
       -units/{civ}/infantry_pikeman_b
@@ -32,12 +39,7 @@
       -units/{civ}/infantry_slinger_b
       -units/{civ}/infantry_archer_b
     </Entities>
-    <Technologies datatype="tokens">
-      -garrison_heal
-      -barracks_batch_training
-    </Technologies>
-  </ProductionQueue>
-  <TerritoryDecay disable=""/>
+  </Trainer>
   <Upgrade>
     <BarracksReconstructed>
       <Entity>structures/xion/barracks</Entity>

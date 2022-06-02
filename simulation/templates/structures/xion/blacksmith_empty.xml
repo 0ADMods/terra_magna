@@ -16,16 +16,20 @@
   <Obstruction>
     <Static width="25.0" depth="25.0"/>
   </Obstruction>
-  <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
-    <Entities datatype="tokens">
-      -units/{civ}/support_wagon
-    </Entities>
+
+  <ProductionQueue/>
+  <Researcher>
     <Technologies datatype="tokens">
       -unlock_champion_units_xion
     </Technologies>
-  </ProductionQueue>
+  </Researcher>
   <TerritoryDecay disable=""/>
+  <Trainer>
+    <Entities datatype="tokens">
+      -units/{civ}/support_wagon
+    </Entities>
+  </Trainer>
+
   <Upgrade>
     <BlacksmithReconstructed>
       <Entity>structures/xion/blacksmith</Entity>

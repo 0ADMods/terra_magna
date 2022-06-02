@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <Auras datatype="tokens">
+    teambonuses/xion_player_teambonus
+  </Auras>
+  <Identity>
+    <Civ>xion</Civ>
+    <GenericName>Xiongnu</GenericName>
+    <History>The Xiongnu were formidable warriors whose most fearsome weapon was the double-curved bow with bone ends. They lived on horseback, from which they took advantage of everything, they dressed and wore leather, they wore helmet, breastplate, shield along with the quiver and curved saber. Their squads evolved to the sound of hunting horns and their charges and sudden withdrawals surprised their enemies. They were careful not to ever sell whole horses or mares to China. During these centuries, the Xiongnu (hsiung-nu) gathered under their rule other steppe tribes, forming a large confederation. In 209 BC, just three years before the founding of the Han Dynasty, the Xiongnu were assembled into a powerful confederation under a new chanyu.</History>
+    <Icon>emblems/emblem_xiongnu.png</Icon>
+  </Identity>
+  <Player>
+    <Formations datatype="tokens">
+		special/formations/flank
+		special/formations/skirmish
+    </Formations>
+  </Player>
+</Entity>

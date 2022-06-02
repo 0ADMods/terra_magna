@@ -4,13 +4,14 @@
     <Civ>zapo</Civ>
     <SpecificName>Luhui Guidxi</SpecificName>
   </Identity>
-  <ProductionQueue>
+  <Trainer>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}/infantry_spearman_b
       units/{civ}/infantry_archer_b
       units/{civ}/infantry_javelineer_b
     </Entities>
-  </ProductionQueue>
+  </Trainer>
   <VisualActor>
     <Actor>structures/zapotecs/civic_center.xml</Actor>
   </VisualActor>

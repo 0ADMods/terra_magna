@@ -16,17 +16,20 @@
   <Obstruction>
     <Static width="25.0" depth="25.0"/>
   </Obstruction>
-  <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
+  <ProductionQueue/>
+  <Researcher>
+    <Technologies datatype="tokens">
+      unlock_champion_units_xion
+    </Technologies>
+  </Researcher>
+  <TerritoryDecay disable=""/>
+  <Trainer>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}/support_wagon
       units/{civ}/siege_ram_blacksmith
     </Entities>
-    <Technologies datatype="tokens">
-      unlock_champion_units_xion
-    </Technologies>
-  </ProductionQueue>
-  <TerritoryDecay disable=""/>
+  </Trainer>
   <Upgrade>
     <BlacksmithPacked>
       <Entity>structures/xion/blacksmith_packed</Entity>

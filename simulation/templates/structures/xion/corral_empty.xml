@@ -16,13 +16,16 @@
   <Obstruction>
     <Static width="26.0" depth="26.0"/>
   </Obstruction>
-  <ProductionQueue>
+
+  <ProductionQueue/>
+  <TerritoryDecay disable=""/>
+  <Trainer>
     <Entities datatype="tokens">
       -units/{civ}/champion_cavalry
       -gaia/fauna_sheep_trainable
     </Entities>
-  </ProductionQueue>
-  <TerritoryDecay disable=""/>
+  </Trainer>
+
   <Upgrade>
     <CorralReconstructed>
       <Entity>structures/xion/corral</Entity>

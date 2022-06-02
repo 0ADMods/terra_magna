@@ -14,15 +14,18 @@
   <Obstruction>
     <Static width="21" depth="22"/>
   </Obstruction>
-  <ProductionQueue>
-      <BatchTimeModifier>1.0</BatchTimeModifier>
+    <ProductionQueue/>
+  <Researcher>
     <Technologies datatype="tokens">
      zapotecs/nagual_heroes
     </Technologies>
+  </Researcher>
+  <Trainer>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}/champion_healer
     </Entities>
-  </ProductionQueue>
+  </Trainer>
   <VisualActor>
     <Actor>structures/zapotecs/temple.xml</Actor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>

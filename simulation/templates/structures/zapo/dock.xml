@@ -10,8 +10,8 @@
   <Obstruction>
     <Static width="22.0" depth="24.0"/>
   </Obstruction>
-    <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
+  <ProductionQueue/>
+  <Researcher>
     <Technologies datatype="tokens">
       fishing_boat_gather_rate
       fishing_boat_gather_capacity
@@ -20,7 +20,7 @@
       -ship_movement_speed
       -equine_transports
     </Technologies>
-  </ProductionQueue>
+  </Researcher>
   <VisualActor>
     <Actor>structures/zapotecs/dock.xml</Actor>
     <FoundationActor>structures/fndn_6x4_dock.xml</FoundationActor>

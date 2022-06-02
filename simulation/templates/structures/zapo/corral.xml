@@ -14,8 +14,15 @@
   <Obstruction>
     <Static width="10.0" depth="14.0"/>
   </Obstruction>
-    <ProductionQueue>
-    <BatchTimeModifier>1</BatchTimeModifier>
+  <ProductionQueue/>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -gather_animals_stockbreeding
+     zapotecs/gather_poultry_farming
+    </Technologies>
+  </Researcher>
+  <Trainer>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
       gaia/fauna_turkey_trainable
       -gaia/fauna_goat_trainable
@@ -23,11 +30,7 @@
       -gaia/fauna_pig_trainable
       -gaia/fauna_cattle_cow_trainable
     </Entities>
-    <Technologies datatype="tokens">
-     -gather_animals_stockbreeding
-     zapotecs/gather_poultry_farming
-    </Technologies>
-  </ProductionQueue>
+  </Trainer>
   <VisualActor>
     <Actor>structures/zapotecs/corral.xml</Actor>
     <FoundationActor>structures/fndn_3x3.xml</FoundationActor>

@@ -23,13 +23,14 @@
   <Obstruction>
     <Static width="35.0" depth="35.0"/>
   </Obstruction>
-  <ProductionQueue>
+  <ProductionQueue/>
+  <Researcher>
     <Technologies datatype="tokens">
       garrison_heal
       barracks_batch_training
       xiongnu/special_archery_tradition
     </Technologies>
-  </ProductionQueue>
+  </Researcher>
   <TerritoryDecay disable=""/>
   <Upgrade>
     <BarracksPacked>

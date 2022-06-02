@@ -19,17 +19,22 @@
     <Anchor>pitch</Anchor>
     <TurnRate>0.0001</TurnRate>
   </Position>
-  <ProductionQueue>
+
+  <ProductionQueue/>
+  <Researcher>
+    <Technologies datatype="tokens">
+      attack_soldiers_will
+    </Technologies>
+  </Researcher>
+  <TerritoryDecay disable=""/>
+  <Trainer>
     <Entities datatype="tokens">
       units/{civ}/infantry_archer_b
       units/{civ}/infantry_spearman_b
       units/{civ}/cavalry_spearman_b
     </Entities>
-    <Technologies datatype="tokens">
-      attack_soldiers_will
-    </Technologies>
-  </ProductionQueue>
-  <TerritoryDecay disable=""/>
+  </Trainer>
+
   <Upgrade>
     <Unpack>
       <Entity>structures/xion/civil_centre_packed</Entity>

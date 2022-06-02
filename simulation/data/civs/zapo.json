@@ -1,9 +1,6 @@
 ﻿{
 	"Code": "zapo",
 	"Culture": "zapo",
-	"Name": "Zapotecs",
-	"Emblem": "session/portraits/emblems/emblem_zapotecs.png",
-	"History": "The Zapotec civilization was an indigenous pre-Columbian civilization that flourished in the Valley of Oaxaca in Mesoamerica.",
 	"Music":[
 			{ "File": "Old New World.ogg", "Type": "peace" },
 			{ "File": "Cloud_People.ogg", "Type": "peace" },
@@ -56,19 +53,6 @@
 			"Count": 3
 		}
 	],
-	"Formations":
-	[
-		"special/formations/null",
-		"special/formations/box",
-		"special/formations/column_closed",
-		"special/formations/line_closed",
-		"special/formations/column_open",
-		"special/formations/line_open",
-		"special/formations/flank",
-		"special/formations/skirmish",
-		"special/formations/wedge",
-		"special/formations/battle_line"
-	],
 	"AINames":
 	[
 		"Ozomatli",
@@ -82,7 +66,7 @@
 		"skirmish/units/default_cavalry": "units/zapo/infantry_swordsman_b",
 		"skirmish/units/default_infantry_ranged_b": "units/zapo/infantry_javelineer_b",
 		"skirmish/structures/default_house_10": "structures/{civ}/house",
-	       "skirmish/units/default_ship_trireme":"units/{civ}/ship_merchant"
+	  "skirmish/units/default_ship_trireme":"units/{civ}/ship_merchant"
 	},
 	"SelectableInGameSetup": true
 }

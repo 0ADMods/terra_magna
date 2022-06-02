@@ -17,7 +17,6 @@
     <GenericName>Barracks</GenericName>
     <SpecificName> Naj Ba’ate’il</SpecificName>
     <Tooltip>Train Zapotec citizen-soldiers. Research improvements for Zapotec units.</Tooltip>
-    <Icon>structures/pers_barracks.png</Icon>
   </Identity>
   <Obstruction>
     <Static width="22.0" depth="23.0"/>
