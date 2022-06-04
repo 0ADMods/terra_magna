@@ -12,15 +12,15 @@ const tDirtCracks = "temp_dirt_gravel_plants";
 const tCliff = "temp_cliff_b";
 const tWater = "dirt_soft";
 
-const oBerryBush = "gaia/flora_bush_berry";
+const oBerryBush = "gaia/fruit/berry_01";
 const oDeer = "gaia/fauna_deer";
-const oFish = "gaia/fauna_fish";
+const oFish = "gaia/fish/generic";
 const oGoat = "gaia/fauna_goat";
-const oStoneLarge = "gaia/geology_stonemine_temperate_quarry";
-const oStoneSmall = "gaia/geology_stone_temperate";
-const oMetalLarge = "gaia/geology_metal_temperate_slabs";
-const oBamboo = "gaia/flora_chin_bamboo";
-const oCarob = "gaia/flora_tree_carob";
+const oStoneLarge = "gaia/rock/temperate_large";
+const oStoneSmall = "gaia/rock/temperate_large_02";
+const oMetalLarge = "gaia/ore/temperate_large";
+const oBamboo = "gaia/tree/bamboo_dragon";
+const oCarob = "gaia/tree/carob";
 
 const aBush1 = "actor|props/flora/bush_tempe_sm_lush.xml";
 const aBush2 = "actor|props/flora/bush_tempe_me_lush.xml";

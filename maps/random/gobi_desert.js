@@ -13,13 +13,13 @@ var tRoad = "desert_city_tile";
 var tRoadWild = "desert_city_tile";
 var tSand = ["desert_sand_dunes_50", "desert_sand_dunes_50", "desert_sand_smooth"];
 
-var oBush = "gaia/flora_bush_temperate";
-var oBerryBush = "gaia/flora_bush_grapes";
+var oBush = "gaia/tree/bush_temperate";
+var oBerryBush = "gaia/fruit/berry_05";
 var oDeer = "gaia/fauna_camel";
 var oSheep = "gaia/fauna_gazelle";
-var oStoneLarge = "gaia/geology_stonemine_desert_quarry";
-var oStoneSmall = "gaia/geology_stone_desert_small";
-var oMetalLarge = "gaia/geology_metal_desert_slabs";
+var oStoneLarge = "gaia/rock/desert_large";
+var oStoneSmall = "gaia/rock/desert_small";
+var oMetalLarge = "gaia/ore/desert_large";
 
 var aGrassShort = "actor|props/flora/grass_soft_dry_large.xml";
 var aRockLarge = "actor|geology/stone_desert_med.xml";
