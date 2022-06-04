@@ -3,6 +3,7 @@
   <Builder>
     <Entities datatype="tokens">
       structures/{civ}/ball_court
+      structures/{civ}/range
     </Entities>
   </Builder>
   <Identity>

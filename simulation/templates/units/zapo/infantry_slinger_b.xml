@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_ranged_slinger">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/{civ}/ball_court
+      structures/{civ}/range
+    </Entities>
+  </Builder>
   <Identity>
     <Civ>zapo</Civ>
     <GenericName>Zapotec Slinger</GenericName>

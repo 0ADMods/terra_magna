@@ -2,13 +2,14 @@
 	"genericName": "Green Obsidian Arrowheads",
 	"description": "Arrowheads with three lobes instead of two inflict larger wounds.",
 	"cost": {
-		"wood": 900,
-		"stone": 600
+		"wood": 100,
+		"stone": 300
 	},
-	"requirements": {"tech": "phase_city"},
-	"requirementsTooltip": "Unlocked in City Phase.",
-	"icon": "arrow_accuracy.png",
-	"researchTime": 60,
+	"supersedes": "soldier_attack_ranged_zapo_01",
+	"requirements": { "tech": "phase_town" },
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "arrow_02.png",
+	"researchTime": 50,
 	"tooltip": "Soldiers +15% ranged attack damage.",
 	"modifications": [
 		{ "value": "Attack/Ranged/Damage/Hack", "multiply": 1.15 },

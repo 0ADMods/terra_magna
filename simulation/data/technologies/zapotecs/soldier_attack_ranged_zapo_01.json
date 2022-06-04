@@ -2,12 +2,12 @@
 	"genericName": "Obsidian Arrowheads",
 	"description": "Projectile points made of iron enable missiles to penetrate deeper.",
 	"cost": {
-		"wood": 600,
-		"stone": 400
+		"wood": 60,
+		"stone": 40
 	},
-	"requirements": {"civ": "zapo" , "tech": "phase_town" },
+	"requirements": { "tech": "phase_town" },
 	"requirementsTooltip": "Unlocked in Town Phase.",
-	"icon": "arrow.png",
+	"icon": "arrow_01.png",
 	"researchTime": 40,
 	"tooltip": "Soldiers +15% ranged attack damage.",
 	"modifications": [

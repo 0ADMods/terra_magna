@@ -25,14 +25,13 @@
       -soldier_resistance_hack_02
       -soldier_resistance_pierce_01
       -soldier_resistance_pierce_02
-     zapotecs/obsidian_knife_melee
-     zapotecs/obsidian_blades_melee
-     zapotecs/soldier_attack_ranged_zapo_01
-     zapotecs/soldier_attack_ranged_zapo_02
-     zapotecs/soldier_resistance_hack_zapo_01
+     -zapotecs/obsidian_knife_melee
+     -zapotecs/obsidian_blades_melee
+     zapotecs/soldier_attack_melee_zapo_01
+<!--      zapotecs/soldier_resistance_hack_zapo_01
      zapotecs/soldier_resistance_hack_zapo_02
      zapotecs/soldier_resistance_pierce_zapo_01
-     zapotecs/soldier_resistance_pierce_zapo_02
+     zapotecs/soldier_resistance_pierce_zapo_02 -->
     </Technologies>
   </Researcher>
   <VisualActor>

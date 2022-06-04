@@ -34,9 +34,6 @@
     <variant name="waypoint_macedonians">
       <textures><texture file="props/banner_macedonians.png" name="baseTex"/></textures>
     </variant>
-    <variant name="waypoint_chinese">
-      <textures><texture file="props/banner_chinese.png" name="baseTex"/></textures>
-    </variant>
   </group>
   <material>basic_trans.xml</material>
 </actor>

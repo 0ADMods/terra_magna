@@ -18,6 +18,12 @@
     <SpecificName> Naj Ba’ate’il</SpecificName>
     <Tooltip>Train Zapotec citizen-soldiers. Research improvements for Zapotec units.</Tooltip>
   </Identity>
+  <Trainer>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/{civ}/infantry_scout
+    </Entities>
+  </Trainer>
   <Obstruction>
     <Static width="22.0" depth="23.0"/>
   </Obstruction>
