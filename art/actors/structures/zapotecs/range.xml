@@ -20,8 +20,8 @@
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_inca.xml" attachpoint="garrisoned"/>
-      </props>
+        <prop actor="props/special/common/garrison_flag_zapo.xml" attachpoint="garrisoned"/>
+      </props>'SZ'
     </variant>
   </group>
   <group>
