@@ -11,7 +11,7 @@
     <GenericName>Zapotec Slinger</GenericName>
     <SpecificName>Guixe Bixeenda</SpecificName>
     <SelectionGroupName>units/zapo/infantry_slinger_b</SelectionGroupName>
-    <Icon>units/zapo_infantry_slinger.png</Icon>
+    <Icon>units/zapo/infantry_slinger.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/zapo/infantry_slinger_a</Entity>

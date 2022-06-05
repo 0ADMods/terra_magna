@@ -2,7 +2,7 @@
 <Entity parent="template_unit_infantry_melee_spearman">
   <Identity>
     <SpecificName>Mixteca Jaguar Warrior</SpecificName>
-    <Icon>units/merc_infantry_1.png</Icon>
+    <Icon>units/zapo/merc_infantry_1.png</Icon>
   </Identity>
       <Promotion disable=""/>
   <VisualActor>

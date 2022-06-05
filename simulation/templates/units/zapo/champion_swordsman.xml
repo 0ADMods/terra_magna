@@ -4,11 +4,11 @@
     <Civ>zapo</Civ>
     <GenericName>Champion Swordsman</GenericName>
     <SelectionGroupName>units/zapo/champion_swordsman</SelectionGroupName>
-    <Icon>units/zapo_champion_swordsman.png</Icon>
+    <Icon>units/zapo/champion_swordsman.png</Icon>
   </Identity>
   <Upgrade>
     <Ranged>
-      <Entity>units/zapo/champion_swordsman_archer</Entity>
+      <Entity>units/zapo/champion_swordsman_javalineer</Entity>
       <Time>10</Time>
       <Tooltip>Switch Weapon.</Tooltip>
     </Ranged>

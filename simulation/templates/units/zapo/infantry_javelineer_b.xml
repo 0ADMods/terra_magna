@@ -11,7 +11,7 @@
     <GenericName>Zapotec Hunter</GenericName>
     <SpecificName>Tzapotēcatl Atlatl</SpecificName>
     <SelectionGroupName>units/zapo/infantry_javelinist_b</SelectionGroupName>
-    <Icon>units/zapo_infantry_javelinist.png</Icon>
+    <Icon>units/zapo/infantry_javelinist.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/zapo/infantry_javelineer_a</Entity>

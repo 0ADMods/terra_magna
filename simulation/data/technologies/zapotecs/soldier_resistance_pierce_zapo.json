@@ -9,9 +9,9 @@
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "shield_parma.png",
 	"researchTime": 40,
-	"tooltip": "Soldiers +1 pierce resistance.",
+	"tooltip": "Soldiers +3 pierce resistance.",
 	"modifications": [
-		{ "value": "Resistance/Entity/Damage/Pierce", "add": 1 }
+		{ "value": "Resistance/Entity/Damage/Pierce", "add": 3 }
 	],
 	"affects": ["Soldier"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"

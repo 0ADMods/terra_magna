@@ -11,7 +11,7 @@
     <GenericName>Zapotec Spearman</GenericName>
     <SpecificName>Zapoteca Bate'ch’o’jinel</SpecificName>
     <SelectionGroupName>units/zapo/infantry_spearman_b</SelectionGroupName>
-    <Icon>units/zapo_infantry_spearman.png</Icon>
+    <Icon>units/zapo/infantry_spearman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/zapo/infantry_spearman_a</Entity>

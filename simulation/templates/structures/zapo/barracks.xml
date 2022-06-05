@@ -22,6 +22,9 @@
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}/infantry_scout
+      units/{civ}/champion_infantry_spear
+      -units/{civ}/infantry_javelineer_b
+      -units/{civ}/infantry_slinger_b   
     </Entities>
   </Trainer>
   <Obstruction>

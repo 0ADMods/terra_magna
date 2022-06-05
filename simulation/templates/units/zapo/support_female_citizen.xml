@@ -11,7 +11,7 @@
     <GenericName>Zapotec Woman</GenericName>
     <SpecificName>Tzapotēcatl Gunaa</SpecificName>
     <SelectionGroupName>units/zapo_support_female_citizen</SelectionGroupName>
-    <Icon>units/zapo_female.png</Icon>
+    <Icon>units/zapo/female.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/zapotecs/citizen_female.xml</Actor>

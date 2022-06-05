@@ -2,7 +2,7 @@
 <Entity parent="template_unit_infantry_melee_maceman">
   <Identity>
     <SpecificName>Otomi warrior ally</SpecificName>
-    <Icon>units/merc_infantry_2.png</Icon>
+    <Icon>units/zapo/merc_infantry_2.png</Icon>
   </Identity>
       <Promotion disable=""/>
   <VisualActor>

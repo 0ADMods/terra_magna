@@ -8,7 +8,7 @@
     <SpecificName>Chizino Yejo</SpecificName>
     <SelectionGroupName>units/zapo/hero_jaguar_king</SelectionGroupName>
     <GenericName>Lord 11 Rain</GenericName>
-    <Icon>units/zapo_king_11rain.png</Icon>
+    <Icon>units/zapo/king_11rain.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/zapotecs/hero_infantry_spearman_11_rain.xml</Actor>

@@ -5,8 +5,8 @@
 		"wood": 500,
 		"metal": 400
 	},
-	"supersedes": "soldier_attack_ranged_02",
-	"requirements": { "tech": "phase_city" },
+	"supersedes": "soldier_attack_ranged_zapo_01",
+	"requirements": { "tech": "phase_town" },
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "arrow_03.png",
 	"researchTime": 60,

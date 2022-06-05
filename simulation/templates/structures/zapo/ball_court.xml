@@ -24,6 +24,7 @@
     <Tooltip></Tooltip>
     <Classes datatype="tokens">ConquestCritical CivSpecific</Classes>
     <VisibleClasses datatype="tokens">Ballcourt</VisibleClasses>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     <Icon>structures/syssition.png</Icon>
   </Identity>
   <Obstruction>
@@ -51,6 +52,7 @@
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}/champion_infantry_spear
+      units/{civ}/champion_swordsman_javalineer
       units/{civ}/hero_lord_1_jaguar
       units/{civ}/hero_lord_13_night
       units/{civ}/hero_lord_11_rain

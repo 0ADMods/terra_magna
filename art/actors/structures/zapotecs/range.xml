@@ -21,7 +21,7 @@
     <variant name="garrisoned">
       <props>
         <prop actor="props/special/common/garrison_flag_zapo.xml" attachpoint="garrisoned"/>
-      </props>'SZ'
+      </props>
     </variant>
   </group>
   <group>
