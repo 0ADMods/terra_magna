@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_ship_bireme">
+  <Identity>
+    <Civ>theb</Civ>
+	<Lang>greek</Lang>
+    <GenericName>Monoreme</GenericName>
+    <SpecificName>Pentēkónteros</SpecificName>
+    <History>Penteconters were employed from 800 BC, mostly as a light support unit in the Greek navy. After 600 BC, they were only seen in battle in very limited numbers. They were still in use by small states which could not afford a sufficient number of triremes for their navy.</History>
+    <Icon>units/hele_ship_bireme.png</Icon>
+  </Identity>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>128x512/cartouche.png</MainTexture>
+        <MainTextureMask>128x512/cartouche_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <VisualActor>
+    <Actor>structures/athenians/pentekonter.xml</Actor>
+  </VisualActor>
+</Entity>

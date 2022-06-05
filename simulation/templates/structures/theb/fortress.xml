@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_fortress">
+  <Footprint>
+    <Square width="26.0" depth="28.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>theb</Civ>
+    <SpecificName>Phrourion</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="24.0" depth="26.0"/>
+  </Obstruction>
+  <ProductionQueue/>
+  <Researcher>
+    <Technologies datatype="tokens">
+	  thebans/heroes_boeotarch
+    </Technologies>
+  </Researcher>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/hero_gorgidas
+      units/{civ}/hero_pelopidas
+	  units/{civ}/hero_epaminondas
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/athenians/fortress.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+   <Length>24.0</Length>
+    <Indent>7.6</Indent>
+  </WallPiece>
+</Entity>

@@ -1,0 +1,137 @@
+{
+	"Code":"theb",
+	"Culture":[ "greek" ],
+	"Region":[ "mediterranean", "europe", "greece" ],
+	
+	"Music":[
+			{"File":"The_Hellespont.ogg", "Type":"peace"},
+			{"File":"Harvest_Festival.ogg", "Type":"peace"},
+			{"File":"Helen_Leaves_Sparta.ogg", "Type":"peace"},
+			{"File":"In_the_Shadow_of_Olympus.ogg", "Type":"peace"},
+			{"File":"Forging_a_City-State.ogg", "Type":"peace"}
+		],
+	"Factions":
+	[
+		{
+			"Name":"Thebans",
+			"Description":"The great power of Central Greece and leader of the Boeotian confederacy, Thebes is a force to be reckoned with. It is a major rival of ancient Athens, and sided with the Persians during the 480 BC invasion under Xerxes. Theban forces ended the power of Sparta at the Battle of Leuctra in 371 BC under the command of Epaminondas. The Sacred Band of Thebes (an elite military unit) famously fell at the battle of Chaeronea in 338 BC against Philip II and Alexander the Great. Prior to its destruction by Alexander in 335 BC, Thebes was a major force in Greek history, and was the most dominant city-state at the time of the Macedonian conquest of Greece.",
+			"Technologies":
+			[
+				{
+					"Name":"Oracle of Trophonios.",
+					"History":"Libadeia was originally an insignificant place, but it rose into importance in consequence of its possessing the celebrated oracle of Trophonius. The oracle was consulted both by Croesus and by Mardonius, and it continued to be consulted even in the time of Plutarch, when all the other oracles in Boeotia had become dumb. Pausanias, in his account of Boeotia, relates many details about the cult of Trophonius. Whoever desired to consult the oracle would live in a designated house for a period of days, bathing in the river Herkyna and living on sacrificial meat. He would then sacrifice, by day, to a series of gods, including Cronus, Apollo, Zeus the king, Hera the Charioteer, and Demeter-Europa. At night, he would cast a ram into a pit sacred to Agamedes, drink from two rivers called Lethe and Mnemosyne, and then descend into a cave. Here, most consultees were frightened out of their wits, and forgot the experience entirely upon coming up. Afterward, the consultee would be seated upon a chair of Mnemosyne, where the priests of the shrine would record his ravings and compose an oracle out of them. \"To descend into the cave of Trophonios\" became a proverbial way of saying \"to suffer a great fright\". This saying is alluded to in Aristophanes' Clouds.",
+					"Description":"All units and structures +10% vision range."
+				},
+				{
+					"Name":"Boeotarch",
+					"History":"The Boeotarchs were a council of 10 elected magistrates or generals, similar in power and responsibility to the \"strategoi\" of Athens.",
+					"Description":"All Heroes +25% health."
+				}
+			],
+			"Heroes":
+			[
+				{
+					"Name":"Epaminondas",
+					"Class":"Hero Spear Infantry",
+					"Armament":"Dory Spear",
+					"Emblem":"",
+					"History":"Leader, statesman, and general of the Boeotian city-state Thebes during its moment of ascendency during the middle decades of the 4th century BC."
+				},
+				{
+					"Name":"Pelopidas",
+					"Class":"Hero Sword Infantry",
+					"Armament":"Xiphos Short Sword",
+					"Emblem":"",
+					"History":"Pelopidas (died 364 BC) was an important Theban statesman and general in Greece. He led the Theban Sacred Band to defeat a much larger Spartan force early in his career. Later he accompanied his friend and co-Boeotarch, Epaminondas, in defeating the Spartans at the Battle of Leuktra using the novel Oblique Order phalanx formation, focusing their forces on one part of the Spartan line in order to break it and route the rest of the enemy army. At the end of his life, Pelopidas was called upon by the towns of Thessaly to protect them against the rising ambitions of Alexander of Pharae. He managed to defeat Alexander, but in his haste to strike the final blow on Alexander, Pelopidas was himself slain."
+				},
+				{
+					"Name":"Gorgidas",
+					"Class":"Hero Spear Infantry",
+					"Armament":"Dory Spear",
+					"Emblem":"",
+					"History":"Gorgidas was the first known Theban military leader of the Sacred Band of Thebes around 378 BC. Plutarch in his Life of Pelopidas credits Gorgidas with the creation of the Sacred Band, which he dispersed at first throughout the front ranks of the regular infantry, with the idea that they would inspire valour; however they were later arrayed by Pelopidas as a unit in order to make their gallantry more conspicuous."
+				}
+			]
+		}
+	],
+	"CivBonuses":
+	[
+		{
+			"Name":"Oblique Order",
+			"History":"The oblique order is a military tactic whereby an attacking army focuses its forces to attack a single enemy flank. The force commander concentrates the majority of his strength on one flank and uses the remainder to fix the enemy line. This allows a commander with weaker or equal forces to achieve a local superiority in numbers. The commander can then try to defeat the enemy in detail. It has been used by numerous successful generals. Oblique order required disciplined troops able to execute complex maneuvers in varied circumstances. The first recorded use of this tactic was at the Battle of Leuctra, in Greece, when the Thebans under Epaminondas defeated the Spartans by highly enforcing one flank to fifty rows deep, rather than spread forces parsimoniously. Philip of Macedon learned Epaminondas' technique while held prisoner at Thebes, and his descendants, including Alexander the Great, used it in their campaigns. The classical writer Vegetius was the first known to write about the tactic that became known as the oblique order of battle.",
+			"Description":"An extra-deep Phalanx formation that gives an extra pushing effect and health bonus to the spear infantry within it."
+		},
+		{
+			"Name":"Siege of Delion",
+			"History":"Unknown.",
+			"Description":"Thebans gain access to the Fire Raiser, a unique siege weapon good against units and buildings, but also loses health over its lifetime."
+		},
+		{
+			"Name":"Hellenization",
+			"History":"The Greeks were highly successful in Hellenising various foreigners. During the Hellenistic Age, Greek was the lingua franca of the Ancient World, spoken widely from Spain to India.",
+			"Description":"Buildings +20% territory influence while the Theatron stands."
+		}
+	],
+	"TeamBonuses":
+	[
+		{
+			"Name":"Boeotian Confederacy",
+			"History":".",
+			"Description":"All allied Buildings -10% build time."
+		}
+	],
+	"Structures":
+	[
+		{
+			"Name":"Theatron",
+			"Class":"",
+			"Emblem":"",
+			"History":"Greek theatres were places where the immortal tragedies of Aeschylus, Sophocles and many other talented dramatists were staged to the delight of the populace. They were instrumental in enriching Hellenic culture.",
+			"Requirements":"",
+			"Phase":"City",
+			"Special":"Gives access to the Hellenization civ bonus. Building a Theatron increases the territory effect of all buildings by +20%."
+		}
+	],
+	"WallSets":
+	[
+		"other/wallset_palisade",
+		"structures/theb/wallset_stone"
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/theb/civil_centre"
+		},
+		{
+			"Template": "units/theb/support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/theb/infantry_spearman_b",
+			"Count": 3
+		},
+		{
+			"Template": "units/theb/infantry_javelineer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/theb/cavalry_javelineer_b"
+		}
+	],
+	"AINames":
+	[
+		"Calydnus",
+		"Ogyges",
+		"Cadmus",
+		"Pentheus",
+		"Polydorus",
+		"Nycteus",
+		"Lycus",
+		"Labdacus"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_infantry_melee_b": "units/theb/infantry_spearman_b"
+	},
+	"SelectableInGameSetup": true
+}

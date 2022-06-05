@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_temple">
+  <Footprint>
+    <Square width="22.0" depth="32.0"/>
+  </Footprint>
+  <Identity>
+    <Civ>theb</Civ>
+    <SpecificName>Naos</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="21.0" depth="29.0"/>
+  </Obstruction>
+  <ProductionQueue/>
+  <Researcher>
+    <Technologies datatype="tokens">
+	  thebans/vision_throphonios
+    </Technologies>
+  </Researcher>
+  <VisualActor>
+    <Actor>structures/thebans/temple.xml</Actor>
+    <FoundationActor>structures/fndn_5x7.xml</FoundationActor>
+  </VisualActor>
+</Entity>

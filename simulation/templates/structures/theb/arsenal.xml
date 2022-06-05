@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_arsenal">
+  <Identity>
+    <Civ>theb</Civ>
+    <SpecificName>Hoplothēkē</SpecificName>
+  </Identity>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+	  units/{civ}/siege_fireraiser
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/hellenes/workshop.xml</Actor>
+  </VisualActor>
+</Entity>

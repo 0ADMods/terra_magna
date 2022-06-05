@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="hoplite|template_unit_hero_infantry_spearman">
+  <Attack>
+    <Melee>
+	  <Bonuses>
+		<BonusSpartans>
+		  <Civ>spart</Civ>
+		  <Classes></Classes>
+		  <Multiplier>1.25</Multiplier>
+		</BonusSpartans>
+	  </Bonuses>
+    </Melee>
+  </Attack>
+  <Auras datatype="tokens">
+    units/heroes/theb_hero_epaminondas
+  </Auras>
+  <Identity>
+    <Civ>theb</Civ>
+	<Lang>greek</Lang>
+	<GenericName>Epaminondas</GenericName>
+    <SpecificName>Epameinondas</SpecificName>
+	<History>Leader, statesman, and general of the Boeotian city-state Thebes during its moment of ascendency during the middle decades of the 4th century BC.</History>
+    <Tooltip>Traits: Medium Speed, Heavy Armor, Strong Attack, Shield Wall.
+Strong Against: All Cavalry (1.25x), Spartans (1.25x)
+Weak Against: Ranged Units, Sword Infantry.</Tooltip>
+    <Icon>units/theb/hero_epaminondas.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/thebans/hero_epaminondas.xml</Actor>
+  </VisualActor>
+</Entity>

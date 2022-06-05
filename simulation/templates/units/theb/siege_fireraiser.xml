@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_siege_ram">
+  <Attack replace="">
+    <Melee>
+      <Damage>
+        <Fire>20</Fire>
+      </Damage>
+      <ApplyStatus>
+        <Burning>
+          <Interval>5000</Interval>
+          <Damage>
+            <Fire>1</Fire>
+          </Damage>
+          <Stackability>Stack</Stackability>
+          <Duration>20000</Duration>
+        </Burning>
+      </ApplyStatus>
+      <AttackName>Fire</AttackName>
+      <MaxRange>10</MaxRange>
+      <PrepareTime>250</PrepareTime>
+      <RepeatTime>500</RepeatTime>
+    </Melee>
+  </Attack>
+  <Footprint replace="">
+    <Square width="6.0" depth="20.0"/>
+    <Height>4.5</Height>
+  </Footprint>
+  <GarrisonHolder disable=""/>
+  <Health>
+    <Max>600</Max>
+    <RegenRate>-5</RegenRate>
+  </Health>
+  <Identity>
+    <Civ>theb</Civ>
+	<Lang>greek</Lang>
+    <GenericName>Fire Raiser</GenericName>
+    <SpecificName>Pyrobolos</SpecificName>
+	<VisibleClasses datatype="tokens">Fire</VisibleClasses>
+    <Icon>units/theb/siege_fireraiser.png</Icon>
+  </Identity>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>5</Hack>
+        <Pierce>20</Pierce>
+        <Crush>5</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>128x512/rounded_rectangle.png</MainTexture>
+        <MainTextureMask>128x512/rounded_rectangle_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <Vision>
+    <Range>50</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>units/thebans/siege_fireraiser.xml</Actor>
+  </VisualActor>
+</Entity>

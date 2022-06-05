@@ -14,7 +14,7 @@
   <Obstruction>
     <Static width="21" depth="22"/>
   </Obstruction>
-    <ProductionQueue/>
+  <ProductionQueue/>
   <Researcher>
     <Technologies datatype="tokens">
      zapotecs/nagual_lords
