@@ -1,0 +1,12 @@
+{
+	"type": "global",
+	"affects": ["Slave"],
+	"affectedPlayers": ["MutualAlly"],
+	"modifications": [
+		{"value": "Cost/BuildTime", "multiply": 0.67},
+		{ "value": "Cost/Resources/food", "multiply": 0.67 },
+		{ "value": "Cost/Resources/metal", "multiply": 0.67 }
+	],
+	"auraName": "Slave Traders",
+	"auraDescription": "Slaves -33% train time and cost."
+}

@@ -15,6 +15,6 @@
     </Melee>
   </Upgrade>
   <VisualActor>
-    <Actor>units/xion/cavalry_archer_c_m.xml</Actor>
+    <Actor>units/xiongnu/cavalry_archer_c_m.xml</Actor>
   </VisualActor>
 </Entity>

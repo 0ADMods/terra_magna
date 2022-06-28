@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="biped/base_hoplite.xml">
+      <mesh>skeletal/new/m_armor_pants_tunic_short.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/new/head_pers_a.xml" attachpoint="head"/>
+        <prop actor="props/units/shields/aspis_athen_a.xml" attachpoint="shield_arm"/>
+        <prop actor="props/units/weapons/spear_hoplite.xml" attachpoint="weapon_R"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="scale_kardakes_01_01">
+      <textures>
+	    <texture file="skeletal/pers/scale_kardakes_01_01.png" name="baseTex"/>
+	    <texture file="skeletal/pers/scale_kardakes_01_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="scale_kardakes_01_02">
+      <textures>
+	    <texture file="skeletal/pers/scale_kardakes_01_02.png" name="baseTex"/>
+	    <texture file="skeletal/pers/scale_kardakes_01_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="linothorax_01_01">
+      <mesh>skeletal/new/m_armor_pants_tunic_long.dae</mesh>
+      <textures>
+	    <texture file="skeletal/pers/linothorax_01_01.png" name="baseTex"/>
+	    <texture file="skeletal/hele/linothorax_01_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="linothorax_01_06">
+      <mesh>skeletal/new/m_armor_pants_tunic_long.dae</mesh>
+      <textures>
+	    <texture file="skeletal/pers/linothorax_01_06.png" name="baseTex"/>
+	    <texture file="skeletal/hele/linothorax_01_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="padded_01_04">
+      <mesh>skeletal/new/m_armor_pants_tunic_long.dae</mesh>
+      <textures>
+	    <texture file="skeletal/pers/padded_01_04.png" name="baseTex"/>
+	    <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="2" name="Helmet-Scythian-b">
+      <props>
+        <prop actor="props/units/helmets/hele_scythian_b.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Helmet-Chalcidean-a1">
+      <props>
+        <prop actor="props/units/helmets/hele_chalcidean_a1.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Helmet-Chalcidean-a2">
+      <props>
+        <prop actor="props/units/helmets/hele_chalcidean_a2.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Helmet-Chalcidean-a3">
+      <props>
+        <prop actor="props/units/helmets/hele_chalcidean_a3.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Helmet-Chalcidean-a4">
+      <props>
+        <prop actor="props/units/helmets/hele_chalcidean_a4.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Helmet-Chalcidean-a5">
+      <props>
+        <prop actor="props/units/helmets/hele_chalcidean_a5.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Helmet-Chalcidean-b1">
+      <props>
+        <prop actor="props/units/helmets/hele_chalcidean_b1.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/attack_slaughter.xml"/>
+    <variant file="biped/gather_praise.xml"/>
+    <variant file="biped/build.xml"/>
+    <variant file="biped/build_farm.xml"/>
+    <variant file="biped/death_infantry.xml"/>
+  </group>
+  <material>player_trans_spec.xml</material>
+</actor>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Idle">
+      <mesh>skeletal/new/m_tunic_short.dae</mesh>
+      <animations>
+        <animation file="biped/xion_blacksmith_sword.dae" name="idle" speed="100"/>
+      </animations>
+      <props>
+        <prop actor="props/units/heads/new/head_pers_b.xml" attachpoint="head"/>
+        <prop actor="props/units/weapons/akinakes_scythian_long.xml" attachpoint="weapon_L"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Hat-Kidaris">
+      <props>
+        <prop actor="props/units/helmets/pers_kidaris_loose_all.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Hat-Thracian-Leather">
+      <props>
+        <prop actor="props/units/helmets/hele_thracian_cap_leather.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="scyth_tunic_coat_01_01">
+      <textures>
+        <texture file="skeletal/scyth/tunic_coat_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="scyth_tunic_coat_01_02">
+      <textures>
+        <texture file="skeletal/scyth/tunic_coat_01_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="scyth_tunic_coat_01_03">
+      <textures>
+        <texture file="skeletal/scyth/tunic_coat_01_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/death_infantry.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

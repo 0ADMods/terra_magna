@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="biped/trunk_operator_right.xml" frequency="1" name="relax">
+      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/new/head_thrace.xml" attachpoint="head"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Hat-Kidaris">
+      <props>
+        <prop actor="props/units/helmets/pers_kidaris_loose_all.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Hat-Thracian-Leather">
+      <props>
+        <prop actor="props/units/helmets/hele_thracian_cap_leather.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="armor-linothorax-2-a">
+      <textures>
+        <texture file="skeletal/scyth/linothorax_02_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="armor-linothorax-2-b">
+      <textures>
+        <texture file="skeletal/scyth/linothorax_02_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/death_infantry.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

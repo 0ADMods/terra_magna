@@ -26,6 +26,6 @@
     <Entity>units/xion_cavalry_archer_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/xion/cavalry_archer_b_m.xml</Actor>
+    <Actor>units/xiongnu/cavalry_archer_b_m.xml</Actor>
   </VisualActor>
 </Entity>

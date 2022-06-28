@@ -19,7 +19,7 @@ const oGoat = "gaia/fauna_goat";
 const oStoneLarge = "gaia/rock/temperate_large";
 const oStoneSmall = "gaia/rock/temperate_large_02";
 const oMetalLarge = "gaia/ore/temperate_large";
-const oBamboo = "gaia/tree/bamboo_dragon";
+const oBamboo = "gaia/tree/bamboo";
 const oCarob = "gaia/tree/carob";
 
 const aBush1 = "actor|props/flora/bush_tempe_sm_lush.xml";

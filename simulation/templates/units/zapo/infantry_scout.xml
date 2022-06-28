@@ -5,6 +5,9 @@
       <AttackName>Flint Dagger</AttackName>
     </Melee>
   </Attack>
+  <Health>
+    <Max>70</Max>
+  </Health>
   <Identity>
     <Civ>zapo</Civ>
     <SpecificName>Zapotec Scout</SpecificName>
@@ -39,7 +42,9 @@
       <invalid_building_placement>interface/alarm/alarm_invalid_building_placement.xml</invalid_building_placement>
     </SoundGroups>
   </Sound>
-
+  <UnitMotion>
+    <WalkSpeed op="mul">0.7</WalkSpeed>
+  </UnitMotion>
   <VisualActor>
     <Actor>units/zapotecs/infantry_scout.xml</Actor>
   </VisualActor>

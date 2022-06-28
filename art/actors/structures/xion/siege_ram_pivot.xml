@@ -4,10 +4,10 @@
     <variant>
       <mesh>structural/trunk_ram_pivot.dae</mesh>
       <props>
-        <prop actor="units/xion/operator_left_f.xml" attachpoint="operator_a"/>
-        <prop actor="units/xion/operator_left_b.xml" attachpoint="operator_b"/>
-        <prop actor="units/xion/operator_right_f.xml" attachpoint="operator_c"/>
-        <prop actor="units/xion/operator_right_b.xml" attachpoint="operator_d"/>
+        <prop actor="units/xiongnu/operator_left_f.xml" attachpoint="operator_a"/>
+        <prop actor="units/xiongnu/operator_left_b.xml" attachpoint="operator_b"/>
+        <prop actor="units/xiongnu/operator_right_f.xml" attachpoint="operator_c"/>
+        <prop actor="units/xiongnu/operator_right_b.xml" attachpoint="operator_d"/>
         <prop actor="structures/xion/siege_ram.xml" attachpoint="root"/>
       </props>
       <textures>

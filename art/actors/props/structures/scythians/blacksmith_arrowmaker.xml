@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Idle">
+      <mesh>skeletal/new/m_tunic_short.dae</mesh>
+      <animations>
+        <animation event="0.35" file="biped/xion_blacksmith_arrow.dae" load="0.75" name="idle" speed="100"/>
+      </animations>
+      <props>
+        <prop actor="props/units/heads/xion_head.xml" attachpoint="head"/>
+        <prop actor="props/units/sharpening_stone.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/xion_arrow_front.xml" attachpoint="weapon_L"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="scyth_tunic_coat_02_01">
+      <textures>
+        <texture file="skeletal/scyth/tunic_coat_02_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="scyth_tunic_coat_02_02">
+      <textures>
+        <texture file="skeletal/scyth/tunic_coat_02_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="scyth_tunic_coat_02_03">
+      <textures>
+        <texture file="skeletal/scyth/tunic_coat_02_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/death_infantry.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

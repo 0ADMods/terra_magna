@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>    
+  <group>
+    <variant frequency="1" name="shield_elite">
+      <mesh>props/shield/scyth_drum_a.dae</mesh>
+    </variant>
+  </group>
+   <group>
+    <variant frequency="1" name="shield_1">
+      <textures>
+        <texture file="props/shield/scyth/drum_01.png" name="baseTex"/>
+        <texture file="props/shield/scyth/drum_01_norm.png" name="normTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="shield_2">
+      <textures>
+        <texture file="props/shield/scyth/drum_02.png" name="baseTex"/>
+        <texture file="props/shield/scyth/drum_01_norm.png" name="normTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="shield_3">
+      <textures>
+        <texture file="props/shield/scyth/drum_03.png" name="baseTex"/>
+        <texture file="props/shield/scyth/drum_01_norm.png" name="normTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>no_trans_norm.xml</material>
+</actor>

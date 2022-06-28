@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_resource_field">
+  <BuildRestrictions>
+    <Territory>own neutral enemy ally enemy</Territory>
+	<Category>Fields</Category>
+    <Distance>
+      <FromClass>CivicCenter</FromClass>
+      <MinDistance>10</MinDistance>
+    </Distance>
+  </BuildRestrictions>
+  <Identity>
+    <Civ>scyth</Civ>
+    <SpecificName>Agrós</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/plot_field_medit.xml</Actor>
+  </VisualActor>
+</Entity>

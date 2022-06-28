@@ -15,6 +15,6 @@
     </Ranged>
   </Upgrade>
   <VisualActor>
-    <Actor>units/xion/cavalry_spearman_c_m.xml</Actor>
+    <Actor>units/xiongnu/cavalry_spearman_c_m.xml</Actor>
   </VisualActor>
 </Entity>

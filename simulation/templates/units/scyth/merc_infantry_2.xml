@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="merc_inf|template_unit_champion_infantry_javelineer">
+  <Identity>
+    <Civ>scyth</Civ>
+	<Lang>greek</Lang>
+    <SpecificName>Thracian Peltast</SpecificName>
+    <SelectionGroupName>units/mercenaries/greek_infantry_2</SelectionGroupName>
+	<VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
+    <Icon>units/athen/merc_peltast.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/mercenaries/thrace_peltast_1.xml</Actor>
+  </VisualActor>
+</Entity>

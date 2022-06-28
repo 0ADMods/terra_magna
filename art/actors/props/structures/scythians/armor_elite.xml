@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="No_sleeves">
+      <mesh>props/xion_elite_armor.dae</mesh>
+      <textures>
+        <texture file="skeletal/scyth/scale_02_spec.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="scale_02_01">
+      <textures>
+        <texture file="skeletal/scyth/scale_02_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="scale_02_01">
+      <textures>
+        <texture file="skeletal/scyth/scale_02_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

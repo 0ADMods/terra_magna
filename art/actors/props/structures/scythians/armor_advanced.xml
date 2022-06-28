@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="No_sleeves">
+      <mesh>props/xion_advanced_armor.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="linothorax_01_01">
+      <textures>
+        <texture file="skeletal/scyth/linothorax_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="linothorax_01_02">
+      <textures>
+        <texture file="skeletal/scyth/linothorax_01_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="linothorax_01_06">
+      <textures>
+        <texture file="skeletal/scyth/linothorax_01_06.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

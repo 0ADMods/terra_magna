@@ -1,0 +1,10 @@
+{
+	"type": "global",
+	"affects": ["Structure"],
+	"affectedPlayers": ["ExclusiveMutualAlly"],
+	"modifications": [
+		{ "value": "Cost/Resources/stone", "multiply": 0.80 }
+	],
+	"auraName": "Mesoamerican stone workers",
+	"auraDescription": "All allied Buildings -20% stone cost."
+}

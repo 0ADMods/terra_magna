@@ -7,6 +7,6 @@
     <Entity>units/xion_cavalry_swordsman_e</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/xion/cavalry_swordsman_a_m.xml</Actor>
+    <Actor>units/xiongnu/cavalry_swordsman_a_m.xml</Actor>
   </VisualActor>
 </Entity>

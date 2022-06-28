@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support">
+  <Cost>
+    <BuildTime>20</BuildTime>
+    <Resources>
+      <food>50</food>
+      <wood>50</wood>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Height>2.0</Height>
+    <Square width="7.0" depth="14.0"/>
+  </Footprint>
+  <Health>
+    <Max>300</Max>
+  </Health>
+  <Identity>
+    <Classes datatype="tokens">Wagon</Classes>
+    <SpecificName>Resource Wagon</SpecificName>
+    <GenericName>Mobile Dropsite</GenericName>
+    <Icon>units/xion/support_wagon.png</Icon>
+    <Tooltip>Mobile dropsite for all resources.</Tooltip>
+  </Identity>
+  <Loot>
+    <xp>100</xp>
+    <food>10</food>
+    <wood>10</wood>
+    <stone>10</stone>
+    <metal>10</metal>
+  </Loot>
+  <Population>
+    <Bonus>5</Bonus>
+  </Population>
+  <Position>
+    <Anchor>pitch</Anchor>
+    <TurnRate>3</TurnRate>
+  </Position>
+  <ProductionQueue/>
+  <Researcher>
+    <TechCostMultiplier>
+      <food>1.0</food>
+      <wood>1.0</wood>
+      <stone>1.0</stone>
+      <metal>1.0</metal>
+      <time>1.0</time>
+    </TechCostMultiplier>
+  </Researcher>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>4</Hack>
+        <Pierce>6</Pierce>
+        <Crush>10</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <ResourceDropsite>
+    <Types>food wood stone metal</Types>
+    <Sharable>true</Sharable>
+  </ResourceDropsite>
+<!--   <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>ellipse/128x256.png</MainTexture>
+        <MainTextureMask>ellipse/128x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable> -->
+  <Sound>
+    <SoundGroups>
+      <trained>attack/siege/siege_select.xml</trained>
+      <order_walk>attack/siege/siege_select.xml</order_walk>
+      <run>actor/singlesteps/steps_grass.xml</run>
+      <select>attack/siege/siege_select.xml</select>
+      <walk>actor/singlesteps/steps_grass.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <Trainer>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
+  </Trainer>
+  <UnitAI>
+    <CanPatrol>false</CanPatrol>
+    <Formations disable=""/>
+  </UnitAI>
+  <UnitMotion>
+    <PassabilityClass>large</PassabilityClass>
+    <WalkSpeed>5.0</WalkSpeed>
+    <Weight op="mul">5</Weight>
+  </UnitMotion>
+  <Vision>
+    <Range>30</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>structures/xion/xion_wagon.xml</Actor>
+  </VisualActor>
+</Entity>

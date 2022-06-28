@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant>
+      <mesh>skeletal/new/m_armor_nomad_b.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/xion_head.xml" attachpoint="head"/>
+        <prop actor="props/units/weapons/xion_bow.xml" attachpoint="weapon_bow"/>
+        <prop actor="props/units/weapons/xion_quiver_cavalry_right.xml" attachpoint="sheath_R"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="2" name="Longhair">
+      <props>
+        <prop actor="" attachpoint="helmet"/>
+        <prop actor="props/units/heads/xion_head_bald_longhair.xml" attachpoint="head"/>
+      </props>
+    </variant>
+    <variant frequency="2" name="Helmet_iron">
+      <props>
+        <prop actor="props/units/helmets/xion_hide_iron.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="6" name="Helmet_cloth">
+      <props>
+        <prop actor="props/units/helmets/xion_cloth.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="6" name="Helmet_b">
+      <props>
+        <prop actor="props/units/helmets/xion_hide.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant file="clothes/xion/uniform_a_01.xml"/>
+    <variant file="clothes/xion/uniform_a_02.xml"/>
+    <variant file="clothes/xion/uniform_a_03.xml"/>
+    <variant file="clothes/xion/uniform_a_04.xml"/>
+  </group>
+  <group>
+    <variant file="biped/rider/cavalry/base_archer_relax_hip.xml" name="Archer-Relax-Hip" frequency="1"/>
+    <variant file="biped/rider/carry_meat.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/rider/cavalry/attack_ranged_archer_hip.xml"/>
+    <variant file="biped/rider/promotion_shield.xml"/>
+    <variant file="biped/rider/attack_slaughter_shield_hele.xml"/>
+    <variant file="biped/gather_meat.xml"/>
+    <variant file="biped/rider/death_ranged.xml"/>
+  </group>
+  <material>player_trans_spec.xml</material>
+</actor>

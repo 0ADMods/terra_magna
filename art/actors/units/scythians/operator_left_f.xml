@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="biped/trunk_operator_left.xml" frequency="1" name="relax">
+      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/new/head_thrace.xml" attachpoint="head"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Helmet_lf">
+      <props>
+        <prop actor="props/units/helmets/hele_scythian_b.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Hat-Kidaris_lf">
+      <props>
+        <prop actor="props/units/helmets/pers_kidaris_loose_all.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Hat-Thracian-Leather_lf">
+      <props>
+        <prop actor="props/units/helmets/hele_thracian_cap_leather.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="scale-linothorax-1-a">
+      <textures>
+        <texture file="skeletal/scyth/linothorax_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="scale-linothorax-1-b">
+      <textures>
+        <texture file="skeletal/scyth/linothorax_01_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="scale-linothorax-1-c">
+      <textures>
+        <texture file="skeletal/scyth/linothorax_01_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="scale-linothorax-1-d">
+      <textures>
+        <texture file="skeletal/scyth/linothorax_01_04.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="scale-linothorax-1-e">
+      <textures>
+        <texture file="skeletal/scyth/linothorax_01_05.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="scale-linothorax-1-f">
+      <textures>
+        <texture file="skeletal/scyth/linothorax_01_06.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/death_infantry.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

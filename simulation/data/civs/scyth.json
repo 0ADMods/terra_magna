@@ -1,0 +1,103 @@
+{
+	"Code": "scyth",
+	"Culture":[ "nomadic" ],
+	"Region":[ "asia", "steppes" ],
+	"Music":[
+		{
+			"File":"As_Seasons_Change.ogg", 
+			"Type":"peace"
+		},
+		{
+			"File":"Bandit_Country.ogg", 
+			"Type":"peace"
+		},
+		{
+			"File":"Cradle_of_Civilization.ogg", 
+			"Type":"peace"
+		},
+		{
+			"File":"Mirage.ogg", 
+			"Type":"peace"
+		},
+		{
+			"File":"Solstice_Festival.ogg", 
+			"Type":"peace"
+		},
+		{
+			"File":"Upstart_King.ogg", 
+			"Type":"peace"
+		}
+	],
+	"CivBonuses":
+	[],
+	"CivChoices":
+	[
+		"civ_choices/scyth/tomyris",
+		"civ_choices/scyth/ateas",
+		"civ_choices/scyth/skilurus"
+	],
+	"WallSets":
+	[
+		"other/wallset_palisade"
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/scyth/civil_centre" 
+		},
+		{
+			"Template": "units/scyth/support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/scyth/cavalry_archer_b",
+			"Count": 2 
+		},		
+		{
+			"Template": "units/scyth/cavalry_axeman_b",
+			"Count": 2 
+		},		
+		{
+			"Template": "units/scyth/support_wagon"
+		}
+	],
+	"AINames":
+	[
+		"Akrosas",
+		"Anacharsis",
+		"Arimaz",
+		"Orix",
+		"Gnur",
+		"Idantemis",
+		"Kanites",
+		"Carthasis",
+		"Kobos",
+		"Lipoksai",
+		"Madius",
+		"Oktomasad",
+		"Satrakis"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_hero_1": "units/scyth/hero_ateas_infantry",
+		"skirmish/units/default_hero_2": "units/scyth/hero_skilurus_infantry",
+		"skirmish/units/default_hero_3": "units/scyth/hero_tomyris_infantry",
+		"skirmish/units/default_hero_4": "",
+		"skirmish/units/default_hero_5": "",
+		"skirmish/units/default_champion_infantry_1": "",
+		"skirmish/units/default_champion_infantry_2": "",
+		"skirmish/units/default_champion_infantry_3": "",
+		"skirmish/units/default_champion_infantry_4": "",
+		"skirmish/units/default_champion_cavalry_1": "units/scyth/champion_cavalry",
+		"skirmish/units/default_champion_cavalry_2": "units/scyth/champion_cavalry_archer",
+		"skirmish/units/default_infantry_ranged_b": "units/scyth/cavalry_archer_b",
+		"skirmish/units/default_infantry_melee_b": "units/scyth/cavalry_axeman_b",
+		"skirmish/units/special_starting_unit": "units/scyth/support_wagon",
+		"skirmish/structures/default_corral": "structures/scyth/stable",
+		"skirmish/structures/default_farmstead": "structures/scyth/storehouse",
+		"skirmish/structures/default_defense_tower": "structures/scyth/outpost",
+		"skirmish/structures/special_starting_structure": "units/scyth/support_wagon",
+		"skirmish/structures/default_house_5": "structures/{civ}/house"
+	},
+	"SelectableInGameSetup": true
+}
