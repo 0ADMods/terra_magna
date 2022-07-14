@@ -65,9 +65,9 @@
     <variant name="alive" frequency="1">
       <props>
         <prop actor="props/structures/xion/stool.xml" attachpoint="stool_b" maxheight="20" minheight="-20"/>
-        <prop actor="units/xion/barrack_archer.xml" attachpoint="archer" maxheight="20" minheight="-20"/>
-        <prop actor="units/xion/barrack_spearman.xml" attachpoint="spearman" maxheight="20" minheight="-20"/>
-        <prop actor="units/xion/blacksmith_swordmaker.xml" attachpoint="stool_b" maxheight="20" minheight="-20"/>
+        <prop actor="units/xiongnu/barrack_archer.xml" attachpoint="archer" maxheight="20" minheight="-20"/>
+        <prop actor="units/xiongnu/barrack_spearman.xml" attachpoint="spearman" maxheight="20" minheight="-20"/>
+        <prop actor="units/xiongnu/blacksmith_swordmaker.xml" attachpoint="stool_b" maxheight="20" minheight="-20"/>
       </props>
     </variant>
     <variant name="death">
