@@ -16,20 +16,13 @@
   <Obstruction>
     <Static width="25.0" depth="25.0"/>
   </Obstruction>
-
   <ProductionQueue/>
-  <Researcher>
-    <Technologies datatype="tokens">
-      -unlock_champion_units_xion
-    </Technologies>
-  </Researcher>
   <TerritoryDecay disable=""/>
   <Trainer>
     <Entities datatype="tokens">
       -units/{civ}/support_wagon
     </Entities>
   </Trainer>
-
   <Upgrade>
     <BlacksmithReconstructed>
       <Entity>structures/xion/blacksmith</Entity>
@@ -41,6 +34,6 @@
   </Upgrade>
   <VisualActor>
     <ConstructionPreview disable=""/>
-    <Actor>structures/xion/blacksmith_empty.xml</Actor>
+    <Actor>structures/xiongnu/blacksmith_empty.xml</Actor>
   </VisualActor>
 </Entity>

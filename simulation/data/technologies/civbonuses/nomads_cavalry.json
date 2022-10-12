@@ -1,0 +1,21 @@
+{
+	"genericName": "Nomadic Horse Breeding",
+	"autoResearch": true,
+	"description": "Horse breeding is an essential part of a Nomadic society",
+	"requirements": {
+		"any": [
+			{"civ": "scyth"},
+			{"civ": "sarm"},
+			{"civ": "huns"},
+			{"civ": "xion"}
+		]
+	},
+	"icon": "horse_trainer.png",
+	"tooltip": "Cavalry -10% train time.",
+	"modifications": [
+		{
+			"value": "Cost/BuildTime", "multiply": 0.9
+		}
+	],
+	"affects": [ "Cavalry" ]
+}

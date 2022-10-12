@@ -25,6 +25,7 @@
   </Obstruction>
   <Researcher>
     <Technologies datatype="tokens">
+      -barracks_batch_training
     </Technologies>
   </Researcher>
   <TerritoryDecay disable=""/>

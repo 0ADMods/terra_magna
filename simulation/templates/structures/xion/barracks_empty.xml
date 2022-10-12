@@ -26,7 +26,6 @@
   <ProductionQueue/>
   <Researcher>
     <Technologies datatype="tokens">
-      -garrison_heal
       -barracks_batch_training
     </Technologies>
   </Researcher>
@@ -51,6 +50,6 @@
   </Upgrade>
   <VisualActor>
     <ConstructionPreview disable=""/>
-    <Actor>structures/xion/barracks_empty.xml</Actor>
+    <Actor>structures/xiongnu/barracks_empty.xml</Actor>
   </VisualActor>
 </Entity>

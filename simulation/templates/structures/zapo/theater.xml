@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_special_theater">
+  <Auras datatype="tokens">
+    -structures/theater
+    structures/unification
+  </Auras>
+  <Footprint replace="">
+    <Square depth="42.0" width="54.0"/>
+    <Height>15.0</Height>
+  </Footprint>
   <Identity>
     <Civ>zapo</Civ>
-    <SpecificName>temple of conquests</SpecificName>
+    <SpecificName>Temple of Conquests</SpecificName>
     <Classes datatype="tokens">CivSpecific</Classes>
   </Identity>
+  <Obstruction>
+    <Static depth="40.0" width="52.0"/>
+  </Obstruction>
   <VisualActor>
     <Actor>structures/zapotecs/danzantes.xml</Actor>
     <FoundationActor>structures/fndn_theater.xml</FoundationActor>

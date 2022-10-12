@@ -3,6 +3,7 @@
   <Identity>
     <Civ>zapo</Civ>
     <SpecificName>Rudxiiba Binii Xuba</SpecificName>
+    <Icon>structures/corn_field.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/plot_field_tropic_maize.xml</Actor>

@@ -12,7 +12,7 @@
         <prop actor="props/units/shields/theb_aspis_pelopidas.xml" attachpoint="shield_arm"/>
         <prop actor="props/units/armor/greave_07_bronze_r.xml" attachpoint="leg_R"/>
         <prop actor="props/units/armor/greave_07_bronze_l.xml" attachpoint="leg_L"/>
-        <prop actor="props/units/capes/hoplite.xml" attachpoint="root"/>
+        <prop actor="props/units/capes/cape_long_player.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="skeletal/hele/lamellar_01_01.png" name="baseTex"/>

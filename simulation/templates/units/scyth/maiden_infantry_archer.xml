@@ -25,6 +25,7 @@
     <Icon>units/scyth/maiden_archer.png</Icon>
   </Identity>
   <Promotion disable=""/>
+  <ResourceGatherer disable=""/>
   <TrainingRestrictions>
     <Category>Maidens</Category>
   </TrainingRestrictions>

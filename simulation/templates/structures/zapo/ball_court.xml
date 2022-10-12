@@ -7,16 +7,16 @@
       <wood>200</wood>
     </Resources>
   </Cost>
-  <Footprint>
-    <Square width="40.0" depth="50.0"/>
-    <Height>8.0</Height>
+  <Footprint replace="">
+    <Square width="42.0" depth="52.0"/>
+    <Height>10.0</Height>
   </Footprint>
   <GarrisonHolder>
     <Max>10</Max>
   </GarrisonHolder>
   <Health>
     <Max>2000</Max>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x6</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Civ>zapo</Civ>
@@ -24,14 +24,13 @@
     <Tooltip></Tooltip>
     <Classes datatype="tokens">ConquestCritical CivSpecific</Classes>
     <VisibleClasses datatype="tokens">Ballcourt</VisibleClasses>
-    <RequiredTechnology>phase_town</RequiredTechnology>
-    <Icon>structures/syssition.png</Icon>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <Icon>structures/gymnasium.png</Icon>
   </Identity>
   <Obstruction>
-    <Static width="38.0" depth="48.0"/>
+    <Static width="40.0" depth="48.0"/>
   </Obstruction>
-
-    <ProductionQueue/>
+  <ProductionQueue/>
   <Researcher>
     <Technologies datatype="tokens">
       zapotecs/ball_players
@@ -39,29 +38,29 @@
   </Researcher>
   <Sound>
     <SoundGroups>
-      <select>interface/select/building/sel_gymnasium.xml</select>
-      <constructed>interface/complete/building/complete_gymnasium.xml</constructed>
+      <select>interface/select/building/sel_tholos.xml</select>
+      <constructed>interface/complete/building/complete_tholos.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
     </SoundGroups>
   </Sound>
   <TerritoryInfluence>
     <Root>true</Root>
-    <Radius>38</Radius>
+    <Radius>52</Radius>
     <Weight>40000</Weight>
   </TerritoryInfluence>
   <Trainer>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/{civ}/champion_infantry_spear
-      units/{civ}/champion_swordsman_javalineer
       units/{civ}/hero_lord_1_jaguar
       units/{civ}/hero_lord_13_night
       units/{civ}/hero_lord_11_rain
     </Entities>
   </Trainer>
   <Vision>
-    <Range>40</Range>
+    <Range>48</Range>
   </Vision>
   <VisualActor>
     <Actor>structures/zapotecs/ball_court.xml</Actor>
+    <FoundationActor>structures/fndn_10x12.xml</FoundationActor>
   </VisualActor>
 </Entity>

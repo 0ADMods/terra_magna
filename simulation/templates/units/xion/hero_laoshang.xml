@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_spearman">
+  <Auras datatype="tokens">
+    units/heroes/han_hero_wei_qing_1
+    units/heroes/han_hero_wei_qing_2
+  </Auras>
+  <Identity>
+    <Civ>xion</Civ>
+    <SpecificName>Chanyu Laoshang</SpecificName>
+    <Icon>units/xion/hero_1.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/xiongnu/hero_cavalry_spearman_laoshang_m.xml</Actor>
+  </VisualActor>
+</Entity>

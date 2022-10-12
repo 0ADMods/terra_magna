@@ -1,23 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_range">
   <Footprint>
-    <Square depth="22.0" width="22.0"/>
+    <Square depth="25.0" width="27.0"/>
     <Height>5.0</Height>
   </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+  </Health>
   <Identity>
     <Civ>zapo</Civ>
     <SpecificName></SpecificName>
   </Identity>
   <Obstruction>
-    <Static depth="20.0" width="20.0"/>
+    <Static depth="23.0" width="25.0"/>
   </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      archery_tradition
+      archer_attack_spread
+      upgrade_rank_advanced_infantry_jav
+      upgrade_rank_elite_infantry_jav
+      upgrade_rank_advanced_infantry_slinger
+      upgrade_rank_elite_infantry_slinger
+      upgrade_rank_advanced_infantry_archer
+      upgrade_rank_elite_infantry_archer
+    </Technologies>
+  </Researcher>
   <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/infantry_javalineer_b
+      -units/{civ}/champion_infantry_javelineer
     </Entities>
   </Trainer>
   <VisualActor>
     <Actor>structures/zapotecs/range.xml</Actor>
-    <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
+    <FoundationActor>structures/fndn_7x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

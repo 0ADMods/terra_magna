@@ -1,0 +1,24 @@
+{
+	"genericName": "Advanced Citizen Slinger Infantry",
+	"specificName": {
+		"hele": "Metikoi",
+		"mace": "Metikoi",
+		"spart": "Metikoi",
+		"athen": "Metikoi"
+	},
+	"description": "Upgrade all of your citizen slingers to Advanced rank.",
+	"cost": {
+		"food": 400,
+		"stone": 200
+	},
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "upgrade_advanced.png",
+	"researchTime": 40,
+	"tooltip": "Upgrade all of your citizen-soldier slinger infantry to advanced rank. This greatly increases their military prowess, but also increases their training costs and training time by +10%. Unlocks Elite Citizen Slinger Infantry technology.",
+	"modifications": [
+			{"value": "Promotion/RequiredXp", "replace": 0}
+	],
+	"affects": ["Sling Infantry Basic"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

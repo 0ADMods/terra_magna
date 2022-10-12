@@ -7,9 +7,10 @@
 		"phase_city"
 	],
 	"icon": "city_phase.png",
-	"tooltip": "Nomad tribes won't have phase technologies.",
+	"tooltip": "The Xiongnu don't have phase technologies.",
 	"requirements": {
 		"all": [
+			{ "civ": "xion" },
 			{
 				"entity": {
 					"class": "Yurt",
@@ -24,7 +25,7 @@
 			}
 		]
 	},
-	"requirementsTooltip": "Requires 12 Yurts & 2 Village Phase structures.",
+	"requirementsTooltip": "Requires 12 Yurts & 2 Town Phase structures.",
 	"modifications": [
 		{
 			"value": "Capturable/GarrisonRegenRate",

@@ -17,17 +17,10 @@
       <RepeatTime>1000</RepeatTime>
     </Ranged>
   </Attack>
-  <Builder>
-    <Entities datatype="tokens">
-      -structures/{civ}/wonder
-      -structures/{civ}/dock
-      -structures/{civ}/field
-      -structures/{civ}/farmstead
-    </Entities>
-  </Builder>
   <Cost>
     <Resources>
-      <food>50</food>
+      <food>60</food>
+      <wood>0</wood>
     </Resources>
   </Cost>
   <Health>
@@ -36,8 +29,8 @@
   <Identity>
     <Civ>xion</Civ>
     <GenericName>Xiongnu Woman</GenericName>
-    <Icon>units/spart_support_female_citizen.png</Icon>
-    <SelectionGroupName>units/xion_support_female_citizen</SelectionGroupName>
+    <Icon>units/xion/support_citizen_female.png</Icon>
+    <SelectionGroupName>units/xion/support_female_citizen</SelectionGroupName>
     <Phenotype>female</Phenotype>
     <Classes datatype="tokens">FemaleCitizen</Classes>
     <VisibleClasses datatype="tokens">Citizen Worker</VisibleClasses>

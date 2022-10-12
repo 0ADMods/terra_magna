@@ -1,0 +1,34 @@
+{
+	"genericName": "Archery Tradition",
+	"description": "The Indian, Iranian, and Kushite peoples had a tradition of fine archery and a penchant for using massed archers in battle.",
+	"cost": {
+		"food": 400,
+		"metal": 200
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_village" },
+			{
+				"any": [
+					{ "civ": "kush" },
+					{ "civ": "maur" },
+					{ "civ": "pers" },
+					{ "civ": "scyth" },
+					{ "civ": "xion" },
+					{ "civ": "parth" },
+					{ "civ": "sass" }
+				]
+			}
+		]
+	},
+	"requirementsTooltip": "Unlocked in Village Phase.",
+	"icon": "archery_tradition.png",
+	"researchTime": 40,
+	"tooltip": "Infantry and Cavalry Archers +10 attack range and −25% promotion experience.",
+	"modifications": [
+		{ "value": "Attack/Ranged/MaxRange", "add": 10 },
+		{ "value": "Promotion/RequiredXp", "multiply": 0.75 }
+	],
+	"affects": ["Archer"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

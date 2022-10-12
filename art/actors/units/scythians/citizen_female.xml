@@ -67,6 +67,7 @@
         <prop actor="props/units/weapons/xion_axe.xml" attachpoint="weapon_R"/>
       </props>
 	</variant>
+    <variant file="biped/attack_capture.xml"/>
     <variant file="biped/female_gather_tree.xml"/>
     <variant file="biped/female_gather_grain.xml"/>
     <variant file="biped/female_gather_crops.xml"/>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_special_stoa">
+  <Identity>
+    <Civ>spart</Civ>
+    <GenericName>\"Persian\" Stoa</GenericName>
+    <SpecificName>Stoa Persikē</SpecificName>
+  </Identity>
+  <RallyPoint disable=""/>
+  <VisualActor>
+    <Actor>structures/spartans/stoa_b.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -23,25 +23,23 @@
   </Obstruction>
   <Researcher>
     <Technologies datatype="tokens">
-	  <!-- training_levy_infantry_ranged
-	  tradition_archery
-	  upgrade_rank_advanced_infantry_archer
-	  upgrade_rank_elite_infantry_archer -->
+      archer_attack_spread
+      unlock_champion_infantry
+      unlock_mercenary_infantry
     </Technologies>
   </Researcher>
   <TerritoryDecay disable=""/>
   <TerritoryInfluence disable=""/>
   <Trainer>
     <Entities datatype="tokens">
-	  units/scyth/infantry_archer_b
-    units/scyth/merc_infantry_1
-    units/scyth/merc_infantry_2    
-    units/{civ}/maiden_infantry_archer
+      units/scyth/merc_infantry_1
+      units/scyth/merc_infantry_2
+      units/{civ}/maiden_infantry_archer
     </Entities>
   </Trainer>
   <VisualActor>
     <ConstructionPreview disable=""/>
     <Actor>structures/scythians/barracks.xml</Actor>
-    <FoundationActor>structures/xion/barracks_foundation.xml</FoundationActor>
+    <FoundationActor>structures/xiongnu/barracks_foundation.xml</FoundationActor>
   </VisualActor>
 </Entity>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_outpost">
+  <Capturable disable=""/>
+  <Identity>
+    <Civ>xion</Civ>
+    <SpecificName>Prophylax</SpecificName>
+  </Identity>
+  <Researcher>
+    <Technologies datatype="tokens">
+      <!-- -vision_outpost
+      nomads/vision_outpost -->
+      nomads/vision_gathering_falconry
+    </Technologies>
+  </Researcher>
+  <Upgrade disable=""/>
+  <VisualActor>
+    <Actor>structures/hellenes/outpost.xml</Actor>
+  </VisualActor>
+</Entity>

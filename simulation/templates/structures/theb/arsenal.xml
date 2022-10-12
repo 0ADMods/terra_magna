@@ -7,6 +7,7 @@
   <Trainer>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
+      -units/{civ}/siege_lithobolos_packed
 	  units/{civ}/siege_fireraiser
     </Entities>
   </Trainer>

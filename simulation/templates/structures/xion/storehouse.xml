@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_economic_storehouse">
   <BuildRestrictions>
-    <Territory>own neutral</Territory>
+    <Territory>own ally neutral enemy</Territory>
   </BuildRestrictions>
   <Footprint replace="">
     <Circle radius="7.0"/>
@@ -10,7 +10,18 @@
   <Identity>
     <Civ>xion</Civ>
   </Identity>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -gather_mining_servants
+      -gather_mining_serfs
+      -gather_mining_slaves
+      -gather_capacity_basket
+      -gather_capacity_wheelbarrow
+      -gather_capacity_carts
+    </Technologies>
+  </Researcher>
   <TerritoryDecay disable=""/>
+  <TerritoryInfluence disable=""/>
   <Upgrade>
     <Pack>
       <Entity>units/xion/support_wagon</Entity>
@@ -21,7 +32,7 @@
   </Upgrade>
   <VisualActor>
     <ConstructionPreview disable=""/>
-    <Actor>structures/xion/storehouse.xml</Actor>
-    <FoundationActor>structures/xion/storehouse_foundation.xml</FoundationActor>
+    <Actor>structures/xiongnu/storehouse.xml</Actor>
+    <FoundationActor>structures/xiongnu/storehouse_foundation.xml</FoundationActor>
   </VisualActor>
 </Entity>

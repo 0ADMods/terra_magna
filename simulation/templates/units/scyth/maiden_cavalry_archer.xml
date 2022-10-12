@@ -20,7 +20,7 @@
     <Lang>persian</Lang>
     <SelectionGroupName>units/scyth/cavalry_archer</SelectionGroupName>
     <SpecificName>Royal Maiden Headhunter</SpecificName>
-	<RequiredTechnology>phase_city</RequiredTechnology>
+	<RequiredTechnology>phase_town</RequiredTechnology>
 	<Phenotype>female</Phenotype>
     <Icon>units/scyth/maiden_cavalry.png</Icon>
   </Identity>
@@ -33,6 +33,7 @@
       </Damage>
     </Entity>
   </Resistance>
+  <ResourceGatherer disable=""/>
   <TrainingRestrictions>
     <Category>Maidens</Category>
   </TrainingRestrictions>

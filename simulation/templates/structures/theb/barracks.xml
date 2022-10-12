@@ -16,7 +16,7 @@
   </Obstruction>
   <Trainer>
     <Entities datatype="tokens">
-    units/{civ}/infantry_spearman_b
+      units/{civ}/infantry_spearman_b
 	  units/{civ}/champion_infantry_swordsman
     </Entities>
   </Trainer>

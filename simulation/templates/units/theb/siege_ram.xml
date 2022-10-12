@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_siege_ram">
+  <Footprint replace="">
+    <Square width="8.0" depth="12.0"/>
+    <Height>3.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>theb</Civ>
+	<Lang>greek</Lang>
+    <GenericName>Theban Battering Ram</GenericName>
+    <SpecificName>Krios</SpecificName>
+    <Icon>units/theb/siege_ram.png</Icon>
+  </Identity>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>128x256/rounded_rectangle.png</MainTexture>
+        <MainTextureMask>128x256/rounded_rectangle_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <VisualActor>
+    <Actor>structures/thebans/siege_ram.xml</Actor>
+  </VisualActor>
+</Entity>

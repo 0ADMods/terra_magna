@@ -23,7 +23,7 @@
 	"modifications": [
 		{
 			"value": "Cost/BuildTime",
-			"multiply": 0.2
+			"multiply": 0.25
 		}
 	],
 	"affects": [

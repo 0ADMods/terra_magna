@@ -45,12 +45,16 @@
 			"Count": 4
 		},
 		{
-			"Template": "units/zapo/infantry_swordsman_b",
+			"Template": "units/zapo/infantry_spearman_b",
 			"Count": 2
 		},
 		{
 			"Template": "units/zapo/infantry_javelineer_b",
-			"Count": 3
+			"Count": 2
+		},
+		{
+			"Template": "units/zapo/infantry_scout",
+			"Count": 1
 		}
 	],
 	"AINames":
@@ -63,7 +67,7 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/units/default_cavalry": "units/zapo/infantry_swordsman_b",
+		"skirmish/units/default_cavalry": "units/zapo/infantry_scout",
 		"skirmish/units/default_infantry_ranged_b": "units/zapo/infantry_javelineer_b",
 		"skirmish/structures/default_house_10": "structures/{civ}/house",
 	  "skirmish/units/default_ship_trireme":"units/{civ}/ship_merchant"

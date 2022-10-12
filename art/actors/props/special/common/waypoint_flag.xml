@@ -11,11 +11,6 @@
     </variant>
   </group>
   <group>
-    <variant name="theb">
-      <textures>
-        <texture file="props/banner_thebans.png" name="baseTex"/>
-      </textures>
-    </variant>
     <variant name="kush">
       <textures>
 	    <texture file="props/banner_kushites.png" name="baseTex"/>
@@ -86,10 +81,30 @@
         <texture file="props/banner_ptolemies.png" name="baseTex"/>
       </textures>
     </variant>
+    <variant name="scyth">
+      <textures>
+        <texture file="props/banner_scythians.png" name="baseTex"/>
+      </textures>
+    </variant>
     <variant name="sele">
       <textures>
         <texture file="props/banner_seleucids.png" name="baseTex"/>
       </textures>
+    </variant>
+    <variant name="theb">
+      <textures>
+        <texture file="props/banner_thebans.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="xion">
+      <textures>
+        <texture file="props/banner_scythians.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="zapo">
+      <textures>
+	    <texture file="props/banner_maya.png" name="baseTex"/>
+	  </textures>
     </variant>
   </group>
   <material>basic_trans.xml</material>

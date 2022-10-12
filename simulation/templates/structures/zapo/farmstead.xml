@@ -15,7 +15,8 @@
     <Technologies datatype="tokens">
       -gather_farming_plows
       -gather_farming_harvester
-      zapotecs/gather_irrigation_canals
+      nomads/gather_hunting_dogs
+	  zapotecs/gather_irrigation_canals
     </Technologies>
   </Researcher>
   <VisualActor>

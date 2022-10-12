@@ -5,7 +5,7 @@
 	<Lang>greek</Lang>
     <SpecificName>Gýnē Thebaïkós</SpecificName>
     <GenericName>Theban Woman</GenericName>
-    <Icon>units/theb/support_female_citizen.png</Icon>
+    <Icon>units/hele/support_citizen_female.png</Icon>
 	<SelectionGroupName>units/theb/support_female_citizen</SelectionGroupName>
   </Identity>
   <VisualActor>

@@ -4,7 +4,7 @@
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/xion_infantry_spearman_e</Entity>
+    <Entity>units/xion/infantry_spearman_e</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/xiongnu/infantry_spearman_a.xml</Actor>

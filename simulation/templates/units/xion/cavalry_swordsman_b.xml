@@ -7,10 +7,10 @@
   <Identity>
     <Civ>xion</Civ>
     <SelectionGroupName>units/xion_cavalry_swordsman</SelectionGroupName>
-    <Icon>units/xion_cav_swordsman.png</Icon>
+    <Icon>units/xion/cav_swordsman.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/xion_cavalry_swordsman_a</Entity>
+    <Entity>units/xion/cavalry_swordsman_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/xiongnu/cavalry_swordsman_b_m.xml</Actor>

@@ -17,6 +17,9 @@
   </Obstruction>
   <Researcher>
     <Technologies datatype="tokens">
+      -ship_cost_time
+      -ship_health
+      -ship_movement_speed
     </Technologies>
   </Researcher>
   <Trainer>

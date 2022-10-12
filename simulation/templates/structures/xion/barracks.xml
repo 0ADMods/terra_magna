@@ -24,13 +24,6 @@
     <Static width="35.0" depth="35.0"/>
   </Obstruction>
   <ProductionQueue/>
-  <Researcher>
-    <Technologies datatype="tokens">
-      garrison_heal
-      barracks_batch_training
-      xiongnu/special_archery_tradition
-    </Technologies>
-  </Researcher>
   <TerritoryDecay disable=""/>
   <Upgrade>
     <BarracksPacked>
@@ -41,7 +34,7 @@
   </Upgrade>
   <VisualActor>
     <ConstructionPreview disable=""/>
-    <Actor>structures/xion/barracks.xml</Actor>
-    <FoundationActor>structures/xion/barracks_foundation.xml</FoundationActor>
+    <Actor>structures/xiongnu/barracks.xml</Actor>
+    <FoundationActor>structures/xiongnu/barracks_foundation.xml</FoundationActor>
   </VisualActor>
 </Entity>

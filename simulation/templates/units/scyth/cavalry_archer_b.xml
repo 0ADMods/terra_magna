@@ -1,31 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_cavalry_ranged_archer">
+<Entity parent="builder|template_unit_cavalry_ranged_archer">
   <Builder>
     <Rate>0.75</Rate>
     <Entities datatype="tokens">
-      structures/{civ}/civil_centre
-      structures/{civ}/house
-      structures/{civ}/storehouse
-      structures/{civ}/farmstead
-      structures/{civ}/field
-      structures/{civ}/corral
-      structures/{civ}/dock
-      structures/{civ}/market
-      structures/{civ}/outpost
-      structures/{civ}/defense_tower
-      structures/{civ}/barracks
-      structures/{civ}/range
-      structures/{civ}/stable
-      structures/{civ}/forge
-      structures/{civ}/temple
-      structures/{civ}/fortress
-      structures/{civ}/wonder
+      -structures/wallset_palisade
     </Entities>
   </Builder>
   <Identity>
     <Civ>scyth</Civ>
     <Lang>persian</Lang>
-    <SelectionGroupName>units/scyth/cavalry_archer</SelectionGroupName>
+    <SelectionGroupName>units/scyth/cavalry_archer_b</SelectionGroupName>
     <GenericName>Saka Horse Archer</GenericName>
     <Icon>units/scyth/cavalry_archer.png</Icon>
   </Identity>

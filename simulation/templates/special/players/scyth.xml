@@ -3,6 +3,11 @@
   <Auras datatype="tokens">
     teambonuses/scyth_player_teambonus
   </Auras>
+  <EntityLimits>
+    <Limits>
+      <Maidens>20</Maidens>
+    </Limits>
+  </EntityLimits>
   <Identity>
     <Civ>scyth</Civ>
     <GenericName>Scythians</GenericName>

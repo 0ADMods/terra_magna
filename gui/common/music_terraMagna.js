@@ -1,11 +1,11 @@
 Music.prototype.resetTracks = function()
  {
  	this.tracks = {
-		"MENU": ["Omri Lahav - Hill of Sorrows.ogg"],
+		"MENU": ["The_Governor.ogg"],
 		"PEACE": [],
 		"BATTLE": ["Taiko_1.ogg", "Taiko_2.ogg"],
 		"VICTORY": ["You_are_Victorious!.ogg"],
-		"DEFEAT": ["Omri Lahav - Red Dawn.ogg"],
+		"DEFEAT": ["Red_Dawn.ogg"],
 		"CUSTOM": []
  	};
  };

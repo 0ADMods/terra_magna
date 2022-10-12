@@ -16,18 +16,12 @@
   <Obstruction>
     <Static width="25.0" depth="25.0"/>
   </Obstruction>
-  <ProductionQueue/>
-  <Researcher>
-    <Technologies datatype="tokens">
-      unlock_champion_units_xion
-    </Technologies>
-  </Researcher>
   <TerritoryDecay disable=""/>
   <Trainer>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}/support_wagon
-      units/{civ}/siege_ram_blacksmith
+      units/{civ}/siege_ram
     </Entities>
   </Trainer>
   <Upgrade>
@@ -39,7 +33,7 @@
   </Upgrade>
   <VisualActor>
     <ConstructionPreview disable=""/>
-    <Actor>structures/xion/blacksmith.xml</Actor>
-    <FoundationActor>structures/xion/blacksmith_foundation.xml</FoundationActor>
+    <Actor>structures/xiongnu/blacksmith.xml</Actor>
+    <FoundationActor>structures/xiongnu/blacksmith_foundation.xml</FoundationActor>
   </VisualActor>
 </Entity>

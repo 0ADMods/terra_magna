@@ -4,7 +4,7 @@
     <Civ>xion</Civ>
     <GenericName>Xiongnu Warlord</GenericName>
     <SelectionGroupName>units/xion_champion_cavalry</SelectionGroupName>
-    <Icon>units/xion_champion_cavalry.png</Icon>
+    <Icon>units/xion/champion_cavalry.png</Icon>
     <RequiredTechnology>unlock_champion_units_xion</RequiredTechnology>
   </Identity>
   <Upgrade>

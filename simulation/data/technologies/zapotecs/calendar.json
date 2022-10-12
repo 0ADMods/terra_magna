@@ -1,0 +1,26 @@
+{
+	"genericName": "Star Calendar",
+	"description": "Mesoamerican peoples used a complicated calendar based on the motions of the stars, sun, and moon.",
+	"cost": {
+		"stone": 200
+	},
+	"requirements": {
+		"any": [
+			{"civ": "zapo"},
+			{"civ": "maya"},
+			{"civ": "olmec"}
+		]
+	},
+	"requirementsTooltip": "Unlocked in Village Phase.",
+	"icon": "agricultural_calendar.png",
+	"researchTime": 30,
+	"tooltip": "All Technologies -10% resource costs.",
+	"modifications": [
+		{ "value": "Researcher/TechCostMultiplier/wood", "multiply": 0.9 },
+		{ "value": "Researcher/TechCostMultiplier/food", "multiply": 0.9 },
+		{ "value": "Researcher/TechCostMultiplier/stone", "multiply": 0.9 },
+		{ "value": "Researcher/TechCostMultiplier/metal", "multiply": 0.9 }
+	],
+	"affects": ["Structure !Wonder"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

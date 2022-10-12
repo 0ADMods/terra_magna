@@ -11,28 +11,6 @@
       <MinRange>0.0</MinRange>
     </Ranged>
   </Attack>
-  <Builder>
-    <Rate>0.75</Rate>
-    <Entities datatype="tokens">
-      structures/{civ}/civil_centre
-      structures/{civ}/house
-      structures/{civ}/storehouse
-      structures/{civ}/farmstead
-      structures/{civ}/field
-      structures/{civ}/corral
-      structures/{civ}/dock
-      structures/{civ}/market
-      structures/{civ}/outpost
-      structures/{civ}/defense_tower
-      structures/{civ}/barracks
-      structures/{civ}/range
-      structures/{civ}/stable
-      structures/{civ}/forge
-      structures/{civ}/temple
-      structures/{civ}/fortress
-      structures/{civ}/wonder
-    </Entities>
-  </Builder>
   <Cost>
     <BuildTime>10</BuildTime>
     <Population>1</Population>
@@ -44,12 +22,11 @@
   <Health>
     <Max>25</Max>
   </Health>
-
   <Identity>
     <Civ>scyth</Civ>
     <Lang>persian</Lang>
     <SpecificName>Scythian Woman</SpecificName>
-    <Icon>units/xion/support_citizen_female.png</Icon>
+    <Icon>units/scyth/support_citizen_female.png</Icon>
     <SelectionGroupName>units/scyth/support_citizen_female</SelectionGroupName>
     <Phenotype>female</Phenotype>
     <Classes datatype="tokens">FemaleCitizen</Classes>

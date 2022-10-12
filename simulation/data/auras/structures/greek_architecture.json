@@ -2,9 +2,10 @@
 	"type": "global",
 	"affects": ["Structure"],
 	"modifications": [
-		{"value": "Health/Max", "multiply": 1.2}
+		{ "value": "Health/Max", "multiply": 1.2 },
+		{ "value": "Capturable/CapturePoints", "multiply": 1.1 }
 	],
 	"auraName": "Greek Architecture",
-	"auraDescription": "All Buildings +20% health as long as the Stoa stands.",
+	"auraDescription": "All Buildings +20% health and +10% capture points as long as the Stoa stands.",
 	"overlayIcon": "art/textures/ui/session/auras/health_bonus.png"
 }

@@ -29,7 +29,10 @@
     <Entities datatype="tokens">
       units/scyth/champion_cavalry
       units/scyth/champion_cavalry_archer
-	  units/scyth/siege_ram
+      units/scyth/siege_ram
+      units/scyth/hero_tomyris_mounted
+      units/scyth/hero_skilurus_mounted
+      units/scyth/hero_ateas_mounted
     </Entities>
   </Trainer>
   <VisualActor>

@@ -6,7 +6,7 @@
   <Identity>
     <Civ>zapo</Civ>
     <GenericName>Lord Jaguar</GenericName>
-    <Icon>units/zapo/lord_jaguar.png</Icon>
+    <Icon>units/zapo/hero_lord_jaguar.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/zapotecs/hero_infantry_spearman_lord_jaguar.xml</Actor>

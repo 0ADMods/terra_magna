@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_special">
+  <Auras datatype="tokens">
+	structures/greek_architecture
+  </Auras>
+  <BuildRestrictions>
+    <Category>Stoa</Category>
+  </BuildRestrictions>
+  <Capturable disable=""/>
+  <Cost>
+    <BuildTime>100</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>200</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="28" depth="12.0"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <Health>
+    <Max>1000</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x4</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>gaia</Civ>
+    <GenericName>Stoa</GenericName>
+    <SpecificName>Stoá</SpecificName>
+    <VisibleClasses datatype="tokens">
+	  CivBonus
+	  Stoa
+	</VisibleClasses>
+    <Classes datatype="tokens">
+	  Town
+	  CivSpecific
+	</Classes>
+    <History>A stoa, in ancient Greek architecture, is a covered walkway or portico, commonly for public use. Early stoas were open at the entrance with columns, usually of the Doric order, lining the side of the building; they created a safe, enveloping, protective atmosphere. Later examples were built as two stories, and incorporated inner colonnades usually in the Ionic style, where shops or sometimes offices were located. These buildings were open to the public; merchants could sell their goods, artists could display their artwork, and religious gatherings could take place. Stoas usually surrounded the marketplaces or agora of large cities and were used as a framing device. Other examples were designed to create safe, protective atmospheres which combined useful inside and outside space. The name of the Stoic school of philosophy derives from \"stoa.\"</History>
+    <Tooltip>The Stoa represents civic virtue and civic pride.</Tooltip>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Icon>structures/stoa.png</Icon>
+    <Undeletable>false</Undeletable>
+  </Identity>
+  <Loot>
+    <xp>100</xp>
+    <food>0</food>
+    <wood>0</wood>
+    <stone>20</stone>
+    <metal>0</metal>
+  </Loot>
+  <Obstruction>
+    <Static width="26.0" depth="10.5"/>
+  </Obstruction>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_greek_theater.xml</select>
+      <constructed>interface/complete/building/complete_greek_theater.xml</constructed>
+    </SoundGroups>
+  </Sound>
+  <TerritoryInfluence>
+    <Root>false</Root>
+    <Radius>36</Radius>
+    <Weight>65535</Weight>
+  </TerritoryInfluence>
+  <Vision>
+    <Range>40</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>special/greek_stoa.xml</Actor>
+    <FoundationActor>structures/fndn_7x3.xml</FoundationActor>
+  </VisualActor>
+</Entity>

@@ -9,7 +9,7 @@
 	"requirements": { "civ": "zapo" , "tech": "phase_town" },
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "wheelbarrow_empty.png",
-	"researchTime": 50,
+	"researchTime": 10,
 	"tooltip": "Workers +5 resource capacity.",
 	"modifications": [
 		{ "value": "ResourceGatherer/Capacities/food", "add": 5 },

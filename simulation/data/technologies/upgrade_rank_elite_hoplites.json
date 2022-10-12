@@ -1,0 +1,21 @@
+{
+	"supersedes": "upgrade_rank_advanced_hoplites",
+	"genericName": "Elite Hoplites",
+	"specificName": {
+		"athen": "Zeugitès",
+		"theb": "Zeugitès"
+	},
+	"description": "Upgrade all of your citizen-soldier infantrymen to Elite rank.",
+	"cost": {
+		"food": 600, 
+		"wood": 600
+	},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase. Requires Advanced Hoplites.",
+	"icon": "upgrade_elite.png",
+	"researchTime": 40,
+	"tooltip": "Upgrade Hoplites to Elite rank. This greatly increases their military prowess, but also increases their training costs and training time by +10%.",
+	"modifications": [{"value": "Promotion/RequiredXp", "replace": 0}],
+	"affects": ["Citizen Infantry Hoplite Advanced"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

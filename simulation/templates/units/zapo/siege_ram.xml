@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>zapo</Civ>
-    <Icon>units/iber_siege_ram.png</Icon>
+    <Icon>units/zapo/siege_ram.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/zapotecs/siege_ram.xml</Actor>

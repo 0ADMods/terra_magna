@@ -1,0 +1,18 @@
+{
+	"genericName": "Unlock Mercenary Infantry",
+	"description": "Mercenaries are professionals-for-hire with battlefield experience.",
+	"cost": {
+		"food": 500
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_city" },
+			{ "civ": "scyth" }
+		]
+	},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "helmet_hero_side.png",
+	"researchTime": 60,
+	"tooltip": "Unlock Mercenary Infantry at the Barracks.",
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

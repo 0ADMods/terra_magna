@@ -9,6 +9,6 @@
     <Icon>units/theb/champion_infantry_swordsman.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/thebans/champion_infantry_sword.xml</Actor>
+    <Actor>units/thebans/infantry_swordsman_c.xml</Actor>
   </VisualActor>
 </Entity>

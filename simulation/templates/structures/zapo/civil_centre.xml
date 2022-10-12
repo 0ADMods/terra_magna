@@ -1,18 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_civil_centre">
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
+  </Health>
   <Identity>
     <Civ>zapo</Civ>
     <SpecificName>Luhui Guidxi</SpecificName>
   </Identity>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -archery_tradition
+	  zapotecs/calendar
+    </Technologies>
+  </Researcher>
   <Trainer>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}/infantry_spearman_b
       units/{civ}/infantry_archer_b
-      units/{civ}/infantry_javelineer_b
+      units/{civ}/infantry_scout
     </Entities>
   </Trainer>
   <VisualActor>
     <Actor>structures/zapotecs/civic_center.xml</Actor>
+    <FoundationActor>structures/fndn_8x7.xml</FoundationActor>
   </VisualActor>
 </Entity>

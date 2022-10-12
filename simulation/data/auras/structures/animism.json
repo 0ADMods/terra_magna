@@ -1,0 +1,11 @@
+{
+	"type": "range",
+	"radius": 50,
+	"affects": ["Healer"],
+	"modifications": [
+		{ "value": "Health/Max", "multiply": 3 }
+	],
+	"auraName": "Animism",
+	"auraDescription": "Nearby Healers +300% health.",
+	"overlayIcon": "art/textures/ui/session/auras/heal.png"
+}

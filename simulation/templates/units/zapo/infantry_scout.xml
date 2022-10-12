@@ -5,17 +5,28 @@
       <AttackName>Flint Dagger</AttackName>
     </Melee>
   </Attack>
+  <Footprint replace="">
+    <Circle radius="1.5"/>
+    <Height>4.0</Height>
+  </Footprint>
   <Health>
     <Max>70</Max>
   </Health>
   <Identity>
     <Civ>zapo</Civ>
     <SpecificName>Zapotec Scout</SpecificName>
-	<VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
+	<VisibleClasses datatype="tokens">Scout</VisibleClasses>
     <Icon>units/zapo/infantry_scout.png</Icon>
   </Identity>
   <Promotion disable=""/>
-
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>128x128/ellipse.png</MainTexture>
+        <MainTextureMask>128x128/ellipse_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <Sound>
     <SoundGroups>
       <attack_slaughter>attack/weapon/knife_attack.xml</attack_slaughter>
@@ -43,7 +54,7 @@
     </SoundGroups>
   </Sound>
   <UnitMotion>
-    <WalkSpeed op="mul">0.7</WalkSpeed>
+    <WalkSpeed op="mul">0.75</WalkSpeed>
   </UnitMotion>
   <VisualActor>
     <Actor>units/zapotecs/infantry_scout.xml</Actor>

@@ -5,7 +5,12 @@
 		"wood": 500,
 		"metal": 200
 	},
-	"requirements": { "civ": "zapo","tech": "phase_town" },
+	"requirements": {
+		"all": [
+			{"tech": "phase_town"}, 
+			{"civ": "zapo"}
+		]
+	},
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "shield_parma.png",
 	"researchTime": 40,

@@ -1,0 +1,4 @@
+https://wildfiregames.com/forum/topic/24444-how-to-package-your-mods-on-windows/
+
+
+binaries/system/pyrogenesis -mod=mod -mod=public -mod=terra_magna_A26 -archivebuild="binaries/data/mods/terra_magna_A26"  -archivebuild-output="terra_magna_A26.pyromod" -archivebuild-compress

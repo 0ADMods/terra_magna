@@ -46,6 +46,6 @@
     <Range>1</Range>
   </Vision>
   <VisualActor>
-    <Actor>structures/xion/xion_wagon_food_deposit.xml</Actor>
+    <Actor>structures/xiongnu/xion_wagon_food_deposit.xml</Actor>
   </VisualActor>
 </Entity>

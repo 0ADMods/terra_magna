@@ -3,41 +3,16 @@
 	"Culture": "xion",
 	"Music": [
 		{
-			"File": "Omri Lahav - Hill of Sorrows.ogg",
+			"File": "Hill_of_Sorrows.ogg",
 			"Type": "peace"
 		},
 		{
-			"File": "Omri Lahav - Red Dawn.ogg",
+			"File": "Red_Dawn.ogg",
 			"Type": "peace"
 		}
 	],
-	"Factions": [
-		{
-			"Name": "Xiongnu",
-			"Description": "",
-			"Technologies": [],
-			"Heroes": []
-		}
-	],
-	"CivBonuses": [
-		{
-			"Name": "Nomads Tribes",
-			"History": "Xiongnu were nomadic pastoral people.",
-			"Description": "Ignore phase requirements."
-		},
-		{
-			"Name": "Parthian Tactics",
-			"History": "Xiongnu practiced the parthian shot tactics.",
-			"Description": "-15% ranged cavalry tech cost.."
-		}
-	],
-	"TeamBonuses": [
-		{
-			"Name": "Horse Breeding",
-			"History": "The Xiongnu were pastoral nomadic people wandering in search of grazing lands for their herds of horses.",
-			"Description": "Cavalry is 15% cheaper."
-		}
-	],
+	"CivBonuses": [],
+	"TeamBonuses": [],
 	"Structures": [],
 	"StartEntities": [
 		{

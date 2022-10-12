@@ -4,7 +4,7 @@
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/xion_infantry_swordsman_e</Entity>
+    <Entity>units/xion/infantry_swordsman_e</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/xiongnu/infantry_axeman_a.xml</Actor>

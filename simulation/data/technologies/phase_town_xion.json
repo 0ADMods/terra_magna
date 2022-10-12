@@ -6,18 +6,15 @@
 	"replaces": [
 		"phase_town"
 	],
+	"researchTime": 0,
 	"icon": "town_phase.png",
-	"tooltip": "Nomad tribes won't have phase technologies.",
 	"requirements": {
 		"all": [
-			{
-				"entity": {
-					"class": "Yurt",
-					"number": 6
-				}
-			}
+			{ "civ": "xion" },
+			{ "entity": { "class": "Yurt", "number": 6 } }
 		]
 	},
+	"tooltip": "Xiongnu don't have phase technologies.",
 	"requirementsTooltip": "Requires 6 Yurts.",
 	"modifications": [
 		{

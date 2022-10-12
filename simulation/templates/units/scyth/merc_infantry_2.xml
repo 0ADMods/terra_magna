@@ -6,6 +6,7 @@
     <SpecificName>Thracian Peltast</SpecificName>
     <SelectionGroupName>units/mercenaries/greek_infantry_2</SelectionGroupName>
 	<VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
+	<RequiredTechnology>unlock_mercenary_infantry</RequiredTechnology>
     <Icon>units/athen/merc_peltast.png</Icon>
   </Identity>
   <VisualActor>

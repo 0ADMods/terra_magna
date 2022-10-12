@@ -19,7 +19,6 @@
     <Anchor>pitch</Anchor>
     <TurnRate>0.0001</TurnRate>
   </Position>
-
   <ProductionQueue/>
   <Researcher>
     <Technologies datatype="tokens">
@@ -34,7 +33,6 @@
       units/{civ}/cavalry_spearman_b
     </Entities>
   </Trainer>
-
   <Upgrade>
     <Unpack>
       <Entity>structures/xion/civil_centre_packed</Entity>
@@ -45,7 +43,7 @@
   </Upgrade>
   <VisualActor>
     <ConstructionPreview disable=""/>
-    <Actor>structures/xion/royal_yurt_charioth_unpacked.xml</Actor>
-    <FoundationActor>structures/xion/civic_centre_foundation.xml</FoundationActor>
+    <Actor>structures/xiongnu/royal_yurt_charioth_unpacked.xml</Actor>
+    <FoundationActor>structures/xiongnu/civic_centre_foundation.xml</FoundationActor>
   </VisualActor>
 </Entity>

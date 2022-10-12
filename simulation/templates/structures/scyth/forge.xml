@@ -18,10 +18,7 @@
   </Population>
   <Researcher>
     <Technologies datatype="tokens">
-	  <!-- scythians/trade_goldsmithing
-	  nomads/pair_01_01
-	  nomads/pair_02_01
-	  armor_hero_01 -->
+      -archer_attack_spread
     </Technologies>
   </Researcher>
   <TerritoryDecay disable=""/>

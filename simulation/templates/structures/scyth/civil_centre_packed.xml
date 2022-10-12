@@ -16,7 +16,7 @@
   </Footprint>
   <Garrisonable disable=""/>
   <Health>
-    <Max>1500</Max>
+    <Max>1600</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x4</SpawnEntityOnDeath>
   </Health>
   <Identity>

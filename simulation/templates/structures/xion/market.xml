@@ -30,17 +30,15 @@
     <Anchor>pitch</Anchor>
     <TurnRate>0.0001</TurnRate>
   </Position>
-
   <ProductionQueue/>
   <Researcher>
     <Technologies datatype="tokens">
-      gather_wicker_baskets
+      nomads/gather_wicker_baskets
+	  nomads/gather_hunting_dogs
       gather_farming_plows
       gather_farming_training
-      gather_farming_fertilizer
     </Technologies>
   </Researcher>
-
   <ResourceDropsite>
     <Types>food</Types>
     <Sharable>true</Sharable>
@@ -55,7 +53,7 @@
   </Upgrade>
   <VisualActor>
     <ConstructionPreview disable=""/>
-    <Actor>structures/xion/food_deposit.xml</Actor>
-    <FoundationActor>structures/xion/food_deposit_foundation.xml</FoundationActor>
+    <Actor>structures/xiongnu/food_deposit.xml</Actor>
+    <FoundationActor>structures/xiongnu/food_deposit_foundation.xml</FoundationActor>
   </VisualActor>
 </Entity>

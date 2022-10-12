@@ -7,7 +7,7 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="24.0" depth="25.0"/>
+    <Square width="23.0" depth="23.0"/>
     <Height>15.0</Height>
   </Footprint>
   <Health>
@@ -18,17 +18,28 @@
     <SpecificName> Naj Ba’ate’il</SpecificName>
     <Tooltip>Train Zapotec citizen-soldiers. Research improvements for Zapotec units.</Tooltip>
   </Identity>
+  <Researcher>
+    <Technologies datatype="tokens">
+	  upgrade_rank_advanced_infantry_spear
+	  upgrade_rank_elite_infantry_spear
+	  upgrade_rank_advanced_infantry_sword
+	  upgrade_rank_elite_infantry_sword
+	</Technologies>
+  </Researcher>
   <Trainer>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}/infantry_scout
-      units/{civ}/champion_infantry_spear
+      units/{civ}/champion_infantry_spearman
+      units/{civ}/champion_infantry_swordsman
+      -units/{civ}/champion_infantry_javelineer
+      -units/{civ}/infantry_archer_b
       -units/{civ}/infantry_javelineer_b
       -units/{civ}/infantry_slinger_b   
     </Entities>
   </Trainer>
   <Obstruction>
-    <Static width="22.0" depth="23.0"/>
+    <Static width="21.0" depth="21.0"/>
   </Obstruction>
   <VisualActor>
     <Actor>structures/zapotecs/barracks.xml</Actor>

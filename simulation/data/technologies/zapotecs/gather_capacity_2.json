@@ -8,7 +8,7 @@
 	"requirements": {"tech": "phase_city" },
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "handcart_empty.png",
-	"researchTime": 60,
+	"researchTime": 30,
 	"tooltip": "Workers +5 resource capacity.",
 	"modifications": [
 		{ "value": "ResourceGatherer/Capacities/food", "add": 5 },

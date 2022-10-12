@@ -1,0 +1,10 @@
+{
+	"type": "global",
+	"affects": ["Structure"],
+	"modifications": [
+		{ "value": "TerritoryInfluence/Radius", "multiply": 1.2 }
+	],
+	"auraDescription": "Structures +20% territory influence radius.",
+	"auraName": "Oaxaca Unification",
+	"stackable": true
+}

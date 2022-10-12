@@ -35,7 +35,7 @@
   </Health>
   <Identity>
     <Civ>xion</Civ>
-    <Icon>units/iber_siege_ram.png</Icon>
+    <Icon>units/scyth/siege_ram.png</Icon>
   </Identity>
   <Sound>
     <SoundGroups>
@@ -52,6 +52,6 @@
     <WalkSpeed>4</WalkSpeed>
   </UnitMotion>
   <VisualActor>
-    <Actor>structures/xion/siege_ram_pivot.xml</Actor>
+    <Actor>structures/xiongnu/siege_ram_pivot.xml</Actor>
   </VisualActor>
 </Entity>

@@ -2,7 +2,7 @@
 <Entity parent="template_structure_civic_civil_centre">
   <Auras disable=""/>
   <BuildRestrictions>
-    <Territory>own neutral ally enemy</Territory>
+    <Territory>own neutral ally</Territory>
     <Distance>
       <MinDistance>80</MinDistance>
     </Distance>
@@ -34,10 +34,9 @@
 <!--   <TerritoryInfluence disable=""/> -->
   <Trainer>
     <Entities datatype="tokens">
+      units/{civ}/infantry_archer_b
+      units/{civ}/cavalry_archer_b
 	  units/scyth/support_wagon
-    units/scyth/hero_tomyris_mounted
-    units/scyth/hero_skilurus_mounted
-    units/scyth/hero_ateas_mounted
     </Entities>
   </Trainer>
   <Upgrade>

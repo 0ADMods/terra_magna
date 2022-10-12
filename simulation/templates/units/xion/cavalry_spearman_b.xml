@@ -7,10 +7,10 @@
   <Identity>
     <Civ>xion</Civ>
     <SelectionGroupName>units/xion_cavalry_spearman</SelectionGroupName>
-    <Icon>units/xion_cav_spearman.png</Icon>
+    <Icon>units/xion/cav_spearman.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/xion_cavalry_spearman_a</Entity>
+    <Entity>units/xion/cavalry_spearman_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/xiongnu/cavalry_spearman_b_m.xml</Actor>

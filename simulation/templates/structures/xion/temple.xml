@@ -1,36 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_temple">
   <BuildRestrictions>
-    <Territory>own neutral</Territory>
+    <Territory>own ally neutral enemy</Territory>
   </BuildRestrictions>
   <Footprint replace="">
     <Circle radius="10.0"/>
     <Height>10.0</Height>
   </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_3x3</SpawnEntityOnDeath>
+  </Health>
   <Identity>
     <Civ>xion</Civ>
   </Identity>
   <Obstruction>
     <Static width="14.0" depth="14.0"/>
   </Obstruction>
-
-    <ProductionQueue/>
-  <Researcher>
-    <Technologies datatype="tokens">
-     -heal_range
-     -heal_range_2
-     -heal_rate
-     -heal_rate_2
-      health_regen_units
-    </Technologies>
-  </Researcher>
   <TerritoryDecay disable=""/>
-  <Trainer>
-    <Entities datatype="tokens">
-      -units/{civ}/support_healer_b
-    </Entities>
-  </Trainer>
-
+  <TerritoryInfluence disable=""/>
   <Upgrade>
     <Unpack>
       <Entity>structures/xion/temple_packed</Entity>
@@ -40,7 +27,7 @@
   </Upgrade>
   <VisualActor>
     <ConstructionPreview disable=""/>
-    <Actor>structures/xion/temple.xml</Actor>
-    <FoundationActor>structures/xion/temple_foundation.xml</FoundationActor>
+    <Actor>structures/xiongnu/temple.xml</Actor>
+    <FoundationActor>structures/xiongnu/temple_foundation.xml</FoundationActor>
   </VisualActor>
 </Entity>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_special">
+  <Auras datatype="tokens">
+	structures/animism
+  </Auras>
+  <BuildRestrictions>
+    <Territory>own ally neutral enemy</Territory>
+    <Distance>
+      <FromClass>Ovoo</FromClass>
+      <MinDistance>40</MinDistance>
+    </Distance>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime>100</BuildTime>
+    <Resources>
+      <wood>200</wood>
+      <stone>100</stone>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="10.0"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <Health>
+    <Max>1600</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_3x3</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>xion</Civ>
+    <SpecificName>Ovoo</SpecificName>
+    <Classes datatype="tokens">CivSpecific Ovoo</Classes>
+    <Tooltip>Generate free Stone resource and boost nearby Healers.</Tooltip>
+    <Icon>gaia/geology_stone.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+  </Identity>
+  <Obstruction>
+    <Static width="14.0" depth="14.0"/>
+  </Obstruction>
+  <ProductionQueue/>
+  <Researcher>
+    <Technologies datatype="tokens">
+      gather_mining_servants
+      gather_mining_serfs
+      gather_mining_slaves
+    </Technologies>
+  </Researcher>
+  <ResourceDropsite>
+    <Types>stone</Types>
+    <Sharable>true</Sharable>
+  </ResourceDropsite>
+  <ResourceTrickle>
+    <Rates>
+      <stone>5</stone>
+    </Rates>
+    <Interval>2000</Interval>
+  </ResourceTrickle>
+  <TerritoryDecay disable=""/>
+  <TerritoryInfluence disable=""/>
+  <VisualActor>
+    <ConstructionPreview disable=""/>
+    <Actor>structures/scythians/ovoo_stone.xml</Actor>
+    <FoundationActor>structures/scythians/ovoo_deco.xml</FoundationActor>
+  </VisualActor>
+</Entity>

@@ -15,7 +15,7 @@
     <Max>300</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Wagon</Classes>
+    <Classes datatype="tokens">Wagon CivSpecific</Classes>
     <SpecificName>Resource Wagon</SpecificName>
     <GenericName>Mobile Dropsite</GenericName>
     <Icon>units/xion/support_wagon.png</Icon>
@@ -91,6 +91,6 @@
     <Range>30</Range>
   </Vision>
   <VisualActor>
-    <Actor>structures/xion/xion_wagon.xml</Actor>
+    <Actor>structures/xiongnu/xion_wagon.xml</Actor>
   </VisualActor>
 </Entity>
