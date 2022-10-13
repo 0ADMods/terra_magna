@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_gaia_tree">
-  <Identity>
-    <SpecificName>Cherry Blossom Tree</SpecificName>
-  </Identity>
-  <VisualActor>
-    <Actor>gaia/cherryblossom.xml</Actor>
-  </VisualActor>
-</Entity>
