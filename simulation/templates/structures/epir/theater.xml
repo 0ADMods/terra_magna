@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_special_theater">
+  <Identity>
+    <Civ>epir</Civ>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/macedonians/theater.xml</Actor>
+  </VisualActor>
+</Entity>

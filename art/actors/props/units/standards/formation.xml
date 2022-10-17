@@ -28,6 +28,11 @@
         <prop actor="props/units/standards/formation_flag_cart.xml" attachpoint="root"/>
       </props>
     </variant>
+    <variant name="epir">
+      <props>
+        <prop actor="props/units/standards/formation_flag_epir.xml" attachpoint="root"/>
+      </props>
+    </variant>
     <variant name="gaul">
       <props>
         <prop actor="props/units/standards/formation_flag_gaul.xml" attachpoint="root"/>
@@ -86,6 +91,11 @@
     <variant name="spart">
       <props>
         <prop actor="props/units/standards/formation_flag_spart.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant name="sueb">
+      <props>
+        <prop actor="props/units/standards/formation_flag_sueb.xml" attachpoint="root"/>
       </props>
     </variant>
     <variant name="theb">

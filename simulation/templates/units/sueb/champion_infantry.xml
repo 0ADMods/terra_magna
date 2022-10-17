@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_swordsman">
+  <Identity>
+    <Civ>sueb</Civ>
+    <SpecificName>Wache des Häuptlings</SpecificName>
+	<VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
+    <History>These men are veteran soldiers who offer their lives in service to their German chieftains.</History>
+    <Icon>units/sueb/champion_infantry_swordsman.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/suebians/infantry_swordsman_c.xml</Actor>
+  </VisualActor>
+</Entity>

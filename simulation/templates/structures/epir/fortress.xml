@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_fortress">
+  <Footprint>
+    <Square width="26.0" depth="28.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>epir</Civ>
+    <SpecificName>Phrourion</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="24.0" depth="26.0"/>
+  </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/hero_alexander_I_mounted
+      units/{civ}/hero_alexander_II_mounted
+      units/{civ}/hero_pyrrhus_mounted
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/macedonians/fortress.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+    <Length>24.0</Length>
+    <Indent>7.6</Indent>
+  </WallPiece>
+</Entity>

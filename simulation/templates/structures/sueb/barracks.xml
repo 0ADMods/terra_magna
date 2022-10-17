@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_barracks">
+  <Cost>
+    <Resources>
+      <wood>300</wood>
+      <stone>0</stone>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="24.0" depth="40.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>sueb</Civ>
+    <SpecificName>Druthislegra</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="20.0" depth="36.0"/>
+  </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/infantry_clubman
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/germans/barracks.xml</Actor>
+    <FoundationActor>structures/fndn_5x9.xml</FoundationActor>
+  </VisualActor>
+</Entity>

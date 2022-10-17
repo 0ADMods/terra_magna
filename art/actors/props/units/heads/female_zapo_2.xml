@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant>
-      <mesh>props/head/zapo_fem_hair_2.dae</mesh>
+      <mesh>props/heads/zapo_fem_hair_2.dae</mesh>
       <textures>
         <texture file="props/head/zapo_fem_deco.png" name="baseTex"/>
       </textures>

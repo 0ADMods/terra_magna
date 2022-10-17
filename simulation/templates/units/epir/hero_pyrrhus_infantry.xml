@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_swordsman">
+  <Auras datatype="tokens">
+    units/heroes/epir_hero_pyrrhos
+  </Auras>
+  <Cost>
+	<BuildTime>0</BuildTime>
+  </Cost>
+  <Identity>
+    <Civ>epir</Civ>
+	<Lang>greek</Lang>
+    <SpecificName>Pyrrhus of Epirus</SpecificName>
+    <Icon>units/epir/hero_pyrrhus.png</Icon>
+  </Identity>
+  <Upgrade>
+    <Mount>
+      <Entity>units/epir/hero_pyrrhus_mounted</Entity>
+      <Tooltip>This gives Pyrrhus his War Horse, with greater speed, trample effects, greater health.</Tooltip>
+	  <RequiredTechnology>phase_city</RequiredTechnology>
+      <Cost>
+        <food>200</food>
+        <metal>200</metal>
+      </Cost>
+      <Time>0</Time>
+    </Mount>
+  </Upgrade>
+  <VisualActor>
+    <Actor>units/epirotes/hero_infantry_swordsman_pyrrhus.xml</Actor>
+  </VisualActor>
+</Entity>

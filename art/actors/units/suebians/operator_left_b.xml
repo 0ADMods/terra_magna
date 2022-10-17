@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="biped/trunk_operator_left.xml" frequency="1" name="relax">
+      <mesh>skeletal/new/m_tunic_long.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/germ_04_beards_knot.xml" attachpoint="head"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="3" name="Outfit Basic Foot Wraps 1">
+      <textures>
+        <texture file="skeletal/germans/basic/footwraps1.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="3" name="Outfit Basic Foot Wraps 2">
+      <textures>
+        <texture file="skeletal/germans/basic/footwraps2.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="3" name="Outfit Basic Foot Wraps 3">
+      <textures>
+        <texture file="skeletal/germans/basic/footwraps3.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Outfit Basic Pants Shirt 2 a">
+      <textures>
+        <texture file="skeletal/germans/basic/shirt2a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Outfit Basic Pants Shirt 2 b">
+      <textures>
+        <texture file="skeletal/germans/basic/shirt2b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Outfit Basic Pants Shirt 2 c">
+      <textures>
+        <texture file="skeletal/germans/basic/shirt2c.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Outfit Basic Pants Shirt 1">
+      <textures>
+        <texture file="skeletal/germans/basic/transparent_shirt1.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Outfit Basic Pants Shirt 2">
+      <textures>
+        <texture file="skeletal/germans/basic/transparent_shirt2.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Outfit Basic Pants Shirt 3">
+      <textures>
+        <texture file="skeletal/germans/basic/transparent_shirt3.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/death_infantry.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

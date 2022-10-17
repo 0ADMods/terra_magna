@@ -1,0 +1,79 @@
+{
+	"Code":"epir",
+	"Culture":[ "greek" ],
+	"Region":[ "mediterranean", "europe", "greece" ],
+	"Music": [
+		{
+			"File": "Rise_of_Macedon.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "In_the_Shadow_of_Olympus.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "The_Hellespont.ogg",
+			"Type": "peace"
+		}
+	],
+	"CivBonuses":
+	[
+		{
+			"Name":"Syntagma",
+			"History":"Based upon the Theban Oblique Order phalanx, the Syntagma was the formation that proved invincible against the armies of Hellas and the East.",
+			"Description":"Infantry pike units can use the slow and powerful Syntagma formation."
+		},
+		{
+			"Name":"Hellenization",
+			"History":"The Greeks were highly successful in Hellenizing various foreigners. During the Hellenistic Age, Greek was the lingua franca of the Ancient World, spoken widely from Spain to India.",
+			"Description":"Constructing a Theatron increases the territory expanse of all buildings by +20%."
+		}
+	],
+	"WallSets":
+	[
+		"structures/wallset_palisade",
+		"structures/epir/wallset_stone"
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/epir/civil_centre"
+		},
+		{
+			"Template": "units/epir/support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/epir/infantry_pikeman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/epir/infantry_javelineer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/epir/cavalry_spearman_b"
+		}
+	],
+	"AINames":
+	[
+		"Alexandros",
+		"Olympias",
+		"Neoptolemos I",
+		"Aristomachos",
+		"Deidameia II",
+		"Arybbas",
+		"Admetus",
+		"Kallidike",
+		"Alkemachos",
+		"Xenarchos",
+		"Boiskos",
+		"Khaon"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_infantry_melee_b": "units/epir/infantry_pikeman_b",
+		"skirmish/units/default_cavalry": "units/epir/cavalry_spearman_b"
+	},
+	"SelectableInGameSetup": true
+}

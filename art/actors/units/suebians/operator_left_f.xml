@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="biped/trunk_operator_left.xml" frequency="1" name="relax">
+      <mesh>skeletal/new/m_armor_pants_tunic_long.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/germ_01_ponytails.xml" attachpoint="head"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="chainmail-5a">
+      <textures>
+        <texture file="skeletal/germans/elite/chainmail5a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="chainmail-5b">
+      <textures>
+        <texture file="skeletal/germans/elite/chainmail5b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="chainmail-5c">
+      <textures>
+        <texture file="skeletal/germans/elite/chainmail5c.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="chainmail-6a">
+      <textures>
+        <texture file="skeletal/germans/elite/chainmail6a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="chainmail-6b">
+      <textures>
+        <texture file="skeletal/germans/elite/chainmail6b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="chainmail-6c">
+      <textures>
+        <texture file="skeletal/germans/elite/chainmail6c.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="chainmail-7a">
+      <textures>
+        <texture file="skeletal/germans/elite/chainmail7a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="chainmail-7b">
+      <textures>
+        <texture file="skeletal/germans/elite/chainmail7b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="chainmail-7c">
+      <textures>
+        <texture file="skeletal/germans/elite/chainmail7c.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="chainmail-8a">
+      <textures>
+        <texture file="skeletal/germans/elite/chainmail8a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="chainmail-8b">
+      <textures>
+        <texture file="skeletal/germans/elite/chainmail8b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="chainmail-8c">
+      <textures>
+        <texture file="skeletal/germans/elite/chainmail8c.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/death_infantry.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

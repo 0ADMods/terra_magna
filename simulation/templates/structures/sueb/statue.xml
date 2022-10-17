@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure">
+  <Auras datatype="tokens">
+    structures/iber_monument
+  </Auras>
+  <BuildRestrictions>
+    <Category>Monument</Category>
+    <Distance>
+      <FromClass>Monument</FromClass>
+      <MinDistance>150</MinDistance>
+    </Distance>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime>100</BuildTime>
+    <Resources>
+      <wood>200</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+      <coin>0</coin>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="3.0"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>sueb</Civ>
+    <GenericName>German Totem</GenericName>
+    <SpecificName>Gudasbiliþī</SpecificName>
+    <Classes datatype="tokens">CivSpecific</Classes>
+    <VisibleClasses datatype="tokens">Totem Town</VisibleClasses>
+    <Icon>structures/iberian_bull.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+  </Identity>
+  <Obstruction>
+    <Static width="4.5" depth="4.5"/>
+  </Obstruction>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_iber_monument.xml</select>
+      <constructed>interface/complete/building/complete_iber_monument.xml</constructed>
+    </SoundGroups>
+  </Sound>
+  <StatusBars>
+    <BarWidth>5.0</BarWidth>
+    <BarHeight>0.5</BarHeight>
+    <HeightOffset>14.0</HeightOffset>
+  </StatusBars>
+  <TerritoryDecay disable=""/>
+  <Trainer disable=""/>
+  <VisualActor>
+    <Actor>structures/goths/cult_statue.xml</Actor>
+    <FoundationActor>structures/carthaginians/fndn_wooden_tower.xml</FoundationActor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,76 @@
+{
+	"Code": "sueb",
+	"Culture":[ "german" ],
+	"Region":[ "europe" ],
+	"Music":[
+		{
+			"File": "Northern_Frontier.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Tale_of_Warriors.ogg",
+			"Type": "peace"
+		},
+		{
+			"File":"Whistler.ogg", 
+			"Type":"peace"
+		},
+		{
+			"File":"Bandit_Country.ogg", 
+			"Type":"peace"
+		}
+	],
+	"CivBonuses":
+	[],
+	"WallSets":
+	[
+		"structures/wallset_palisade",
+		"structures/sueb/wallset_stone"
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/sueb/civil_centre" 
+		},
+		{
+			"Template": "units/sueb/support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/sueb/infantry_spearman_b",
+			"Count": 2 
+		},
+		{
+			"Template": "units/sueb/infantry_javelineer_b",
+			"Count": 2 
+		},
+		{
+			"Template": "units/sueb/cavalry_javelineer_b" 
+		},
+		{
+			"Template": "units/sueb/support_wagon"
+		}
+	],
+	"AINames":
+	[
+		"Divico",
+		"Ambiorix",
+		"Ariovistus",
+		"Cassivellaunus",
+		"Liscus",
+		"Valetiacos",
+		"Asterix",
+		"Acichorius",
+		"Cerethrius",
+		"Bolgios",
+		"Deiotarus"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_infantry_melee_b": "units/sueb/infantry_spearman_b",
+		"skirmish/units/default_infantry_ranged_b": "units/sueb/infantry_javelineer_b",
+		"skirmish/units/default_cavalry": "units/sueb/cavalry_javelineer_b",
+		"skirmish/units/special_starting_unit": "units/sueb/support_wagon"
+	},
+	"SelectableInGameSetup": true
+}

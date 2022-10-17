@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="hoplite|template_unit_champion_infantry_spearman">
+  <Identity>
+    <Civ>epir</Civ>
+	<Lang>greek</Lang>
+    <SpecificName>Chaonian Guard</SpecificName>
+    <Icon>units/epir/champion_infantry.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/epirotes/infantry_hoplite_c.xml</Actor>
+  </VisualActor>
+</Entity>

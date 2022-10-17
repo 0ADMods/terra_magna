@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_civil_centre">
+  <Footprint>
+    <Square width="38.0" depth="26.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>sueb</Civ>
+    <SpecificName>Fulkasrēdaz</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="36.0" depth="24.0"/>
+  </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/infantry_spearman_b
+      units/{civ}/infantry_javelineer_b
+      units/{civ}/cavalry_javelineer_b
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/germans/civic_center.xml</Actor>
+    <FoundationActor>structures/fndn_9x6.xml</FoundationActor>
+  </VisualActor>
+</Entity>

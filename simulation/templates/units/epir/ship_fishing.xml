@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_ship_fishing">
+  <Identity>
+    <Civ>epir</Civ>
+	<Lang>greek</Lang>
+    <SpecificName>Greek Fishing Boat</SpecificName>
+    <Icon>units/hele_ship_fishing.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/hellenes/fishing_boat.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="biped/trunk_operator_right.xml" frequency="1" name="relax">
+      <mesh>skeletal/new/m_pants_tunic_short.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/germ_03_beards_ponytails.xml" attachpoint="head"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Gallic-Tunic-Noble-01-01">
+      <textures>
+        <texture file="skeletal/gaul/tunic_noble_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Gallic-Tunic-Noble-01-02">
+      <textures>
+        <texture file="skeletal/gaul/tunic_noble_01_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Gallic-Tunic-Noble-01-03">
+      <textures>
+        <texture file="skeletal/gaul/tunic_noble_01_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/death_infantry.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

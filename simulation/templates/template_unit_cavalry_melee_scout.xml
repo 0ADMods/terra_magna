@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_melee">
+  <Attack>
+    <Melee>
+      <AttackName>Dagger</AttackName>
+      <Damage>
+        <Hack>3.0</Hack>
+        <Pierce>0</Pierce>
+        <Crush>0.0</Crush>
+      </Damage>
+      <MaxRange>5</MaxRange>
+      <PrepareTime>500</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
+    </Melee>
+  </Attack>
+  <Builder>
+    <Rate>1.0</Rate>
+    <Entities datatype="tokens">
+      structures/{civ}/outpost
+    </Entities>
+  </Builder>
+  <Cost>
+    <BuildTime>15</BuildTime>
+    <Resources>
+      <food>80</food>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>80</Max>
+  </Health>
+  <Identity>
+    <VisibleClasses datatype="tokens">Scout Sword Builder</VisibleClasses>
+    <GenericName>Scout Cavalry</GenericName>
+    <History>Scouts are the unsung heroes of many campaigns.</History>
+    <Tooltip>Traits: Scouting, Fast Speed, Outpost Builder.
+Strong Against: Nothing.
+Weak Against: Everything.</Tooltip>
+	<RequiredTechnology>phase_village</RequiredTechnology>
+  </Identity>
+  <Loot>
+    <xp>80</xp>
+    <food>8</food>
+  </Loot>
+  <Promotion disable=""/>
+  <ResourceGatherer>
+    <MaxDistance>2.0</MaxDistance>
+    <BaseSpeed>1.0</BaseSpeed>
+    <Rates>
+      <food.meat disable=""/>
+    </Rates>
+  </ResourceGatherer>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Pierce>3</Pierce>
+        <Crush>2</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/weapon/sword_attack.xml</attack_melee>
+      <order_build>voice/{lang}/civ/civ_{phenotype}_build.xml</order_build>
+      <order_repair>voice/{lang}/civ/civ_{phenotype}_repair.xml</order_repair>
+      <build>resource/construction/con_wood.xml</build>
+      <invalid_building_placement>interface/alarm/alarm_invalid_building_placement.xml</invalid_building_placement>
+    </SoundGroups>
+  </Sound>
+  <TrainingRestrictions>
+    <Category>Scout</Category>
+  </TrainingRestrictions>
+  <UnitAI>
+    <DefaultStance>standground</DefaultStance>
+  </UnitAI>
+  <UnitMotion>
+    <WalkSpeed op="mul">1.2</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/hellenes/cavalry_scout.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_wagon">
+  <Builder>
+    <Rate>1.0</Rate>
+    <Entities datatype="tokens">
+      structures/{civ}/field
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>sueb</Civ>
+  </Identity>
+  <Researcher>
+    <Technologies datatype="tokens">
+      gather_capacity_basket
+      gather_capacity_wheelbarrow
+    </Technologies>
+  </Researcher>
+</Entity>

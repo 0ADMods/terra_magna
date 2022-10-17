@@ -12,12 +12,8 @@
         <prop actor="props/units/weapons/jav.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/shields/zapo_small_feathers_b.xml" attachpoint="shield_arm"/>
       </props>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="100" name="spearman">
       <textures>
-        <texture file="skeletal/zapo_isw_c.png" name="baseTex"/>
+        <texture file="skeletal/zapo/champion_01.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

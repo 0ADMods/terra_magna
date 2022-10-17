@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_swordsman">
+  <Auras datatype="tokens">
+    units/heroes/epir_hero_alexander_I
+  </Auras>
+  <Identity>
+    <Civ>epir</Civ>
+	<Lang>greek</Lang>
+    <SpecificName>Alexander I the Molossian</SpecificName>
+    <Icon>units/epir/hero_alexander_molossus.png</Icon>
+  </Identity>
+  <Upgrade>
+    <Mount>
+      <Entity>units/epir/hero_alexander_I_mounted</Entity>
+      <Tooltip>This gives Alexander I his War Horse, Bucephalus, with trample effects, greater health, and the "Hammer and Anvil" cavalry aura.</Tooltip>
+	  <RequiredTechnology>phase_city</RequiredTechnology>
+      <Cost>
+        <food>200</food>
+        <metal>200</metal>
+      </Cost>
+      <Time>10</Time>
+    </Mount>
+  </Upgrade>
+  <VisualActor>
+    <Actor>units/macedonians/hero_infantry_swordsman_alexander.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant>
+      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
+      <props>
+        <prop actor="props/units/weapons/spear_hoplite.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/heads/new/head_hele_b.xml" attachpoint="head"/>
+        <prop actor="props/units/weapons/sheath_xiphos.xml" attachpoint="sheath_02_L"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Shield-cart_tarantine_e">
+      <props>
+        <prop actor="props/units/shields/cart_tarantine_e.xml" attachpoint="shield_arm"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Shield-aspis_athen_a">
+      <props>
+        <prop actor="props/units/shields/aspis_athen_a.xml" attachpoint="shield_arm"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Shield-aspis_athen_b">
+      <props>
+        <prop actor="props/units/shields/aspis_athen_b.xml" attachpoint="shield_arm"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Samnite-Attic-01">
+      <props>
+        <prop actor="props/units/helmets/hele_attic_a1.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Samnite-Attic-02">
+      <props>
+        <prop actor="props/units/helmets/hele_attic_a2.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Samnite-Attic-03">
+      <props>
+        <prop actor="props/units/helmets/hele_attic_a3.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Samnite-Attic-04">
+      <props>
+        <prop actor="props/units/helmets/hele_attic_a4.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Rome-Montefortino-01">
+      <props>
+        <prop actor="props/units/helmets/rome_helmet_montefortino_c.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Greave-01">
+      <props>
+        <prop actor="props/units/armor/greave_06_bronze_l.xml" attachpoint="leg_L"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Greave-03">
+      <props>
+        <prop actor="props/units/armor/greave_08_bronze_l.xml" attachpoint="leg_L"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="cardiopylax-01_01">
+      <mesh>skeletal/new/m_tunic_short.dae</mesh>
+      <textures>
+        <texture file="skeletal/ital/cardiopylax_01_01.png" name="baseTex"/>
+        <texture file="skeletal/ital/cardiopylax_01_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="cardiopylax-01_02">
+      <mesh>skeletal/new/m_tunic_short.dae</mesh>
+      <textures>
+        <texture file="skeletal/ital/cardiopylax_01_02.png" name="baseTex"/>
+        <texture file="skeletal/ital/cardiopylax_01_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="cardiopylax-02_01">
+      <mesh>skeletal/new/m_tunic_short.dae</mesh>
+      <textures>
+        <texture file="skeletal/ital/cardiopylax_02_01.png" name="baseTex"/>
+        <texture file="skeletal/ital/cardiopylax_02_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="ital-cuirass-1b">
+      <textures>
+        <texture file="skeletal/ital/cuirass_01_01.png" name="baseTex"/>
+        <texture file="skeletal/hele/cuirass_02_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="ital-cuirass-1a">
+      <textures>
+        <texture file="skeletal/ital/cuirass_01_02.png" name="baseTex"/>
+        <texture file="skeletal/hele/cuirass_02_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="ital-cuirass-1c">
+      <textures>
+        <texture file="skeletal/ital/cuirass_01_03.png" name="baseTex"/>
+        <texture file="skeletal/hele/cuirass_02_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="ital-linothorax-1a">
+      <textures>
+        <texture file="skeletal/ital/linothorax_01_01.png" name="baseTex"/>
+        <texture file="skeletal/hele/linothorax_01_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="ital-linothorax-1b">
+      <textures>
+        <texture file="skeletal/ital/linothorax_01_02.png" name="baseTex"/>
+        <texture file="skeletal/hele/linothorax_01_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="ital-linothorax-1c">
+      <textures>
+        <texture file="skeletal/ital/linothorax_01_03.png" name="baseTex"/>
+        <texture file="skeletal/hele/linothorax_01_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="ital-linothorax-1d">
+      <textures>
+        <texture file="skeletal/ital/linothorax_01_04.png" name="baseTex"/>
+        <texture file="skeletal/hele/linothorax_01_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="linothorax-lamellar-1a">
+      <textures>
+        <texture file="skeletal/hele/linothorax_lamellar_01_01.png" name="baseTex"/>
+        <texture file="skeletal/hele/linothorax_lamellar_01_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="linothorax-lamellar-1b">
+      <textures>
+        <texture file="skeletal/hele/linothorax_lamellar_01_02.png" name="baseTex"/>
+        <texture file="skeletal/hele/linothorax_lamellar_01_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/base_hoplite.xml" name="Hoplite-Relax" frequency="1"/>
+    <variant file="biped/formations/phalanx_front.xml"/>
+    <variant file="biped/formations/phalanx_mid.xml"/>
+    <variant file="biped/formations/phalanx_back.xml"/>
+    <variant file="biped/attack_capture.xml">
+      <props>
+        <prop actor="props/units/weapons/spear_lance_cavalry_reverse.xml" attachpoint="weapon_R"/>
+      </props>
+    </variant>
+    <variant file="biped/attack_slaughter.xml"/>
+    <variant file="biped/death_cape_long.xml"/>
+    <variant file="biped/gather_praise.xml"/>
+    <variant file="biped/build.xml"/>
+    <variant file="biped/build_farm.xml"/>
+    <variant file="biped/approach_praise.xml"/>
+  </group>
+  <material>player_trans_spec.xml</material>
+</actor>

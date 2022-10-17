@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support">
+  <Capturable>
+    <CapturePoints>25</CapturePoints>
+    <RegenRate>0</RegenRate>
+    <GarrisonRegenRate>0</GarrisonRegenRate>
+  </Capturable>
+  <Cost>
+    <Population>1</Population>
+    <Resources>
+      <food>25</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>25</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>50</Max>
+    <Unhealable>true</Unhealable>
+  </Health>
+  <Identity>
+    <VisibleClasses datatype="tokens">Gatherer Slave</VisibleClasses>
+    <Classes datatype="tokens">Worker IdleWorker</Classes>
+    <Phenotype datatype="tokens">
+	  female
+	  male
+	</Phenotype>
+    <GenericName>Slave</GenericName>
+    <SelectionGroupName>units/{civ}/support_slave</SelectionGroupName>
+    <Tooltip>A cheap and very good gatherer unit who cannot build buildings. 
+Traits: Low Cost, Low Health, Slow Speed, Capturable, No Attack.
+Good at: Gathering Resources and Defecting.
+Bad at: Defense and Loyalty.</Tooltip>
+    <Icon>units/misc/slave.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+  </Identity>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>0</Hack>
+        <Pierce>0</Pierce>
+        <Crush>0</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <ResourceGatherer>
+    <MaxDistance>2.0</MaxDistance>
+    <BaseSpeed>1.5</BaseSpeed>
+    <Capacities>
+      <food>20</food>
+      <wood>20</wood>
+      <stone>20</stone>
+      <metal>20</metal>
+    </Capacities>
+    <Rates>
+      <food.fruit>0.5</food.fruit>
+      <food.grain>0.25</food.grain>
+      <food.meat>0.5</food.meat>
+      <wood.tree>0.5</wood.tree>
+      <wood.ruins>5.0</wood.ruins>
+      <stone.rock>0.5</stone.rock>
+      <stone.ruins>2</stone.ruins>
+      <metal.ruins>2</metal.ruins>
+      <metal.ore>0.5</metal.ore>
+    </Rates>
+  </ResourceGatherer>
+  <Sound>
+    <SoundGroups>
+      <select>voice/{lang}/civ/civ_{phenotype}_select.xml</select>
+      <order_walk>voice/{lang}/civ/civ_{phenotype}_walk.xml</order_walk>
+      <order_attack>voice/{lang}/civ/civ_{phenotype}_attack.xml</order_attack>
+      <order_gather>voice/{lang}/civ/civ_{phenotype}_gather.xml</order_gather>
+      <order_repair>voice/{lang}/civ/civ_{phenotype}_repair.xml</order_repair>
+      <order_garrison>voice/{lang}/civ/civ_{phenotype}_garrison.xml</order_garrison>
+      <walk>actor/human/movement/walk.xml</walk>
+      <run>actor/human/movement/run.xml</run>
+      <attack>attack/weapon/sword.xml</attack>
+      <death>actor/human/death/{phenotype}_death.xml</death>
+      <build>resource/construction/con_wood.xml</build>
+      <gather_fruit>resource/foraging/forage_leaves.xml</gather_fruit>
+      <gather_grain>resource/farming/farm.xml</gather_grain>
+      <gather_tree>resource/lumbering/lumbering.xml</gather_tree>
+      <gather_rock>resource/mining/pickaxe.xml</gather_rock>
+      <gather_ore>resource/mining/mining.xml</gather_ore>
+      <gather_ruins>resource/mining/mining.xml</gather_ruins>
+      <trained>interface/alarm/alarm_create_citizen.xml</trained>
+    </SoundGroups>
+  </Sound>
+  <TrainingRestrictions>
+    <Category>Slave</Category>
+  </TrainingRestrictions>
+  <TreasureCollector disable=""/>
+  <UnitAI>
+    <Formations disable=""/>
+  </UnitAI>
+  <UnitMotion>
+    <WalkSpeed op="mul">0.7</WalkSpeed>
+  </UnitMotion>
+  <Vision>
+    <Range>20</Range>
+  </Vision>
+</Entity>

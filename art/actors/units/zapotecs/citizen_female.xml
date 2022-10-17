@@ -2,21 +2,8 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Base-Female_a">
+    <variant frequency="1" name="Base-Female">
       <mesh>skeletal/new/f_dress.dae</mesh>
-      <props>
-        <prop actor="props/units/heads/new/head_female_test.xml" attachpoint="head"/>
-      </props>
-      <textures>
-        <texture file="skeletal/zapo_support_citizen_female_01.png" name="baseTex"/>
-        <texture file="skeletal/zapo_support_citizen_female_01_spec.png" name="specTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="Base-Female_b">
-      <mesh>skeletal/new/f_dress.dae</mesh>
-      <props>
-        <prop actor="props/units/heads/head_female_zapotec.xml" attachpoint="head"/>
-      </props>
       <textures>
         <texture file="skeletal/zapo_support_citizen_female_01.png" name="baseTex"/>
         <texture file="skeletal/zapo_support_citizen_female_01_spec.png" name="specTex"/>
@@ -24,20 +11,85 @@
     </variant>
   </group>
   <group>
+    <variant frequency="80" name="hemet_s">
+      <props>
+        <prop actor="props/units/heads/head_maya_f.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/maya_fem.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="20" name="hemet_n">
+      <props>
+        <prop actor="props/units/heads/head_maya_f.xml" attachpoint="head"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="0">
+      <mesh>skeletal/new/f_dress.dae</mesh>
+      <textures>
+        <texture file="skeletal/zapo/support_citizen_female_01.png" name="baseTex"/>
+        <texture file="skeletal/zapo/support_citizen_female_01_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="1">
+      <mesh>skeletal/new/f_tunic_short.dae</mesh>
+      <textures>
+        <texture file="skeletal/maya/female_1.png" name="baseTex"/>
+        <texture file="skeletal/maya/female_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="2">
+      <mesh>skeletal/new/f_tunic_short.dae</mesh>
+      <textures>
+        <texture file="skeletal/maya/female_2.png" name="baseTex"/>
+        <texture file="skeletal/maya/female_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+        <variant frequency="1" name="3">
+      <mesh>skeletal/new/f_tunic_short.dae</mesh>
+      <textures>
+        <texture file="skeletal/maya/female_3.png" name="baseTex"/>
+        <texture file="skeletal/maya/female_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+            <variant frequency="1" name="4">
+      <mesh>skeletal/new/f_tunic_short.dae</mesh>
+      <textures>
+        <texture file="skeletal/maya/female_4.png" name="baseTex"/>
+        <texture file="skeletal/maya/female_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+            <variant frequency="1" name="5">
+      <mesh>skeletal/new/f_tunic_short.dae</mesh>
+      <textures>
+        <texture file="skeletal/maya/female_5.png" name="baseTex"/>
+        <texture file="skeletal/maya/female_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+            <variant frequency="1" name="6">
+      <mesh>skeletal/new/f_tunic_short.dae</mesh>
+      <textures>
+        <texture file="skeletal/maya/female_6.png" name="baseTex"/>
+        <texture file="skeletal/maya/female_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
     <variant file="biped/female_base_walk.xml"/>
     <variant file="biped/female_carry_food.xml"/>
+    <variant file="biped/female_carry_crops.xml"/>
     <variant file="biped/female_carry_meat.xml"/>
     <variant file="biped/female_carry_wood.xml"/>
     <variant file="biped/female_carry_stone.xml"/>
     <variant file="biped/female_carry_metal.xml"/>
-	<variant file="biped/approach_tree.xml"/>
-	<variant file="biped/approach_grain.xml"/>
-	<variant file="biped/approach_fruit.xml"/>
-	<variant file="biped/approach_meat.xml"/>
-	<variant file="biped/approach_rock.xml"/>
-	<variant file="biped/approach_ore.xml"/>
-	<variant file="biped/approach_ruins.xml"/>
-	<variant file="biped/approach_praise.xml"/>
+    <variant file="biped/approach_tree.xml"/>
+    <variant file="biped/approach_grain.xml"/>
+    <variant file="biped/approach_fruit.xml"/>
+    <variant file="biped/approach_meat.xml"/>
+    <variant file="biped/approach_rock.xml"/>
+    <variant file="biped/approach_ore.xml"/>
+    <variant file="biped/approach_ruins.xml"/>
+    <variant file="biped/approach_praise.xml"/>
   </group>
   <group>
     <variant name="Idle" frequency="1"/>
@@ -46,6 +98,7 @@
     <variant file="biped/female_death.xml"/>
     <variant file="biped/female_gather_tree.xml"/>
     <variant file="biped/female_gather_grain.xml"/>
+    <variant file="biped/female_gather_crops.xml"/>
     <variant file="biped/female_gather_fruit.xml"/>
     <variant file="biped/female_gather_meat.xml"/>
     <variant file="biped/female_gather_rock.xml"/>

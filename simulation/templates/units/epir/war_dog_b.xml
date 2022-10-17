@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_dog">
+  <Auras datatype="tokens">
+    units/epir_war_dog
+  </Auras>
+  <Identity>
+    <Civ>epir</Civ>
+	<SelectionGroupName>units/epir/war_dog_b</SelectionGroupName>
+    <SpecificName>Molossus Hound</SpecificName>
+    <Icon>units/brit_war_dog.png</Icon>
+  </Identity>
+  <Promotion>
+    <RequiredXp>100</RequiredXp>
+    <Entity>units/epir/war_dog_a</Entity>
+  </Promotion>
+  <TrainingRestrictions>
+    <Category>MolossianDog</Category>
+  </TrainingRestrictions>
+  <VisualActor>
+    <Actor>units/epirotes/dog_b.xml</Actor>
+  </VisualActor>
+</Entity>

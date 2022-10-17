@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_tower_stone">
+  <Footprint>
+    <Square width="12" depth="12"/>
+    <Height>15.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>sueb</Civ>
+    <SpecificName>Warīnīz Staupilaz</SpecificName>
+    <SelectionGroupName>structures/gaul/defense_tower</SelectionGroupName>
+  </Identity>
+  <Obstruction>
+    <Static width="10" depth="10"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/germans/defense_tower.xml</Actor>
+  </VisualActor>
+</Entity>

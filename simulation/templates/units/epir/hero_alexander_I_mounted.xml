@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_swordsman">
+  <Auras datatype="tokens">
+    units/heroes/epir_hero_alexander_I
+  </Auras>
+  <Identity>
+    <Civ>epir</Civ>
+	<Lang>greek</Lang>
+    <SpecificName>Alexander I the Molossian</SpecificName>
+    <Icon>units/epir/hero_alexander_molossus.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/macedonians/hero_cavalry_swordsman_alexander_m.xml</Actor>
+  </VisualActor>
+</Entity>

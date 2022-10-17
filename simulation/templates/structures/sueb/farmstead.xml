@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_farmstead">
+  <Footprint>
+    <Square width="22" depth="22"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>sueb</Civ>
+    <SpecificName>Kurnahūsą</SpecificName>
+    <VisibleClasses datatype="tokens">
+	  Corral
+	</VisibleClasses>
+  </Identity>
+  <Obstruction>
+    <Static width="20" depth="20"/>
+  </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+      gaia/fauna_pig_trainable
+      gaia/fauna_sheep_trainable
+      gaia/fauna_cattle_cow_trainable
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
+    <Actor>structures/germans/corral.xml</Actor>
+  </VisualActor>
+</Entity>
