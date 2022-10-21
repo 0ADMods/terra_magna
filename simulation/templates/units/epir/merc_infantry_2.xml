@@ -2,7 +2,7 @@
 <Entity parent="merc_inf|template_unit_infantry_melee_swordsman">
   <Identity>
     <Civ>epir</Civ>
-    <Rank>advanced</Rank>
+    <Rank>Advanced</Rank>
     <SpecificName>Galatian Swordsman</SpecificName>
 	<VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <Icon>units/epir/merc_infantry_celt.png</Icon>

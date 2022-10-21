@@ -3,7 +3,7 @@
   <Identity>
     <Civ>epir</Civ>
     <Lang>greek</Lang>
-    <Rank>advanced</Rank>
+    <Rank>Advanced</Rank>
     <SpecificName>Cretan Mercenary Archer</SpecificName>
     <Icon>units/athen/merc_archer.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>

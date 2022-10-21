@@ -3,11 +3,13 @@
   <Identity>
     <Civ>epir</Civ>
 	<Lang>greek</Lang>
+    <Rank>Advanced</Rank>
     <SelectionGroupName>units/epir/merc_cavalry_1</SelectionGroupName>
     <SpecificName>Allied Greek Cavalry</SpecificName>
     <Icon>units/athen/merc_cavalry.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
+  <Promotion disable=""/>
   <VisualActor>
     <Actor>units/spartans/cavalry_spearman_a_m.xml</Actor>
   </VisualActor>
