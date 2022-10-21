@@ -4,6 +4,9 @@
   <group>
     <variant frequency="1" name="Base-Female">
       <mesh>skeletal/new/f_dress.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/head_zapo_female.xml" attachpoint="head"/>
+      </props>
       <textures>
         <texture file="skeletal/zapo_support_citizen_female_01.png" name="baseTex"/>
         <texture file="skeletal/zapo_support_citizen_female_01_spec.png" name="specTex"/>
@@ -13,13 +16,12 @@
   <group>
     <variant frequency="80" name="hemet_s">
       <props>
-        <prop actor="props/units/heads/head_maya_f.xml" attachpoint="head"/>
-        <prop actor="props/units/helmets/maya_fem.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/female_zapo_1.xml" attachpoint="helmet"/>
       </props>
     </variant>
     <variant frequency="20" name="hemet_n">
       <props>
-        <prop actor="props/units/heads/head_maya_f.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/female_zapo_2.xml" attachpoint="helmet"/>
       </props>
     </variant>
   </group>

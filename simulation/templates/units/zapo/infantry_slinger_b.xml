@@ -11,6 +11,7 @@
     <GenericName>Zapotec Slinger</GenericName>
     <SpecificName>Guixe Bixeenda</SpecificName>
     <SelectionGroupName>units/zapo/infantry_slinger_b</SelectionGroupName>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     <Icon>units/zapo/infantry_slinger.png</Icon>
   </Identity>
   <Promotion>

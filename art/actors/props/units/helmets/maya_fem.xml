@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="100" name="a">
-      <mesh>props/helmet/maya_fem_1.dae</mesh>
+      <mesh>props/helmet/zapo_fem_1.dae</mesh>
       <textures>
         <texture file="structural/maya_struct.png" name="baseTex"/>
         <texture file="structural/maya_struct_spec.png" name="specTex"/>
@@ -11,7 +11,7 @@
       </textures>
     </variant>
         <variant frequency="100" name="b">
-      <mesh>props/helmet/maya_fem_2.dae</mesh>
+      <mesh>props/helmet/zapo_fem_2.dae</mesh>
       <textures>
         <texture file="structural/maya_struct.png" name="baseTex"/>
         <texture file="structural/maya_struct_spec.png" name="specTex"/>
@@ -19,7 +19,7 @@
       </textures>
     </variant>
      <variant frequency="100" name="c">
-      <mesh>props/helmet/maya_fem_3.dae</mesh>
+      <mesh>props/helmet/zapo_fem_3.dae</mesh>
       <textures>
         <texture file="structural/maya_struct.png" name="baseTex"/>
         <texture file="structural/maya_struct_spec.png" name="specTex"/>

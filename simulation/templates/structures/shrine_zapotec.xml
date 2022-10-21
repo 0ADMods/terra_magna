@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="shrine|template_structure_civic_temple">
+  <Footprint>
+    <Square width="22" depth="22"/>
+    <Height>15.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>zapo</Civ>
+    <GenericName>Shrine</GenericName>
+  </Identity>
+  <Obstruction>
+    <Static width="20" depth="20"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/zapotecs/shrine_big.xml</Actor>
+  </VisualActor>
+</Entity>
