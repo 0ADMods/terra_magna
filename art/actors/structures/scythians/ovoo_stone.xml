@@ -6,13 +6,12 @@
       <mesh>structural/ovoo_stone.dae</mesh>
       <props>
         <prop actor="structures/scythians/ovoo_deco.xml" attachpoint="root"/>
-        <prop actor="props/structures/decals/dirt_6x6_gaul_theater.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/gravel_5x5.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/celt_murus.png" name="baseTex"/>
         <texture file="structural/celt_murus_norm.png" name="normTex"/>
         <texture file="structural/celt_murus_spec.png" name="specTex"/>
-<!--         <texture file="structural/ao/xion_temple_ao.png" name="aoTex"/> -->
       </textures>
     </variant>
   </group>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee">
+  <Builder>
+    <Rate>1.0</Rate>
+    <Entities datatype="tokens" replace="">
+      structures/{civ}/outpost
+    </Entities>
+  </Builder>
+  <Cost>
+    <Population>1</Population>
+    <BuildTime>12</BuildTime>
+    <Resources>
+      <food>80</food>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>80</Max>
+  </Health>
+  <Identity>
+    <VisibleClasses datatype="tokens">Scout Dagger Hunter</VisibleClasses>
+    <GenericName>Scout Infantry</GenericName>
+    <!-- <Tooltip>Traits: Scout, Good Hunter, Fast Speed.
+Strong Against: Nothing.
+Weak Against: Everything.</Tooltip> -->
+  </Identity>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>3</Hack>
+        <Pierce>1</Pierce>
+        <Crush>3</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <ResourceGatherer>
+    <Rates>
+      <food.meat>1.2</food.meat>
+    </Rates>
+    <Capacities>
+      <food>20</food>
+    </Capacities>
+  </ResourceGatherer>
+  <TrainingRestrictions>
+    <Category>Scout</Category>
+  </TrainingRestrictions>
+  <UnitMotion>
+    <WalkSpeed>15</WalkSpeed>
+  </UnitMotion>
+</Entity>

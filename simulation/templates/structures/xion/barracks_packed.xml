@@ -39,7 +39,9 @@
       <Entity>structures/xion/barracks_empty</Entity>
       <Time>25</Time>
       <CheckPlacementRestrictions/>
-      <RequiredTechnology>nomadism</RequiredTechnology>
+      <Requirements>
+          <Techs datatype="tokens">nomadism</Techs>
+      </Requirements>
     </BarracksUnpacked>
   </Upgrade>
   <Vision>

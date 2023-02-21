@@ -29,7 +29,9 @@
     <BarracksPacked>
       <Entity>structures/xion/barracks_packed</Entity>
       <Time>45</Time>
-      <RequiredTechnology>nomadism</RequiredTechnology>
+      <Requirements>
+          <Techs datatype="tokens">nomadism</Techs>
+      </Requirements>
     </BarracksPacked>
   </Upgrade>
   <VisualActor>

@@ -39,7 +39,9 @@
       <Entity>structures/xion/corral_empty</Entity>
       <Time>45</Time>
       <CheckPlacementRestrictions/>
-      <RequiredTechnology>nomadism</RequiredTechnology>
+      <Requirements>
+          <Techs datatype="tokens">nomadism</Techs>
+      </Requirements>
     </Pack>
   </Upgrade>
   <Vision>

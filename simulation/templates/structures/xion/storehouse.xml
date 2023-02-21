@@ -27,7 +27,9 @@
       <Entity>units/xion/support_wagon</Entity>
       <Time>25</Time>
       <CheckPlacementRestrictions/>
-      <RequiredTechnology>nomadism</RequiredTechnology>
+      <Requirements>
+          <Techs datatype="tokens">nomadism</Techs>
+      </Requirements>
     </Pack>
   </Upgrade>
   <VisualActor>

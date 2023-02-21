@@ -49,7 +49,9 @@
     <Pack>
       <Entity>structures/xion/market_packed</Entity>
       <Time>25</Time>
-      <RequiredTechnology>nomadism</RequiredTechnology>
+      <Requirements>
+          <Techs datatype="tokens">nomadism</Techs>
+      </Requirements>
     </Pack>
   </Upgrade>
   <VisualActor>

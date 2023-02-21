@@ -77,7 +77,9 @@
     <Unpack>
       <Entity>structures/xion/civil_centre</Entity>
       <Time>30</Time>
-      <RequiredTechnology>nomadism</RequiredTechnology>
+      <Requirements>
+          <Techs datatype="tokens">nomadism</Techs>
+      </Requirements>
     </Unpack>
   </Upgrade>
   <Vision>

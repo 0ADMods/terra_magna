@@ -4,14 +4,12 @@
   <group>
     <variant name="Skin_b">
       <mesh>props/pelt_b.dae</mesh>
-    </variant>
-  </group>
-  <group>
-	 <variant>
       <textures>
         <texture file="structural/celt_siege_ram.dds" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
   </group>
+  <material>no_trans_parallax_spec.xml</material>
 </actor>
-

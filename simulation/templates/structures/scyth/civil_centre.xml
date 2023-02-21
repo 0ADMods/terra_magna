@@ -43,8 +43,9 @@
     <Unpack>
       <Entity>structures/scyth/civil_centre_packed</Entity>
       <Time>30</Time>
-  <Requirements>
-      <Techs datatype="tokens">phase_village</Techs></Requirements>
+      <Requirements>
+          <Techs datatype="tokens">nomadism</Techs>
+      </Requirements>
     </Unpack>
   </Upgrade>
   <VisualActor>

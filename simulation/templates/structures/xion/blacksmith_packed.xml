@@ -38,7 +38,9 @@
     <BarracksUnpacked>
       <Entity>structures/xion/blacksmith_empty</Entity>
       <Time>25</Time>
-      <RequiredTechnology>nomadism</RequiredTechnology>
+      <Requirements>
+          <Techs datatype="tokens">nomadism</Techs>
+      </Requirements>
       <CheckPlacementRestrictions/>
     </BarracksUnpacked>
   </Upgrade>
