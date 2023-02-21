@@ -11,7 +11,7 @@
     <Civ>sueb</Civ>
 	<SpecificName>Chatti Pikeman</SpecificName>
     <Icon>units/sueb/merc_infantry_1.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+<Requirements><Techs datatype="tokens">phase_town</Techs> </Requirements>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>

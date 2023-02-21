@@ -18,7 +18,7 @@
     <SpecificName>Macuahuitl  ch’o’jinel </SpecificName>
     <SelectionGroupName>units/zapo/infantry_swordsman_b</SelectionGroupName>
     <Icon>units/zapo/infantry_swordsman.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+<Requirements><Techs datatype="tokens">phase_town</Techs> </Requirements>
   </Identity>
   <Promotion>
     <Entity>units/zapo/infantry_swordsman_a</Entity>

@@ -1,9 +1,18 @@
-{
-	"name": "terra_magna_working",
-	"label": "0 A.D. Terra Magna",
-	"version": "0.26.2",
-	"url": "https://0ad.old.mod.io/terra-magna",
-	"description": "Adds new civilizations to 0 A.D.",
-	"dependencies": ["0ad>=0.0.26"],
-	"type": "Factions"
-}
+{
+
+	"name": "terra_magna_working",
+
+	"label": "0 A.D. Terra Magna",
+
+	"version": "0.27.1",
+
+	"url": "https://0ad.old.mod.io/terra-magna",
+
+	"description": "Adds new civilizations to 0 A.D.",
+
+	"dependencies": ["0ad>=0.0.27"],
+
+	"type": "Factions"
+
+}
+

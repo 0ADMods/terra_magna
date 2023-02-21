@@ -6,7 +6,7 @@
     <SpecificName>Galatian Swordsman</SpecificName>
 	<VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <Icon>units/epir/merc_infantry_celt.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+<Requirements><Techs datatype="tokens">phase_town</Techs> </Requirements>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>

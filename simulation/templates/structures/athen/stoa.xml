@@ -4,7 +4,8 @@
     <Civ>athen</Civ>
     <SpecificName>Stoa Poikile</SpecificName>
     <GenericName>Painted Stoa</GenericName>
-    <RequiredTechnology>phase_village</RequiredTechnology>
+<Requirements>
+      <Techs datatype="tokens">phase_village</Techs></Requirements>
   </Identity>
   <RallyPoint disable=""/>
 </Entity>

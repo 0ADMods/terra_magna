@@ -6,7 +6,7 @@
     <Rank>Advanced</Rank>
     <SpecificName>Italiot Hoplite</SpecificName>
     <Icon>units/merc/samnite_spearman.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+<Requirements><Techs datatype="tokens">phase_town</Techs> </Requirements>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>

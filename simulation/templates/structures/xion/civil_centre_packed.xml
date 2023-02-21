@@ -29,7 +29,7 @@
 	  CivilCentre
 	</Classes>
     <Icon>structures/civic_centre_packed.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+<Requirements><Techs datatype="tokens">phase_town</Techs> </Requirements>
   </Identity>
   <Position>
     <Anchor>pitch</Anchor>

@@ -5,7 +5,7 @@
     <SelectionGroupName>units/zapo/infantry_archer_b</SelectionGroupName>
     <SpecificName>Zapotec Obsidian Archer</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+<Requirements><Techs datatype="tokens">phase_town</Techs> </Requirements>
     <Icon>units/zapo/infantry_archer.png</Icon>
   </Identity>
   <Promotion>

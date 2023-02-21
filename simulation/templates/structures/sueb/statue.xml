@@ -30,7 +30,7 @@
     <Classes datatype="tokens">CivSpecific</Classes>
     <VisibleClasses datatype="tokens">Totem Town</VisibleClasses>
     <Icon>structures/iberian_bull.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+<Requirements><Techs datatype="tokens">phase_town</Techs> </Requirements>
   </Identity>
   <Obstruction>
     <Static width="4.5" depth="4.5"/>

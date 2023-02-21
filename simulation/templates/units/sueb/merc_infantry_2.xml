@@ -5,7 +5,7 @@
 	<Phenotype>female</Phenotype>
 	<SpecificName>Przeworsk Warrior Woman</SpecificName>
     <Icon>units/sueb/merc_infantry_2.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+<Requirements><Techs datatype="tokens">phase_town</Techs> </Requirements>
   </Identity>
   <Promotion disable=""/>
   <Resistance>

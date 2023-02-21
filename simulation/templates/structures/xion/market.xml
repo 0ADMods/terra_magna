@@ -20,7 +20,8 @@
     <Civ>xion</Civ>
     <GenericName>Food deposit</GenericName>
     <VisibleClasses datatype="tokens">-Town Village Farmstead</VisibleClasses>
-    <RequiredTechnology>phase_village</RequiredTechnology>
+<Requirements>
+      <Techs datatype="tokens">phase_village</Techs></Requirements>
     <Icon>structures/farmstead.png</Icon>
   </Identity>
   <Obstruction>

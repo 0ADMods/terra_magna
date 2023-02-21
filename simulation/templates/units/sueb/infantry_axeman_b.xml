@@ -6,7 +6,7 @@
     <SpecificName>Marcomanni Axtmann</SpecificName>
 	<VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <Icon>units/gaul_infantry_swordsman.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+<Requirements><Techs datatype="tokens">phase_town</Techs> </Requirements>
   </Identity>
   <Promotion>
     <Entity>units/sueb/infantry_axeman_a</Entity>
