@@ -12,24 +12,26 @@
         <prop actor="props/units/shields/theb_aspis_pelopidas.xml" attachpoint="shield_arm"/>
         <prop actor="props/units/armor/greave_07_bronze_r.xml" attachpoint="leg_R"/>
         <prop actor="props/units/armor/greave_07_bronze_l.xml" attachpoint="leg_L"/>
-        <prop actor="props/units/capes/cape_long_player.xml" attachpoint="root"/>
+        <prop actor="props/units/capes/hoplite.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="skeletal/hele/lamellar_01_01.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
         <texture file="skeletal/hele/lamellar_01_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>
   <group>
-    <variant file="biped/base_hoplite.xml" frequency="1" name="Hoplite-Relax"/>
-    <variant file="biped/attack_capture.xml">
-      <props>
-        <prop actor="props/units/weapons/spear_lance_cavalry_reverse.xml" attachpoint="weapon_R"/>
-      </props>
-    </variant>
+    <variant file="biped/base_hoplite.xml"/>
+    <variant file="biped/formations/phalanx_front.xml"/>
+    <variant file="biped/formations/phalanx_mid.xml"/>
+    <variant file="biped/formations/phalanx_back.xml"/>
+    <variant file="biped/attack_capture.xml"/>
     <variant file="biped/attack_slaughter.xml"/>
     <variant file="biped/gather_praise.xml"/>
-    <variant file="biped/death_cape_long.xml"/>
+    <variant file="biped/build.xml"/>
+    <variant file="biped/build_farm.xml"/>
+    <variant file="biped/hoplite_death.xml"/>
   </group>
-  <material>player_trans_spec.xml</material>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

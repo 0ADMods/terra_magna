@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="biped/base_swordsman_shieldsmall_fast.xml" frequency="1" name="ready">
+    <variant file="biped/base_axeman_shield_fast_relax.xml" frequency="1" name="ready">
       <mesh>skeletal/new/m_armor_nomad_a.dae</mesh>
       <props>
         <prop actor="props/units/heads/xion_head.xml" attachpoint="head"/>
@@ -10,7 +10,8 @@
         <prop actor="props/units/shields/xion_shield_round_plaques.xml" attachpoint="shield"/>
       </props>
       <textures>
-        <texture file="skeletal/xion_advanced_d.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
     <variant file="biped/base_swordsman_shield_relax.xml" frequency="1" name="relax">
@@ -21,7 +22,8 @@
         <prop actor="props/units/shields/xion_shield_round_plaques.xml" attachpoint="shield"/>
       </props>
       <textures>
-        <texture file="skeletal/xion_advanced_d.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
   </group>
@@ -49,51 +51,18 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Cloth_A">
-      <textures>
-        <texture file="skeletal/xion_advanced_d.png" name="baseTex"/>
-        <texture file="skeletal/xion_advanced_norm.png" name="normTex"/>
-        <texture file="skeletal/xion_elite_spec.png" name="specTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="Cloth_B">
-      <textures>
-        <texture file="skeletal/xion_advanced_b.png" name="baseTex"/>
-        <texture file="skeletal/xion_advanced_norm.png" name="normTex"/>
-        <texture file="skeletal/xion_elite_spec.png" name="specTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="Cloth_C">
-      <textures>
-        <texture file="skeletal/xion_advanced_c.png" name="baseTex"/>
-        <texture file="skeletal/xion_advanced_norm.png" name="normTex"/>
-        <texture file="skeletal/xion_elite_spec.png" name="specTex"/>
-      </textures>
-    </variant>
-  </group>
-  <group>
-    <variant file="biped/base_swordsman_shieldsmall_fast.xml"/>
-    <variant file="biped/carry_food.xml"/>
-    <variant file="biped/carry_meat.xml"/>
-    <variant file="biped/carry_wood.xml"/>
-    <variant file="biped/carry_stone.xml"/>
-    <variant file="biped/carry_metal.xml"/>
+    <variant file="clothes/xion/uniform_a_05.xml"/>
+    <variant file="clothes/xion/uniform_a_06.xml"/>
+    <variant file="clothes/xion/uniform_a_07.xml"/>
   </group>
   <group>
     <variant frequency="1" name="Idle"/>
     <variant file="biped/attack_capture.xml"/>
     <variant file="biped/attack_slaughter.xml"/>
-    <variant file="biped/gather_tree.xml"/>
-    <variant file="biped/gather_grain.xml"/>
-    <variant file="biped/gather_fruit.xml"/>
-    <variant file="biped/gather_meat.xml"/>
-    <variant file="biped/gather_rock.xml"/>
-    <variant file="biped/gather_ore.xml"/>
-    <variant file="biped/gather_ruins.xml"/>
     <variant file="biped/gather_praise.xml"/>
     <variant file="biped/build.xml"/>
     <variant file="biped/build_farm.xml"/>
     <variant file="biped/death_infantry.xml"/>
   </group>
-  <material>player_trans.xml</material>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

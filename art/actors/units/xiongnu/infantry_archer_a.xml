@@ -7,9 +7,13 @@
       <props>
         <prop actor="props/units/heads/xion_head.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/xion_arrow_back.xml" attachpoint="weapon_R"/>
-        <prop actor="props/units/weapons/xion_bow.xml" attachpoint="weapon_L"/>
+        <prop actor="props/units/weapons/xion_bow.xml" attachpoint="weapon_bow"/>
         <prop actor="props/units/weapons/xion_quiver.xml" attachpoint="sheath_L"/>
       </props>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
     </variant>
   </group>
   <group>
@@ -36,34 +40,10 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Cloth_E">
-      <textures>
-        <texture file="skeletal/xion_advanced_e.png" name="baseTex"/>
-        <texture file="skeletal/xion_cloth_norm.png" name="specTex"/>
-        <texture file="skeletal/xion_cloth_spec.png" name="normTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="Cloth_F">
-      <textures>
-        <texture file="skeletal/xion_advanced_f.png" name="baseTex"/>
-        <texture file="skeletal/xion_cloth_norm.png" name="specTex"/>
-        <texture file="skeletal/xion_cloth_spec.png" name="normTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="Cloth_G">
-      <textures>
-        <texture file="skeletal/xion_advanced_g.png" name="baseTex"/>
-        <texture file="skeletal/xion_cloth_norm.png" name="specTex"/>
-        <texture file="skeletal/xion_cloth_spec.png" name="normTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="Cloth_H">
-      <textures>
-        <texture file="skeletal/xion_advanced_h.png" name="baseTex"/>
-        <texture file="skeletal/xion_cloth_norm.png" name="specTex"/>
-        <texture file="skeletal/xion_cloth_spec.png" name="normTex"/>
-      </textures>
-    </variant>
+    <variant file="clothes/xion/uniform_a_01.xml"/>
+    <variant file="clothes/xion/uniform_a_02.xml"/>
+    <variant file="clothes/xion/uniform_a_03.xml"/>
+    <variant file="clothes/xion/uniform_a_04.xml"/>
   </group>
   <group>
     <variant file="biped/base_archer_ready.xml"/>
@@ -90,5 +70,5 @@
     <variant file="biped/build_farm.xml"/>
     <variant file="biped/death_infantry.xml"/>
   </group>
-  <material>player_trans_spec.xml</material>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

@@ -9,27 +9,38 @@
         <prop actor="props/units/helmets/hele_thracian_cap_player.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/xion_quiver_cloth_cavalry_left.xml" attachpoint="sheath_L"/>
       </props>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="tunic_coat_01_01">
+    <variant frequency="1" name="Steppe-Pelt-Cap">
+      <props>
+        <prop actor="props/units/helmets/step_pelt_cap.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Scythian-Thracian-Cap">
+      <props>
+        <prop actor="props/units/helmets/hele_thracian_cap_player.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="fur_coat_01_01">
       <textures>
-        <texture file="skeletal/scyth/tunic_coat_01_01.png" name="baseTex"/>
+        <texture file="skeletal/scyth/fur_coat_01_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="tunic_coat_01_02">
+    <variant frequency="1" name="fur_coat_01_02">
       <textures>
-        <texture file="skeletal/scyth/tunic_coat_01_02.png" name="baseTex"/>
+        <texture file="skeletal/scyth/fur_coat_01_02.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="tunic_coat_01_03">
+    <variant frequency="1" name="fur_coat_01_03">
       <textures>
-        <texture file="skeletal/scyth/tunic_coat_01_03.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="tunic_coat_01_04">
-      <textures>
-        <texture file="skeletal/scyth/tunic_coat_01_04.png" name="baseTex"/>
+        <texture file="skeletal/scyth/fur_coat_01_03.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
@@ -81,5 +92,5 @@
     <variant file="biped/build_farm.xml"/>
     <variant file="biped/death_infantry.xml"/>
   </group>
-  <material>player_trans.xml</material>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

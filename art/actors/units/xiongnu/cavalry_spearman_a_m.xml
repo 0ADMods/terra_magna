@@ -30,18 +30,6 @@
         <prop actor="units/xiongnu/cavalry_spearman_a_r.xml" attachpoint="rider_R"/>
       </props>
     </variant>
-    <variant file="quadraped/base_horse_gather_meat.xml" name="build">
-      <props>
-        <prop actor="" attachpoint="rider"/>
-        <prop actor="units/xiongnu/cavalry_spearman_a_r.xml" attachpoint="rider_R"/>
-      </props>
-    </variant>
-    <variant file="quadraped/base_horse_gather_meat.xml" name="build_farm">
-      <props>
-        <prop actor="" attachpoint="rider"/>
-        <prop actor="units/xiongnu/cavalry_spearman_a_r.xml" attachpoint="rider_R"/>
-      </props>
-    </variant>
   </group>
   <material>no_trans_parallax_spec.xml</material>
 </actor>

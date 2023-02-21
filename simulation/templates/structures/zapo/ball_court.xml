@@ -24,7 +24,11 @@
     <Tooltip></Tooltip>
     <Classes datatype="tokens">ConquestCritical CivSpecific</Classes>
     <VisibleClasses datatype="tokens">Ballcourt</VisibleClasses>
-    <RequiredTechnology>phase_city</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">
+        phase_town
+      </Techs>
+    </Requirements>
     <Icon>structures/gymnasium.png</Icon>
   </Identity>
   <Obstruction>
