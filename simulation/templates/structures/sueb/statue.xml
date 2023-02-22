@@ -16,13 +16,16 @@
       <wood>200</wood>
       <stone>0</stone>
       <metal>0</metal>
-      <coin>0</coin>
     </Resources>
   </Cost>
   <Footprint replace="">
     <Circle radius="3.0"/>
     <Height>10.0</Height>
   </Footprint>
+  <Health>
+    <Max>1200</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
+  </Health>
   <Identity>
     <Civ>sueb</Civ>
     <GenericName>German Totem</GenericName>
