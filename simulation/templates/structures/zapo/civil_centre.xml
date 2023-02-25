@@ -6,6 +6,7 @@
   <Identity>
     <Civ>zapo</Civ>
     <SpecificName>Luhui Guidxi</SpecificName>
+    <Tooltip>.</Tooltip>
   </Identity>
   <Researcher>
     <Technologies datatype="tokens">

@@ -25,6 +25,7 @@
     <Civ>zapo</Civ>
     <GenericName>Champion Archer</GenericName>
     <Icon>units/zapo/champion_archer.png</Icon>
+    <Tooltip>.</Tooltip>
   </Identity>
     <Upgrade>
     <Melee>

@@ -10,8 +10,11 @@
     <Civ>zapo</Civ>
     <GenericName>Champion Swordsman</GenericName>
     <SelectionGroupName>units/zapo/champion_swordsman</SelectionGroupName>
-    <RequiredTechnology>unlock_champion_infantry</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">unlock_champion_infantry</Techs>
+    </Requirements>
     <Icon>units/zapo/champion_swordsman.png</Icon>
+    <Tooltip>.</Tooltip>
   </Identity>
   <Upgrade>
     <Ranged>

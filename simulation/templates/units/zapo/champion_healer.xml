@@ -16,6 +16,7 @@
     <SpecificName>Ba’ate’e K’iin</SpecificName>
     <SelectionGroupName>units/zapo/champion_healer</SelectionGroupName>
     <Icon>units/zapo/champion_healer.png</Icon>
+    <Tooltip>.</Tooltip>
     <Rank>Elite</Rank>
   </Identity>
   <Promotion disable=""/>

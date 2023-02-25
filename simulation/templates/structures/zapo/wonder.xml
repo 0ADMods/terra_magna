@@ -10,6 +10,7 @@
   <Identity>
     <Civ>zapo</Civ>
     <SpecificName>Yoo Danibaan</SpecificName>
+        <Tooltip>.</Tooltip>
   </Identity>
   <Obstruction>
     <Static width="43.0" depth="43.0"/>

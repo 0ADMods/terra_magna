@@ -24,6 +24,7 @@
     <Tooltip></Tooltip>
     <Classes datatype="tokens">ConquestCritical CivSpecific</Classes>
     <VisibleClasses datatype="tokens">Ballcourt</VisibleClasses>
+    <Tooltip>Train Zapotec heros. Research improvements for Zapotec units.</Tooltip>
     <Requirements>
       <Techs datatype="tokens">
         phase_town

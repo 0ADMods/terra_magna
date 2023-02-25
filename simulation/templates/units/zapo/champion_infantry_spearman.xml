@@ -9,8 +9,11 @@
   <Identity>
     <Civ>zapo</Civ>
     <GenericName>Zapotec Noble Warrior</GenericName>
-    <RequiredTechnology>unlock_champion_infantry</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">unlock_champion_infantry</Techs>
+    </Requirements>
     <Icon>units/zapo/champion_spearman.png</Icon>
+    <Tooltip>.</Tooltip>
   </Identity>
   <VisualActor>
     <Actor>units/zapotecs/infantry_spearman_c.xml</Actor>

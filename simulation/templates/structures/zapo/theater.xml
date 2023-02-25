@@ -12,6 +12,7 @@
     <Civ>zapo</Civ>
     <SpecificName>Temple of Conquests</SpecificName>
     <Classes datatype="tokens">CivSpecific</Classes>
+    <Tooltip>.</Tooltip>
   </Identity>
   <Obstruction>
     <Static depth="40.0" width="52.0"/>

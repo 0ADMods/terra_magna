@@ -5,6 +5,7 @@
     <GenericName>Champion Swordsman</GenericName>
     <SelectionGroupName>units/zapo/champion_swordsman</SelectionGroupName>
     <Icon>units/zapo/champion_swordsman.png</Icon>
+    <Tooltip>Switch Weapon.</Tooltip>
   </Identity>
   <Upgrade>
     <Ranged>

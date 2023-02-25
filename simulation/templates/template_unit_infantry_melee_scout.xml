@@ -19,9 +19,9 @@
   <Identity>
     <VisibleClasses datatype="tokens">Scout Dagger Hunter</VisibleClasses>
     <GenericName>Scout Infantry</GenericName>
-    <!-- <Tooltip>Traits: Scout, Good Hunter, Fast Speed.
+    <Tooltip>Traits: Scout, Good Hunter, Fast Speed.
 Strong Against: Nothing.
-Weak Against: Everything.</Tooltip> -->
+Weak Against: Everything.</Tooltip>
   </Identity>
   <Promotion disable=""/>
   <Resistance>

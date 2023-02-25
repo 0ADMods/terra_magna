@@ -4,6 +4,7 @@
     <Civ>zapo</Civ>
     <GenericName>Zapotec nobre Warrior</GenericName>
     <Icon>units/zapo/champion_nobre.png</Icon>
+    <Tooltip>.</Tooltip>
   </Identity>
   <VisualActor>
     <Actor>units/zapotecs/infantry_spearman_c.xml</Actor>
