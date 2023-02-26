@@ -4,10 +4,10 @@
   <group>
     <variant name="boeotian-01">
       <mesh>props/helmet/hele_boeotian_a.dae</mesh>
-      <props>
-        <prop actor="props/units/helmets/props/hele_boeotian_hair_02.xml" attachpoint="crest"/>
-      </props>
     </variant>
+  </group>
+  <group>
+    <variant file="helmets/hele_boeotian_plumed_gold_01.xml"/>
   </group>
   <group>
     <variant frequency="1" name="Bronze">

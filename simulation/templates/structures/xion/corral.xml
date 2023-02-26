@@ -20,9 +20,7 @@
   </Identity>
   <Obstruction>
     <Static width="26.0" depth="26.0"/>
-  </Obstruction>
-
-      
+  </Obstruction>      
   <ProductionQueue/>
   <Researcher>
     <Technologies datatype="tokens">
@@ -30,7 +28,6 @@
       cavalry_movement_speed
     </Technologies>
   </Researcher>
-
   <Position>
     <Anchor>pitch</Anchor>
     <TurnRate>0.0001</TurnRate>
@@ -42,7 +39,6 @@
       <death>attack/destruction/building_collapse_large.xml</death>
     </SoundGroups>
   </Sound>
-
   <TerritoryDecay disable=""/>
   <Trainer>
     <Entities datatype="tokens">
@@ -50,7 +46,6 @@
       gaia/fauna_sheep_trainable
     </Entities>
   </Trainer>
-
   <Upgrade>
     <Pack>
       <Entity>structures/xion/corral_packed</Entity>
@@ -62,7 +57,7 @@
   </Upgrade>
   <VisualActor>
     <ConstructionPreview disable=""/>
-    <Actor>structures/xion/corral.xml</Actor>
-    <FoundationActor>structures/xion/corral_foundation.xml</FoundationActor>
+    <Actor>structures/xiongnu/corral.xml</Actor>
+    <FoundationActor>structures/xiongnu/corral_foundation.xml</FoundationActor>
   </VisualActor>
 </Entity>

@@ -37,6 +37,6 @@
   </Upgrade>
   <VisualActor>
     <ConstructionPreview disable=""/>
-    <Actor>structures/xion/corral_empty.xml</Actor>
+    <Actor>structures/xiongnu/corral_empty.xml</Actor>
   </VisualActor>
 </Entity>
