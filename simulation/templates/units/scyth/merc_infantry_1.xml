@@ -5,7 +5,9 @@
     <Lang>persian</Lang>
 	<Lang>greek</Lang>
     <SpecificName>Bosporan Hoplite</SpecificName>
-	<RequiredTechnology>unlock_mercenary_infantry</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">unlock_mercenary_infantry</Techs>
+    </Requirements>
     <Icon>units/scyth/merc_hoplite.png</Icon>
   </Identity>
   <VisualActor>

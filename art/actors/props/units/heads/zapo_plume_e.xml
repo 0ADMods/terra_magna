@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
-   <castshadow/>
-  <group>
-    <variant frequency="100" name="basic texture">
-      <textures>
-        <texture file="default_norm.png" name="normTex"/>
-        <texture file="null_black.dds" name="specTex"/>
-      </textures>
-    </variant>
-  </group>
+  <castshadow/>
   <group>
     <variant frequency="100" name="Base">
       <mesh>props/helmet/zapo_plume_elite.dae</mesh>
       <textures>
-        <texture file="skeletal/zapo/champion_01.png" name="baseTex"/>
+        <texture file="skeletal/zapo/elite_01.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

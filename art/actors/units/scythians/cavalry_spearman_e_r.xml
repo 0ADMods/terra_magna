@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
-   <castshadow/>
-  <group>
-    <variant frequency="100" name="basic texture">
-      <textures>
-        <texture file="default_norm.png" name="normTex"/>
-        <texture file="null_black.dds" name="specTex"/>
-      </textures>
-    </variant>
-  </group>
+  <castshadow/>
   <group>
     <variant frequency="1">
       <mesh>skeletal/new/m_armor_nomad_e.dae</mesh>
@@ -18,6 +10,10 @@
         <prop actor="props/units/shields/xion_shield_round_small_cooper_left_arm.xml" attachpoint="armpad_L"/>
         <prop actor="props/units/weapons/xion_sword_sheath_left.xml" attachpoint="sheath_L"/>
       </props>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
     </variant>
   </group>
   <group>
@@ -47,10 +43,8 @@
     <variant frequency="1" name="Idle"/>
     <variant file="biped/rider/promotion.xml"/>
     <variant file="biped/rider/attack_slaughter_xion.xml"/>
-    <variant file="biped/build.xml"/>
-    <variant file="biped/build_farm.xml"/>
     <variant file="biped/gather_meat.xml"/>
     <variant file="biped/rider/death.xml"/>
   </group>
-  <material>player_trans_spec.xml</material>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

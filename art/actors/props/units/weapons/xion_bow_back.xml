@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <actor version="1">
-   <castshadow/>
-  <group>
-    <variant frequency="100" name="basic texture">
-      <textures>
-        <texture file="default_norm.png" name="normTex"/>
-        <texture file="null_black.dds" name="specTex"/>
-      </textures>
-    </variant>
-  </group>
+  <castshadow/>
   <group>
     <variant frequency="100" name="Wood Light">
       <mesh>props/weap_xion_bow_back.dae</mesh>
-      <textures><texture file="structural/xion_structure.png" name="baseTex"/></textures>
+      <textures><texture file="structural/xion_structure.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/></textures>
     </variant>
   </group>
-  <material>player_trans.xml</material>
+  <material>player_trans_norm_spec.xml</material>
 </actor>
 
 

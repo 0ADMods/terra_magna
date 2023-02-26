@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
-   <castshadow/>
-  <group>
-    <variant frequency="100" name="basic texture">
-      <textures>
-        <texture file="default_norm.png" name="normTex"/>
-        <texture file="null_black.dds" name="specTex"/>
-      </textures>
-    </variant>
-  </group>
+  <castshadow/>
   <group>
     <variant>
       <mesh>skeletal/horse_marwari.dae</mesh>
       <props>
-        <prop actor="units/scythians/cavalry_spearman_a_r.xml" attachpoint="rider"/>
+        <prop actor="units/xiongnu/cavalry_spearman_a_r.xml" attachpoint="rider"/>
         <prop actor="props/horse/cav_blanket_leather.xml" attachpoint="root"/>
         <prop actor="props/horse/cav_straps_head.xml" attachpoint="head"/>
         <prop actor="props/horse/cav_rein_leather.xml" attachpoint="root"/>
@@ -35,19 +27,7 @@
     <variant file="quadraped/base_horse_gather_meat.xml" name="gather_meat">
       <props>
         <prop actor="" attachpoint="rider"/>
-        <prop actor="units/scythians/cavalry_spearman_a_r.xml" attachpoint="rider_R"/>
-      </props>
-    </variant>
-    <variant file="quadraped/base_horse_gather_meat.xml" name="build">
-      <props>
-        <prop actor="" attachpoint="rider"/>
-        <prop actor="units/scythians/cavalry_spearman_a_r.xml" attachpoint="rider_R"/>
-      </props>
-    </variant>
-    <variant file="quadraped/base_horse_gather_meat.xml" name="build_farm">
-      <props>
-        <prop actor="" attachpoint="rider"/>
-        <prop actor="units/scythians/cavalry_spearman_a_r.xml" attachpoint="rider_R"/>
+        <prop actor="units/xiongnu/cavalry_spearman_a_r.xml" attachpoint="rider_R"/>
       </props>
     </variant>
   </group>

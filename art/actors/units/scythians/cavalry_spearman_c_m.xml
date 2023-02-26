@@ -1,22 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
   <castshadow/>
   <group>
     <variant>
-      <mesh>skeletal/horse_persian.dae</mesh>
-      <props>
-        <prop actor="units/scythians/cavalry_spearman_c_r.xml" attachpoint="rider"/>
-      </props>
+      <mesh>skeletal/horse_marwari.dae</mesh>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Cataphract-Armor-01">
+    <variant frequency="1" name="rider_relax">
       <props>
-        <prop actor="props/horse/cav_blanket_kush.xml" attachpoint="root"/>
-        <prop actor="props/horse/cav_straps_kush.xml" attachpoint="root"/>
+        <prop actor="units/xiongnu/cavalry_spearman_c_r.xml" attachpoint="rider"/>
+        <prop actor="props/horse/cav_blanket_leather.xml" attachpoint="root"/>
+        <prop actor="props/horse/cav_straps_head.xml" attachpoint="head"/>
         <prop actor="props/horse/cav_rein_leather.xml" attachpoint="root"/>
-        <prop actor="props/horse/cav_straps_head_kush.xml" attachpoint="head"/>
-        <prop actor="props/horse/cav_winged_armor_02.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
@@ -26,13 +22,18 @@
     <variant file="quadraped/horse/beige.xml" frequency="1" name="beige"/>
     <variant file="quadraped/horse/tan.xml" frequency="1" name="tan"/>
     <variant file="quadraped/horse/cherrybay.xml" frequency="1" name="cherrybay"/>
-    <variant file="quadraped/horse/white.xml" frequency="1" name="white"/>
     <variant file="quadraped/horse/gray.xml" frequency="1" name="gray"/>
   </group>
   <group>
-    <variant file="quadraped/base_horse_pace.xml" name="Horse-Pace" frequency="1"/>
+    <variant file="quadraped/base_horse_trot.xml" name="Horse-Trot" frequency="1"/>
     <variant file="quadraped/base_horse_death.xml"/>
     <variant file="quadraped/base_horse_run.xml"/>
+    <variant file="quadraped/base_horse_gather_meat.xml" name="gather_meat">
+      <props>
+        <prop actor="" attachpoint="rider"/>
+        <prop actor="units/xiongnu/cavalry_spearman_c_r.xml" attachpoint="rider_R"/>
+      </props>
+    </variant>
   </group>
   <material>no_trans_parallax_spec.xml</material>
 </actor>

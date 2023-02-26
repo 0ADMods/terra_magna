@@ -4,6 +4,8 @@
     <BuildTime op="add">10</BuildTime>
   </Cost>
   <Identity>
-    <RequiredTechnology>unlock_champion_cavalry</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">unlock_champion_cavalry</Techs>
+    </Requirements>
   </Identity>
 </Entity>

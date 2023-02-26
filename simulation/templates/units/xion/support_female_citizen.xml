@@ -52,6 +52,6 @@
     </Rates>
   </ResourceGatherer>
   <VisualActor>
-    <Actor>units/xiongnu/female_citizen.xml</Actor>
+    <Actor>units/xiongnu/citizen_female.xml</Actor>
   </VisualActor>
 </Entity>

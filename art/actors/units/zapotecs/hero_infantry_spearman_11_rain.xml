@@ -21,12 +21,10 @@
         <prop actor="props/units/weapons/jav.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/jav.xml" attachpoint="projectile"/>
       </props>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="100" name="spearman">
       <textures>
-        <texture file="skeletal/zapo_king.png" name="baseTex"/>
+        <texture file="skeletal/zapo/king_01_a.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
   </group>
