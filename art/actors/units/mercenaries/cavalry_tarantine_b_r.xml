@@ -1,23 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
-   <castshadow/>
-  <group>
-    <variant frequency="100" name="basic texture">
-      <textures>
-        <texture file="default_norm.png" name="normTex"/>
-        <texture file="null_black.dds" name="specTex"/>
-      </textures>
-    </variant>
-  </group>
+  <castshadow/>
   <group>
     <variant frequency="1" name="Base">
       <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/head_hele_b.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/jav_ammo.xml" attachpoint="ammo"/>
-        <prop actor="props/units/shields/aspis_athen_a.xml" attachpoint="shield"/>
+        <prop actor="props/units/shields/tarantine_b.xml" attachpoint="shield_arm"/>
       </props>
       <textures>
+        <texture file="default_norm.png" name="normTex"/>
         <texture file="skeletal/ital/tunic_belt_spec.png" name="specTex"/>
       </textures>
     </variant>
@@ -73,5 +66,5 @@
     <variant file="biped/gather_meat.xml"/>
     <variant file="biped/rider/death_ranged.xml"/>
   </group>
-  <material>player_trans_spec.xml</material>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

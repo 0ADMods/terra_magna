@@ -12,7 +12,9 @@
     <SpecificName>Wolf Warrior</SpecificName>
 	<VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <Icon>units/sueb/champion_infantry_axeman.png</Icon>
-    <RequiredTechnology>unlock_champion_infantry</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">unlock_champion_infantry</Techs>
+    </Requirements>
   </Identity>
   <UnitMotion>
     <WalkSpeed op="mul">1.2</WalkSpeed>
