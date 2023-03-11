@@ -9,7 +9,7 @@
 	<Lang>greek</Lang>
     <SpecificName>Ploîon Halieutikón</SpecificName>
     <History>Need History</History>
-    <Icon>units/hele_ship_fishing.png</Icon>
+    <Icon>units/hele/ship_fishing.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/hellenes/fishing_boat.xml</Actor>

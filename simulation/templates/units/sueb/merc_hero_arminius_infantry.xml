@@ -19,7 +19,6 @@
     <Mount>
       <Entity>units/sueb/merc_hero_arminius_mounted</Entity>
       <Tooltip>This gives Arminius his War Horse, with trample effects and greater health.</Tooltip>
-	  <RequiredTechnology>phase_city</RequiredTechnology>
       <Cost>
         <food>200</food>
         <metal>200</metal>

@@ -7,7 +7,7 @@
   <Identity>
     <Civ>xion</Civ>
     <SpecificName>Xiongnu Trader</SpecificName>
-    <Icon>units/cart_support_trader.png</Icon>
+    <Icon>units/cart/support_trader.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/carthaginians/trader.xml</Actor>

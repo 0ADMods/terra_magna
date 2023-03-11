@@ -2,7 +2,9 @@
 <Entity parent="template_structure_special_stoa">
   <Identity>
     <Civ>mace</Civ>
-    <RequiredTechnology>phase_city</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">phase_city</Techs>
+    </Requirements>
   </Identity>
   <RallyPoint disable=""/>
 </Entity>

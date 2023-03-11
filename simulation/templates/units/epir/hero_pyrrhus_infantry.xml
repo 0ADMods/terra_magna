@@ -16,9 +16,6 @@
     <Mount>
       <Entity>units/epir/hero_pyrrhus_mounted</Entity>
       <Tooltip>This gives Pyrrhus his War Horse, with greater speed, trample effects, greater health.</Tooltip>
-    <Requirements>
-      <Techs datatype="tokens">phase_city</Techs>
-    </Requirements>
       <Cost>
         <food>200</food>
         <metal>200</metal>

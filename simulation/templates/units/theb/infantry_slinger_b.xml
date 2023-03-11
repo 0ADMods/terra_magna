@@ -7,7 +7,7 @@
     <GenericName>Theban Light Militia</GenericName>
     <SpecificName>Gymnites Thebaïkós</SpecificName>
 <Requirements><Techs datatype="tokens">phase_town</Techs> </Requirements>
-    <Icon>units/athen_infantry_slinger.png</Icon>
+    <Icon>units/athen/infantry_slinger.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/theb/infantry_slinger_a</Entity>

@@ -7,7 +7,7 @@
     <Civ>epir</Civ>
 	<SelectionGroupName>units/epir/war_dog_b</SelectionGroupName>
     <SpecificName>Molossus Hound</SpecificName>
-    <Icon>units/brit_war_dog.png</Icon>
+    <Icon>units/brit/war_dog.png</Icon>
   </Identity>
   <Promotion>
     <RequiredXp>100</RequiredXp>

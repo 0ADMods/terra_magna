@@ -7,7 +7,7 @@
   <Identity>
     <Civ>xion</Civ>
     <SpecificName>Yurt Packed</SpecificName>
-    <Icon>units/xion_house_packed.png</Icon>
+    <Icon>units/xion/house_packed.png</Icon>
   </Identity>
   <Position>
     <Anchor>pitch</Anchor>

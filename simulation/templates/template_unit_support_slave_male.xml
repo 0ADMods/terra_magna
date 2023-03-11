@@ -5,6 +5,9 @@
 	<Phenotype datatype="tokens">-female</Phenotype>
 	<VisibleClasses datatype="tokens">Man</VisibleClasses>
 	<Classes datatype="tokens">Male</Classes>
+	<Tooltip>A cheap gatherer with a finite life span. 
+Good for: Foraging, Farming, and Getting Captured.
+Bad for: Defense.</Tooltip>
     <Icon>units/imp/support_slave_male.png</Icon>
   </Identity>
   <VisualActor>

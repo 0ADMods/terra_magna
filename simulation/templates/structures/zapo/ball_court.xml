@@ -27,6 +27,7 @@
     <Tooltip>Train Zapotec heros. Research improvements for Zapotec units.</Tooltip>
     <Requirements>
       <Techs datatype="tokens">
+        -phase_city
         phase_town
       </Techs>
     </Requirements>
