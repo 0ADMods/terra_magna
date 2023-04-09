@@ -31,7 +31,12 @@
     <Classes datatype="tokens">CivSpecific Ovoo</Classes>
     <Tooltip>Generate free Stone resource and boost nearby Healers.</Tooltip>
     <Icon>gaia/geology_stone.png</Icon>
-<Requirements><Techs datatype="tokens">phase_town</Techs> </Requirements>
+  <Requirements>
+    <Techs datatype="tokens">
+      phase_town
+      -phase_city
+    </Techs>
+  </Requirements>
   </Identity>
   <Obstruction>
     <Static width="14.0" depth="14.0"/>

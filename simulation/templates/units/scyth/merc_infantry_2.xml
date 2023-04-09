@@ -7,7 +7,10 @@
     <SelectionGroupName>units/mercenaries/greek_infantry_2</SelectionGroupName>
 	<VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <Requirements>
-      <Techs datatype="tokens">unlock_mercenary_infantry</Techs>
+      <Techs datatype="tokens">
+        -phase_city
+        unlock_mercenary_infantry
+      </Techs>
     </Requirements>
     <Icon>units/athen/merc_peltast.png</Icon>
   </Identity>

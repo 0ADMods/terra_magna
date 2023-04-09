@@ -8,7 +8,10 @@
     <VisibleClasses datatype="tokens">Hoplite</VisibleClasses>
     <History>The Sacred Band of Thebes was a troop of picked soldiers, consisting of 150 pederastic male couples which formed the elite force of the Theban army in the 4th century BC. It is said to have been organised by the Theban commander Gorgidas in 378 BC and to have played a crucial role in the Battle of Leuctra.</History>
     <Requirements>
-      <Techs datatype="tokens">unlock_champion_infantry</Techs>
+      <Techs datatype="tokens">
+        -phase_city
+        unlock_champion_infantry
+      </Techs>
     </Requirements>
     <Icon>units/theb/champion_infantry_hoplite.png</Icon>
   </Identity>

@@ -6,7 +6,10 @@
     <SelectionGroupName>units/xion/champion_cavalry</SelectionGroupName>
     <Icon>units/xion/champion_cavalry.png</Icon>
     <Requirements>
-      <Techs datatype="tokens">unlock_champion_units_xion</Techs>
+      <Techs datatype="tokens">
+        -phase_city
+        unlock_champion_units_xion
+      </Techs>
     </Requirements>
   </Identity>
   <Upgrade>

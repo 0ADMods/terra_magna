@@ -6,7 +6,10 @@
 	<Lang>greek</Lang>
     <SpecificName>Bosporan Hoplite</SpecificName>
     <Requirements>
-      <Techs datatype="tokens">unlock_mercenary_infantry</Techs>
+      <Techs datatype="tokens">
+        -phase_city
+        unlock_mercenary_infantry
+      </Techs>
     </Requirements>
     <Icon>units/scyth/merc_hoplite.png</Icon>
   </Identity>

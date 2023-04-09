@@ -5,7 +5,9 @@
   </Cost>
   <Identity>
     <Requirements>
-      <Techs datatype="tokens">unlock_champion_cavalry</Techs>
+      <Techs datatype="tokens">
+        unlock_champion_cavalry
+      </Techs>
     </Requirements>
   </Identity>
 </Entity>

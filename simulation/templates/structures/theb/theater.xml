@@ -4,7 +4,12 @@
     <Civ>theb</Civ>
     <SpecificName>Theatron</SpecificName>
     <Classes datatype="tokens">CivSpecific</Classes>
-<Requirements><Techs datatype="tokens">phase_town</Techs> </Requirements>
+  <Requirements>
+    <Techs datatype="tokens">
+      phase_town
+      -phase_city
+    </Techs>
+  </Requirements>
   </Identity>
   <VisualActor>
     <Actor>structures/athenians/theater.xml</Actor>

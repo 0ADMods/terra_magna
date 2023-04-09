@@ -16,6 +16,6 @@
   </Obstruction>
   <VisualActor>
     <Actor>structures/xiongnu/corral.xml</Actor>
-    <FoundationActor>structures/xiongnu/corral_foundation.xml</FoundationActor>
+    <FoundationActor>structures/scythians/corral_foundation.xml</FoundationActor>
   </VisualActor>
 </Entity>

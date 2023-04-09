@@ -2,7 +2,9 @@
 <Entity parent="units/epir/champion_infantry_spearman">
   <Identity>
     <Requirements>
-      <Techs datatype="tokens">unlock_champion_infantry</Techs>
+      <Techs datatype="tokens">
+        unlock_champion_infantry
+      </Techs>
     </Requirements>
   </Identity>
 </Entity>

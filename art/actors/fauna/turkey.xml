@@ -11,7 +11,10 @@
         <animation file="quadraped/turkey_death.dae" name="death" speed="75"/>
       </animations>
       <mesh>skeletal/turkey.dae</mesh>
-      <textures><texture file="skeletal/guajolote_silvestre.png" name="baseTex"/></textures>
+      <textures>
+        <texture file="skeletal/guajolote_silvestre.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
     </variant>
   </group>
   <group>
@@ -22,5 +25,5 @@
       </props>
     </variant>
   </group>
-  <material>basic_trans.xml</material>
+  <material>basic_trans_norm_spec.xml</material>
 </actor>

@@ -2,7 +2,10 @@
 <Entity parent="units/xion/champion_cavalry">
   <Identity>
     <Requirements>
-      <Techs datatype="tokens">unlock_champion_units_xion</Techs>
+      <Techs datatype="tokens">
+        -phase_city
+        unlock_champion_units_xion
+      </Techs>
     </Requirements>
   </Identity>
 </Entity>
