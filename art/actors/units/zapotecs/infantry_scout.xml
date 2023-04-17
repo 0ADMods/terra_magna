@@ -25,6 +25,7 @@
   <group>
     <variant file="biped/base_scout_fast.xml"/>
     <variant file="biped/carry_food.xml"/>
+    <variant file="biped/carry_crops.xml"/>
     <variant file="biped/carry_meat.xml"/>
     <variant file="biped/carry_wood.xml"/>
     <variant file="biped/carry_stone.xml"/>

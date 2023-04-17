@@ -43,5 +43,5 @@
       <textures><texture file="props/banner_macedonians.png" name="baseTex"/></textures>
     </variant>
   </group>
-  <material>basic_trans.xml</material>
+  <material>basic_trans_norm_spec.xml</material>
 </actor>

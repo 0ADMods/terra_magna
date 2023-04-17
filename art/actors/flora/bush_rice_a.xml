@@ -27,5 +27,5 @@
       <mesh>gaia/wrld_plant_bush_dry3.dae</mesh>
     </variant>
   </group>
-  <material>basic_trans.xml</material>
+  <material>basic_trans_norm_spec.xml</material>
 </actor>

@@ -28,7 +28,7 @@
 			<mesh>props/weap_norse_axe_c.dae</mesh>
 		</variant>
 	</group>
-  <material>basic_spec.xml</material>
+  <material>basic_trans_norm_spec.xml</material>
 </actor>
 
 
